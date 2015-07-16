@@ -1,0 +1,9 @@
+##################
+## Code::Blocks ##
+##################
+
+# Project configurations.
+.depend
+.layout
+
+/obj/*

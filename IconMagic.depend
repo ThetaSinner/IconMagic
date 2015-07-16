@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1436996024 source:d:\users\gregory\onedrive\programming\c++\iconmagic\source\main.cpp
+	<Windows.h>
+	<Shlobj.h>
+	<iostream>
+
+1437054451 source:m:\programming\source\main.cpp
+	<Windows.h>
+	<Shlobj.h>
+	<iostream>
+	<sstream>
+	<string>
+	<unordered_map>
+

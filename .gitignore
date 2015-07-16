@@ -3,7 +3,7 @@
 ##################
 
 # Project configurations.
-.depend
-.layout
+*.depend
+*.layout
 
 /obj/*

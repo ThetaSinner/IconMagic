@@ -5,5 +5,7 @@
 # Project configurations.
 *.depend
 *.layout
+*.cbp
 
-/obj/*
+# Object files
+*.o

@@ -1,10 +1,13 @@
-#include <Windows.h>
+
 #include <Shlobj.h>
 #include <iostream>
 #include <sstream>
 #include <string>
 #include <unordered_map>
 #include <Tchar.h>
+#include <math.h>
+
+#include "WindowsToolbox.hpp"
 
 // Sources for DefaultIcon
 // https://msdn.microsoft.com/en-us/library/windows/desktop/hh127427%28v=vs.85%29.aspx
@@ -40,68 +43,43 @@ std::string rep(std::string str, int times)
     return temp;
 }
 
-void printCenter(std::string str)
+void printCentered(std::string str)
 {
     const int CON_WIDTH = 80;
 
-    int starCountL = (CON_WIDTH - str.length()) / 2 - 1;
-    int starCountR = CON_WIDTH - str.length() - starCountL - 2;
-
-    //if ((starCountL + 1 + str.length() + 1 + starCountR) != CON_WIDTH) {std::cout << "Your adding sux!\n";}
+    int starCountL = (int) floor((CON_WIDTH - str.length()) / 2.0);
+    int starCountR = CON_WIDTH - str.length() - starCountL;
 
     if (starCountL < 1 || starCountR < 1) {
         std::cout << str;
     } else {
-        std::cout << rep("*", starCountL) << " " << str << " " << rep("*", starCountR) << std::endl;
+        std::cout << rep("*", starCountL) << str << rep("*", starCountR);
     }
 }
 
-void testReadRegistry()
-{
-    HKEY testKey = NULL;
 
-    if (ERROR_SUCCESS == RegOpenKeyEx(
-        HKEY_CLASSES_ROOT,
-        ".aiff",
-        0,
-        KEY_READ,
-        &testKey
-    ) && false)
-    {
-        std::cout << "Opened key.";
-    }
-    else
-    {
-        std::cout << "Failed to open key.";
-
-        char* msg = NULL;
-
-        FormatMessage(
-            FORMAT_MESSAGE_ALLOCATE_BUFFER | FORMAT_MESSAGE_FROM_SYSTEM,
-            NULL,
-            GetLastError(),
-            MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),
-            (LPTSTR) &msg,
-            0,
-            NULL
-        );
-
-        std::cout << "Reason - " << msg << std::endl;
-    }
-
-    RegCloseKey(testKey);
-}
 
 int main(int argc, char** args)
 {
-    std::cout << "Welcome to IconMagic.\n";
+    std::cout << rep("*", 80);
+    printCentered(" IconMagic ");
+    std::cout << rep("*", 80);
+    std::cout << std::endl;
 
-    checkOS();
-    testReadRegistry();
+
+    //checkOS();
+
+    if (!testProgramHasRegistryAccess(true))
+    {
+        std::cout << "Press any key to finish! ";
+        std::cin.get();
+
+        return 1;
+    }
 
     //SHChangeNotify(SHCNE_ASSOCCHANGED, SHCNF_IDLIST, NULL, NULL);
 
-    std::cout << "Done. Press any key ";
+    std::cout << "\n\nDone. Press any key ";
     std::cin.get();
 
     return 0;
@@ -139,7 +117,7 @@ bool checkOS()
     if (true || (osvi.dwMajorVersion == 6 && osvi.dwMinorVersion >= 2) ||
         (osvi.dwMajorVersion > 6))
     {
-        printCenter("WARNING");
+        printCentered("WARNING");
         std::cout << "You're version of Windows is quite new. I CANNOT guarantee that I am able to correctly select compatible settings.";
 
     }

@@ -4,6 +4,7 @@
 #include <sstream>
 #include <string>
 #include <unordered_map>
+#include <Tchar.h>
 
 // Sources for DefaultIcon
 // https://msdn.microsoft.com/en-us/library/windows/desktop/hh127427%28v=vs.85%29.aspx
@@ -46,7 +47,7 @@ void printCenter(std::string str)
     int starCountL = (CON_WIDTH - str.length()) / 2 - 1;
     int starCountR = CON_WIDTH - str.length() - starCountL - 2;
 
-    if ((starCountL + 1 + str.length() + 1 + starCountR) != CON_WIDTH) {std::cout << "Your adding sux!\n";}
+    //if ((starCountL + 1 + str.length() + 1 + starCountR) != CON_WIDTH) {std::cout << "Your adding sux!\n";}
 
     if (starCountL < 1 || starCountR < 1) {
         std::cout << str;
@@ -55,11 +56,48 @@ void printCenter(std::string str)
     }
 }
 
+void testReadRegistry()
+{
+    HKEY testKey = NULL;
+
+    if (ERROR_SUCCESS == RegOpenKeyEx(
+        HKEY_CLASSES_ROOT,
+        ".aiff",
+        0,
+        KEY_READ,
+        &testKey
+    ) && false)
+    {
+        std::cout << "Opened key.";
+    }
+    else
+    {
+        std::cout << "Failed to open key.";
+
+        char* msg = NULL;
+
+        FormatMessage(
+            FORMAT_MESSAGE_ALLOCATE_BUFFER | FORMAT_MESSAGE_FROM_SYSTEM,
+            NULL,
+            GetLastError(),
+            MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),
+            (LPTSTR) &msg,
+            0,
+            NULL
+        );
+
+        std::cout << "Reason - " << msg << std::endl;
+    }
+
+    RegCloseKey(testKey);
+}
+
 int main(int argc, char** args)
 {
     std::cout << "Welcome to IconMagic.\n";
 
     checkOS();
+    testReadRegistry();
 
     //SHChangeNotify(SHCNE_ASSOCCHANGED, SHCNF_IDLIST, NULL, NULL);
 
@@ -88,6 +126,12 @@ bool checkOS()
     std::string versionString;
     versionConvert >> versionString;
 
+    /*MessageBox(
+        NULL,
+        _T("Error while creating the file"),
+        _T("Registry export"),
+        MB_OK
+    );*/
 
     /**
      * GetVersionEx depreciated from this version of windows onwards.
@@ -106,4 +150,6 @@ bool checkOS()
             std::cout << i.second << std::endl;
         }
     }
+
+    return true;
 }

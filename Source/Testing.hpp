@@ -1,0 +1,6 @@
+#ifndef TESTING_HPP_INCLUDED
+#define TESTING_HPP_INCLUDED
+
+void testTextUI();
+
+#endif // TESTING_HPP_INCLUDED

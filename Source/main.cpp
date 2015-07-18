@@ -1,9 +1,9 @@
 
 #include <Shlobj.h>
 #include <iostream>
-#include <sstream>
+
 #include <string>
-#include <unordered_map>
+
 #include <Tchar.h>
 #include <math.h>
 
@@ -19,18 +19,7 @@
 // down the rabbit hole a little, for example with audio, the default value of the .aiff key is
 // wmp11... search for this key, and that has a DefaultIcon sub key.
 
-const std::unordered_map<std::string, std::string> versionLookup ({
-        {"5.0", "[Windows 2000]"},
-        {"5.1", "[Windows XP]"},
-        {"5.2", "[Windows XP 64-bit Edition]/[Windows Server 2003]/[Windows Server 2003 R2]"},
-        {"6.0", "[Windows Vista]/[Windows Server 2008]"},
-        {"6.1", "[Windows Server 2008 R2]/[Windows 7]"},
-        {"6.2", "[Windows Server 2012]/[Windows 8]"}
-        // Need to put a warning with windows 8, for can't detect higher versions.
-        // My program won't find these. GetVersion depreciated, use new functionality (VCPP required).
-    });
 
-bool checkOS();
 
 std::string rep(std::string str, int times)
 {
@@ -43,7 +32,7 @@ std::string rep(std::string str, int times)
     return temp;
 }
 
-void printCentered(std::string str)
+void printCentered(std::string str, std::string filler = "*")
 {
     const int CON_WIDTH = 80;
 
@@ -53,7 +42,7 @@ void printCentered(std::string str)
     if (starCountL < 1 || starCountR < 1) {
         std::cout << str;
     } else {
-        std::cout << rep("*", starCountL) << str << rep("*", starCountR);
+        std::cout << rep(filler, starCountL) << str << rep(filler, starCountR);
     }
 }
 
@@ -66,15 +55,57 @@ int main(int argc, char** args)
     std::cout << rep("*", 80);
     std::cout << std::endl;
 
+    bool userMode = true;
 
-    //checkOS();
-
-    if (!testProgramHasRegistryAccess(true))
+    if (userMode)
     {
-        std::cout << "Press any key to finish! ";
-        std::cin.get();
+        bool printMessages = true;
 
-        return 1;
+        printCentered(" Windows version check ", "-");
+        std::cout << rep("-", 80);
+        windowsVersionSupportStatusType windowsVersionStatus = testWindowsVersionSupported(printMessages);
+
+        if (windowsVersionStatus == windowsVersionSupportStatusType::UNABLE_TO_DETECT)
+        {
+            std::cout << "Press any key to finish";
+            std::cin.get();
+
+            return 1;
+        }
+        else if (windowsVersionStatus == windowsVersionSupportStatusType::DETECTED_FUTURE_DATED ||
+                 windowsVersionStatus == windowsVersionSupportStatusType::DETECTED_OUTDATED)
+        {
+            std::cout << "Would you like to continue anyway? (y/n) : ";
+            char* buffer = new char[30];
+            std::cin.getline(buffer, 30);
+
+            if (std::string(buffer) != "y") {
+                std::cout << rep("-", 80);
+                std::cout << "\nOkay. Press any key to finish";
+                std::cin.get();
+
+                return 0;
+            }
+        }
+        std::cout << rep("-", 80);
+
+        std::cout << "\n";
+        printCentered(" Registry access check ", "-");
+        std::cout << rep("-", 80);
+
+        if (!testProgramHasRegistryAccess(printMessages))
+        {
+            std::cout << "Press any key to finish";
+            std::cin.get();
+
+            return 1;
+        }
+
+        std::cout << rep("-", 80);
+    }
+
+    if (!scanRegistryForDefaultIcons()) {
+        std::cout << "Failed scanning registry.\n";
     }
 
     //SHChangeNotify(SHCNE_ASSOCCHANGED, SHCNF_IDLIST, NULL, NULL);
@@ -85,49 +116,4 @@ int main(int argc, char** args)
     return 0;
 }
 
-bool checkOS()
-{
-    OSVERSIONINFO osvi;
-    ZeroMemory(&osvi, sizeof(OSVERSIONINFO));
-    osvi.dwOSVersionInfoSize = sizeof(OSVERSIONINFO);
 
-    GetVersionEx(&osvi);
-
-    //std::cout << "Major version " << osvi.dwMajorVersion << std::endl;
-    //std::cout << "Minor version " << osvi.dwMinorVersion << std::endl;
-
-    std::stringstream versionConvert;
-    versionConvert << osvi.dwMajorVersion;
-    versionConvert << ".";
-    versionConvert << osvi.dwMinorVersion;
-
-    std::string versionString;
-    versionConvert >> versionString;
-
-    /*MessageBox(
-        NULL,
-        _T("Error while creating the file"),
-        _T("Registry export"),
-        MB_OK
-    );*/
-
-    /**
-     * GetVersionEx depreciated from this version of windows onwards.
-     */
-    if (true || (osvi.dwMajorVersion == 6 && osvi.dwMinorVersion >= 2) ||
-        (osvi.dwMajorVersion > 6))
-    {
-        printCentered("WARNING");
-        std::cout << "You're version of Windows is quite new. I CANNOT guarantee that I am able to correctly select compatible settings.";
-
-    }
-    for (auto i : versionLookup)
-    {
-        if (i.first == versionString)
-        {
-            std::cout << i.second << std::endl;
-        }
-    }
-
-    return true;
-}

@@ -214,3 +214,8 @@ bool scanRegistryForDefaultIcons()
 
     return true;
 }
+
+void systemClearScreen()
+{
+    system("cls");
+}

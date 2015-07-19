@@ -2,6 +2,8 @@
 //#include <Shlobj.h>
 #include <iostream>
 #include <string>
+#include <vector>
+
 
 #include "WindowsToolbox.hpp"
 #include "TextUI.hpp"
@@ -23,6 +25,8 @@ int main(int argc, char** args)
     setPrintFillerCharacter('-');
 
     printTitleBox("IconMagic");
+
+
 
     bool userMode = true;
 

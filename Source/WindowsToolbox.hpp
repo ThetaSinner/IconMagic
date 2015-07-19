@@ -22,5 +22,6 @@ bool testProgramHasRegistryAccess(bool printing = false);
 
 bool scanRegistryForDefaultIcons();
 
+void systemClearScreen();
 
 #endif // WINDOWSTOOLBOX_HPP_INCLUDED

@@ -51,7 +51,7 @@ void printLine(std::string line)
 
 std::string getInputLine(std::string prompt)
 {
-    std::cout << prompt << " ";
+    std::cout << prompt << ": ";
 
     char buffer[INPUT_BUFFER_MAX_CHARACTERS];
     std::cin.getline(buffer, INPUT_BUFFER_MAX_CHARACTERS);
@@ -61,7 +61,7 @@ std::string getInputLine(std::string prompt)
 
 std::string getInputYesNo(std::string prompt, bool forceAnswer)
 {
-    std::string yn = getInputLine(prompt + " (y/n) ");
+    std::string yn = getInputLine(prompt + ": (y/n) ");
 
     if (!forceAnswer)
     {
@@ -74,15 +74,77 @@ std::string getInputYesNo(std::string prompt, bool forceAnswer)
     }
 }
 
+int getInputValue(std::string prompt, bool forceAnswer)
+{
+    std::cout << prompt << ": ";
+
+    std::string inputAsString;
+    std::stringstream stringToInteger;
+    int inputAsInteger;
+
+    std::cin >> inputAsString;
+    stringToInteger << inputAsString;
+    stringToInteger >> inputAsInteger;
+
+    if (48 <= inputAsInteger && inputAsInteger <= 57)
+    {
+        return inputAsInteger;
+    }
+    else
+    {
+        if (!forceAnswer)
+        {
+            return inputAsInteger;
+        }
+        else
+        {
+            std::cout << "\nPlease input a number only.\n";
+            return getInputValue(prompt, forceAnswer);
+        }
+    }
+}
+
+int getInputMenuSelection(const std::vector<std::string>& menuOptions, bool forceAnswer)
+{
+    int menuIndex = 1;
+    for (auto i : menuOptions)
+    {
+        std::cout << menuIndex << ". " << i << "\n";
+        menuIndex++;
+    }
+
+    printNewLine();
+
+    // Zero index the menu.
+    int inputValue = getInputValue("Pick an option") - 1;
+
+    if (0 <= inputValue && inputValue < (signed) menuOptions.size())
+    {
+        return inputValue;
+    }
+    else
+    {
+        if (!forceAnswer)
+        {
+            return inputValue;
+        }
+        else
+        {
+            std::cout << "\nPlease select an option by typing a number.\n";
+            return getInputMenuSelection(menuOptions, forceAnswer);
+        }
+    }
+}
+
 void printNewLine(int times)
 {
     std::cout
         << repeatString("\n", times);
 }
 
-void clearConsole()
+void textClearConsole()
 {
-    printNewLine(CONSOLE_CHARACTER_OUTPUT_HEIGHT);
+    //printNewLine(CONSOLE_CHARACTER_OUTPUT_HEIGHT);
 }
 
 /*

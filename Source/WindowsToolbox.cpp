@@ -22,77 +22,9 @@ std::string getLastWindowsErrorMessage()
     return rMessage;
 }
 
-windowsVersionSupportStatusType testWindowsVersionSupported(bool printing)
+void systemClearScreen()
 {
-    static const std::unordered_map<std::string, std::string> versionLookupMap ({
-        {"5.0", "[Windows 2000]"},
-        {"5.1", "[Windows XP]"},
-        {"5.2", "[Windows XP 64-bit Edition]/[Windows Server 2003]/[Windows Server 2003 R2]"},
-        {"6.0", "[Windows Vista]/[Windows Server 2008]"},
-        {"6.1", "[Windows Server 2008 R2]/[Windows 7]"},
-        {"6.2", "[Windows Server 2012]/[Windows 8]"}
-    });
-
-    OSVERSIONINFO osvi;
-    ZeroMemory(&osvi, sizeof(OSVERSIONINFO));
-    osvi.dwOSVersionInfoSize = sizeof(OSVERSIONINFO);
-
-    if (GetVersionEx(&osvi) == 0) {
-        if (printing) std::cout << "Can't detect your operating system version.\n"
-                                << "Reason - " << getLastWindowsErrorMessage() << std::endl;
-
-        return windowsVersionSupportStatusType::UNABLE_TO_DETECT;
-    }
-
-    std::stringstream versionConvert;
-    std::string versionString;
-    versionConvert << osvi.dwMajorVersion << "." << osvi.dwMinorVersion;
-    versionConvert >> versionString;
-
-    for (auto i : versionLookupMap)
-    {
-        if (i.first == versionString)
-        {
-            if (printing) std::cout << "Your Windows version was detected as : " << i.second << "\n" << std::endl;
-        }
-    }
-
-    /**
-     * GetVersionEx depreciated from this version of windows onwards.
-     */
-    if (osvi.dwMajorVersion < 6)
-    {
-        if (printing) std::cout << "Your Windows version is outdated, IconMagic CANNOT guarantee compatibility.\n\n";
-        return windowsVersionSupportStatusType::DETECTED_OUTDATED;
-    }
-    if ((osvi.dwMajorVersion == 6 && osvi.dwMinorVersion >= 2) || osvi.dwMajorVersion > 6)
-    {
-        if (printing) std::cout << "Your version of Windows is quite new. IconMagic CANNOT guarantee that it is \ncompatible with your operating system.\n"
-                                << "You may ignore this warning if you are running Windows 8 or Windows 8.1.\n\n";
-
-        return windowsVersionSupportStatusType::DETECTED_FUTURE_DATED;
-    }
-
-    return windowsVersionSupportStatusType::SUPPORTED;
-}
-
-bool testProgramHasRegistryAccess(bool printing)
-{
-    HKEY dummyKey = NULL;
-
-    LONG dummyKeyState = RegOpenKeyEx(HKEY_CLASSES_ROOT, "", 0, KEY_READ, &dummyKey);
-    RegCloseKey(dummyKey);
-
-    if (dummyKeyState == ERROR_SUCCESS)
-    {
-        if (printing) { std::cout << "Success. IconMagic has access to the registry." << std::endl; }
-        return true;
-    }
-    else
-    {
-        if (printing) { std::cout << "Failure. IconMagic does NOT have access to the registry.\n" << "Reason - " << getLastWindowsErrorMessage() << std::endl; }
-        return false;
-    }
+    system("cls");
 }
 
 /*MessageBox(
@@ -215,7 +147,4 @@ bool scanRegistryForDefaultIcons()
     return true;
 }
 
-void systemClearScreen()
-{
-    system("cls");
-}
+

@@ -9,19 +9,8 @@
 #include <list>
 
 std::string getLastWindowsErrorMessage();
-
-enum class windowsVersionSupportStatusType {
-    UNABLE_TO_DETECT,
-    DETECTED_OUTDATED,
-    DETECTED_FUTURE_DATED,
-    SUPPORTED
-};
-
-windowsVersionSupportStatusType testWindowsVersionSupported(bool printing = false);
-bool testProgramHasRegistryAccess(bool printing = false);
+void systemClearScreen();
 
 bool scanRegistryForDefaultIcons();
-
-void systemClearScreen();
 
 #endif // WINDOWSTOOLBOX_HPP_INCLUDED

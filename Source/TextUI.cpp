@@ -61,7 +61,7 @@ std::string getInputLine(std::string prompt)
 
 std::string getInputYesNo(std::string prompt, bool forceAnswer)
 {
-    std::string yn = getInputLine(prompt + ": (y/n) ");
+    std::string yn = getInputLine(prompt + " (y/n) ");
 
     if (!forceAnswer)
     {
@@ -69,8 +69,13 @@ std::string getInputYesNo(std::string prompt, bool forceAnswer)
     }
     else
     {
-        if (yn == "y" || yn == "n") return yn;
-        else return getInputYesNo("Please input a 'y' or an 'n' to answer.\n" + prompt);
+        if (yn == "y" || yn == "n")
+            return yn;
+        else
+        {
+            std::cout << "Please input a 'y' or an 'n' to answer.\n";
+            return getInputYesNo(prompt, forceAnswer);
+        }
     }
 }
 

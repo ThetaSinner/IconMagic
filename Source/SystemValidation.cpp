@@ -104,85 +104,47 @@ std::string windowsVersionToName(std::string versionString)
     return "";
 }
 
-/**
- *
 
-bool registryAccess()
+
+
+
+bool verifyProgramHasRegistryAccess()
 {
-    HKEY dummyKey = NULL;
+    if (registryAccess())
+        return true;
+    else
+        return false;
+}
 
-    LONG dummyKeyState = RegOpenKeyEx(HKEY_CLASSES_ROOT, "", 0, KEY_READ, &dummyKey);
-    RegCloseKey(dummyKey);
-
-    if (dummyKeyState == ERROR_SUCCESS)
+bool verifyProgramHasRegistryAccessWithUserInteraction()
+{
+    if (registryAccess())
     {
-        if (printing) { std::cout << "Success. IconMagic has access to the registry." << std::endl; }
+        std::cout
+            << "Success. IconMagic has access to the registry."
+            << std::endl;
+
         return true;
     }
     else
     {
-        if (printing) { std::cout << "Failure. IconMagic does NOT have access to the registry.\n" << "Reason - " << getLastWindowsErrorMessage() << std::endl; }
+        std::cout
+            << "Failure. IconMagic does NOT have access to the registry.\n"
+            << "Reason - " << getLastWindowsErrorMessage()
+            << std::endl;
+
         return false;
     }
 }
 
-    bool userMode = true;
+bool registryAccess()
+{
+    HKEY dummyKey = NULL;
+    LONG dummyKeyState = RegOpenKeyEx(HKEY_CLASSES_ROOT, "", 0, KEY_READ, &dummyKey);
+    RegCloseKey(dummyKey);
 
-    if (userMode)
-    {
-        bool printMessages = true;
-
-        //printCentered(" Windows version check ", "-");
-        //std::cout << rep("-", 80);
-        windowsVersionSupportStatusType windowsVersionStatus = testWindowsVersionSupported(printMessages);
-
-        if (windowsVersionStatus == windowsVersionSupportStatusType::UNABLE_TO_DETECT)
-        {
-            std::cout << "Press any key to finish";
-            //std::cin.get();
-
-            return 1;
-        }
-        else if (windowsVersionStatus == windowsVersionSupportStatusType::DETECTED_FUTURE_DATED ||
-                 windowsVersionStatus == windowsVersionSupportStatusType::DETECTED_OUTDATED)
-        {
-            std::cout << "Would you like to continue anyway? (y/n) : ";
-            char* buffer = new char[30];
-            std::cin.getline(buffer, 30);
-
-            if (std::string(buffer) != "y") {
-                //std::cout << rep("-", 80);
-                std::cout << "\nOkay. Press any key to finish";
-                std::cin.get();
-
-                return 0;
-            }
-        }
-        //std::cout << rep("-", 80);
-
-        std::cout << "\n";
-        //printCentered(" Registry access check ", "-");
-        //std::cout << rep("-", 80);
-
-        if (!testProgramHasRegistryAccess(printMessages))
-        {
-            std::cout << "Press any key to finish";
-            std::cin.get();
-
-            return 1;
-        }
-
-        //std::cout << rep("-", 80);
-    }
-
-    if (!scanRegistryForDefaultIcons()) {
-        std::cout << "Failed scanning registry.\n";
-    }
-
-    //SHChangeNotify(SHCNE_ASSOCCHANGED, SHCNF_IDLIST, NULL, NULL);
-
-    std::cout << "\n\nDone. Press any key ";
-    std::cin.get();
-
-    return 0;
- */
+    if (dummyKeyState == WINDOWS_OPERATION_SUCCESS)
+        return true;
+    else
+        return false;
+}

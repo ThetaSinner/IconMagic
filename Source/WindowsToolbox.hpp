@@ -8,6 +8,8 @@
 #include <fstream>
 #include <list>
 
+#define WINDOWS_OPERATION_SUCCESS ERROR_SUCCESS
+
 std::string getLastWindowsErrorMessage();
 void systemClearScreen();
 

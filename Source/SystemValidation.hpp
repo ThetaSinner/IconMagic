@@ -14,3 +14,5 @@ bool verifyProgramHasRegistryAccess();
 bool verifyProgramHasRegistryAccessWithUserInteraction();
 
 #endif // SYSTEMVALIDATION_HPP_INCLUDED
+
+// TODO add comments to source.

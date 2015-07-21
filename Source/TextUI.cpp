@@ -1,6 +1,5 @@
 #include "TextUI.hpp"
 
-
 /*
 * Internal global variable definitions.
 */

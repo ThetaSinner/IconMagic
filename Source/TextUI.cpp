@@ -140,15 +140,20 @@ int getInputMenuSelection(const std::vector<std::string>& menuOptions, bool forc
     }
 }
 
+void waitForUser()
+{
+    std::cout << "Press any key to continue.";
+    std::cin.get();
+}
+
 void printNewLine(int times)
 {
-    std::cout
-        << repeatString("\n", times);
+    std::cout << repeatString("\n", times);
 }
 
 void textClearConsole()
 {
-    //printNewLine(CONSOLE_CHARACTER_OUTPUT_HEIGHT);
+    printNewLine(CONSOLE_CHARACTER_OUTPUT_HEIGHT);
 }
 
 /*

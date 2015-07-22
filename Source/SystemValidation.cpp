@@ -17,48 +17,46 @@ bool verifyWindowsVersionSupported()
 
 bool verifyWindowsVersionSupportedWithUserInteraction()
 {
-    std::string windowsVersionAsString = windowsVersion();
+    systemClearScreen();
+    printTitleLine("Checking Windows version");
+    printNewLine(2);
 
-    std::cout
-        << "Windows version detected as: "
-        << windowsVersionToName(windowsVersionAsString) << std::endl;
+    std::string windowsVersionAsString = windowsVersion();
 
     if (windowsVersionAsString == "")
     {
-        std::cout
-            << "Can't detect your operating system version.\n"
-            << "Reason - " << getLastWindowsErrorMessage() << std::endl;
-
+        printLine("Can't detect your operating system version.\nReason - " + getLastWindowsErrorMessage());
         return false;
-    }
-    else if (windowsVersionAsString == "6.1")
-    {
-        std::cout
-            << "Your version of Windows is supported."
-            << std::endl;
-
-        return true;
-    }
-    else if (windowsVersionAsString == "6.2")
-    {
-        std::cout
-            << "Your version of Windows is supported if the above line is correct."
-            << std::endl;
-
-        std::string yn = getInputYesNo("Would you like to continue?", true);
-        if (yn == "y")
-            return true;
-        else
-            return false;
     }
     else
     {
-        std::cout
-            << "It appears your version of Windows is not supported."
-            << std::endl;
+        printLine("Windows version detected as: " + windowsVersionToName(windowsVersionAsString));
+        printNewLine(2);
 
-        return false;
+        if (windowsVersionAsString == "6.1")
+        {
+            printLine("Your version of Windows is supported.");
+            return true;
+        }
+        else if (windowsVersionAsString == "6.2")
+        {
+            printNewLine();
+            printLine("Your version of Windows is supported if the above line is correct.");
+            printNewLine(2);
+
+            std::string yn = getInputYesNo("Would you like to continue?", true);
+            if (yn == "y")
+                return true;
+            else
+                return false;
+        }
+        else
+        {
+            printLine("It appears your version of Windows is not supported.");
+            return false;
+        }
     }
+
 }
 
 
@@ -118,21 +116,22 @@ bool verifyProgramHasRegistryAccess()
 
 bool verifyProgramHasRegistryAccessWithUserInteraction()
 {
+    systemClearScreen();
+    printTitleLine("Check registry access");
+    printNewLine(2);
+
     if (registryAccess())
     {
-        std::cout
-            << "Success. IconMagic has access to the registry."
-            << std::endl;
-
+        printLine("Success. IconMagic has access to the registry.");
+        printNewLine(2);
+        waitForUser();
         return true;
     }
     else
     {
-        std::cout
-            << "Failure. IconMagic does NOT have access to the registry.\n"
-            << "Reason - " << getLastWindowsErrorMessage()
-            << std::endl;
-
+        printLine("Failure. IconMagic does NOT have access to the registry.\nReason - " + getLastWindowsErrorMessage());
+        printNewLine(2);
+        waitForUser();
         return false;
     }
 }

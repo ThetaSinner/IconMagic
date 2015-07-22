@@ -21,6 +21,8 @@ std::string getInputYesNo(std::string prompt, bool forceAnswer = false);
 int getInputValue(std::string prompt, bool forceAnswer = false);
 int getInputMenuSelection(const std::vector<std::string>& options, bool forceAnswer = false);
 
+void waitForUser();
+
 void printNewLine(int times = 1);
 void textClearConsole();
 

@@ -25,14 +25,14 @@ int runIconMagic()
     {
         if (!verifyWindowsVersionSupportedWithUserInteraction())
         {
-            exitIconMagic();
+            return exitIconMagic();
         }
     }
     else
     {
         if (!verifyWindowsVersionSupported())
         {
-            exitIconMagic();
+            return exitIconMagic();
         }
     }
 
@@ -40,11 +40,11 @@ int runIconMagic()
     {
         if (!verifyProgramHasRegistryAccessWithUserInteraction())
         {
-            exitIconMagic();
+            return exitIconMagic();
         }
         else
         {
-            exitIconMagic();
+            return exitIconMagic();
         }
     }
 
@@ -58,9 +58,10 @@ int exitIconMagic(int exitCode)
 
     std::cout
         << "Thank you for using IconMagic!\n\n"
-        << "Press any key to finish";
+        << "Press any key to finish"
+        << std::endl;
 
-    std::cin.get(); // TODO bug in release, needs 3 presses to close.
+    std::cin.ignore();
 
     return exitCode;
 }

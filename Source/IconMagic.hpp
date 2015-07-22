@@ -4,6 +4,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <limits>
 
 #include "SystemValidation.hpp"
 #include "WindowsToolbox.hpp"

@@ -143,7 +143,7 @@ int getInputMenuSelection(const std::vector<std::string>& menuOptions, bool forc
 void waitForUser()
 {
     std::cout << "Press any key to continue.";
-    std::cin.get();
+    std::cin.ignore();
 }
 
 void printNewLine(int times)

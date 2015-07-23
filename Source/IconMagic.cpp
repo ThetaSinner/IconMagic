@@ -48,7 +48,6 @@ int runIconMagic()
         }
     }
 
-
     return exitIconMagic();
 }
 
@@ -56,12 +55,9 @@ int exitIconMagic(int exitCode)
 {
     systemClearScreen();
 
-    std::cout
-        << "Thank you for using IconMagic!\n\n"
-        << "Press any key to finish"
-        << std::endl;
+    printLine("Thank you for using IconMagic!\n\nPress any key to finish");
 
-    std::cin.ignore();
+    waitForUser();
 
     return exitCode;
 }

@@ -61,6 +61,8 @@ class RegistyManager
     //  - roll back changes (if available)
     //  - remove this file type from the registry (not recommended)
     //  - back to main menu
+
+
 };
 
 #endif // REGISTYMANAGER_HPP_INCLUDED

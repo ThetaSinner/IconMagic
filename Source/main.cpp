@@ -11,6 +11,10 @@
 // down the rabbit hole a little, for example with audio, the default value of the .aiff key is
 // wmp11... search for this key, and that has a DefaultIcon sub key.
 
+#include <iostream>
+
+#include "RegistryHistory.hpp"
+
 int main(int argc, char** args)
 {
     return runIconMagic();

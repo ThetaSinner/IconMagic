@@ -17,6 +17,21 @@
 
 int main(int argc, char** args)
 {
+    /*
+    ExtensionEntry e;
+    e.createEntryFromRawData(".mp3", std::vector<ImageEntry> ());
+    e.pushImageEntry(ImageEntry("[blue.png,5]"));
+    e.pushImageEntry(ImageEntry("[yellow.png,1]"));
+    e.pushImageEntry(ImageEntry("[red.jpg,3]"));
+
+    ExtensionEntry f(e.getFormatted());
+
+    std::cout << e.getFormatted() << "\n\n";
+
+    std::cout << f.getFormatted() << "\n\n";
+
+    return 0;
+    */
     return runIconMagic();
 }
 

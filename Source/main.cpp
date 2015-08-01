@@ -1,3 +1,10 @@
+/** \file main.cpp
+ * \brief Created by ThetaSinner (Gregory Jensen).
+ *        Released as open source.
+ *
+ * This file launches IconMagic.
+ */
+
 #include "IconMagic.hpp"
 #include "Testing.hpp"
 
@@ -15,24 +22,47 @@
 
 #include "RegistryHistory.hpp"
 
-int main(int argc, char** args)
+int main(int argc, char **args)
 {
-    /*
-    ExtensionEntry e;
-    e.createEntryFromRawData(".mp3", std::vector<ImageEntry> ());
-    e.pushImageEntry(ImageEntry("[blue.png,5]"));
-    e.pushImageEntry(ImageEntry("[yellow.png,1]"));
-    e.pushImageEntry(ImageEntry("[red.jpg,3]"));
+  /*
+  ExtensionEntry e;
+  e.createEntryFromRawData(".mp3", std::vector<ImageEntry> ());
+  e.pushImageEntry(ImageEntry("[blue.png,5]"));
+  e.pushImageEntry(ImageEntry("[yellow.png,1]"));
+  e.pushImageEntry(ImageEntry("[red.jpg,3]"));
 
-    ExtensionEntry f(e.getFormatted());
+  ExtensionEntry f(e.getFormatted());
 
-    std::cout << e.getFormatted() << "\n\n";
+  std::cout << e.getFormatted() << "\n\n";
 
-    std::cout << f.getFormatted() << "\n\n";
+  std::cout << f.getFormatted() << "\n\n";
 
-    return 0;
-    */
-    return runIconMagic();
+  return 0;
+  */
+  RegistryHistory regHist(".\\test\\testhistory.txt");
+  regHist.addNewEntry(".png", "funnyfaces.png", "1");
+  regHist.addNewEntry(".aiff", "yummy.jpg", "5");
+  regHist.addImageEntryToExistingExtension(".png", "yellowmonkey.bmp", "10");
+
+  if(!regHist.writeHistory())
+  {
+    std::cout << "Failed to write history.\n";
+  }
+
+  RegistryHistory inHist(".\\test\\testhistory.txt");
+
+  if(!inHist.readHistory())
+  {
+    std::cout << "Failed to read history 2.\n";
+  }
+
+  inHist.setHistoryFileName(".\\test\\testhistory2.txt");
+
+  if(!inHist.writeHistory())
+  {
+    std::cout << "Failed to write history 2.\n";
+  }
+
+  return 0;
+  return runIconMagic();
 }
-
-

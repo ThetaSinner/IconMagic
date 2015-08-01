@@ -1,63 +1,67 @@
+/** \file
+ * \brief Created by ThetaSinner (Gregory Jensen).
+ *        Released as open source.
+ *
+ * // TODO file_desc
+ */
+
+
 #include "IconMagic.hpp"
 
 int exitIconMagic(int exitCode = 0);
 
 int runIconMagic()
 {
-    setPrintFillerCharacter('-');
+  setPrintFillerCharacter('-');
+  printTitleBox("IconMagic");
+  printNewLine(2);
+  printLine("IconMagic needs permission to:\n\n  1. Check compatibility with your version of Windows.\n  2. Read from and write to the registry.");
+  printNewLine(2);
+  printLine("If you continue you agree that you are solely responsible any problems that may arise.");
+  printNewLine(2);
+  bool userPermission = getInputYesNo("Would you like to continue?", true) == "y" ? true : false;
 
-    printTitleBox("IconMagic");
-    printNewLine(2);
-    printLine("IconMagic needs permission to:\n\n  1. Check compatibility with your version of Windows.\n  2. Read from and write to the registry.");
-    printNewLine(2);
-    printLine("If you continue you agree that you are solely responsible any problems that may arise.");
-    printNewLine(2);
-    bool userPermission = getInputYesNo("Would you like to continue?", true) == "y" ? true : false;
+  if(!userPermission)
+  {
+    return exitIconMagic();
+  }
 
-    if (!userPermission)
+  bool userInteraction = true;
+
+  if(userInteraction)
+  {
+    if(!verifyWindowsVersionSupportedWithUserInteraction())
     {
-        return exitIconMagic();
+      return exitIconMagic();
     }
-
-    bool userInteraction = true;
-
-    if (userInteraction)
+  }
+  else
+  {
+    if(!verifyWindowsVersionSupported())
     {
-        if (!verifyWindowsVersionSupportedWithUserInteraction())
-        {
-            return exitIconMagic();
-        }
+      return exitIconMagic();
+    }
+  }
+
+  if(userInteraction)
+  {
+    if(!verifyProgramHasRegistryAccessWithUserInteraction())
+    {
+      return exitIconMagic();
     }
     else
     {
-        if (!verifyWindowsVersionSupported())
-        {
-            return exitIconMagic();
-        }
+      return exitIconMagic();
     }
+  }
 
-    if (userInteraction)
-    {
-        if (!verifyProgramHasRegistryAccessWithUserInteraction())
-        {
-            return exitIconMagic();
-        }
-        else
-        {
-            return exitIconMagic();
-        }
-    }
-
-    return exitIconMagic();
+  return exitIconMagic();
 }
 
 int exitIconMagic(int exitCode)
 {
-    systemClearScreen();
-
-    printLine("Thank you for using IconMagic!\n\nPress any key to finish");
-
-    waitForUser();
-
-    return exitCode;
+  systemClearScreen();
+  printLine("Thank you for using IconMagic!\n\nPress any key to finish");
+  waitForUser();
+  return exitCode;
 }

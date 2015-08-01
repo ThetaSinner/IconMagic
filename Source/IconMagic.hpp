@@ -1,3 +1,10 @@
+/** \file
+ * \brief Created by ThetaSinner (Gregory Jensen).
+ *        Released as open source.
+ *
+ * // TODO file_desc
+ */
+
 #ifndef ICONMAGIC_HPP_INCLUDED
 #define ICONMAGIC_HPP_INCLUDED
 

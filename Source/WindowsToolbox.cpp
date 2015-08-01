@@ -1,30 +1,43 @@
+/** \file
+ * \brief Created by ThetaSinner (Gregory Jensen).
+ *        Released as open source.
+ *
+ * // TODO file_desc
+ */
+
 #include "WindowsToolbox.hpp"
 
 #include <Windows.h>
 
+/** \fn
+ * \brief A description of the last error that occurred in the Windows API.
+ *
+ * The Windows API only gives you a value when an error occurs.
+ * This functions uses the FormatMessage function, also from the Windows API, to get the message associated with the error code.
+ *
+ * \return std::string
+ *
+ */
 std::string getLastWindowsErrorMessage()
 {
-    char* message = NULL;
-
-    FormatMessage(
-        FORMAT_MESSAGE_FROM_SYSTEM | FORMAT_MESSAGE_ALLOCATE_BUFFER,
-        NULL,
-        GetLastError(),
-        MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),
-        (LPTSTR) &message,
-        0,
-        NULL
-    );
-
-    std::string rMessage(message);
-    LocalFree(message);
-
-    return rMessage;
+  char *message = NULL;
+  FormatMessage(
+    FORMAT_MESSAGE_FROM_SYSTEM | FORMAT_MESSAGE_ALLOCATE_BUFFER,
+    NULL,
+    GetLastError(),
+    MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),
+    (LPTSTR) &message,
+    0,
+    NULL
+  );
+  std::string rMessage(message);
+  LocalFree(message);
+  return rMessage;
 }
 
 void systemClearScreen()
 {
-    system("cls");
+  system("cls");
 }
 
 /*MessageBox(

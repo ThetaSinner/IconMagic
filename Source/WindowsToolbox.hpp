@@ -1,3 +1,11 @@
+/** \file
+ * \brief Created by ThetaSinner (Gregory Jensen).
+ *        Released as open source.
+ *
+ * // TODO file_desc
+ */
+
+
 #ifndef WINDOWSTOOLBOX_HPP_INCLUDED
 #define WINDOWSTOOLBOX_HPP_INCLUDED
 

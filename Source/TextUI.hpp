@@ -1,3 +1,11 @@
+/** \file
+ * \brief Created by ThetaSinner (Gregory Jensen).
+ *        Released as open source.
+ *
+ * // TODO file_desc
+ */
+
+
 #ifndef TEXTUI_HPP_INCLUDED
 #define TEXTUI_HPP_INCLUDED
 
@@ -19,7 +27,7 @@ void printLine(std::string line);
 std::string getInputLine(std::string prompt);
 std::string getInputYesNo(std::string prompt, bool forceAnswer = false);
 int getInputValue(std::string prompt, bool forceAnswer = false);
-int getInputMenuSelection(const std::vector<std::string>& options, bool forceAnswer = false);
+int getInputMenuSelection(const std::vector<std::string> &options, bool forceAnswer = false);
 
 void waitForUser();
 

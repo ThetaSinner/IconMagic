@@ -1,3 +1,10 @@
+/** \file
+ * \brief Created by ThetaSinner (Gregory Jensen).
+ *        Released as open source.
+ *
+ * // TODO file_desc
+ */
+
 #ifndef SYSTEMVALIDATION_HPP_INCLUDED
 #define SYSTEMVALIDATION_HPP_INCLUDED
 

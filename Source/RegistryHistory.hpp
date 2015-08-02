@@ -13,7 +13,6 @@
 #include <windows.h>
 #include <fstream>
 
-
 class ExtensionEntry;
 class ImageEntry;
 
@@ -69,7 +68,6 @@ private:
 
 public:
   ImageEntry();
-  ImageEntry(std::string entry);
 
   void createEntryFromRawData(std::string image_path, std::string image_index);
   void loadEntryFromFormatted(std::string entry);

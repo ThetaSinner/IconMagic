@@ -19,11 +19,34 @@
 // wmp11... search for this key, and that has a DefaultIcon sub key.
 
 #include <iostream>
-
 #include "RegistryHistory.hpp"
+
+#include "test/RegistryHistoryTest.hpp"
 
 int main(int argc, char **args)
 {
+  int totalTestsRun_RegistryHistory = 0;
+  int totalTestsRunSuccessfully_RegistryHistory = 0;
+
+  if(testRegistryHistory(totalTestsRun_RegistryHistory, totalTestsRunSuccessfully_RegistryHistory))
+  {
+    std::cout << "Tests for registry history succeeded.\n";
+  }
+  else
+  {
+    std::cout << "Tests for registry history failed.\n";
+  }
+
+  std::cout << totalTestsRunSuccessfully_RegistryHistory << " of " << totalTestsRun_RegistryHistory << " tests ran successfully.\n";
+  return 0;
+  /*
+  ImageEntry i;
+  i.createEntryFromRawData("sloppy.png", "");
+  std::cout << i.getFormatted() << "\n";
+  ImageEntry k;
+  k.loadEntryFromFormatted(i.getFormatted());
+  std::cout << k.getFormatted() << "\n";
+  */
   /*
   ExtensionEntry e;
   e.createEntryFromRawData(".mp3", std::vector<ImageEntry> ());
@@ -39,6 +62,7 @@ int main(int argc, char **args)
 
   return 0;
   */
+  /*
   RegistryHistory regHist(".\\test\\testhistory.txt");
   regHist.addNewEntry(".png", "funnyfaces.png", "1");
   regHist.addNewEntry(".aiff", "yummy.jpg", "5");
@@ -57,12 +81,13 @@ int main(int argc, char **args)
   }
 
   inHist.setHistoryFileName(".\\test\\testhistory2.txt");
+  inHist.addImageEntryToExistingExtension(".aiff", "bumcheese.pdf", "12");
 
   if(!inHist.writeHistory())
   {
     std::cout << "Failed to write history 2.\n";
   }
-
+  */
   return 0;
   return runIconMagic();
 }

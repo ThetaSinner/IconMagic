@@ -1,8 +1,12 @@
 /** \file
- * \brief Created by ThetaSinner (Gregory Jensen).
- *        Released as open source.
+ * \brief Record changes to 'DefaultIcon' keys in the registry using a custom file format.
  *
- * // TODO file_desc
+ * Designed to manage a custom file format for storing changes made by IconMagic to the registry. Each file extension for which IconMagic has made registry changes will be
+ * associated with a list of all the values which have been assigned to the 'DefaultIcon' subkey for that extension. This means that (in the best case) the user can choose to roll
+ * back changes, or even revert to the system's default icon.
+ *
+ * Created by ThetaSinner (Gregory Jensen).
+ * Released as open source.
  */
 
 #include "RegistryHistory.hpp"
@@ -88,6 +92,11 @@ bool RegistryHistory::readHistory()
   return true;
 }
 
+/** \brief
+ *
+ * \return bool
+ *
+ */
 bool RegistryHistory::writeHistory()
 {
   if(historyFileName == "")
@@ -169,7 +178,9 @@ void ExtensionEntry::loadEntryFromFormatted(std::string entry)
     if(imageEntryLine[0] == '[')
     {
       std::string imageEntryString = imageEntryLine.substr(0, imageEntryLine.find("]") + 1);
-      this -> imageHistory.push_back(ImageEntry(imageEntryString));
+      ImageEntry imageEntry;
+      imageEntry.loadEntryFromFormatted(imageEntryString);
+      this -> imageHistory.push_back(imageEntry);
       imageEntryLine = imageEntryLine.substr(imageEntryString.size());
     }
     else if(imageEntryLine[0] == ',')
@@ -240,11 +251,8 @@ std::vector<ImageEntry> ExtensionEntry::getImageHistory()
 
 ImageEntry::ImageEntry()
 {
-}
-
-ImageEntry::ImageEntry(std::string entry)
-{
-  loadEntryFromFormatted(entry);
+  this -> imagePath = "";
+  this -> imageIndex = "";
 }
 
 void ImageEntry::createEntryFromRawData(std::string image_path, std::string image_index)

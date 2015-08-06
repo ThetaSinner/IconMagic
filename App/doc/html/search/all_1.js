@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['iconmagic_2ecpp',['IconMagic.cpp',['../_icon_magic_8cpp.html',1,'']]],
-  ['iconmagic_2ehpp',['IconMagic.hpp',['../_icon_magic_8hpp.html',1,'']]],
-  ['imageentry',['ImageEntry',['../class_image_entry.html',1,'ImageEntry'],['../class_image_entry.html#a38da928b7b3cf2aba92dcd68e247be02',1,'ImageEntry::ImageEntry()']]]
+  ['execute',['execute',['../class_test_framework.html#ace2588c0b0043546abc584b1d1b08e96',1,'TestFramework']]],
+  ['extensionentry',['ExtensionEntry',['../class_extension_entry.html',1,'ExtensionEntry'],['../class_extension_entry.html#a614b16ce172c8b81e0a127f61188152f',1,'ExtensionEntry::ExtensionEntry()']]]
 ];

@@ -5,7 +5,7 @@
  * // TODO file_desc
  */
 
-#include "RegistyManager.hpp"
+#include "RegistryManager.hpp"
 
 std::list<std::string> listSubKeys(const HKEY rootKey)
 {

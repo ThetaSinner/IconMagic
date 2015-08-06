@@ -47,9 +47,9 @@ public:
   ExtensionEntry();
   ExtensionEntry(std::string entry);
 
-  void createEntryFromRawData(std::string extension_name, ImageEntry image_entry);
-  void createEntryFromRawData(std::string extension_name, std::vector<ImageEntry> image_history);
-  void loadEntryFromFormatted(std::string entry);
+  void createFromRawData(std::string extension_name, ImageEntry image_entry);
+  void createFromRawData(std::string extension_name, std::vector<ImageEntry> image_history);
+  void createFromFormatted(std::string entry);
   std::string getFormatted();
 
   void pushImageEntry(ImageEntry image_entry);
@@ -63,14 +63,18 @@ public:
 class ImageEntry
 {
 private:
+  const static std::string seperator;
+  const static std::string blockOpen;
+  const static std::string blockShut;
+
   std::string imagePath;
   std::string imageIndex;
 
 public:
   ImageEntry();
 
-  void createEntryFromRawData(std::string image_path, std::string image_index);
-  void loadEntryFromFormatted(std::string entry);
+  void createFromRawData(std::string image_path, std::string image_index);
+  void createFromFormatted(std::string entry);
 
   std::string getFormatted();
 

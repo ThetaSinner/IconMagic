@@ -123,9 +123,9 @@ bool RegistryHistory::writeHistory()
 void RegistryHistory::addNewEntry(std::string extension_name, std::string image_name, std::string image_index)
 {
   ImageEntry imageEntry;
-  imageEntry.createEntryFromRawData(image_name, image_index);
+  imageEntry.createFromRawData(image_name, image_index);
   ExtensionEntry extensionEntry;
-  extensionEntry.createEntryFromRawData(extension_name, imageEntry);
+  extensionEntry.createFromRawData(extension_name, imageEntry);
   this -> extensionHistory.push_back(extensionEntry);
 }
 
@@ -136,7 +136,7 @@ void RegistryHistory::addImageEntryToExistingExtension(std::string existing_exte
     if(i.getExtensionName() == existing_extension_name)
     {
       ImageEntry imageEntry;
-      imageEntry.createEntryFromRawData(image_name, image_index);
+      imageEntry.createFromRawData(image_name, image_index);
       i.pushImageEntry(imageEntry);
     }
   }
@@ -152,23 +152,23 @@ ExtensionEntry::ExtensionEntry()
 
 ExtensionEntry::ExtensionEntry(std::string entry)
 {
-  loadEntryFromFormatted(entry);
+  createFromFormatted(entry);
 }
 
-void ExtensionEntry::createEntryFromRawData(std::string extension_name, ImageEntry image_entry)
+void ExtensionEntry::createFromRawData(std::string extension_name, ImageEntry image_entry)
 {
   this -> extensionName = extension_name;
   this -> imageHistory = std::vector<ImageEntry> ();
   this -> imageHistory.push_back(image_entry);
 }
 
-void ExtensionEntry::createEntryFromRawData(std::string extension_name, std::vector<ImageEntry> image_history)
+void ExtensionEntry::createFromRawData(std::string extension_name, std::vector<ImageEntry> image_history)
 {
   this -> extensionName = extension_name;
   this -> imageHistory = image_history;
 }
 
-void ExtensionEntry::loadEntryFromFormatted(std::string entry)
+void ExtensionEntry::createFromFormatted(std::string entry)
 {
   this -> extensionName = entry.substr(0, entry.find("\n"));
   std::string imageEntryLine = entry.substr(entry.find("\n") + 1);
@@ -179,7 +179,7 @@ void ExtensionEntry::loadEntryFromFormatted(std::string entry)
     {
       std::string imageEntryString = imageEntryLine.substr(0, imageEntryLine.find("]") + 1);
       ImageEntry imageEntry;
-      imageEntry.loadEntryFromFormatted(imageEntryString);
+      imageEntry.createFromFormatted(imageEntryString);
       this -> imageHistory.push_back(imageEntry);
       imageEntryLine = imageEntryLine.substr(imageEntryString.size());
     }
@@ -248,6 +248,9 @@ std::vector<ImageEntry> ExtensionEntry::getImageHistory()
 /**
  * class ImageEntry
  */
+ const std::string ImageEntry::seperator = "?";
+ const std::string ImageEntry::blockOpen = "[";
+ const std::string ImageEntry::blockShut = "]";
 
 ImageEntry::ImageEntry()
 {
@@ -255,21 +258,21 @@ ImageEntry::ImageEntry()
   this -> imageIndex = "";
 }
 
-void ImageEntry::createEntryFromRawData(std::string image_path, std::string image_index)
+void ImageEntry::createFromRawData(std::string image_path, std::string image_index)
 {
   this -> imagePath = image_path;
   this -> imageIndex = image_index;
 }
 
-void ImageEntry::loadEntryFromFormatted(std::string entry)
+void ImageEntry::createFromFormatted(std::string entry)
 {
-  imagePath = entry.substr(1).substr(0, entry.find(",") - 1);
-  imageIndex = entry.substr(entry.find(",") + 1, entry.find("]") - entry.find(",") - 1);
+  imagePath = entry.substr(1).substr(0, entry.find(seperator) - 1);
+  imageIndex = entry.substr(entry.find(seperator) + 1, entry.find(blockShut) - entry.find(seperator) - 1);
 }
 
 std::string ImageEntry::getFormatted()
 {
-  return ("[" + imagePath + "," + imageIndex + "]");
+  return (blockOpen + imagePath + seperator + imageIndex + blockShut);
 }
 
 std::string ImageEntry::getImagePath()

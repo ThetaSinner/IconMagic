@@ -5,8 +5,8 @@
  * This file launches IconMagic.
  */
 
-#include "IconMagic.hpp"
-#include "Testing.hpp"
+#include "main/IconMagic.hpp"
+//#include "Testing.hpp"
 
 // Sources for DefaultIcon
 // https://msdn.microsoft.com/en-us/library/windows/desktop/hh127427%28v=vs.85%29.aspx
@@ -19,12 +19,13 @@
 // wmp11... search for this key, and that has a DefaultIcon sub key.
 
 #include <iostream>
-#include "RegistryHistory.hpp"
+//#include "RegistryHistory.hpp"
 
-#include "test/RegistryHistoryTest.hpp"
+//#include "test/RegistryHistoryTest.hpp"
 
 int main(int argc, char **args)
 {
+  /*
   int totalTestsRun_RegistryHistory = 0;
   int totalTestsRunSuccessfully_RegistryHistory = 0;
 
@@ -39,6 +40,7 @@ int main(int argc, char **args)
 
   std::cout << totalTestsRunSuccessfully_RegistryHistory << " of " << totalTestsRun_RegistryHistory << " tests ran successfully.\n";
   return 0;
+  */
   /*
   ImageEntry i;
   i.createEntryFromRawData("sloppy.png", "");
@@ -88,6 +90,6 @@ int main(int argc, char **args)
     std::cout << "Failed to write history 2.\n";
   }
   */
-  return 0;
+  //return 0;
   return runIconMagic();
 }

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.10"/>
-<title>IconMagic: D:/Users/Gregory/OneDrive/GitHub/IconMagic/Source/RegistryHistory.hpp Source File</title>
+<title>IconMagic: D:/Users/Gregory/OneDrive/GitHub/IconMagic/Source/main/RegistryHistory.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -40,6 +40,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -82,7 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_74389ed8173ad57b461b9d623a1f3867.html">Source</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_74389ed8173ad57b461b9d623a1f3867.html">Source</a></li><li class="navelem"><a class="el" href="dir_a6af817f1d1e0896eb6dec5dc64a280f.html">main</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -99,80 +100,81 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;windows.h&gt;</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;fstream&gt;</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">class </span><a class="code" href="class_extension_entry.html">ExtensionEntry</a>;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">class </span><a class="code" href="class_image_entry.html">ImageEntry</a>;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="class_registry_history.html">   20</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_registry_history.html">RegistryHistory</a></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  std::string historyFileName;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  std::vector&lt;ExtensionEntry&gt; extensionHistory;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  <a class="code" href="class_registry_history.html#ab8ca406519bf9c2383af62b655e091ec">RegistryHistory</a>();</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  <a class="code" href="class_registry_history.html#ab8ca406519bf9c2383af62b655e091ec">RegistryHistory</a>(std::string history_file_name);</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_registry_history.html#afb10619d4c6e5b1eef4f27b11aa71ec8">setHistoryFileName</a>(std::string history_file_name);</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="class_registry_history.html#a2a81ef9ef2d13fba16c4596a5e24409b">readHistory</a>();</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="class_registry_history.html#ad05f552791c50a88291483544f9ffb80">writeHistory</a>();</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  <span class="keywordtype">void</span> addNewEntry(std::string extension_name, std::string image_name, std::string image_index);</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  <span class="keywordtype">void</span> addImageEntryToExistingExtension(std::string existing_extension_name, std::string image_name, std::string image_index);</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  <span class="comment">// bool selectEntryByExtensionName(std::string extName);</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;};</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="class_extension_entry.html">   41</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_extension_entry.html">ExtensionEntry</a></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;{</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  std::string extensionName;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  std::vector&lt;ImageEntry&gt; imageHistory;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <a class="code" href="class_extension_entry.html#a614b16ce172c8b81e0a127f61188152f">ExtensionEntry</a>();</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  <a class="code" href="class_extension_entry.html#a614b16ce172c8b81e0a127f61188152f">ExtensionEntry</a>(std::string entry);</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <span class="keywordtype">void</span> createEntryFromRawData(std::string extension_name, <a class="code" href="class_image_entry.html">ImageEntry</a> image_entry);</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  <span class="keywordtype">void</span> createEntryFromRawData(std::string extension_name, std::vector&lt;ImageEntry&gt; image_history);</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <span class="keywordtype">void</span> loadEntryFromFormatted(std::string entry);</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  std::string getFormatted();</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  <span class="keywordtype">void</span> pushImageEntry(<a class="code" href="class_image_entry.html">ImageEntry</a> image_entry);</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <span class="keywordtype">int</span> getNumberOfImageEntries();</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  <a class="code" href="class_image_entry.html">ImageEntry</a> getImageEntryAt(<span class="keywordtype">int</span> index);</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  std::string getExtensionName();</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  std::vector&lt;ImageEntry&gt; getImageHistory();</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;};</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
-<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="class_image_entry.html">   64</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_image_entry.html">ImageEntry</a></div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;{</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  std::string imagePath;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  std::string imageIndex;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">class </span><a class="code" href="class_extension_entry.html">ExtensionEntry</a>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">class </span><a class="code" href="class_image_entry.html">ImageEntry</a>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="class_registry_history.html">   19</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_registry_history.html">RegistryHistory</a></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  std::string historyFileName;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  std::vector&lt;ExtensionEntry&gt; extensionHistory;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  <a class="code" href="class_registry_history.html#ab8ca406519bf9c2383af62b655e091ec">RegistryHistory</a>();</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  <a class="code" href="class_registry_history.html#ab8ca406519bf9c2383af62b655e091ec">RegistryHistory</a>(std::string history_file_name);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_registry_history.html#afb10619d4c6e5b1eef4f27b11aa71ec8">setHistoryFileName</a>(std::string history_file_name);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="class_registry_history.html#a2a81ef9ef2d13fba16c4596a5e24409b">readHistory</a>();</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="class_registry_history.html#ad05f552791c50a88291483544f9ffb80">writeHistory</a>();</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <span class="keywordtype">void</span> addNewEntry(std::string extension_name, std::string image_name, std::string image_index);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  <span class="keywordtype">void</span> addImageEntryToExistingExtension(std::string existing_extension_name, std::string image_name, std::string image_index);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  <span class="comment">// bool selectEntryByExtensionName(std::string extName);</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;};</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="class_extension_entry.html">   40</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_extension_entry.html">ExtensionEntry</a></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;{</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  std::string extensionName;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  std::vector&lt;ImageEntry&gt; imageHistory;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  <a class="code" href="class_extension_entry.html#a614b16ce172c8b81e0a127f61188152f">ExtensionEntry</a>();</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <a class="code" href="class_extension_entry.html#a614b16ce172c8b81e0a127f61188152f">ExtensionEntry</a>(std::string entry);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  <span class="keywordtype">void</span> createFromRawData(std::string extension_name, <a class="code" href="class_image_entry.html">ImageEntry</a> image_entry);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <span class="keywordtype">void</span> createFromRawData(std::string extension_name, std::vector&lt;ImageEntry&gt; image_history);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  <span class="keywordtype">void</span> createFromFormatted(std::string entry);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  std::string getFormatted();</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  <span class="keywordtype">void</span> pushImageEntry(<a class="code" href="class_image_entry.html">ImageEntry</a> image_entry);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  <span class="keywordtype">int</span> getNumberOfImageEntries();</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <a class="code" href="class_image_entry.html">ImageEntry</a> getImageEntryAt(<span class="keywordtype">int</span> index);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  std::string getExtensionName();</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  std::vector&lt;ImageEntry&gt; getImageHistory();</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;};</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="class_image_entry.html">   63</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_image_entry.html">ImageEntry</a></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;{</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  <span class="keyword">const</span> <span class="keyword">static</span> std::string seperator;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  <span class="keyword">const</span> <span class="keyword">static</span> std::string blockOpen;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  <span class="keyword">const</span> <span class="keyword">static</span> std::string blockShut;</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  <a class="code" href="class_image_entry.html#a38da928b7b3cf2aba92dcd68e247be02">ImageEntry</a>();</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  <a class="code" href="class_image_entry.html#a38da928b7b3cf2aba92dcd68e247be02">ImageEntry</a>(std::string entry);</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  <span class="keywordtype">void</span> createEntryFromRawData(std::string image_path, std::string image_index);</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  <span class="keywordtype">void</span> loadEntryFromFormatted(std::string entry);</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  std::string getFormatted();</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  std::string imagePath;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  std::string imageIndex;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  <a class="code" href="class_image_entry.html">ImageEntry</a>();</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  <span class="keywordtype">void</span> createFromRawData(std::string image_path, std::string image_index);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  <span class="keywordtype">void</span> createFromFormatted(std::string entry);</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  std::string getImagePath();</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  std::string getImageIndex();</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;};</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="preprocessor">#endif // REGISTRYHISTORY_HPP_INCLUDED</span></div>
-<div class="ttc" id="class_registry_history_html"><div class="ttname"><a href="class_registry_history.html">RegistryHistory</a></div><div class="ttdef"><b>Definition:</b> RegistryHistory.hpp:20</div></div>
-<div class="ttc" id="class_extension_entry_html"><div class="ttname"><a href="class_extension_entry.html">ExtensionEntry</a></div><div class="ttdef"><b>Definition:</b> RegistryHistory.hpp:41</div></div>
-<div class="ttc" id="class_image_entry_html_a38da928b7b3cf2aba92dcd68e247be02"><div class="ttname"><a href="class_image_entry.html#a38da928b7b3cf2aba92dcd68e247be02">ImageEntry::ImageEntry</a></div><div class="ttdeci">ImageEntry()</div><div class="ttdef"><b>Definition:</b> RegistryHistory.cpp:250</div></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  std::string getFormatted();</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  std::string getImagePath();</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;  std::string getImageIndex();</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;};</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor">#endif // REGISTRYHISTORY_HPP_INCLUDED</span></div>
+<div class="ttc" id="class_registry_history_html"><div class="ttname"><a href="class_registry_history.html">RegistryHistory</a></div><div class="ttdef"><b>Definition:</b> RegistryHistory.hpp:19</div></div>
+<div class="ttc" id="class_extension_entry_html"><div class="ttname"><a href="class_extension_entry.html">ExtensionEntry</a></div><div class="ttdef"><b>Definition:</b> RegistryHistory.hpp:40</div></div>
 <div class="ttc" id="class_registry_history_html_a2a81ef9ef2d13fba16c4596a5e24409b"><div class="ttname"><a href="class_registry_history.html#a2a81ef9ef2d13fba16c4596a5e24409b">RegistryHistory::readHistory</a></div><div class="ttdeci">bool readHistory()</div><div class="ttdef"><b>Definition:</b> RegistryHistory.cpp:63</div></div>
 <div class="ttc" id="class_registry_history_html_ad05f552791c50a88291483544f9ffb80"><div class="ttname"><a href="class_registry_history.html#ad05f552791c50a88291483544f9ffb80">RegistryHistory::writeHistory</a></div><div class="ttdeci">bool writeHistory()</div><div class="ttdef"><b>Definition:</b> RegistryHistory.cpp:100</div></div>
-<div class="ttc" id="class_image_entry_html"><div class="ttname"><a href="class_image_entry.html">ImageEntry</a></div><div class="ttdef"><b>Definition:</b> RegistryHistory.hpp:64</div></div>
+<div class="ttc" id="class_image_entry_html"><div class="ttname"><a href="class_image_entry.html">ImageEntry</a></div><div class="ttdef"><b>Definition:</b> RegistryHistory.hpp:63</div></div>
 <div class="ttc" id="class_extension_entry_html_a614b16ce172c8b81e0a127f61188152f"><div class="ttname"><a href="class_extension_entry.html#a614b16ce172c8b81e0a127f61188152f">ExtensionEntry::ExtensionEntry</a></div><div class="ttdeci">ExtensionEntry()</div><div class="ttdef"><b>Definition:</b> RegistryHistory.cpp:149</div></div>
 <div class="ttc" id="class_registry_history_html_afb10619d4c6e5b1eef4f27b11aa71ec8"><div class="ttname"><a href="class_registry_history.html#afb10619d4c6e5b1eef4f27b11aa71ec8">RegistryHistory::setHistoryFileName</a></div><div class="ttdeci">void setHistoryFileName(std::string history_file_name)</div><div class="ttdoc">Set the path to the file to be used for storing registry modification history. </div><div class="ttdef"><b>Definition:</b> RegistryHistory.cpp:44</div></div>
 <div class="ttc" id="class_registry_history_html_ab8ca406519bf9c2383af62b655e091ec"><div class="ttname"><a href="class_registry_history.html#ab8ca406519bf9c2383af62b655e091ec">RegistryHistory::RegistryHistory</a></div><div class="ttdeci">RegistryHistory()</div><div class="ttdoc">Default constructor. </div><div class="ttdef"><b>Definition:</b> RegistryHistory.cpp:20</div></div>

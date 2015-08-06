@@ -1,20 +1,12 @@
-##################
-## Code::Blocks ##
-##################
+#### Ignore local build tools ####
 
-# Project configurations.
-*.depend
-*.layout
-*.cbp
+# All batch files are specific to my local directory structure.
+*.bat
 
-# Object files
-*.o
+# Doxygen configuration 
+doxygen
+doxygen/*
 
-# Doxygen
-doxygen/doxyfile
-
-# Autoversion
-changes.tmp
-
-# Outfiles etc.
-test
+# CMake build is generated for my computer
+CMakeBuild
+CMakeBuild/*

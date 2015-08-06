@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['extensionentry',['ExtensionEntry',['../class_extension_entry.html#a614b16ce172c8b81e0a127f61188152f',1,'ExtensionEntry']]]
+  ['addtest',['addTest',['../class_test_framework.html#a4f37e58d8b67f9da66372cf43f4281ae',1,'TestFramework']]]
 ];

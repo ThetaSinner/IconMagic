@@ -14,14 +14,21 @@ set(MAIN_FILES
     ${SOURCE_DIRECTORY}/main.cpp
     ${SOURCE_DIRECTORY}/${MAIN}/IconMagic.hpp
     ${SOURCE_DIRECTORY}/${MAIN}/IconMagic.cpp
-    ${SOURCE_DIRECTORY}/${MAIN}/RegistryHistory.hpp
-    ${SOURCE_DIRECTORY}/${MAIN}/RegistryHistory.cpp
+
+    ${SOURCE_DIRECTORY}/main/RegistryHistory/ImageEntry.hpp
+    ${SOURCE_DIRECTORY}/main/RegistryHistory/ImageEntry.cpp
+    ${SOURCE_DIRECTORY}/main/RegistryHistory/ExtensionHistory.hpp
+    ${SOURCE_DIRECTORY}/main/RegistryHistory/ExtensionHistory.cpp
+    ${SOURCE_DIRECTORY}/main/RegistryHistory/RegistryHistory.hpp
+    ${SOURCE_DIRECTORY}/main/RegistryHistory/RegistryHistory.cpp
+    
+    ${SOURCE_DIRECTORY}/main/Util.hpp
+    ${SOURCE_DIRECTORY}/main/Util.cpp
+
     ${SOURCE_DIRECTORY}/${MAIN}/RegistryManager.hpp
     ${SOURCE_DIRECTORY}/${MAIN}/RegistryManager.cpp
     ${SOURCE_DIRECTORY}/${MAIN}/SystemValidation.hpp
     ${SOURCE_DIRECTORY}/${MAIN}/SystemValidation.cpp
-    ${SOURCE_DIRECTORY}/${MAIN}/Testing.hpp
-    ${SOURCE_DIRECTORY}/${MAIN}/Testing.cpp
     ${SOURCE_DIRECTORY}/${MAIN}/TextUI.hpp
     ${SOURCE_DIRECTORY}/${MAIN}/TextUI.cpp
     ${SOURCE_DIRECTORY}/${MAIN}/WindowsToolbox.hpp
@@ -31,10 +38,9 @@ set(TEST_FILES
     ${SOURCE_DIRECTORY}/${TEST}/framework.cpp
     ${SOURCE_DIRECTORY}/${TEST}/RegistryHistoryTest.hpp
     ${SOURCE_DIRECTORY}/${TEST}/RegistryHistoryTest.cpp)
-set (SOURCE_FILES ${MAIN_FILES} ${TEST_FILES})
+set (SOURCE_FILES ${MAIN_FILES})
 ############ NEBIG: LIST ALL SOURCE FILES ############
 
 ####### BEGIN : CREATE THE EXECUTABLE ############
 add_executable(IconMagic ${SOURCE_FILES})
 ####### NIBEG : CREATE THE EXECUTABLE ############
-

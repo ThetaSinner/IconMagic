@@ -21,6 +21,8 @@
 std::string getLastWindowsErrorMessage();
 void systemClearScreen();
 
+bool canOpenFile(std::string file_path);
+bool validPathToFile(std::string file_path);
 bool scanRegistryForDefaultIcons();
 
 #endif // WINDOWSTOOLBOX_HPP_INCLUDED

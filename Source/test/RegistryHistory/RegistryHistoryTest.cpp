@@ -5,8 +5,8 @@
  * // TODO file_desc
  */
 
-#include "framework.hpp"
-#include "./../main/RegistryHistory.hpp"
+#include "./../framework.hpp"
+#include "./../../main//RegistryHistory.hpp"
 
 bool setAndRetrieveImageEntry();
 bool setAndRetrieveFormattedImageEntry();

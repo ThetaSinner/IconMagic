@@ -40,6 +40,24 @@ void systemClearScreen()
   system("cls");
 }
 
+bool validPathToFile(std::string file_path)
+{
+  if (GetFileAttributes(file_path.c_str()) == INVALID_FILE_ATTRIBUTES)
+  {
+    return false;
+  }
+
+  return true;
+}
+
+bool canOpenFile(std::string file_path)
+{
+  std::ifstream test(file_path, std::ios::app);
+  if (!test.is_open()) return false;
+
+  return true;
+}
+
 /*MessageBox(
     NULL,
     _T("Error while creating the file"),

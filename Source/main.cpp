@@ -19,12 +19,26 @@
 // wmp11... search for this key, and that has a DefaultIcon sub key.
 
 #include <iostream>
-//#include "RegistryHistory.hpp"
+#include "./main/RegistryHistory/RegistryHistory.hpp"
 
 //#include "test/RegistryHistoryTest.hpp"
 
+#include <sstream>
+#include <fstream>
+
 int main(int argc, char **args)
 {
+  RegistryHistory r;
+  r.setHistoryFileName(".\\sol.txt");
+  r.add(".bat", "musicIcon.ico", "4");
+  r.update(".bat", "musicIcon.ico", "12");
+  r.add(".mp3", "musicIcon.ico", "3");
+  r.writeHistory();
+  RegistryHistory s;
+  s.setHistoryFileName(".\\sol.txt");
+  r.readHistory();
+  r.setHistoryFileName(".\\sol2.txt");
+  r.writeHistory();
   /*
   int totalTestsRun_RegistryHistory = 0;
   int totalTestsRunSuccessfully_RegistryHistory = 0;

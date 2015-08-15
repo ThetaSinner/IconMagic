@@ -26,7 +26,12 @@ bool stringIsValidInteger(std::string str, int min, int max)
   return true;
 }
 
-bool isStringBlank(std::string str)
+bool stringIsNotValidInteger(std::string str, int min, int max)
+{
+  return !stringIsValidInteger(str, min, max);
+}
+
+bool stringIsBlank(std::string str)
 {
   for (auto i : str)
   {
@@ -37,4 +42,19 @@ bool isStringBlank(std::string str)
   }
 
   return true;
+}
+
+bool stringIsNotBlank(std::string str)
+{
+  return !stringIsBlank(str);
+}
+
+bool stringContains(std::string str, std::string c)
+{
+  return (static_cast<int>(str.find(c)) != -1);
+}
+
+bool stringDoesNotContains(std::string str, std::string c)
+{
+  return !stringContains(str, c);
 }

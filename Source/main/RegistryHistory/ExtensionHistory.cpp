@@ -1,45 +1,49 @@
 #include "ExtensionHistory.hpp"
 
+#include "./../Util.hpp"
+
+// TODO remove temp include.
+#include <iostream>
+
 ExtensionHistory::ExtensionHistory()
 {
    extensionName = "";
    imageHistory = std::vector<ImageEntry> ();
 }
 
-// Create
-
-void ExtensionHistory::create(std::string extension_name, ImageEntry image_entry)
+void ExtensionHistory::createFromData(std::string extension_name, ImageEntry image_entry)
 {
-  // Stop if the object already has data.
-  if (instanceHasData()) return;
+  // Stop if the object already has data, or the input is invalid.
+  if (isValid() || stringIsBlank(extension_name) || !image_entry.isValid()) return;
 
-  // Check the input okay before using it.
-  if (extension_name != "" && image_entry.isValid())
-  {
-    extensionName = extension_name;
-    push(image_entry);
-  }
+  extensionName = extension_name;
+  imageHistory.push_back(image_entry);
 }
 
 void ExtensionHistory::createFromFormatted(std::string entry)
 {
   // do not allow overwrite.
-  if (instanceHasData()) return;
-
   // A minimum valid entry must be .\n[?]
-  if (entry.size() < 5) return;
-  if (static_cast<int>(entry.find("\n")) == -1) return;
+  if (isValid() || entry.size() < 5 || stringDoesNotContains(entry, "\n")) return;
 
   // Input may be valid, continue.
-  extensionName = extensionName = entry.substr(0, entry.find("\n"));
-  std::string imageEntryLine = entry.substr(entry.find("\n") + 1);
+  int splitIndex = entry.find("\n"); // TODO extract to variable?
+  std::string extensionNameLine = entry.substr(0, splitIndex);
+  std::string imageEntryLine = entry.substr(splitIndex + 1);
 
   bool allImageEntriesValid = true;
-  while (static_cast<int>(imageEntryLine.find(ImageEntry::blockShut)) != -1)
+  while (stringContains(imageEntryLine, ImageEntry::blockOpen) && stringContains(imageEntryLine, ImageEntry::blockShut))
   {
     // Extract an image entry.
-    std::string imageEntryString = imageEntryLine.substr(0, imageEntryLine.find("]") + 1);
-    imageEntryLine = imageEntryLine.substr(imageEntryString.size());
+    int open = imageEntryLine.find(ImageEntry::blockOpen),
+        shut = imageEntryLine.find(ImageEntry::blockShut) + 1;
+    if (open > shut)
+    {
+      allImageEntriesValid = false;
+      break;
+    }
+    std::string imageEntryString = imageEntryLine.substr(open, shut - open);
+    imageEntryLine = imageEntryLine.substr(shut);
 
     // Create an image entry object from the extracted string.
     ImageEntry imageEntry;
@@ -48,7 +52,7 @@ void ExtensionHistory::createFromFormatted(std::string entry)
     // If the image entry object is valid save it, otherwise stop.
     if (imageEntry.isValid())
     {
-        push(imageEntry);
+        imageHistory.push_back(imageEntry);
     }
     else
     {
@@ -58,24 +62,15 @@ void ExtensionHistory::createFromFormatted(std::string entry)
   }
 
   // One or more image entries in the file are invalid don't save anything.
-  if (!allImageEntriesValid) // move into private space, so can be written to file again. Must not lose data.
+  // If this method fails to populate the object then whoever calls the should store the string they passed in.
+  if (!allImageEntriesValid)
   {
     extensionName = "";
     imageHistory.clear();
   }
 }
 
-bool ExtensionHistory::pushImageEntry(ImageEntry image_entry)
-{
-  if (!image_entry.isValid()) return false;
-
-  push(image_entry);
-  return true;
-}
-
-// Read
-
-int ExtensionHistory::getImageHistorySize()
+int ExtensionHistory::size()
 {
   return imageHistory.size();
 }
@@ -85,51 +80,34 @@ std::string ExtensionHistory::getExtensionName() const
   return extensionName;
 }
 
-ImageEntry ExtensionHistory::getImageEntryAt(int index)
+ImageEntry ExtensionHistory::getLastEntry()
 {
-  if(0 <= index && index < getImageHistorySize()) return imageHistory[index];
-
-  return ImageEntry();
+  return (imageHistory.size() ? imageHistory.back() : ImageEntry());
 }
 
 std::string ExtensionHistory::getFormatted() const
 {
   std::string formatted = extensionName + "\n";
 
-  for(auto i : imageHistory)
-  {
-    formatted += i.getFormatted();
-  }
+  for(auto i : imageHistory) formatted += i.getFormatted();
 
   return formatted;
 }
 
-// Delete
-void ExtensionHistory::popImageEntry()
+void ExtensionHistory::pushImageEntry(ImageEntry image_entry)
 {
-  // Don't delete the original value of the default icon key.
-  if (imageHistory.size() > 1)
-  {
-    imageHistory.pop_back();
-  }
-}
+  if (!image_entry.isValid()) return;
 
-// Other
-
-bool ExtensionHistory::isValid()
-{
-  return (extensionName != "" && imageHistory.size());
-}
-
-// private
-
-void ExtensionHistory::push(ImageEntry image_entry)
-{
   imageHistory.push_back(image_entry);
 }
 
-bool ExtensionHistory::instanceHasData()
+void ExtensionHistory::popImageEntry()
 {
-    if (extensionName == "" && imageHistory.size() == 0) return false;
-    return true;
+  // Don't delete the original value of the default icon key.
+  if (size() > 1) imageHistory.pop_back();
+}
+
+bool ExtensionHistory::isValid()
+{
+  return (extensionName != "" && imageHistory.size() != 0);
 }

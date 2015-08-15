@@ -12,17 +12,17 @@ public:
   ExtensionHistory();
 
   // Create
-  void create(std::string extension_name, ImageEntry image_entry);
+  void createFromData(std::string extension_name, ImageEntry image_entry);
   void createFromFormatted(std::string entry);
 
-  bool pushImageEntry(ImageEntry image_entry);
-
   // Read
-  int getImageHistorySize();
+  int size();
   std::string getExtensionName() const;
-  ImageEntry getImageEntryAt(int index);
-
+  ImageEntry getLastEntry();
   std::string getFormatted() const;
+
+  // Update.
+  void pushImageEntry(ImageEntry image_entry);
 
   // Delete
   void popImageEntry();
@@ -33,10 +33,6 @@ public:
 private:
   std::string extensionName;
   std::vector<ImageEntry> imageHistory;
-
-  void push(ImageEntry image_entry);
-
-  bool instanceHasData();
 };
 
 #endif

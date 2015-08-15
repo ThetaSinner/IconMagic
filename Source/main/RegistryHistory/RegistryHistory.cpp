@@ -31,9 +31,19 @@ RegistryHistory::RegistryHistory()
  */
 void RegistryHistory::setHistoryFileName(std::string history_file_name)
 {
-  std::ifstream touch(history_file_name, std::ifstream::app);
-  touch.close();
+  std::ofstream touch(history_file_name, std::ifstream::app);
 
+  if (touch.is_open())
+  {
+    historyFileName = history_file_name;
+    touch.close();
+  }
+  else
+  {
+    historyFileName = "";
+  }
+
+  /*
   if(GetFileAttributes(history_file_name.c_str()) == INVALID_FILE_ATTRIBUTES)
   {
     historyFileName = "";
@@ -41,6 +51,7 @@ void RegistryHistory::setHistoryFileName(std::string history_file_name)
   }
 
   historyFileName = history_file_name;
+  */
 }
 
 /** \brief
@@ -50,6 +61,8 @@ void RegistryHistory::setHistoryFileName(std::string history_file_name)
  */
 bool RegistryHistory::readHistory()
 {
+  // TODO If multiple entries are found in the file for the same extension, ask the user to resolve the conflict.
+
   // This will fail to open if historyFileName is empty.
   std::ifstream reader(historyFileName, std::ifstream::in);
   if(!reader.is_open()) return false;
@@ -60,14 +73,19 @@ bool RegistryHistory::readHistory()
     reader >> lineOne;
     reader >> lineTwo;
 
-    if(isStringBlank(lineOne) || isStringBlank(lineTwo))
-    {
-      break;
-    }
+    if(stringIsBlank(lineOne) || stringIsBlank(lineTwo)) break;
 
     ExtensionHistory extensionHistory;
     extensionHistory.createFromFormatted(lineOne + "\n" + lineTwo);
-    this -> history.push_back(extensionHistory);    // this needs some way to fail safely.
+    if (extensionHistory.isValid())
+    {
+      history.push_back(extensionHistory);
+    }
+    else
+    {
+      // We don't want to delete data that can't currently be used, just store it for now.
+      badReads.push_back(lineOne + "\n" + lineTwo);
+    }
   }
 
   reader.close();
@@ -81,45 +99,83 @@ bool RegistryHistory::readHistory()
  */
 bool RegistryHistory::writeHistory()
 {
-  if(historyFileName == "")
-  {
-    return false;
-  }
-
   std::ofstream writer(historyFileName, std::ofstream::out);
+  if(!writer.is_open()) return false;
 
-  if(!writer.is_open())
-  {
-    return false;
-  }
-
-  for(auto i : history)
-  {
-    writer << i.getFormatted() << "\n";
-  }
+  for (auto i : history) writer << i.getFormatted() << "\n";
+  for (auto i : badReads) writer << i << "\n";
 
   writer.close();
   return true;
 }
 
-void RegistryHistory::add(std::string extension_name, std::string image_name, std::string image_index)
+bool RegistryHistory::push(std::string extension_name, std::string image_name, std::string image_index)
 {
   ImageEntry imageEntry;
-  imageEntry.create(image_name, image_index);
-  ExtensionHistory extensionHistory;
-  extensionHistory.create(extension_name, imageEntry);
-  this -> history.push_back(extensionHistory);
-}
+  imageEntry.createFromData(image_name, image_index);
+  if (!imageEntry.isValid()) return false;
 
-void RegistryHistory::update(std::string existing_extension_name, std::string image_name, std::string image_index)
-{
-  for(auto &i : this -> history)
+  bool append = false;
+  for(auto &i : history)
   {
-    if(i.getExtensionName() == existing_extension_name)
+    if(i.getExtensionName() == extension_name)
     {
-      ImageEntry imageEntry;
-      imageEntry.create(image_name, image_index);
       i.pushImageEntry(imageEntry);
+      append = true;
     }
   }
+
+  if (!append)
+  {
+    ExtensionHistory extensionHistory;
+    extensionHistory.createFromData(extension_name, imageEntry);
+    if (!extensionHistory.isValid()) return false;
+
+    history.push_back(extensionHistory);
+  }
+
+  return true;
+}
+
+bool RegistryHistory::pop(std::string extension_name)
+{
+  for (auto &i : history)
+  {
+    if (i.getExtensionName() == extension_name)
+    {
+      int initial = i.size();
+      i.popImageEntry();
+      int final = i.size();
+
+      return (initial != final);
+    }
+  }
+
+  return false;
+}
+
+std::string RegistryHistory::getPath(std::string extension_name)
+{
+  return getLast(extension_name).getImagePath();
+}
+
+std::string RegistryHistory::getIndex(std::string extension_name)
+{
+  return getLast(extension_name).getImageIndex();
+}
+
+std::string RegistryHistory::getRegString(std::string extension_name)
+{
+  ImageEntry imageEntry = getLast(extension_name);
+  return imageEntry.getImagePath() + "," + imageEntry.getImageIndex();
+}
+
+ImageEntry RegistryHistory::getLast(std::string extension_name)
+{
+  for (auto &i : history)
+  {
+    if (i.getExtensionName() == extension_name) return i.getLastEntry();
+  }
+
+  return ImageEntry();
 }

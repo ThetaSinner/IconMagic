@@ -19,15 +19,20 @@ public:
   bool readHistory();
   bool writeHistory();
 
-  void add(std::string extension_name, std::string image_name, std::string image_index);
-  void update(std::string existing_extension_name, std::string image_name, std::string image_index);
+  bool push(std::string extension_name, std::string image_name, std::string image_index);
+  bool pop(std::string extension_name);
 
-  //ImageEntry getItem(std::string extensionName, int index);
+  void WHYAREYOUCALLINGME_DELETEFROMREGISTRY();
 
-  // bool selectEntryByExtensionName(std::string extName);
+  std::string getPath(std::string extension_name);
+  std::string getIndex(std::string extension_name);
+  std::string getRegString(std::string extension_name);
 private:
   std::string historyFileName;
   std::vector<ExtensionHistory> history;
+  std::vector<std::string> badReads;
+
+  ImageEntry getLast(std::string extension_name);
 };
 
 #endif

@@ -14,41 +14,23 @@ ImageEntry::ImageEntry()
   imageIndex = "";
 }
 
-void ImageEntry::create(std::string image_path, std::string image_index)
+void ImageEntry::createFromData(std::string image_path, std::string image_index)
 {
-  if (!validPathToFile(image_path))  return;
+  // Don't allow overwrite, check path is valid and index can be converted to an integer.
+  if (isValid() || !validPathToFile(image_path) || !stringIsValidInteger(image_index, 0, 1000)) return; // TODO expose this value?
 
-  if (image_index != "")
-  {
-    if (!stringIsValidInteger(image_index, 0, 1000)) // expose this value.
-    {
-      return;
-    }
-  }
-
-  imagePath = image_path;
-  imageIndex = image_index;
+  create(image_path, image_index);
 }
 
 void ImageEntry::createFromFormatted(std::string entry)
 {
-  if (entry.size() < 3)  return; // require an open bracket, a seperator and a shut bracket.
-  if (std::string(1, entry[0]) != blockOpen) return;
-  if (std::string(1, entry.back()) != blockShut) return;
-  if (static_cast<int> (entry.find(seperator)) == -1) return;
+  // require an open bracket, a seperator and a shut bracket.
+  if (entry.size() < 3 || entry[0] != blockOpen[0] || entry.back() != blockShut[0] || stringContains(entry, seperator)) return;
 
-  create(entry.substr(1).substr(0, entry.find(seperator) - 1),
-         entry.substr(entry.find(seperator) + 1, entry.find(blockShut) - entry.find(seperator) - 1));
-}
-
-bool ImageEntry::isValid()
-{
-  return (imagePath != "" && imageIndex != "");
-}
-
-std::string ImageEntry::getFormatted() const
-{
-  return (blockOpen + imagePath + seperator + imageIndex + blockShut);
+  int seperatorPosition = entry.find(seperator);
+  createFromData(
+    entry.substr(1, seperatorPosition - 1),
+    entry.substr(seperatorPosition + 1, entry.size() - seperatorPosition - 2));
 }
 
 std::string ImageEntry::getImagePath() const
@@ -59,4 +41,22 @@ std::string ImageEntry::getImagePath() const
 std::string ImageEntry::getImageIndex() const
 {
   return imageIndex;
+}
+
+std::string ImageEntry::getFormatted() const
+{
+  return (blockOpen + imagePath + seperator + imageIndex + blockShut);
+}
+
+bool ImageEntry::isValid()
+{
+  return (imagePath != "" && imageIndex != "");
+}
+
+// Private
+
+void ImageEntry::create(std::string image_path, std::string image_index)
+{
+  imagePath = image_path;
+  imageIndex = image_index;
 }

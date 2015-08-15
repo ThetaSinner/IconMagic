@@ -28,17 +28,36 @@
 
 int main(int argc, char **args)
 {
+  ImageEntry image;
+  image.createFromData("musicIcon.ico", "12");
+  if (image.isValid()) std::cout << "Image is valid.\n";
+  else std::cout << "Image invalid.\n";
+  std::cout << image.getImagePath() << "\n";
+  std::cout << image.getImageIndex() << "\n";
+
+  ExtensionHistory extensionHistory;
+  extensionHistory.createFromData(".bat", image);
+  if (extensionHistory.isValid()) std::cout << "valid.\n";
+  else std::cout << "Invalid\n";
+  std::cout << extensionHistory.getExtensionName() << "\n";
+
   RegistryHistory r;
-  r.setHistoryFileName(".\\sol.txt");
-  r.add(".bat", "musicIcon.ico", "4");
-  r.update(".bat", "musicIcon.ico", "12");
-  r.add(".mp3", "musicIcon.ico", "3");
+  r.setHistoryFileName("sol.txt");
+  r.push(".bat", "musicIcon.ico", "4");
+  r.push(".bat", "musicIcon.ico", "12");
+  r.push(".mp3", "musicIcon.ico", "3");
+  std::cout << r.getRegString(".bat") << "\n";
   r.writeHistory();
+
   RegistryHistory s;
-  s.setHistoryFileName(".\\sol.txt");
-  r.readHistory();
-  r.setHistoryFileName(".\\sol2.txt");
-  r.writeHistory();
+  s.setHistoryFileName("sol.txt");
+  s.readHistory();
+  s.setHistoryFileName("sol2.txt");
+  s.writeHistory();
+
+  std::cin.get();
+  return 0;
+
   /*
   int totalTestsRun_RegistryHistory = 0;
   int totalTestsRunSuccessfully_RegistryHistory = 0;

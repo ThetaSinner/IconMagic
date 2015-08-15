@@ -12,16 +12,21 @@ public:
 
   ImageEntry();
 
-  void create(std::string image_path, std::string image_index);
+  // Create
+  void createFromData(std::string image_path, std::string image_index);
   void createFromFormatted(std::string entry);
 
-  bool isValid();
-
+  // Read
   std::string getImagePath() const;
   std::string getImageIndex() const;
   std::string getFormatted() const;
 
+  // Other
+  bool isValid();
+
 private:
+  void create(std::string image_path, std::string image_index);
+
   std::string imagePath;
   std::string imageIndex;
 };

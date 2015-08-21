@@ -154,6 +154,18 @@ bool RegistryHistory::pop(std::string extension_name)
   return false;
 }
 
+void RegistryHistory::deleteExtension(std::string extension_name)
+{
+  for (std::vector<ExtensionHistory>::iterator i = history.begin(); i != history.end(); i++)
+  {
+    if (i -> getExtensionName() == extension_name)
+    {
+      history.erase(i);
+      break;
+    }
+  }
+}
+
 std::string RegistryHistory::getPath(std::string extension_name)
 {
   return getLast(extension_name).getImagePath();

@@ -1,0 +1,4 @@
+.bat
+[musicIcon.ico,4][musicIcon.ico,12]
+.pdf
+[musicIcon.ico,54]

@@ -22,7 +22,7 @@ public:
   bool push(std::string extension_name, std::string image_name, std::string image_index);
   bool pop(std::string extension_name);
 
-  void WHYAREYOUCALLINGME_DELETEFROMREGISTRY();
+  void deleteExtension(std::string extension_name);
 
   std::string getPath(std::string extension_name);
   std::string getIndex(std::string extension_name);

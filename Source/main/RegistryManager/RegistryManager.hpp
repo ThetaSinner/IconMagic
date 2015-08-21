@@ -14,7 +14,7 @@
 #include <iostream>
 #include <fstream>
 
-class RegistyManager
+class RegistryManager
 {
   /// Notes
 
@@ -32,7 +32,7 @@ class RegistyManager
   // if there's no cache then read the registry, and create one
   // otherwise just load the cache
 
-  // option to reload the cache (csv cache)
+  // option to reload the cache
 
   // basic matching to lookup existing entries from the loaded cache
   // dynamic menu displays for each file type
@@ -69,7 +69,11 @@ class RegistyManager
   //  - remove this file type from the registry (not recommended)
   //  - back to main menu
 
+public:
+  void cacheBuild();
 
+private:
+  // need an internal file manager to decide where to write, or where to read from.
 };
 
 #endif // REGISTYMANAGER_HPP_INCLUDED

@@ -22,11 +22,18 @@ set(MAIN_FILES
     ${SOURCE_DIRECTORY}/main/RegistryHistory/RegistryHistory.hpp
     ${SOURCE_DIRECTORY}/main/RegistryHistory/RegistryHistory.cpp
     
+    ${SOURCE_DIRECTORY}/main/RegistryScanner/KeyPath.hpp
+    ${SOURCE_DIRECTORY}/main/RegistryScanner/KeyPath.cpp
+    ${SOURCE_DIRECTORY}/main/RegistryScanner/ScanTool.hpp
+    ${SOURCE_DIRECTORY}/main/RegistryScanner/ScanTool.cpp
+    ${SOURCE_DIRECTORY}/main/RegistryScanner/RegistryScanner.hpp
+    ${SOURCE_DIRECTORY}/main/RegistryScanner/RegistryScanner.cpp   
+    ${SOURCE_DIRECTORY}/main/RegistryManager/RegistryManager.hpp    
+    ${SOURCE_DIRECTORY}/main/RegistryManager/RegistryManager.cpp
+
     ${SOURCE_DIRECTORY}/main/Util.hpp
     ${SOURCE_DIRECTORY}/main/Util.cpp
 
-    ${SOURCE_DIRECTORY}/${MAIN}/RegistryManager.hpp
-    ${SOURCE_DIRECTORY}/${MAIN}/RegistryManager.cpp
     ${SOURCE_DIRECTORY}/${MAIN}/SystemValidation.hpp
     ${SOURCE_DIRECTORY}/${MAIN}/SystemValidation.cpp
     ${SOURCE_DIRECTORY}/${MAIN}/TextUI.hpp

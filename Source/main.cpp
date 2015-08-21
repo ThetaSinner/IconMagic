@@ -28,24 +28,15 @@
 
 int main(int argc, char **args)
 {
-  ImageEntry image;
-  image.createFromData("musicIcon.ico", "12");
-  if (image.isValid()) std::cout << "Image is valid.\n";
-  else std::cout << "Image invalid.\n";
-  std::cout << image.getImagePath() << "\n";
-  std::cout << image.getImageIndex() << "\n";
-
-  ExtensionHistory extensionHistory;
-  extensionHistory.createFromData(".bat", image);
-  if (extensionHistory.isValid()) std::cout << "valid.\n";
-  else std::cout << "Invalid\n";
-  std::cout << extensionHistory.getExtensionName() << "\n";
-
   RegistryHistory r;
   r.setHistoryFileName("sol.txt");
   r.push(".bat", "musicIcon.ico", "4");
   r.push(".bat", "musicIcon.ico", "12");
   r.push(".mp3", "musicIcon.ico", "3");
+  r.push(".pdf", "musicIcon.ico", "54");
+  r.deleteExtension(".mp3");
+  r.deleteExtension(".mp3");
+  r.deleteExtension(".7z");
   std::cout << r.getRegString(".bat") << "\n";
   r.writeHistory();
 

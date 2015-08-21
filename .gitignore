@@ -10,3 +10,5 @@ doxygen/*
 # CMake build is generated for my computer
 CMakeBuild
 CMakeBuild/*
+
+App/*.ico

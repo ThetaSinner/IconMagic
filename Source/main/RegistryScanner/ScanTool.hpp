@@ -14,6 +14,8 @@ class ScanTool
 {
 public:
   static const std::map<std::string, HKEY> predefinedRootKeys;
+  static const int UNLIMITED_RECURSION_DEPTH;
+  static const int UNLIMITED_MATCHES;
 
   std::vector<std::pair<KeyPath, std::string>> simpleSearch(
     std::string root_key_name,
@@ -29,9 +31,9 @@ private:
     HKEY root_key,
     std::string key_name,
     std::string value_name,
-    int remaining_recursion_depth,
-    int remaining_items_to_search_for,
-    KeyPath key_path
+    KeyPath key_path,
+    int remaining_recursion_depth = -1,
+    int remaining_items_to_search_for = -1
   );
 
   void openKeyForEnumeration(HKEY root_key, HKEY &h_key, std::string path = "");

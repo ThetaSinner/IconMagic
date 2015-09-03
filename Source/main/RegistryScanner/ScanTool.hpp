@@ -13,17 +13,19 @@
 class ScanTool
 {
 public:
-  static const std::map<std::string, HKEY> predefinedRootKeys;
+  static const std::map<std::string, HKEY> PREDEFINED_ROOT_KEYS;
   static const int UNLIMITED_RECURSION_DEPTH;
   static const int UNLIMITED_MATCHES;
 
   std::vector<std::pair<KeyPath, std::string>> simpleSearch(
     std::string root_key_name,
-    std::string key_name,
+    std::string search_key_name,
     std::string value_name,
     int maximum_recursion_depth,
     int maximum_items_to_search_for
   );
+
+  bool testRootKeyNameValid(std::string root_key_name);
 
 private:
 

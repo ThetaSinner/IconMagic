@@ -26,8 +26,36 @@
 #include <sstream>
 #include <fstream>
 
+#include "./main/RegistryScanner/KeyPath.hpp"
+#include "./main/RegistryScanner/ScanTool.hpp"
+
 int main(int argc, char **args)
 {
+  KeyPath keys("HKEY_CLASSES_ROOT");
+  keys.append(".bat");
+  keys.append("DefaultIcon");
+  std::cout << keys.toString() << std::endl;
+
+  ScanTool scanner;
+  std::vector<std::pair<KeyPath, std::string>> values = scanner.simpleSearch(
+    "HKEY_CLASSES_ROOT",
+    "DefaultIcon",
+    "(Default)",
+    2,
+    ScanTool::UNLIMITED_MATCHES
+  );
+
+  std::ofstream writer("./regout.txt");
+  for (auto i : values)
+  {
+    writer << i.first.toString() << " " << i.second << "\n";
+  }
+  writer.close();
+
+  std::cin.get();
+  return 0;
+
+  /*
   RegistryHistory r;
   r.setHistoryFileName("sol.txt");
   r.push(".bat", "musicIcon.ico", "4");
@@ -48,7 +76,7 @@ int main(int argc, char **args)
 
   std::cin.get();
   return 0;
-
+  */
   /*
   int totalTestsRun_RegistryHistory = 0;
   int totalTestsRunSuccessfully_RegistryHistory = 0;

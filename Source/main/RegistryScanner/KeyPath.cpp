@@ -15,11 +15,6 @@ void KeyPath::append(std::string key_name)
   keyNames.push_back(key_name);
 }
 
-std::string KeyPath::getRootKeyName()
-{
-  return (getPathLength() ? keyNames[0] : "");
-}
-
 int KeyPath::getPathLength()
 {
   return keyNames.size();
@@ -27,5 +22,17 @@ int KeyPath::getPathLength()
 
 std::string KeyPath::getKeyName(int index)
 {
-  return (index < getPathLength() ? keyNames[index] : "");
+  return (0 <= index && index < getPathLength() ? keyNames[index] : "");
+}
+
+std::string KeyPath::toString()
+{
+  std::string path = "";
+  for (int i = 0; i < keyNames.size(); i++)
+  {
+    path += getKeyName(i) + "/";
+  }
+  path.pop_back();
+
+  return path;
 }

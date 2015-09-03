@@ -7,16 +7,15 @@
 class KeyPath
 {
 public:
-  KeyPath() {}
   KeyPath(std::string key_name);
   KeyPath(const KeyPath& kp);
 
   void append(std::string key_name);
 
-  std::string getRootKeyName();
-
   int getPathLength();
   std::string getKeyName(int index);
+
+  std::string toString();
 private:
   std::vector<std::string> keyNames;
 };

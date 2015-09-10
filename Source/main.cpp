@@ -36,24 +36,24 @@ int main(int argc, char **args)
     std::vector<std::pair<KeyPath, std::string>> values = scanner.simpleSearch(
       "classes_root",
       "DefaultIcon",
-      "(Default)",
-      2,
-      10
+      "",
+      ScanTool::UNLIMITED_RECURSION_DEPTH,
+      ScanTool::UNLIMITED_MATCHES
     );
-
-    std::cout << "Done with registry, writing results to file.\n";
 
     std::ofstream writer("./regout.txt");
     for (auto i : values)
     {
-      writer << i.first.toString() << " " << i.second << "\n";
+      writer << i.first.toString() << " " << i.second << " " << i.first.getPathLength() << "\n";
     }
+    writer << "\nFound " << values.size() << " matches.\n";
     writer.close();
 
   } catch (const RegistryScanException &e) {
     std::cout << "Scan terminating with message : " << e.what() << std::endl;
   }
 
+  std::cout << "Done. Press enter to exit. ";
   std::cin.get();
   return 0;
 

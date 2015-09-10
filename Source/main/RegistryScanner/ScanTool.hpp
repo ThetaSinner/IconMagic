@@ -10,6 +10,21 @@
 
 #include "./KeyPath.hpp"
 
+#include <exception>
+
+class RegistryScanException : public std::exception
+{
+public:
+  std::string err = "Unknown failure.";
+
+  RegistryScanException(std::string msg) {err = msg;}
+
+  virtual const char* what() const throw()
+  {
+    return err.c_str();
+  }
+};
+
 class ScanTool
 {
 public:
@@ -31,7 +46,7 @@ private:
 
   std::vector<std::pair<KeyPath, std::string>> depthFirstSearch(
     HKEY root_key,
-    std::string key_name,
+    std::string search_key_name,
     std::string value_name,
     KeyPath key_path,
     int remaining_recursion_depth = -1,

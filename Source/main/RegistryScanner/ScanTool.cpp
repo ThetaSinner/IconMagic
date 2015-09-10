@@ -1,6 +1,6 @@
 #include "./ScanTool.hpp"
 
-#include <exception>
+#include <iostream>
 
 const std::map<std::string, HKEY> ScanTool::PREDEFINED_ROOT_KEYS = {
   {"classes_root", HKEY_CLASSES_ROOT},
@@ -8,19 +8,6 @@ const std::map<std::string, HKEY> ScanTool::PREDEFINED_ROOT_KEYS = {
   {"current_user", HKEY_CURRENT_USER},
   {"local_machine", HKEY_LOCAL_MACHINE},
   {"users", HKEY_USERS}
-};
-
-class registryScanException : public std::exception
-{
-public:
-  std::string err = "Unknown failure.";
-
-  registryScanException(std::string msg) {err = msg;}
-
-  virtual const char* what() const throw()
-  {
-    return err.c_str();
-  }
 };
 
 const int ScanTool::UNLIMITED_RECURSION_DEPTH = -7;
@@ -38,14 +25,14 @@ std::vector<std::pair<KeyPath, std::string>> ScanTool::simpleSearch(
     (maximum_recursion_depth < 0 && maximum_recursion_depth != ScanTool::UNLIMITED_RECURSION_DEPTH) ||
     (maximum_items_to_search_for < 1 && maximum_items_to_search_for != ScanTool::UNLIMITED_MATCHES)
   ) {
-    throw new registryScanException("Invalid input(s) for search limitation.");
+    throw RegistryScanException("Invalid input(s) for search limitation.");
   }
 
   // Check the requested root key has a predefined pair.
   std::map<std::string, HKEY>::const_iterator keySearch = PREDEFINED_ROOT_KEYS.find(root_key_name);
   if (keySearch == PREDEFINED_ROOT_KEYS.end())
   {
-    throw new registryScanException("Requested root key does not exist.");
+    throw RegistryScanException("Requested root key does not exist.");
   }
   HKEY searchRoot = keySearch -> second;
 
@@ -53,8 +40,9 @@ std::vector<std::pair<KeyPath, std::string>> ScanTool::simpleSearch(
   HKEY hSearchRoot = NULL;
   try {
     openKeyForEnumeration(searchRoot, hSearchRoot);
-  } catch (registryScanException e) { // new type needed here.
+  } catch (const RegistryScanException &e) { // new type needed here.
     // TODO log
+    std::cout << "Open root key for enumeration : " << e.what() << "\n";
     throw e;
   }
 
@@ -69,8 +57,9 @@ std::vector<std::pair<KeyPath, std::string>> ScanTool::simpleSearch(
       keyPath,
       maximum_recursion_depth,
       maximum_items_to_search_for);
-  } catch (registryScanException e) {
+  } catch (const RegistryScanException &e) {
     // TODO log
+    std::cout << "DFS failed : " << e.what() << "\n";
     RegCloseKey(hSearchRoot);
     throw e;
   }
@@ -86,12 +75,14 @@ bool ScanTool::testRootKeyNameValid(std::string root_key_name)
 
 std::vector<std::pair<KeyPath, std::string>> ScanTool::depthFirstSearch(
   HKEY root_key,
-  std::string key_name,
+  std::string search_key_name,
   std::string value_name,
   KeyPath key_path,
   int remaining_recursion_depth,
   int remaining_items_to_search_for)
 {
+  std::cout << "\n\n";
+
   // Don't go any deeper on this branch.
   if (remaining_recursion_depth < 0 && remaining_recursion_depth != ScanTool::UNLIMITED_RECURSION_DEPTH)
   {
@@ -111,12 +102,12 @@ std::vector<std::pair<KeyPath, std::string>> ScanTool::depthFirstSearch(
     {
       break;
     }
-    else if (nextKeyName == key_name)
+    else if (nextKeyName == search_key_name)
     {
       KeyPath subKeyPath = KeyPath(key_path);
       subKeyPath.append(nextKeyName);
 
-      results.push_back(std::pair<KeyPath, std::string> (subKeyPath, "value"));
+      results.push_back(std::pair<KeyPath, std::string> (subKeyPath, "value")); // TODO default value
 
       break;
     }
@@ -130,7 +121,7 @@ std::vector<std::pair<KeyPath, std::string>> ScanTool::depthFirstSearch(
 
       std::vector<std::pair<KeyPath, std::string>> partResult = depthFirstSearch(
         nextKey,
-        key_name,
+        search_key_name,
         value_name,
         subKeyPath,
         remaining_recursion_depth - 1,
@@ -140,15 +131,18 @@ std::vector<std::pair<KeyPath, std::string>> ScanTool::depthFirstSearch(
       bool stopNow = false;
       for (auto r : partResult)
       {
-        if (remaining_items_to_search_for < 1 && remaining_items_to_search_for != ScanTool::UNLIMITED_MATCHES)
+        if (remaining_items_to_search_for != ScanTool::UNLIMITED_MATCHES)
         {
-          stopNow = true;
-          break;
+          if (remaining_items_to_search_for < 1)
+          {
+            stopNow = true;
+            break;
+          }
+
+          remaining_items_to_search_for--;
         }
 
         results.push_back(r);
-
-        remaining_items_to_search_for--;
       }
 
       if (stopNow) break;
@@ -157,6 +151,8 @@ std::vector<std::pair<KeyPath, std::string>> ScanTool::depthFirstSearch(
       keyIndex++;
     }
   }
+
+  return results;
 }
 
 void ScanTool::openKeyForEnumeration(HKEY root_key, HKEY &h_key, std::string path)
@@ -171,13 +167,13 @@ void ScanTool::openKeyForEnumeration(HKEY root_key, HKEY &h_key, std::string pat
 
    if (status != ERROR_SUCCESS)
    {
-     throw new registryScanException("Failed to open key for enumeration.");
+     throw RegistryScanException("Failed to open key for enumeration.");
    }
 }
 
 void ScanTool::getSubKeyN(const HKEY &root_key, std::string *key_name, int n)
 {
-  DWORD bufferSize = 500; // you can determine this dynamically - RegQueryInfoKey
+  DWORD bufferSize = 5000; // you can determine this dynamically - RegQueryInfoKey
   char buffer[(int) bufferSize];
 
   DWORD subKeyState = RegEnumKeyEx(
@@ -201,7 +197,7 @@ void ScanTool::getSubKeyN(const HKEY &root_key, std::string *key_name, int n)
   }
   else
   {
-    throw new registryScanException("Failed to open nth subkey.");
+    throw RegistryScanException("Failed to open nth subkey.");
   }
 }
 

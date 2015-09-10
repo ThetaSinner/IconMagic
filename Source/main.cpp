@@ -31,26 +31,28 @@
 
 int main(int argc, char **args)
 {
-  KeyPath keys("HKEY_CLASSES_ROOT");
-  keys.append(".bat");
-  keys.append("DefaultIcon");
-  std::cout << keys.toString() << std::endl;
-
   ScanTool scanner;
-  std::vector<std::pair<KeyPath, std::string>> values = scanner.simpleSearch(
-    "HKEY_CLASSES_ROOT",
-    "DefaultIcon",
-    "(Default)",
-    2,
-    ScanTool::UNLIMITED_MATCHES
-  );
+  try {
+    std::vector<std::pair<KeyPath, std::string>> values = scanner.simpleSearch(
+      "classes_root",
+      "DefaultIcon",
+      "(Default)",
+      2,
+      10
+    );
 
-  std::ofstream writer("./regout.txt");
-  for (auto i : values)
-  {
-    writer << i.first.toString() << " " << i.second << "\n";
+    std::cout << "Done with registry, writing results to file.\n";
+
+    std::ofstream writer("./regout.txt");
+    for (auto i : values)
+    {
+      writer << i.first.toString() << " " << i.second << "\n";
+    }
+    writer.close();
+
+  } catch (const RegistryScanException &e) {
+    std::cout << "Scan terminating with message : " << e.what() << std::endl;
   }
-  writer.close();
 
   std::cin.get();
   return 0;

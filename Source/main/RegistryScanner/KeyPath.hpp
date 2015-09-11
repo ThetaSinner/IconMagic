@@ -10,7 +10,7 @@ public:
   KeyPath(std::string key_name);
   KeyPath(const KeyPath& kp);
 
-  void append(std::string key_name);
+  KeyPath& append(std::string key_name);
 
   int getPathLength();
   std::string getKeyName(int index);

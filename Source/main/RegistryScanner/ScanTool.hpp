@@ -37,7 +37,7 @@ public:
   std::vector<std::pair<KeyPath, std::string>> simpleSearch(
     std::string root_key_name,
     std::string search_key_name,
-    std::string value_name,
+    std::string search_value_name,
     int maximum_recursion_depth,
     int maximum_items_to_search_for
   );
@@ -64,7 +64,9 @@ private:
   void openKeyForEnumeration(HKEY root_key, HKEY &h_key, std::string path = "");
   void getSubKeyN(const HKEY &root_key, std::string *key_name, int n);
   void getValueFromKey(HKEY &key, std::string value_name, std::string *key_value);
+
   HKEY resolveNameToKey(std::string &name);
+  bool testRecursionRestrictionsValid(int maximum_recursion_depth, int maximum_items_to_search_for);
 };
 
 #endif

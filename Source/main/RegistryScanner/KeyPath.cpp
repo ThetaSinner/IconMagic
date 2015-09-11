@@ -10,9 +10,10 @@ KeyPath::KeyPath(const KeyPath& kp)
   this -> keyNames = std::vector<std::string>(kp.keyNames);
 }
 
-void KeyPath::append(std::string key_name)
+KeyPath& KeyPath::append(std::string key_name)
 {
   keyNames.push_back(key_name);
+  return *this;
 }
 
 int KeyPath::getPathLength()

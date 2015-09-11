@@ -37,8 +37,8 @@ int main(int argc, char **args)
       "classes_root",
       "DefaultIcon",
       "",
-      ScanTool::UNLIMITED_RECURSION_DEPTH,
-      ScanTool::UNLIMITED_MATCHES
+      2,
+      15
     );
 
     std::ofstream writer("./regout.txt");

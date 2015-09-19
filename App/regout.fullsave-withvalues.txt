@@ -1,0 +1,1400 @@
+HKEY_CLASSES_ROOT/Access/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\MSACCESS.EXE,0 3
+HKEY_CLASSES_ROOT/Access.ACCDAExtension.15/DefaultIcon "C:\Program Files\Microsoft Office 15\Root\Office15\ACCICONS.EXE",40 3
+HKEY_CLASSES_ROOT/Access.ACCDCFile.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\accicons.exe,61 3
+HKEY_CLASSES_ROOT/Access.ACCDEFile.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\accicons.exe,44 3
+HKEY_CLASSES_ROOT/Access.ACCDRFile.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\accicons.exe,44 3
+HKEY_CLASSES_ROOT/Access.ACCDTFile.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\accicons.exe,2 3
+HKEY_CLASSES_ROOT/Access.ACCFTFile.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\accicons.exe,2 3
+HKEY_CLASSES_ROOT/Access.ADEFile.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\accicons.exe,52 3
+HKEY_CLASSES_ROOT/Access.Application.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\accicons.exe,1 3
+HKEY_CLASSES_ROOT/Access.BlankDatabaseTemplate.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\accicons.exe,64 3
+HKEY_CLASSES_ROOT/Access.BlankProjectTemplate.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\accicons.exe,53 3
+HKEY_CLASSES_ROOT/Access.Extension.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\accicons.exe,40 3
+HKEY_CLASSES_ROOT/Access.LockFile.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\MSACCESS.EXE,42 3
+HKEY_CLASSES_ROOT/Access.MDBFile/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\accicons.exe,63 3
+HKEY_CLASSES_ROOT/Access.MDEFile.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\accicons.exe,62 3
+HKEY_CLASSES_ROOT/Access.Project.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\accicons.exe,53 3
+HKEY_CLASSES_ROOT/Access.ShortCut.DataAccessPage.1/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\accicons.exe,49 3
+HKEY_CLASSES_ROOT/Access.ShortCut.Diagram.1/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\accicons.exe,49 3
+HKEY_CLASSES_ROOT/Access.ShortCut.Form.1/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\accicons.exe,7 3
+HKEY_CLASSES_ROOT/Access.Shortcut.Function.1/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\accicons.exe,60 3
+HKEY_CLASSES_ROOT/Access.ShortCut.Macro.1/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\accicons.exe,9 3
+HKEY_CLASSES_ROOT/Access.ShortCut.Module.1/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\accicons.exe,10 3
+HKEY_CLASSES_ROOT/Access.ShortCut.Query.1/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\accicons.exe,6 3
+HKEY_CLASSES_ROOT/Access.ShortCut.Report.1/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\accicons.exe,8 3
+HKEY_CLASSES_ROOT/Access.ShortCut.StoredProcedure.1/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\accicons.exe,50 3
+HKEY_CLASSES_ROOT/Access.ShortCut.Table.1/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\accicons.exe,5 3
+HKEY_CLASSES_ROOT/Access.ShortCut.View.1/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\accicons.exe,6 3
+HKEY_CLASSES_ROOT/Access.UriLink.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\MSACCESS.EXE,0 3
+HKEY_CLASSES_ROOT/Access.WebApplicationReference.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\accicons.exe,65 3
+HKEY_CLASSES_ROOT/Access.WizardDataFile.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\accicons.exe,41 3
+HKEY_CLASSES_ROOT/Access.WizardUserDataFile.15/DefaultIcon "C:\Program Files\Microsoft Office 15\Root\Office15\ACCICONS.EXE",41 3
+HKEY_CLASSES_ROOT/Access.Workgroup.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\accicons.exe,43 3
+HKEY_CLASSES_ROOT/accesshtmlfile/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\accicons.exe,58 3
+HKEY_CLASSES_ROOT/accessthmltemplate/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\accicons.exe,59 3
+HKEY_CLASSES_ROOT/accountpicturefile/DefaultIcon %SystemRoot%\System32\imageres.dll,-5203 3
+HKEY_CLASSES_ROOT/ACLFile/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\ProgramFilesCommonX86\Microsoft Shared\OFFICE15\MSOICONS.EXE,6 3
+HKEY_CLASSES_ROOT/acrobat/DefaultIcon C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroRd32.exe 3
+HKEY_CLASSES_ROOT/AcroExch.acrobatsecuritysettings.1/DefaultIcon C:\Windows\Installer\{AC76BA86-7AD7-1033-7B44-AC0F074E4100}\PDFFile_8.ico,0 3
+HKEY_CLASSES_ROOT/AcroExch.Document.DC/DefaultIcon C:\Windows\Installer\{AC76BA86-7AD7-1033-7B44-AC0F074E4100}\PDFFile_8.ico,0 3
+HKEY_CLASSES_ROOT/AcroExch.FDFDoc/DefaultIcon C:\Windows\Installer\{AC76BA86-7AD7-1033-7B44-AC0F074E4100}\FDFFile_8.ico,0 3
+HKEY_CLASSES_ROOT/AcroExch.pdfxml.1/DefaultIcon C:\Windows\Installer\{AC76BA86-7AD7-1033-7B44-AC0F074E4100}\PDFFile_8.ico,0 3
+HKEY_CLASSES_ROOT/AcroExch.Plugin/DefaultIcon C:\Windows\Installer\{AC76BA86-7AD7-1033-7B44-AC0F074E4100}\APIFile_8.ico,0 3
+HKEY_CLASSES_ROOT/AcroExch.SecStore/DefaultIcon C:\Windows\Installer\{AC76BA86-7AD7-1033-7B44-AC0F074E4100}\SecStoreFile.ico,0 3
+HKEY_CLASSES_ROOT/AcroExch.XDPDoc/DefaultIcon C:\Windows\Installer\{AC76BA86-7AD7-1033-7B44-AC0F074E4100}\XDPFile_8.ico,0 3
+HKEY_CLASSES_ROOT/AcroExch.XFDFDoc/DefaultIcon C:\Windows\Installer\{AC76BA86-7AD7-1033-7B44-AC0F074E4100}\XFDFFile_8.ico,0 3
+HKEY_CLASSES_ROOT/Adobe.Illustrator.16/DefaultIcon D:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Support Files\Contents\Windows\Illustrator.exe,1 3
+HKEY_CLASSES_ROOT/Adobe.Illustrator.16/.sbx/DefaultIcon D:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Support Files\Contents\Windows\Illustrator.exe,8 4
+HKEY_CLASSES_ROOT/Adobe.Illustrator.16/.prf/DefaultIcon D:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Support Files\Contents\Windows\Illustrator.exe,3 4
+HKEY_CLASSES_ROOT/Adobe.Illustrator.16/.hyp/DefaultIcon D:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Support Files\Contents\Windows\Illustrator.exe,4 4
+HKEY_CLASSES_ROOT/Adobe.Illustrator.16/.flt/DefaultIcon D:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Support Files\Contents\Windows\Illustrator.exe,6 4
+HKEY_CLASSES_ROOT/Adobe.Illustrator.16/.eps/DefaultIcon D:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Support Files\Contents\Windows\Illustrator.exe,2 4
+HKEY_CLASSES_ROOT/Adobe.Illustrator.16/.dct/DefaultIcon D:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Support Files\Contents\Windows\Illustrator.exe,7 4
+HKEY_CLASSES_ROOT/Adobe.Illustrator.16/.ase/DefaultIcon D:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Support Files\Contents\Windows\Illustrator.exe,20 4
+HKEY_CLASSES_ROOT/Adobe.Illustrator.16/.aip/DefaultIcon D:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Support Files\Contents\Windows\Illustrator.exe,5 4
+HKEY_CLASSES_ROOT/Adobe.Illustrator.16/.aia/DefaultIcon D:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Support Files\Contents\Windows\Illustrator.exe,10 4
+HKEY_CLASSES_ROOT/Adobe.Illustrator.16/.ai/DefaultIcon D:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Support Files\Contents\Windows\Illustrator.exe,1 4
+HKEY_CLASSES_ROOT/Adobe.Illustrator.16/.8bi/DefaultIcon D:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Support Files\Contents\Windows\Illustrator.exe,9 4
+HKEY_CLASSES_ROOT/Adobe.Illustrator.16/.8bf/DefaultIcon D:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Support Files\Contents\Windows\Illustrator.exe,9 4
+HKEY_CLASSES_ROOT/Adobe.Illustrator.Action/DefaultIcon D:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Support Files\Contents\Windows\Illustrator.exe,10 3
+HKEY_CLASSES_ROOT/Adobe.Illustrator.ColorBook/DefaultIcon D:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Support Files\Contents\Windows\Illustrator.exe,22 3
+HKEY_CLASSES_ROOT/Adobe.Illustrator.Dictionary/DefaultIcon D:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Support Files\Contents\Windows\Illustrator.exe,7 3
+HKEY_CLASSES_ROOT/Adobe.Illustrator.EPS/DefaultIcon D:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Support Files\Contents\Windows\Illustrator.exe,2 3
+HKEY_CLASSES_ROOT/Adobe.Illustrator.Filter/DefaultIcon D:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Support Files\Contents\Windows\Illustrator.exe,6 3
+HKEY_CLASSES_ROOT/Adobe.Illustrator.Hyphen/DefaultIcon D:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Support Files\Contents\Windows\Illustrator.exe,4 3
+HKEY_CLASSES_ROOT/Adobe.Illustrator.Plugin/DefaultIcon D:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Support Files\Contents\Windows\Illustrator.exe,5 3
+HKEY_CLASSES_ROOT/Adobe.Illustrator.SwatchExchange/DefaultIcon D:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Support Files\Contents\Windows\Illustrator.exe,20 3
+HKEY_CLASSES_ROOT/Adobe.Illustrator.Tsume/DefaultIcon D:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Support Files\Contents\Windows\Illustrator.exe,8 3
+HKEY_CLASSES_ROOT/Adobe.Photoshop.Plugin/DefaultIcon D:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Support Files\Contents\Windows\Illustrator.exe,22 3
+HKEY_CLASSES_ROOT/AIR.InstallerPackage/DefaultIcon C:\PROGRA~2\COMMON~1\ADOBEA~1\Versions\1.0\ADOBEA~1.EXE,1 3
+HKEY_CLASSES_ROOT/AlienFX.Theme/DefaultIcon C:\Windows\Installer\{1D1EA0D3-3E49-4F6F-A354-639BF108F2EC}\_AD1B79E3_4A40_4A77_905F_DD25B4881735,0 3
+HKEY_CLASSES_ROOT/Amazon.Kindle.content/DefaultIcon C:\Users\Gregory\AppData\Local\Amazon\Kindle\application\KindleBook.ico 3
+HKEY_CLASSES_ROOT/Amazon.Kindle.magazine.content/DefaultIcon C:\Users\Gregory\AppData\Local\Amazon\Kindle\application\KindleMagazine.ico 3
+HKEY_CLASSES_ROOT/Amazon.Kindle.newspaper.content/DefaultIcon C:\Users\Gregory\AppData\Local\Amazon\Kindle\application\KindleNewspaper.ico 3
+HKEY_CLASSES_ROOT/anifile/DefaultIcon %1 3
+HKEY_CLASSES_ROOT/Application.Manifest/DefaultIcon C:\Windows\System32\dfshim.dll,1 3
+HKEY_CLASSES_ROOT/Applications/wmplayer.exe/DefaultIcon %SystemRoot%\system32\wmploc.dll,-730 4
+HKEY_CLASSES_ROOT/Applications/licensemanagershellext.exe/DefaultIcon C:\Windows\System32\licensemanagershellext.exe,-1 4
+HKEY_CLASSES_ROOT/AppX04g0mbrz4mkc6e879rpf6qk6te730jfv/DefaultIcon @{Microsoft.XboxApp_8.8.15003.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.XboxApp/Files/Assets/GamesXboxHubAppList.png} 3
+HKEY_CLASSES_ROOT/AppX0resaq7r5ermbh4b96ke39yqc1atfhjr/DefaultIcon @{Microsoft.People_1.10241.0.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.People/Files/Assets/PeopleAppList.png} 3
+HKEY_CLASSES_ROOT/AppX0tpyb0rrce378ngbgrsmeey1qd9k2f3t/DefaultIcon @{Microsoft.BingNews_4.5.168.0_x86__8wekyb3d8bbwe?ms-resource://Microsoft.BingNews/Files/Assets/AppTiles/News_LogoSmall.png} 3
+HKEY_CLASSES_ROOT/AppX333jbhpaq2hjpyd097614409g4kz15cw/DefaultIcon @{Microsoft.Office.OneNote_17.6131.10021.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Office.OneNote/Files/images/OneNoteAppList.png} 3
+HKEY_CLASSES_ROOT/AppX33k30fsgmfhnzmk0nv1xqcwrsg1ehks1/DefaultIcon @{Microsoft.WindowsStore_2015.8.25.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsStore/Files/Assets/StoreAppList.png} 3
+HKEY_CLASSES_ROOT/AppX3p914qnpgw4hwj856jw2y286v7d4qnzh/DefaultIcon @{Microsoft.Windows.CloudExperienceHost_10.0.10240.16384_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.CloudExperienceHost/Files/images/SmallLogo.png} 3
+HKEY_CLASSES_ROOT/AppX43hnxtbyyps62jhe9sqpdzxn1790zetc/DefaultIcon @{Microsoft.Windows.Photos_15.827.16340.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Windows.Photos/Files/Assets/PhotosLogoExtensions.png} 3
+HKEY_CLASSES_ROOT/AppX459h97t0fkhwc4qhs0anhhpxv8efrcqs/DefaultIcon @{Windows.ContactSupport_10.0.10240.16384_neutral_neutral_cw5n1h2txyewy?ms-resource://Windows.ContactSupport/Files/Assets/TinyTile.png} 3
+HKEY_CLASSES_ROOT/AppX47jwqdafzcxw9wm0mbb5cev2eav5b1je/DefaultIcon @{Microsoft.Windows.Photos_15.827.16340.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Windows.Photos/Files/Assets/PhotosLogoExtensions.png} 3
+HKEY_CLASSES_ROOT/AppX4hxtad77fbk3jkkeerkrm0ze94wjf3s9/DefaultIcon @{Microsoft.MicrosoftEdge_20.10240.16384.0_neutral__8wekyb3d8bbwe?ms-resource://Microsoft.MicrosoftEdge/Files/Assets/MicrosoftEdgeFile.png} 3
+HKEY_CLASSES_ROOT/AppX4jbzrhvphxte25e0gxha6bq555nrgqzy/DefaultIcon @{Microsoft.XboxGameCallableUI_1000.10240.16384.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.XboxGameCallableUI/Files/Assets/SmallLogo.png} 3
+HKEY_CLASSES_ROOT/AppX4qfj5jrj259psn161698pvjhwcyjrsq5/DefaultIcon @{Microsoft.WindowsStore_2015.8.25.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsStore/Files/Assets/StoreAppList.png} 3
+HKEY_CLASSES_ROOT/AppX4w9f5t2xcjfqfr8f90sgf8sdqxg2t7dd/DefaultIcon @{Microsoft.BingWeather_4.5.168.0_x86__8wekyb3d8bbwe?ms-resource://Microsoft.BingWeather/Files/Assets/AppTiles/Weather_LogoSmall.png} 3
+HKEY_CLASSES_ROOT/AppX5sy1gww9q4g2gt941cdxxd7s07xe5vph/DefaultIcon @{Microsoft.WindowsSoundRecorder_10.1507.7010.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsSoundRecorder/Files/Assets/VoiceRecorderLogoExtensions.png} 3
+HKEY_CLASSES_ROOT/AppX5xf4t9nq2ec03pwtpzx4pcyatjkzbzhs/DefaultIcon @{Microsoft.BingWeather_4.5.168.0_x86__8wekyb3d8bbwe?ms-resource://Microsoft.BingWeather/Files/Assets/AppTiles/Weather_LogoSmall.png} 3
+HKEY_CLASSES_ROOT/AppX6eg8h5sxqq90pv53845wmnbewywdqq5h/DefaultIcon @{Microsoft.ZuneVideo_3.6.12711.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.ZuneVideo/Files/Assets/FileExtension.png} 3
+HKEY_CLASSES_ROOT/AppX6p5kkhcc2zc1eqy54afmyfe2p29wy7nk/DefaultIcon @{Microsoft.BingSports_4.5.168.0_x86__8wekyb3d8bbwe?ms-resource://Microsoft.BingSports/Files/Assets/AppTiles/Sports_LogoSmall.png} 3
+HKEY_CLASSES_ROOT/AppX6w6n4f8xch1s3vzwf3af6bfe88qhxbza/DefaultIcon @{Microsoft.ZuneVideo_3.6.12711.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.ZuneVideo/Files/Assets/AppList.png} 3
+HKEY_CLASSES_ROOT/AppX7nv11hc795928dfdxbjgrnt50tez0eh7/DefaultIcon @{Microsoft.WindowsStore_2015.8.25.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsStore/Files/Assets/StoreAppList.png} 3
+HKEY_CLASSES_ROOT/AppX7rm9drdg8sk7vqndwj3sdjw11x96jc0y/DefaultIcon @{Microsoft.MicrosoftEdge_20.10240.16384.0_neutral__8wekyb3d8bbwe?ms-resource://Microsoft.MicrosoftEdge/Files/Assets/MicrosoftEdgeSquare44x44.png} 3
+HKEY_CLASSES_ROOT/AppX82a6gwre4fdg3bt635tn5ctqjf8msdd2/DefaultIcon @{Microsoft.WindowsStore_2015.8.25.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsStore/Files/Assets/StoreAppList.png} 3
+HKEY_CLASSES_ROOT/AppX86746z2101ayy2ygv3g96e4eqdf8r99j/DefaultIcon @{Microsoft.Reader_6.4.9926.17994_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Reader/Files/Images/ReaderFileLogo.png} 3
+HKEY_CLASSES_ROOT/AppX86caezcbyncg0njyrv7p4q3g8akxv53k/DefaultIcon @{9E2F88E3.Twitter_4.1.1.0_x86__wgeqdkkx372wm?ms-resource://9E2F88E3.Twitter/Files/Assets/TwitterAppList.png} 3
+HKEY_CLASSES_ROOT/AppX90nv6nhay5n6a98fnetv7tpk64pp35es/DefaultIcon @{Microsoft.MicrosoftEdge_20.10240.16384.0_neutral__8wekyb3d8bbwe?ms-resource://Microsoft.MicrosoftEdge/Files/Assets/MicrosoftEdgeSquare44x44.png} 3
+HKEY_CLASSES_ROOT/AppX9rkaq77s0jzh1tyccadx9ghba15r6t3h/DefaultIcon @{Microsoft.Windows.Photos_15.827.16340.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Windows.Photos/Files/Assets/PhotosLogoExtensions.png} 3
+HKEY_CLASSES_ROOT/AppXaf0097ws4bwb0wre67gmp7pc9fjr8en6/DefaultIcon C:\Program Files\WindowsApps\Microsoft.Office.OneNote_17.6131.10021.0_x64__8wekyb3d8bbwe\images\OneNoteLogo_150x150.png 3
+HKEY_CLASSES_ROOT/AppXak1hygz1tpjjnxhr1pwtcgnkpr24r5e7/DefaultIcon @{Microsoft.Windows.ShellExperienceHost_10.0.10240.16384_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.ShellExperienceHost/Files/Assets/SmallLogo.png} 3
+HKEY_CLASSES_ROOT/AppXcb6e5re383zqpgggd2grt6vrv627a4wt/DefaultIcon @{Microsoft.Windows.Photos_15.827.16340.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Windows.Photos/Files/Assets/PhotosLogoExtensions.png} 3
+HKEY_CLASSES_ROOT/AppXcr7ve1e6y7nx8n3y5qv7m7s9kzz18jx5/DefaultIcon @{microsoft.windowscommunicationsapps_17.6208.42001.0_x64__8wekyb3d8bbwe?ms-resource://microsoft.windowscommunicationsapps/Files/images/HxCalendarAppList.png} 3
+HKEY_CLASSES_ROOT/AppXd3zb7x4jyhgzdpcbbczymhv52akm1dst/DefaultIcon @{Microsoft.WindowsFeedback_10.0.10240.16393_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.WindowsFeedback/Files/Assets/FeedbackAppList.png} 3
+HKEY_CLASSES_ROOT/AppXd4nrz8ff68srnhf9t5a8sbjyar1cr723/DefaultIcon @{Microsoft.MicrosoftEdge_20.10240.16384.0_neutral__8wekyb3d8bbwe?ms-resource://Microsoft.MicrosoftEdge/Files/Assets/MicrosoftEdgePDF.png} 3
+HKEY_CLASSES_ROOT/AppXdydrqjtps7nq4vtfgpf3hh67n5avbhhw/DefaultIcon @{Microsoft.ZuneMusic_3.6.12711.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.ZuneMusic/Files/images/Tiles/XBL_MUSIC_44x44_A.png} 3
+HKEY_CLASSES_ROOT/AppXdyw2j75xqd0y008p4bvtxhnxp3py2t2g/DefaultIcon @{microsoft.windowscommunicationsapps_17.6208.42001.0_x64__8wekyb3d8bbwe?ms-resource://microsoft.windowscommunicationsapps/Files/images/HxMailAppList.png} 3
+HKEY_CLASSES_ROOT/AppXe05qdnx2p14g0mw29139zqs9s5n3wcne/DefaultIcon @{Microsoft.Windows.ParentalControls_1000.10240.16384.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.ParentalControls/Files/Assets/SmallLogo.png} 3
+HKEY_CLASSES_ROOT/AppXe862j7twqs4aww05211jaakwxyfjx4da/DefaultIcon @{Microsoft.MicrosoftEdge_20.10240.16384.0_neutral__8wekyb3d8bbwe?ms-resource://Microsoft.MicrosoftEdge/Files/Assets/MicrosoftEdgeSquare44x44.png} 3
+HKEY_CLASSES_ROOT/AppXemz6fd9t513jgmy4x0cxxwwsh5cgav24/DefaultIcon @{Microsoft.XboxApp_8.8.15003.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.XboxApp/Files/Assets/GamesXboxHubAppList.png} 3
+HKEY_CLASSES_ROOT/AppXf4ry1xaj6j9nm2m6g08zm9mkyq88zjpc/DefaultIcon @{Microsoft.WindowsPhone_10.1508.17010.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsPhone/Files/Assets/CompanionAppAppList.png} 3
+HKEY_CLASSES_ROOT/AppXfp6kkvw8823ptbxvr2be691hzfyrsazt/DefaultIcon @{Microsoft.WindowsCalculator_10.1508.14010.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsCalculator/Files/Assets/CalculatorAppList.png} 3
+HKEY_CLASSES_ROOT/AppXjpdcjcdvnpayh0dj1qvpfz5vtvn2c52p/DefaultIcon @{Microsoft.BingNews_4.5.168.0_x86__8wekyb3d8bbwe?ms-resource://Microsoft.BingNews/Files/Assets/AppTiles/News_LogoSmall.png} 3
+HKEY_CLASSES_ROOT/AppXk0g4vb8gvt7b93tg50ybcy892pge6jmt/DefaultIcon @{Microsoft.Windows.Photos_15.827.16340.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Windows.Photos/Files/Assets/PhotosLogoExtensions.png} 3
+HKEY_CLASSES_ROOT/AppXmhepr1beh16qd2kb4ts9ykhy21cc37c9/DefaultIcon @{Microsoft.Windows.Photos_15.827.16340.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Windows.Photos/Files/Assets/PhotosLogoExtensions.png} 3
+HKEY_CLASSES_ROOT/AppXmx9wwhwf9sqa2e9r1y05wh1dae5ywhpp/DefaultIcon @{Microsoft.BingSports_4.5.168.0_x86__8wekyb3d8bbwe?ms-resource://Microsoft.BingSports/Files/Assets/AppTiles/Sports_LogoSmall.png} 3
+HKEY_CLASSES_ROOT/AppXmy6eenwtqdy8xv6pttntgjp09j4pqv3p/DefaultIcon @{Microsoft.WindowsCamera_5.54.3001.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsCamera/Files/Assets/WindowsIcons/WindowsCameraAppList.png} 3
+HKEY_CLASSES_ROOT/AppXn0srp7ze9kd1mz5sva2wfm6yh3hgrd3v/DefaultIcon @{Microsoft.BingFinance_4.5.168.0_x86__8wekyb3d8bbwe?ms-resource://Microsoft.BingFinance/Files/Assets/AppTiles/Money_LogoSmall.png} 3
+HKEY_CLASSES_ROOT/AppXn8vagw663cz9m3j0rmkddxpbq9x0716k/DefaultIcon @{Microsoft.Office.OneNote_17.6131.10021.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Office.OneNote/Files/images/OneNoteAppList.png} 3
+HKEY_CLASSES_ROOT/AppXnnqhxnqg1rbs3ydfcgnhk3djtrpa49g7/DefaultIcon @{Microsoft.Windows.Photos_15.827.16340.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Windows.Photos/Files/Assets/PhotosLogoExtensions.png} 3
+HKEY_CLASSES_ROOT/AppXnyc2k5bh08emzskc0nfna46fysx7mqav/DefaultIcon @{Microsoft.WindowsStore_2015.8.25.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsStore/Files/Assets/StoreAppList.png} 3
+HKEY_CLASSES_ROOT/AppXp9gkwccvk6fa6yyfq3tmsk8ws2nprk1p/DefaultIcon @{Microsoft.WindowsMaps_4.1507.50821.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsMaps/Files/Assets/AppTiles/MapsAppList.png} 3
+HKEY_CLASSES_ROOT/AppXpb1vntage8kvnwpyg40aqz34j851h4p1/DefaultIcon @{Microsoft.People_1.10241.0.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.People/Files/Assets/PeopleAppList.png} 3
+HKEY_CLASSES_ROOT/AppXppqdgckcm0rkmm7y6v63w1ckey9065gr/DefaultIcon @{Microsoft.XboxApp_8.8.15003.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.XboxApp/Files/Assets/GamesXboxHubAppList.png} 3
+HKEY_CLASSES_ROOT/AppXq0fevzme2pys62n3e0fbqa7peapykr8v/DefaultIcon @{Microsoft.MicrosoftEdge_20.10240.16384.0_neutral__8wekyb3d8bbwe?ms-resource://Microsoft.MicrosoftEdge/Files/Assets/MicrosoftEdgeSquare44x44.png} 3
+HKEY_CLASSES_ROOT/AppXqj98qxeaynz6dv4459ayz6bnqxbyaqcs/DefaultIcon @{Microsoft.ZuneMusic_3.6.12711.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.ZuneMusic/Files/Images/Tiles/MusicIcon.png} 3
+HKEY_CLASSES_ROOT/AppXqj9qs1qczzayp7da4q9mtbk5j5zr31j3/DefaultIcon @{Microsoft.BingFinance_4.5.168.0_x86__8wekyb3d8bbwe?ms-resource://Microsoft.BingFinance/Files/Assets/AppTiles/Money_LogoSmall.png} 3
+HKEY_CLASSES_ROOT/AppXqjyfmc5mk3hmghyt3yynbcb2jsdyp4fs/DefaultIcon @{Microsoft.WindowsMaps_4.1507.50821.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsMaps/Files/Assets/AppTiles/MapsAppList.png} 3
+HKEY_CLASSES_ROOT/AppXsf0d8xs4xz53mhyq7wyajbmrskt080m7/DefaultIcon @{Microsoft.Windows.Photos_15.827.16340.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Windows.Photos/Files/Assets/PhotosLogoExtensions.png} 3
+HKEY_CLASSES_ROOT/AppXtsmg3v4j4x76mctp0h8w9ykwqt07rr43/DefaultIcon @{Microsoft.WindowsMaps_4.1507.50821.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsMaps/Files/Assets/AppTiles/MapsAppList.png} 3
+HKEY_CLASSES_ROOT/AppXvqhb9dhb3dg0mpfydfbz4qp875kpspza/DefaultIcon @{microsoft.windowscommunicationsapps_17.6208.42001.0_x64__8wekyb3d8bbwe?ms-resource://microsoft.windowscommunicationsapps/Files/images/HxMailAppList.png} 3
+HKEY_CLASSES_ROOT/AppXvsddybna5mfqpzfzrh0x2nnv0v7ettv3/DefaultIcon @{Microsoft.Windows.Photos_15.827.16340.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Windows.Photos/Files/Assets/PhotosLogoExtensions.png} 3
+HKEY_CLASSES_ROOT/AppXvtx9zmqs8shszpft25vta812bvkq1nrc/DefaultIcon @{Microsoft.WindowsMaps_4.1507.50821.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsMaps/Files/Assets/AppTiles/MapsAppList.png} 3
+HKEY_CLASSES_ROOT/AppXvzg9q08e9beqxefd7wynf5essvk7wbhb/DefaultIcon @{Microsoft.WindowsAlarms_10.1509.5010.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsAlarms/Files/Assets/AlarmsAppList.png} 3
+HKEY_CLASSES_ROOT/AppXx6a0med6y43gv0vn6qa7r3vdg4cg3bnv/DefaultIcon @{Microsoft.Windows.Photos_15.827.16340.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Windows.Photos/Files/Assets/PhotosLogoExtensions.png} 3
+HKEY_CLASSES_ROOT/AppXxd1ehghzsv8twt9b8b18jrd6q54mjz0n/DefaultIcon @{Microsoft.WindowsStore_2015.8.25.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsStore/Files/Assets/StoreAppList.png} 3
+HKEY_CLASSES_ROOT/AppXxvnbvsna403aer8rg6v5h12z8c8te2rc/DefaultIcon @{Microsoft.Getstarted_2.3.4.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Getstarted/Files/Assets/GetStartedAppList.png} 3
+HKEY_CLASSES_ROOT/AppXydk58wgm44se4b399557yyyj1w7mbmvd/DefaultIcon @{microsoft.windowscommunicationsapps_17.6208.42001.0_x64__8wekyb3d8bbwe?ms-resource://microsoft.windowscommunicationsapps/Files/images/HxMailAppList.png} 3
+HKEY_CLASSES_ROOT/AudioCD/DefaultIcon %SystemRoot%\system32\shell32.dll,40 3
+HKEY_CLASSES_ROOT/AutoCADCoreExtensionFile/DefaultIcon value 3
+HKEY_CLASSES_ROOT/AWFile/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\ProgramFilesCommonX86\Microsoft Shared\OFFICE15\MSOICONS.EXE,6 3
+HKEY_CLASSES_ROOT/batfile/DefaultIcon %SystemRoot%\System32\imageres.dll,-68 3
+HKEY_CLASSES_ROOT/bittorrent/DefaultIcon C:\Users\Gregory\AppData\Roaming\uTorrent\maindoc.ico 3
+HKEY_CLASSES_ROOT/bootstrap.vsto.1/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\VSTO\vstoee.dll,0 3
+HKEY_CLASSES_ROOT/Briefcase/DefaultIcon %SystemRoot%\system32\syncui.dll,0 3
+HKEY_CLASSES_ROOT/BRUfile/DefaultIcon "D:\Program Files\Bulk Rename Utility\Bulk Rename Utility.exe",0 3
+HKEY_CLASSES_ROOT/CABFolder/DefaultIcon %SystemRoot%\system32\cabview.dll,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.AZW/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.AZW1/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.AZW3/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.BOOK/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.CBC/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.CBR/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.CBZ/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.CHM/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.DJV/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.DJVU/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.DOC/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.DOCM/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.DOCX/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.EPUB/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.FB2/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.HTM/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.HTML/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.IBOOK/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.IBOOKS/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.IMP/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.LRF/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.LRX/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.MARKDOWN/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.MD/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.MOBI/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.ODT/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.PDB/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.PDF/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.PML/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.POBI/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.PRC/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.PS/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.RTF/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.TEXT/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.TPZ/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.TXT/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.XHTML/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibre64bit.AssocFile.XPS/DefaultIcon D:\Program Files\Calibre2\calibre.exe,0 3
+HKEY_CLASSES_ROOT/calibreEditor64bit.AssocFile.AZW3/DefaultIcon D:\Program Files\Calibre2\ebook-edit.exe,0 3
+HKEY_CLASSES_ROOT/calibreEditor64bit.AssocFile.DOCX/DefaultIcon D:\Program Files\Calibre2\ebook-edit.exe,0 3
+HKEY_CLASSES_ROOT/calibreEditor64bit.AssocFile.EPUB/DefaultIcon D:\Program Files\Calibre2\ebook-edit.exe,0 3
+HKEY_CLASSES_ROOT/calibreEditor64bit.AssocFile.HTM/DefaultIcon D:\Program Files\Calibre2\ebook-edit.exe,0 3
+HKEY_CLASSES_ROOT/calibreEditor64bit.AssocFile.HTML/DefaultIcon D:\Program Files\Calibre2\ebook-edit.exe,0 3
+HKEY_CLASSES_ROOT/calibreEditor64bit.AssocFile.XHTML/DefaultIcon D:\Program Files\Calibre2\ebook-edit.exe,0 3
+HKEY_CLASSES_ROOT/calibreViewer64bit.AssocFile.AZW/DefaultIcon D:\Program Files\Calibre2\ebook-viewer.exe,0 3
+HKEY_CLASSES_ROOT/calibreViewer64bit.AssocFile.AZW3/DefaultIcon D:\Program Files\Calibre2\ebook-viewer.exe,0 3
+HKEY_CLASSES_ROOT/calibreViewer64bit.AssocFile.CBC/DefaultIcon D:\Program Files\Calibre2\ebook-viewer.exe,0 3
+HKEY_CLASSES_ROOT/calibreViewer64bit.AssocFile.CBR/DefaultIcon D:\Program Files\Calibre2\ebook-viewer.exe,0 3
+HKEY_CLASSES_ROOT/calibreViewer64bit.AssocFile.CBZ/DefaultIcon D:\Program Files\Calibre2\ebook-viewer.exe,0 3
+HKEY_CLASSES_ROOT/calibreViewer64bit.AssocFile.CHM/DefaultIcon D:\Program Files\Calibre2\ebook-viewer.exe,0 3
+HKEY_CLASSES_ROOT/calibreViewer64bit.AssocFile.DJV/DefaultIcon D:\Program Files\Calibre2\ebook-viewer.exe,0 3
+HKEY_CLASSES_ROOT/calibreViewer64bit.AssocFile.DJVU/DefaultIcon D:\Program Files\Calibre2\ebook-viewer.exe,0 3
+HKEY_CLASSES_ROOT/calibreViewer64bit.AssocFile.DOCM/DefaultIcon D:\Program Files\Calibre2\ebook-viewer.exe,0 3
+HKEY_CLASSES_ROOT/calibreViewer64bit.AssocFile.DOCX/DefaultIcon D:\Program Files\Calibre2\ebook-viewer.exe,0 3
+HKEY_CLASSES_ROOT/calibreViewer64bit.AssocFile.EPUB/DefaultIcon D:\Program Files\Calibre2\ebook-viewer.exe,0 3
+HKEY_CLASSES_ROOT/calibreViewer64bit.AssocFile.FB2/DefaultIcon D:\Program Files\Calibre2\ebook-viewer.exe,0 3
+HKEY_CLASSES_ROOT/calibreViewer64bit.AssocFile.HTM/DefaultIcon D:\Program Files\Calibre2\ebook-viewer.exe,0 3
+HKEY_CLASSES_ROOT/calibreViewer64bit.AssocFile.HTML/DefaultIcon D:\Program Files\Calibre2\ebook-viewer.exe,0 3
+HKEY_CLASSES_ROOT/calibreViewer64bit.AssocFile.LRF/DefaultIcon D:\Program Files\Calibre2\ebook-viewer.exe,0 3
+HKEY_CLASSES_ROOT/calibreViewer64bit.AssocFile.MARKDOWN/DefaultIcon D:\Program Files\Calibre2\ebook-viewer.exe,0 3
+HKEY_CLASSES_ROOT/calibreViewer64bit.AssocFile.MD/DefaultIcon D:\Program Files\Calibre2\ebook-viewer.exe,0 3
+HKEY_CLASSES_ROOT/calibreViewer64bit.AssocFile.MOBI/DefaultIcon D:\Program Files\Calibre2\ebook-viewer.exe,0 3
+HKEY_CLASSES_ROOT/calibreViewer64bit.AssocFile.ODT/DefaultIcon D:\Program Files\Calibre2\ebook-viewer.exe,0 3
+HKEY_CLASSES_ROOT/calibreViewer64bit.AssocFile.OPF/DefaultIcon D:\Program Files\Calibre2\ebook-viewer.exe,0 3
+HKEY_CLASSES_ROOT/calibreViewer64bit.AssocFile.PDB/DefaultIcon D:\Program Files\Calibre2\ebook-viewer.exe,0 3
+HKEY_CLASSES_ROOT/calibreViewer64bit.AssocFile.PDF/DefaultIcon D:\Program Files\Calibre2\ebook-viewer.exe,0 3
+HKEY_CLASSES_ROOT/calibreViewer64bit.AssocFile.PML/DefaultIcon D:\Program Files\Calibre2\ebook-viewer.exe,0 3
+HKEY_CLASSES_ROOT/calibreViewer64bit.AssocFile.POBI/DefaultIcon D:\Program Files\Calibre2\ebook-viewer.exe,0 3
+HKEY_CLASSES_ROOT/calibreViewer64bit.AssocFile.PRC/DefaultIcon D:\Program Files\Calibre2\ebook-viewer.exe,0 3
+HKEY_CLASSES_ROOT/calibreViewer64bit.AssocFile.RTF/DefaultIcon D:\Program Files\Calibre2\ebook-viewer.exe,0 3
+HKEY_CLASSES_ROOT/calibreViewer64bit.AssocFile.SHTML/DefaultIcon D:\Program Files\Calibre2\ebook-viewer.exe,0 3
+HKEY_CLASSES_ROOT/calibreViewer64bit.AssocFile.TEXT/DefaultIcon D:\Program Files\Calibre2\ebook-viewer.exe,0 3
+HKEY_CLASSES_ROOT/calibreViewer64bit.AssocFile.TXT/DefaultIcon D:\Program Files\Calibre2\ebook-viewer.exe,0 3
+HKEY_CLASSES_ROOT/calibreViewer64bit.AssocFile.XHTML/DefaultIcon D:\Program Files\Calibre2\ebook-viewer.exe,0 3
+HKEY_CLASSES_ROOT/callto/DefaultIcon "E:\Program Files (x86)\Skype\Phone\Skype.exe",0 3
+HKEY_CLASSES_ROOT/campfile/DefaultIcon %SystemRoot%\System32\colorui.dll,-17 3
+HKEY_CLASSES_ROOT/CATFile/DefaultIcon cryptui.dll,-3418 3
+HKEY_CLASSES_ROOT/cdmpfile/DefaultIcon %SystemRoot%\System32\colorui.dll,-16 3
+HKEY_CLASSES_ROOT/CERFile/DefaultIcon cryptui.dll,-3410 3
+HKEY_CLASSES_ROOT/certificate_wab_auto_file/DefaultIcon %ProgramFiles%\Windows Mail\wab.exe,1 3
+HKEY_CLASSES_ROOT/chm.file/DefaultIcon %SystemRoot%\hh.exe,0 3
+HKEY_CLASSES_ROOT/ChromeHTML/DefaultIcon C:\Program Files (x86)\Google\Chrome\Application\chrome.exe,0 3
+HKEY_CLASSES_ROOT/CLSID/{FF3AE31D-55B0-4945-BDE9-622ABB334C1A}/DefaultIcon %SystemRoot%\system32\WABSyncProvider.dll,0 4
+HKEY_CLASSES_ROOT/CLSID/{FF393560-C2A7-11CF-BFF4-444553540000}/DefaultIcon C:\Windows\SysWOW64\ieframe.dll,-20785 4
+HKEY_CLASSES_ROOT/CLSID/{FDEA20DB-AC7A-42f8-90EE-82208B9B4FC0}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{FB453AD8-2EF4-44D3-98A8-8C6474E63CE4}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{f86fa3ab-70d2-4fc7-9c99-fcbf05467f3a}/DefaultIcon %SystemRoot%\system32\imageres.dll,-189 4
+HKEY_CLASSES_ROOT/CLSID/{F616B81F-7BB8-4F22-B8A5-47428D59F8AD}/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,0 4
+HKEY_CLASSES_ROOT/CLSID/{F5175861-2688-11d0-9C5E-00AA00A45957}/DefaultIcon C:\Windows\SysWOW64\webcheck.dll 4
+HKEY_CLASSES_ROOT/CLSID/{F5078F40-C551-11D3-89B9-0000F81FE221}/DefaultIcon %SystemRoot%\System32\msxml3.dll,0 4
+HKEY_CLASSES_ROOT/CLSID/{F4754C9B-64F5-4B40-8AF4-679732AC0607}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\wordicon.exe,13 4
+HKEY_CLASSES_ROOT/CLSID/{F2DDFC82-8F12-4CDD-B7DC-D4FE1425AA4D}/DefaultIcon %SystemRoot%\System32\mmsys.cpl,-100 4
+HKEY_CLASSES_ROOT/CLSID/{F20DA720-C02F-11CE-927B-0800095AE340}/DefaultIcon %SystemRoot%\system32\packager.dll,0 4
+HKEY_CLASSES_ROOT/CLSID/{F14E8B03-D080-4D3A-AEBA-355E77B20F3D}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{F1390A9A-A3F4-4E5D-9C5F-98F3BD8D935C}/DefaultIcon %SystemRoot%\System32\SyncCenter.dll,-1000 4
+HKEY_CLASSES_ROOT/CLSID/{F08619D6-F1F5-4242-BF0E-FC491E80C952}/DefaultIcon D:\Program Files (x86)\Foxit Software\Foxit Reader\FoxitReader.exe,0 4
+HKEY_CLASSES_ROOT/CLSID/{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}/DefaultIcon %SystemRoot%\System32\imageres.dll,-25 4
+HKEY_CLASSES_ROOT/CLSID/{EE5D1EA4-D445-4289-B2FC-55FC93693917}/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,0 4
+HKEY_CLASSES_ROOT/CLSID/{ED7BA470-8E54-465E-825C-99712043E01C}/DefaultIcon %SystemRoot%\System32\imageres.dll,-27 4
+HKEY_CLASSES_ROOT/CLSID/{ED228FDF-9EA8-4870-83b1-96b02CFE0D52}/DefaultIcon C:\Windows\SysWOW64\imageres.dll,-14 4
+HKEY_CLASSES_ROOT/CLSID/{ECF03A32-103D-11d2-854D-006008059367}/DefaultIcon %SystemRoot%\system32\imageres.dll,-1002 4
+HKEY_CLASSES_ROOT/CLSID/{EAE50EB0-4A62-11CE-BED6-00AA00611080}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{EABCECDB-CC1C-4A6F-B4E3-7F888A5ADFC8}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\xlicons.exe,1 4
+HKEY_CLASSES_ROOT/CLSID/{EA778DB4-CE69-4da5-BC1D-34E2168D5EED}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{E9729012-8271-4e1f-BC56-CF85F914915A}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{E96F5460-09CE-4f46-88B1-F4B6B4A8E252}/DefaultIcon %SystemRoot%\system32\wmploc.dll, 101 4
+HKEY_CLASSES_ROOT/CLSID/{E88DCCE0-B7B3-11d1-A9F0-00AA0060FA31}/DefaultIcon %SystemRoot%\system32\zipfldr.dll 4
+HKEY_CLASSES_ROOT/CLSID/{E5A0B632-DFBA-4549-9346-E414DA06E6F8}/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,0 4
+HKEY_CLASSES_ROOT/CLSID/{E44E5D18-0652-4508-A4E2-8A090067BCB0}/DefaultIcon %SystemRoot%\system32\imageres.dll,-24 4
+HKEY_CLASSES_ROOT/CLSID/{E413D040-6788-4C22-957E-175D1C513A34}/DefaultIcon %SystemRoot%\System32\SyncCenter.dll,-1000 4
+HKEY_CLASSES_ROOT/CLSID/{e345f35f-9397-435c-8f95-4e922c26259e}/DefaultIcon %SystemRoot%\system32\SearchFolder.dll,-323 4
+HKEY_CLASSES_ROOT/CLSID/{E31EA727-12ED-4702-820C-4B6445F28E1A}/DefaultIcon C:\Program Files (x86)\Dropbox\Client\Dropbox.exe,-6001 4
+HKEY_CLASSES_ROOT/CLSID/{E2E7934B-DCE5-43C4-9576-7FE4F75E7480}/DefaultIcon %SystemRoot%\System32\timedate.cpl,-50 4
+HKEY_CLASSES_ROOT/CLSID/{DFD181E0-5E2F-11CE-A449-00AA004A803D}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{DD4CB8C5-F540-47ff-84D7-67390D2743CA}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{DCA0ED3C-B95D-490f-9C60-0FF3726C789A}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{DC020317-E6E2-4A62-B9FA-B3EFE16626F4}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,19 4
+HKEY_CLASSES_ROOT/CLSID/{daf95313-e44d-46af-be1b-cbacea2c3065}/DefaultIcon %SystemRoot%\system32\SearchFolder.dll,-323 4
+HKEY_CLASSES_ROOT/CLSID/{D7053240-CE69-11CD-A777-00DD01143C57}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{D555645E-D4F8-4c29-A827-D93C859C4F2A}/DefaultIcon %SystemRoot%\System32\accessibilitycpl.dll,-1 4
+HKEY_CLASSES_ROOT/CLSID/{d450a8a1-9568-45c7-9c0e-b4f9fb4537bd}/DefaultIcon appwiz.cpl,-1507 4
+HKEY_CLASSES_ROOT/CLSID/{D4480A50-BA28-11d1-8E75-00C04FA31A86}/DefaultIcon %SystemRoot%\System32\shwebsvc.dll,-107 4
+HKEY_CLASSES_ROOT/CLSID/{D3E34B21-9D75-101A-8C3D-00AA001A1652}/DefaultIcon %systemroot%\system32\mspaint.exe,-3 4
+HKEY_CLASSES_ROOT/CLSID/{d3162b92-9365-467a-956b-92703aca08af}/DefaultIcon %SystemRoot%\system32\imageres.dll,-112 4
+HKEY_CLASSES_ROOT/CLSID/{D2D59CD1-0A6A-4D36-AE20-47817077D57C}/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,0 4
+HKEY_CLASSES_ROOT/CLSID/{D2D44F93-D0A1-4531-913D-607F121C5346}/DefaultIcon E:\Program Files\Adobe\Adobe Illustrator CS6\Support Files\Contents\Windows\Illustrator.exe, 0 4
+HKEY_CLASSES_ROOT/CLSID/{D20EA4E1-3957-11d2-A40B-0C5020524153}/DefaultIcon %SystemRoot%\System32\imageres.dll,-114 4
+HKEY_CLASSES_ROOT/CLSID/{D2035EDF-75CB-4EF1-95A7-410D9EE17170}/DefaultIcon dlnashext.dll,-200 4
+HKEY_CLASSES_ROOT/CLSID/{D17D1D6D-CC3F-4815-8FE3-607E7D5D10B3}/DefaultIcon %SystemRoot%\System32\Speech\SpeechUX\sapi.cpl,-138 4
+HKEY_CLASSES_ROOT/CLSID/{d0da2915-3f89-4519-a4ca-5e02528c8ec4}/DefaultIcon %SystemRoot%\system32\playlistfolder.dll 4
+HKEY_CLASSES_ROOT/CLSID/{D0484DE6-AAEE-468a-991F-8D4B0737B57A}/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,0 4
+HKEY_CLASSES_ROOT/CLSID/{CF4F55F4-8F87-4D47-80BB-5808164BB3F8}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,10 4
+HKEY_CLASSES_ROOT/CLSID/{c79d1575-b8c6-4862-a284-788836518b97}/DefaultIcon %SystemRoot%\system32\display.dll,1 4
+HKEY_CLASSES_ROOT/CLSID/{C62A69F0-16DC-11CE-9E98-00AA00574A4F}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{c57a6066-66a3-4d91-9eb9-41532179f0a5}/DefaultIcon %SystemRoot%\system32\imageres.dll,-1020 4
+HKEY_CLASSES_ROOT/CLSID/{C555438B-3C23-4769-A71F-B6D3D9B6053A}/DefaultIcon %SystemRoot%\System32\Display.dll,-1 4
+HKEY_CLASSES_ROOT/CLSID/{C282417B-2662-44B8-8A94-3BFF61C50900}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,20 4
+HKEY_CLASSES_ROOT/CLSID/{BF782CC9-5A52-4A17-806C-2A894FFEEAC5}/DefaultIcon %SystemRoot%\System32\UserLanguagesCpl.dll,-1 4
+HKEY_CLASSES_ROOT/CLSID/{BD84B380-8CA2-1069-AB1D-08000948F534}/DefaultIcon %SystemRoot%\System32\fontext.dll 4
+HKEY_CLASSES_ROOT/CLSID/{BD7A2E7B-21CB-41b2-A086-B309680C6B7E}/DefaultIcon %systemroot%\system32\mssvp.dll,-505 4
+HKEY_CLASSES_ROOT/CLSID/{BC48B32F-5910-47F5-8570-5074A8A5636A}/DefaultIcon %SystemRoot%\System32\SyncCenter.dll,-1000 4
+HKEY_CLASSES_ROOT/CLSID/{BB64F8A7-BEE7-4E1A-AB8D-7D8273F7FDB6}/DefaultIcon %SystemRoot%\System32\ActionCenterCPL.dll,-1 4
+HKEY_CLASSES_ROOT/CLSID/{BB06C0E4-D293-4f75-8A90-CB05B6477EEE}/DefaultIcon %SystemRoot%\System32\imageres.dll,-149 4
+HKEY_CLASSES_ROOT/CLSID/{BA126F01-2166-11D1-B1D0-00805FC1270E}/DefaultIcon %SystemRoot%\system32\netshell.dll 4
+HKEY_CLASSES_ROOT/CLSID/{BA126E01-2166-11D1-B1D0-00805FC1270E}/DefaultIcon %SystemRoot%\system32\netshell.dll 4
+HKEY_CLASSES_ROOT/CLSID/{B801CA65-A1FC-11D0-85AD-444553540000}/DefaultIcon C:\Windows\Installer\{AC76BA86-7AD7-1033-7B44-AC0F074E4100}\PDFFile_8.ico,0 4
+HKEY_CLASSES_ROOT/CLSID/{B7BBD408-F09C-4aa8-B65E-A00B8FE0F0B9}/DefaultIcon %SystemRoot%\system32\themeui.dll,7 4
+HKEY_CLASSES_ROOT/CLSID/{B4FB3F98-C1EA-428d-A78A-D1F5659CBA93}/DefaultIcon %SystemRoot%\system32\imageres.dll,-1013 4
+HKEY_CLASSES_ROOT/CLSID/{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}/DefaultIcon %SystemRoot%\system32\imageres.dll,-183 4
+HKEY_CLASSES_ROOT/CLSID/{B2C761C6-29BC-4f19-9251-E6195265BAF1}/DefaultIcon C:\Windows\SysWOW64\colorcpl.exe,-5 4
+HKEY_CLASSES_ROOT/CLSID/{B12AE898-D056-4378-A844-6D393FE37956}/DefaultIcon %SystemRoot%\system32\themeui.dll,7 4
+HKEY_CLASSES_ROOT/CLSID/{ADB9F5A4-E73E-49b8-99B6-2FA317EF9DBC}/DefaultIcon %SystemRoot%\system32\themeui.dll,7 4
+HKEY_CLASSES_ROOT/CLSID/{AA14F9C9-62B5-4637-8AC4-8F25BF29D5A7}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,18 4
+HKEY_CLASSES_ROOT/CLSID/{A9B48EAC-3ED8-11d2-8216-00C04FB687DA}/DefaultIcon %SystemRoot%\System32\DATACLEN.DLL,-2000 4
+HKEY_CLASSES_ROOT/CLSID/{A8CDFF1C-4878-43be-B5FD-F8091C1C60D0}/DefaultIcon %SystemRoot%\system32\imageres.dll,-112 4
+HKEY_CLASSES_ROOT/CLSID/{A8A91A66-3A7D-4424-8D24-04E180695C7A}/DefaultIcon %systemroot%\system32\DeviceCenter.dll,-1 4
+HKEY_CLASSES_ROOT/CLSID/{A43F4073-BEBD-4142-B590-27A74384620B}/DefaultIcon D:\Program Files (x86)\Foxit Software\Foxit Reader\FoxitReader.exe,0 4
+HKEY_CLASSES_ROOT/CLSID/{A3DD4F92-658A-410F-84FD-6FBBBEF2FFFE}/DefaultIcon C:\Windows\SysWOW64\inetcpl.cpl,-4487 4
+HKEY_CLASSES_ROOT/CLSID/{A0D4CD32-5D5D-4f72-BAAA-767A7AD6BAC5}/DefaultIcon C:\Program Files\Microsoft Office 15\root\Office15\MLCFG32.CPL,0 4
+HKEY_CLASSES_ROOT/CLSID/{A0953C92-50DC-43bf-BE83-3742FED03C9C}/DefaultIcon %SystemRoot%\system32\imageres.dll,-189 4
+HKEY_CLASSES_ROOT/CLSID/{A0275511-0E86-4ECA-97C2-ECD8F1221D08}/DefaultIcon %SystemRoot%\System32\irprops.cpl,-129 4
+HKEY_CLASSES_ROOT/CLSID/{a00ee528-ebd9-48b8-944a-8942113d46ac}/DefaultIcon %SystemRoot%\system32\SearchFolder.dll,-323 4
+HKEY_CLASSES_ROOT/CLSID/{9E56BE61-C50F-11CF-9A2C-00A0C90A90CE}/DefaultIcon %SystemRoot%\system32\imageres.dll,-110 4
+HKEY_CLASSES_ROOT/CLSID/{9E56BE60-C50F-11CF-9A2C-00A0C90A90CE}/DefaultIcon %SystemRoot%\system32\sendmail.dll,-2001 4
+HKEY_CLASSES_ROOT/CLSID/{9DB7A13C-F208-4981-8353-73CC61AE2783}/DefaultIcon %SystemRoot%\system32\twext.dll,-100 4
+HKEY_CLASSES_ROOT/CLSID/{9C73F5E5-7AE7-4E32-A8E8-8D23B85255BF}/DefaultIcon %SystemRoot%\System32\SyncCenter.dll,-1000 4
+HKEY_CLASSES_ROOT/CLSID/{9C60DE1E-E5FC-40f4-A487-460851A8D915}/DefaultIcon %SystemRoot%\System32\autoplay.dll,-1 4
+HKEY_CLASSES_ROOT/CLSID/{9BDAC276-BE24-4F04-BB22-11469B28A496}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{9B0EFD60-F7B0-11D0-BAEF-00C04FC308C9}/DefaultIcon C:\Windows\SysWOW64\inetcpl.cpl,15 4
+HKEY_CLASSES_ROOT/CLSID/{992CFFA0-F557-101A-88EC-00DD010CCC48}/DefaultIcon %SystemRoot%\system32\netshell.dll 4
+HKEY_CLASSES_ROOT/CLSID/{98F275B4-4FFF-11E0-89E2-7B86DFD72085}/DefaultIcon %SystemRoot%\system32\SearchFolder.dll,-323 4
+HKEY_CLASSES_ROOT/CLSID/{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{96AE8D84-A250-4520-95A5-A47A7E3C548B}/DefaultIcon %SystemRoot%\System32\wpccpl.dll,-1 4
+HKEY_CLASSES_ROOT/CLSID/{9432194C-DF54-4824-8E24-B013BF2B90E3}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{9343812e-1c37-4a49-a12e-4b2d810d956b}/DefaultIcon %SystemRoot%\System32\searchfolder.dll,-323 4
+HKEY_CLASSES_ROOT/CLSID/{93412589-74D4-4E4E-AD0E-E0CB621440FD}/DefaultIcon %SystemRoot%\System32\fontext.dll 4
+HKEY_CLASSES_ROOT/CLSID/{9324DA94-50EC-4A14-A770-E90CA03E7C8F}/DefaultIcon %SystemRoot%\system32\themeui.dll,7 4
+HKEY_CLASSES_ROOT/CLSID/{912ABC52-36E2-4714-8E62-A8B73CA5E390}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\wordicon.exe,14 4
+HKEY_CLASSES_ROOT/CLSID/{8E908FC9-BECC-40f6-915B-F4CA0E70D03D}/DefaultIcon %SystemRoot%\System32\netcenter.dll,-1 4
+HKEY_CLASSES_ROOT/CLSID/{8E6E6079-0CB7-11d2-8F10-0000F87ABD16}/DefaultIcon C:\Windows\SysWOW64\webcheck.dll,0 4
+HKEY_CLASSES_ROOT/CLSID/{8BD21D60-EC42-11CE-9E0D-00AA006002F3}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{8BD21D50-EC42-11CE-9E0D-00AA006002F3}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{8BD21D40-EC42-11CE-9E0D-00AA006002F3}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{8BD21D30-EC42-11CE-9E0D-00AA006002F3}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{8BD21D20-EC42-11CE-9E0D-00AA006002F3}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{8BD21D10-EC42-11CE-9E0D-00AA006002F3}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{8A624388-AA27-43e0-89F8-2A12BFF7BCCD}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\wordicon.exe,16 4
+HKEY_CLASSES_ROOT/CLSID/{89D83576-6BD1-4c86-9454-BEB04E94C819}/DefaultIcon %systemroot%\system32\mssvp.dll,-504 4
+HKEY_CLASSES_ROOT/CLSID/{88C6C381-2E85-11D0-94DE-444553540000}/DefaultIcon C:\Windows\SysWOW64\occache.dll 4
+HKEY_CLASSES_ROOT/CLSID/{888DCA60-FC0A-11CF-8F0F-00C04FD7D062}/DefaultIcon %SystemRoot%\system32\zipfldr.dll 4
+HKEY_CLASSES_ROOT/CLSID/{87D66A43-7B11-4A28-9811-C86EE395ACF7}/DefaultIcon %SystemRoot%\System32\srchadmin.dll,-201 4
+HKEY_CLASSES_ROOT/CLSID/{871C5380-42A0-1069-A2EA-08002B30309D}/DefaultIcon C:\Windows\SysWOW64\ieframe.dll,-190 4
+HKEY_CLASSES_ROOT/CLSID/{86F56B7F-A81B-478d-B231-50FD37CBE761}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{863aa9fd-42df-457b-8e4d-0de1b8015c60}/DefaultIcon %SystemRoot%\System32\imageres.dll,-26 4
+HKEY_CLASSES_ROOT/CLSID/{85BBD920-42A0-1069-A2E4-08002B30309D}/DefaultIcon %SystemRoot%\system32\syncui.dll,0 4
+HKEY_CLASSES_ROOT/CLSID/{8369AB20-56C9-11D0-94E8-00AA0059CE02}/DefaultIcon C:\Windows\SysWOW64\occache.dll,0 4
+HKEY_CLASSES_ROOT/CLSID/{830690FC-BF2F-47A6-AC2D-330BCB402664}/InprocServer32/DefaultIcon C:\PROGRA~2\COMMON~1\Skype\SKYPE4~1.DLL,207 5
+HKEY_CLASSES_ROOT/CLSID/{7FA8AE11-B3E3-4D88-AABF-255526CD1CE8}/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,0 4
+HKEY_CLASSES_ROOT/CLSID/{7BD29E00-76C1-11CF-9DD0-00A0C9034933}/DefaultIcon C:\Windows\SysWOW64\ieframe.dll,-20780 4
+HKEY_CLASSES_ROOT/CLSID/{7b81be6a-ce2b-4676-a29e-eb907a5126c5}/DefaultIcon %SystemRoot%\system32\imageres.dll,-87 4
+HKEY_CLASSES_ROOT/CLSID/{7B342DC4-139A-4a46-8A93-DB0827CCEE9C}/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,0 4
+HKEY_CLASSES_ROOT/CLSID/{7A9D77BD-5403-11d2-8785-2E0420524153}/DefaultIcon %SystemRoot%\system32\netplwiz.dll,-102 4
+HKEY_CLASSES_ROOT/CLSID/{7931F65C-2564-4C19-AE71-E7DDFA008F6A}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{79176FB0-B7F2-11CE-97EF-00AA006D2776}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{787A2D6B-EF66-488D-A303-513C9C75C344}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{77D2C92E-7779-11D8-9070-00065B840D9C}/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSDesigners8\msddsf.dll,0 4
+HKEY_CLASSES_ROOT/CLSID/{767A19A0-3CC7-415B-9D08-D48DD7B8557D}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,15 4
+HKEY_CLASSES_ROOT/CLSID/{75D01070-1234-44E9-82F6-DB5B39A47C13}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,11 4
+HKEY_CLASSES_ROOT/CLSID/{74246bfc-4c96-11d0-abef-0020af6b0b7a}/DefaultIcon %SystemRoot%\system32\devmgr.dll,-201 4
+HKEY_CLASSES_ROOT/CLSID/{73FDDC80-AEA9-101A-98A7-00AA00374959}/DefaultIcon "%ProgramFiles%\Windows NT\Accessories\WORDPAD.EXE",1 4
+HKEY_CLASSES_ROOT/CLSID/{725BE8F7-668E-4C7B-8F90-46BDB0936430}/DefaultIcon %SystemRoot%\System32\main.cpl,-200 4
+HKEY_CLASSES_ROOT/CLSID/{7007ACD1-3202-11D1-AAD2-00805FC1270E}/DefaultIcon value 4
+HKEY_CLASSES_ROOT/CLSID/{7007ACC7-3202-11D1-AAD2-00805FC1270E}/DefaultIcon %SystemRoot%\system32\netshell.dll 4
+HKEY_CLASSES_ROOT/CLSID/{6E182020-F460-11CE-9BCD-00AA00608E01}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{6DFD7C5C-2451-11d3-A299-00C04F8EF6AF}/DefaultIcon %SystemRoot%\system32\imageres.dll,-166 4
+HKEY_CLASSES_ROOT/CLSID/{6C8EEC18-8D75-41B2-A177-8831D59D2D50}/DefaultIcon %SystemRoot%\System32\main.cpl,-100 4
+HKEY_CLASSES_ROOT/CLSID/{6C1B3099-127A-4BE1-93BC-DD4771EEEF90}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{6C177EBD-C42D-4728-A04B-4131892EDBF6}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{67CA7650-96E6-4FDD-BB43-A8E774F73A57}/DefaultIcon %SystemRoot%\System32\imageres.dll,-1013 4
+HKEY_CLASSES_ROOT/CLSID/{679f85cb-0220-4080-b29b-5540cc05aab6}/DefaultIcon %SystemRoot%\system32\shell32.dll,-51380 4
+HKEY_CLASSES_ROOT/CLSID/{64818D11-4F9B-11CF-86EA-00AA00B929E8}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,17 4
+HKEY_CLASSES_ROOT/CLSID/{64818D10-4F9B-11CF-86EA-00AA00B929E8}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,17 4
+HKEY_CLASSES_ROOT/CLSID/{645FF040-5081-101B-9F08-00AA002F954E}/DefaultIcon %SystemRoot%\System32\imageres.dll,-55 4
+HKEY_CLASSES_ROOT/CLSID/{6419566C-E9AE-438F-8250-D37C4FB48660}/DefaultIcon D:\Program Files (x86)\Foxit Software\Foxit Reader\FoxitReader.exe,0 4
+HKEY_CLASSES_ROOT/CLSID/{63da6ec0-2e98-11cf-8d82-444553540000}/DefaultIcon %SystemRoot%\system32\imageres.dll,-73 4
+HKEY_CLASSES_ROOT/CLSID/{6377013E-2C35-40F3-B8E1-1AB47D12982B}/DefaultIcon %SystemRoot%\system32\WABSyncProvider.dll,0 4
+HKEY_CLASSES_ROOT/CLSID/{62D8ED13-C9D0-4CE8-A914-47DD628FB1B0}/DefaultIcon %SystemRoot%\System32\intl.cpl,-200 4
+HKEY_CLASSES_ROOT/CLSID/{6240EF28-7EAB-4dc7-A5E3-7CFB35EFB34D}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{60F6E464-4DEF-11d2-B2D9-00C04F8EEC8C}/DefaultIcon %SystemRoot%\System32\DATACLEN.DLL,-2002 4
+HKEY_CLASSES_ROOT/CLSID/{60632754-c523-4b62-b45c-4172da012619}/DefaultIcon %SystemRoot%\System32\usercpl.dll,-1 4
+HKEY_CLASSES_ROOT/CLSID/{5ef4af3a-f726-11d0-b8a2-00c04fc309a4}/DefaultIcon %SystemRoot%\system32\shell32.dll,-33 4
+HKEY_CLASSES_ROOT/CLSID/{5ED4F38C-D3FF-4D61-B506-6820320AEBFE}/DefaultIcon %SystemRoot%\System32\imageres.dll,-27 4
+HKEY_CLASSES_ROOT/CLSID/{5E90CC8B-E402-4350-82D7-996E92010608}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{5CBA34AE-E344-40CF-B61D-FBA4D0D1FF54}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{59031a47-3f72-44a7-89c5-5595fe6b30ee}/DefaultIcon %SystemRoot%\system32\imageres.dll,-123 4
+HKEY_CLASSES_ROOT/CLSID/{5512D124-5CC6-11CF-8D67-00AA00BDCE1D}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{5512D122-5CC6-11CF-8D67-00AA00BDCE1D}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{5512D11E-5CC6-11CF-8D67-00AA00BDCE1D}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{5512D11C-5CC6-11CF-8D67-00AA00BDCE1D}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{5512D11A-5CC6-11CF-8D67-00AA00BDCE1D}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{5512D118-5CC6-11CF-8D67-00AA00BDCE1D}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{5512D116-5CC6-11CF-8D67-00AA00BDCE1D}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{5512D114-5CC6-11CF-8D67-00AA00BDCE1D}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{5512D112-5CC6-11CF-8D67-00AA00BDCE1D}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{5512D110-5CC6-11CF-8D67-00AA00BDCE1D}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{5399E694-6CE5-4D6C-8FCE-1D8870FDCBA0}/DefaultIcon %SystemRoot%\system32\imageres.dll,-27 4
+HKEY_CLASSES_ROOT/CLSID/{5052A832-2C0F-46c7-B67C-1F1FEC37B280}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{4c892621-6757-4fe0-ad8c-a6301be7fba2}/DefaultIcon %SystemRoot%\system32\themeui.dll,7 4
+HKEY_CLASSES_ROOT/CLSID/{4C599241-6926-101B-9992-00000B65C6F9}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{48AE9D34-2FE7-48A7-9D8A-A65534E3C20C}/DefaultIcon E:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\devenv.exe,1200 4
+HKEY_CLASSES_ROOT/CLSID/{48123bc4-99d9-11d1-a6b3-00c04fd91555}/DefaultIcon %SystemRoot%\System32\msxml3.dll,0 4
+HKEY_CLASSES_ROOT/CLSID/{4795051A-6429-4D63-BCA0-D706532954AC}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{46E31370-3F7A-11CE-BED6-00AA00611080}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{450D8FBA-AD25-11D0-98A8-0800361B1103}/DefaultIcon %SystemRoot%\system32\shell32.dll,-235 4
+HKEY_CLASSES_ROOT/CLSID/{448BB771-CFE2-47C4-BCDF-1FBF378E202C}/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,0 4
+HKEY_CLASSES_ROOT/CLSID/{430da762-8632-4840-bc61-3eeaa078e62e}/DefaultIcon %SystemRoot%\system32\display.dll,1 4
+HKEY_CLASSES_ROOT/CLSID/{4299124F-F2C3-41b4-9C73-9236B2AD0E8F}/DefaultIcon C:\Program Files (x86)\Java\jre1.8.0_60\bin\javacpl.exe 4
+HKEY_CLASSES_ROOT/CLSID/{41662FC2-0D57-4aff-AB27-AD2E12E7C273}/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,0 4
+HKEY_CLASSES_ROOT/CLSID/{40419485-C444-4567-851A-2DD7BFA1684D}/DefaultIcon %SystemRoot%\System32\telephon.cpl,-100 4
+HKEY_CLASSES_ROOT/CLSID/{3f6bc534-dfa1-4ab4-ae54-ef25a74e0107}/DefaultIcon %SystemRoot%\System32\rstrui.exe,0 4
+HKEY_CLASSES_ROOT/CLSID/{3dfdf296-dbec-4fb4-81d1-6a3438bcf4de}/DefaultIcon %SystemRoot%\system32\imageres.dll,-108 4
+HKEY_CLASSES_ROOT/CLSID/{3D0FD779-0C2D-4708-A9BA-62F7458A5A53}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{3C18EAE4-BC25-4134-B7DF-1ECA1337DDDC}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,19 4
+HKEY_CLASSES_ROOT/CLSID/{3C0D7ACB-790B-4437-8DD2-815CA17C474D}/DefaultIcon E:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\devenv.exe,1200 4
+HKEY_CLASSES_ROOT/CLSID/{3ADD1653-EB32-4cb0-BBD7-DFA0ABB5ACCA}/DefaultIcon %SystemRoot%\system32\imageres.dll,-113 4
+HKEY_CLASSES_ROOT/CLSID/{3936E9E4-D92C-4EEE-A85A-BC16D5EA0819}/DefaultIcon %SystemRoot%\system32\shell32.dll,-37219 4
+HKEY_CLASSES_ROOT/CLSID/{38A98528-6CBF-4CA9-8DC0-B1E1D10F7B1B}/DefaultIcon %SystemRoot%\system32\imageres.dll,-171 4
+HKEY_CLASSES_ROOT/CLSID/{374DE290-123F-4565-9164-39C4925E467B}/DefaultIcon %SystemRoot%\system32\imageres.dll,-184 4
+HKEY_CLASSES_ROOT/CLSID/{328B0346-7EAF-4BBE-A479-7CB88A095F5B}/DefaultIcon %SystemRoot%\system32\imageres.dll,-27 4
+HKEY_CLASSES_ROOT/CLSID/{323CA680-C24D-4099-B94D-446DD2D7249E}/DefaultIcon %SystemRoot%\system32\imageres.dll,-1024 4
+HKEY_CLASSES_ROOT/CLSID/{3134ef9c-6b18-4996-ad04-ed5912e00eb5}/DefaultIcon %SystemRoot%\system32\imageres.dll,-117 4
+HKEY_CLASSES_ROOT/CLSID/{30A2652A-DDF7-45e7-ACA6-3EAB26FC8A4E}/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,0 4
+HKEY_CLASSES_ROOT/CLSID/{3080F90E-D7AD-11D9-BD98-0000947B0257}/DefaultIcon %SystemRoot%\explorer.exe,-258 4
+HKEY_CLASSES_ROOT/CLSID/{3080F90D-D7AD-11D9-BD98-0000947B0257}/DefaultIcon %SystemRoot%\explorer.exe,-103 4
+HKEY_CLASSES_ROOT/CLSID/{305CA226-D286-468e-B848-2B2E8E697B74}/DefaultIcon "C:\Users\Gregory\AppData\Local\Akamai\ControlPanel.exe" 4
+HKEY_CLASSES_ROOT/CLSID/{30590067-98b5-11cf-bb82-00aa00bdce0b}/DefaultIcon C:\Program Files (x86)\Internet Explorer\iexplore.exe,-19 4
+HKEY_CLASSES_ROOT/CLSID/{30590066-98b5-11cf-bb82-00aa00bdce0b}/DefaultIcon C:\Program Files (x86)\Internet Explorer\iexplore.exe,-19 4
+HKEY_CLASSES_ROOT/CLSID/{3050f4d8-98B5-11CF-BB82-00AA00BDCE0B}/DefaultIcon C:\Windows\SysWOW64\mshta.exe,1 4
+HKEY_CLASSES_ROOT/CLSID/{3050F3D9-98B5-11CF-BB82-00AA00BDCE0B}/DefaultIcon C:\Program Files (x86)\Internet Explorer\iexplore.exe,-19 4
+HKEY_CLASSES_ROOT/CLSID/{2E17C0EF-2851-459b-A3C8-27A41D4BC9F7}/DefaultIcon %SystemRoot%\system32\themeui.dll,7 4
+HKEY_CLASSES_ROOT/CLSID/{289AF617-1CC3-42A6-926C-E6A863F0E3BA}/DefaultIcon dlnashext.dll,-200 4
+HKEY_CLASSES_ROOT/CLSID/{28803F59-3A75-4058-995F-4EE5503B023C}/DefaultIcon %systemroot%\system32\DevicePairingFolder.dll,-200 4
+HKEY_CLASSES_ROOT/CLSID/{26EE0668-A00A-44D7-9371-BEB064C98683}/DefaultIcon %SystemRoot%\System32\imageres.dll,-27 4
+HKEY_CLASSES_ROOT/CLSID/{2559a1f7-21d7-11d4-bdaf-00c04f60b9f0}/DefaultIcon %SystemRoot%\System32\imageres.dll,-24 4
+HKEY_CLASSES_ROOT/CLSID/{2559a1f5-21d7-11d4-bdaf-00c04f60b9f0}/DefaultIcon %SystemRoot%\explorer.exe,-254 4
+HKEY_CLASSES_ROOT/CLSID/{2559a1f3-21d7-11d4-bdaf-00c04f60b9f0}/DefaultIcon %SystemRoot%\System32\imageres.dll,-100 4
+HKEY_CLASSES_ROOT/CLSID/{2559a1f2-21d7-11d4-bdaf-00c04f60b9f0}/DefaultIcon %SystemRoot%\System32\shell32.dll,-48 4
+HKEY_CLASSES_ROOT/CLSID/{2559a1f0-21d7-11d4-bdaf-00c04f60b9f0}/DefaultIcon %SystemRoot%\System32\imageres.dll,-177 4
+HKEY_CLASSES_ROOT/CLSID/{25336920-03F9-11CF-8FD0-00AA00686F13}/DefaultIcon C:\Program Files (x86)\Internet Explorer\iexplore.exe,-19 4
+HKEY_CLASSES_ROOT/CLSID/{24ad3ad4-a569-4530-98e1-ab02f9417aa8}/DefaultIcon %SystemRoot%\system32\imageres.dll,-113 4
+HKEY_CLASSES_ROOT/CLSID/{241D7C96-F8BF-4F85-B01F-E2B043341A4B}/DefaultIcon C:\Windows\SysWOW64\tsworkspace.dll 4
+HKEY_CLASSES_ROOT/CLSID/{233A9694-667E-11d1-9DFB-006097D50408}/DefaultIcon %ProgramFiles%\Windows Mail\msoe.dll,2 4
+HKEY_CLASSES_ROOT/CLSID/{22877a6d-37a1-461a-91b0-dbda5aaebc99}/DefaultIcon %SystemRoot%\system32\imageres.dll,-117 4
+HKEY_CLASSES_ROOT/CLSID/{227B1F3B-C276-4DE0-9FAA-C0AD42ADDCF0}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{2227A280-3AEA-1069-A2DE-08002B30309D}/DefaultIcon %SystemRoot%\System32\imageres.dll,-26 4
+HKEY_CLASSES_ROOT/CLSID/{21EC2020-3AEA-1069-A2DD-08002B30309D}/DefaultIcon %SystemRoot%\System32\imageres.dll,-27 4
+HKEY_CLASSES_ROOT/CLSID/{20D04FE0-3AEA-1069-A2D8-08002B30309D}/DefaultIcon %SystemRoot%\System32\imageres.dll,-109 4
+HKEY_CLASSES_ROOT/CLSID/{208D2C60-3AEA-1069-A2D7-08002B30309D}/DefaultIcon %SystemRoot%\system32\imageres.dll,-25 4
+HKEY_CLASSES_ROOT/CLSID/{1FA9085F-25A2-489B-85D4-86326EEDCD87}/DefaultIcon %SystemRoot%\System32\wlanpref.dll 4
+HKEY_CLASSES_ROOT/CLSID/{1CF1260C-4DD0-4ebb-811F-33C572699FDE}/DefaultIcon %SystemRoot%\system32\imageres.dll,-108 4
+HKEY_CLASSES_ROOT/CLSID/{1CDC7D25-5AA3-4DC4-8E0C-91524280F806}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\misc.exe,19 4
+HKEY_CLASSES_ROOT/CLSID/{1B261B22-AC6A-4E68-A870-AB5080E8687B}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\wordicon.exe,17 4
+HKEY_CLASSES_ROOT/CLSID/{19FED08E-EFD1-45da-B524-7BE4774A6AEE}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{18A06B6B-2F3F-4e2b-A611-52BE631B2D22}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\wordicon.exe,15 4
+HKEY_CLASSES_ROOT/CLSID/{17cd9488-1228-4b2f-88ce-4298e93e0966}/DefaultIcon %SystemRoot%\System32\imageres.dll,-24 4
+HKEY_CLASSES_ROOT/CLSID/{15eae92e-f17a-4431-9f28-805e482dafd4}/DefaultIcon %SystemRoot%\system32\imageres.dll,-87 4
+HKEY_CLASSES_ROOT/CLSID/{14E8BBD8-1D1C-4D56-A4DA-D20B75EB814E}/DefaultIcon D:\Program Files (x86)\Foxit Software\Foxit Reader\FoxitReader.exe,1 4
+HKEY_CLASSES_ROOT/CLSID/{148BD52A-A2AB-11CE-B11F-00AA00530503}/DefaultIcon %systemroot%\System32\mstask.dll,0 4
+HKEY_CLASSES_ROOT/CLSID/{148BD520-A2AB-11CE-B11F-00AA00530503}/DefaultIcon %systemroot%\System32\mstask.dll,-101 4
+HKEY_CLASSES_ROOT/CLSID/{13D557B6-A469-4362-BEAF-52BFD0F180E2}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{138508bc-1e03-49ea-9c8f-ea9e1d05d65d}/DefaultIcon @C:\Program Files\Microsoft Office 15\root\Office15\MAPISHELL.DLL,-504 4
+HKEY_CLASSES_ROOT/CLSID/{1206F5F1-0569-412C-8FEC-3204630DFB70}/DefaultIcon %SystemRoot%\system32\Vault.dll,-1 4
+HKEY_CLASSES_ROOT/CLSID/{0DF44EAA-FF21-4412-828E-260A8728E7F1}/DefaultIcon %SystemRoot%\system32\imageres.dll,-80 4
+HKEY_CLASSES_ROOT/CLSID/{0C39A5CF-1A7A-40C8-BA74-8900E6DF5FCD}/DefaultIcon %SystemRoot%\system32\imageres.dll,-117 4
+HKEY_CLASSES_ROOT/CLSID/{09FD2EFF-5669-11D3-B65F-00C04F8EF32D}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pubs.exe,1 4
+HKEY_CLASSES_ROOT/CLSID/{088e3905-0323-4b02-9826-5d99428e115f}/DefaultIcon %SystemRoot%\system32\imageres.dll,-184 4
+HKEY_CLASSES_ROOT/CLSID/{048EB43E-2059-422F-95E0-557DA96038AF}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,10 4
+HKEY_CLASSES_ROOT/CLSID/{04731B67-D933-450a-90E6-4ACD2E9408FE}/DefaultIcon %SystemRoot%\system32\Windows.Storage.Search.dll,-323 4
+HKEY_CLASSES_ROOT/CLSID/{04082FC6-E032-49F2-A263-FE64E9DA1FA3}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{031E4825-7B94-4dc3-B131-E946B44C8DD5}/DefaultIcon %SystemRoot%\system32\imageres.dll,-1023 4
+HKEY_CLASSES_ROOT/CLSID/{02AF6DD2-77E6-44DF-B3E1-57CF1476D8EA}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 4
+HKEY_CLASSES_ROOT/CLSID/{025A5937-A6BE-4686-A844-36FE4BEC8B6D}/DefaultIcon %SystemRoot%\System32\powercpl.dll,-1 4
+HKEY_CLASSES_ROOT/CLSID/{018D5C66-4533-4307-9B53-224DE2ED1FE6}/DefaultIcon %SystemRoot%\SysWow64\imageres.dll,-1043 4
+HKEY_CLASSES_ROOT/CLSID/{00030002-0000-0000-C000-000000000046}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\EXCEL.EXE,1 4
+HKEY_CLASSES_ROOT/CLSID/{00030001-0000-0000-C000-000000000046}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\EXCEL.EXE,1 4
+HKEY_CLASSES_ROOT/CLSID/{00030000-0000-0000-C000-000000000046}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\EXCEL.EXE,1 4
+HKEY_CLASSES_ROOT/CLSID/{0002CE02-0000-0000-C000-000000000046}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-006E-0409-0000-0000000FF1CE}\misc.exe,10 4
+HKEY_CLASSES_ROOT/CLSID/{00020907-0000-0000-C000-000000000046}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\wordicon.exe,1 4
+HKEY_CLASSES_ROOT/CLSID/{00020906-0000-0000-C000-000000000046}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\wordicon.exe,1 4
+HKEY_CLASSES_ROOT/CLSID/{00020901-0000-0000-C000-000000000046}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\WINWORD.EXE,1 4
+HKEY_CLASSES_ROOT/CLSID/{00020900-0000-0000-C000-000000000046}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\WINWORD.EXE,1 4
+HKEY_CLASSES_ROOT/CLSID/{00020833-0000-0000-C000-000000000046}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\xlicons.exe,1 4
+HKEY_CLASSES_ROOT/CLSID/{00020832-0000-0000-C000-000000000046}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\xlicons.exe,1 4
+HKEY_CLASSES_ROOT/CLSID/{00020830-0000-0000-C000-000000000046}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\xlicons.exe,1 4
+HKEY_CLASSES_ROOT/CLSID/{00020821-0000-0000-C000-000000000046}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\xlicons.exe,3 4
+HKEY_CLASSES_ROOT/CLSID/{00020820-0000-0000-C000-000000000046}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\xlicons.exe,1 4
+HKEY_CLASSES_ROOT/CLSID/{00020811-0000-0000-C000-000000000046}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\EXCEL.EXE,1 4
+HKEY_CLASSES_ROOT/CLSID/{00020810-0000-0000-C000-000000000046}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\EXCEL.EXE,1 4
+HKEY_CLASSES_ROOT/CLSID/{00020803-0000-0000-C000-000000000046}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\graph.ico,0 4
+HKEY_CLASSES_ROOT/cmdfile/DefaultIcon %SystemRoot%\System32\imageres.dll,-68 3
+HKEY_CLASSES_ROOT/CodeBlocks.c/DefaultIcon D:\Program Files (x86)\CodeBlocks\codeblocks.exe,3 3
+HKEY_CLASSES_ROOT/CodeBlocks.cbp/DefaultIcon D:\Program Files (x86)\CodeBlocks\codeblocks.exe,1 3
+HKEY_CLASSES_ROOT/CodeBlocks.cc/DefaultIcon D:\Program Files (x86)\CodeBlocks\codeblocks.exe,4 3
+HKEY_CLASSES_ROOT/CodeBlocks.cg/DefaultIcon D:\Program Files (x86)\CodeBlocks\codeblocks.exe,7 3
+HKEY_CLASSES_ROOT/CodeBlocks.cpp/DefaultIcon D:\Program Files (x86)\CodeBlocks\codeblocks.exe,4 3
+HKEY_CLASSES_ROOT/CodeBlocks.cxx/DefaultIcon D:\Program Files (x86)\CodeBlocks\codeblocks.exe,4 3
+HKEY_CLASSES_ROOT/CodeBlocks.h/DefaultIcon D:\Program Files (x86)\CodeBlocks\codeblocks.exe,5 3
+HKEY_CLASSES_ROOT/CodeBlocks.hh/DefaultIcon D:\Program Files (x86)\CodeBlocks\codeblocks.exe,5 3
+HKEY_CLASSES_ROOT/CodeBlocks.hpp/DefaultIcon D:\Program Files (x86)\CodeBlocks\codeblocks.exe,5 3
+HKEY_CLASSES_ROOT/CodeBlocks.hxx/DefaultIcon D:\Program Files (x86)\CodeBlocks\codeblocks.exe,5 3
+HKEY_CLASSES_ROOT/CodeBlocks.inl/DefaultIcon D:\Program Files (x86)\CodeBlocks\codeblocks.exe,4 3
+HKEY_CLASSES_ROOT/CodeBlocks.java/DefaultIcon D:\Program Files (x86)\CodeBlocks\codeblocks.exe,6 3
+HKEY_CLASSES_ROOT/CodeBlocks.workspace/DefaultIcon D:\Program Files (x86)\CodeBlocks\codeblocks.exe,11 3
+HKEY_CLASSES_ROOT/comfile/DefaultIcon %SystemRoot%\System32\shell32.dll,2 3
+HKEY_CLASSES_ROOT/CompressedFolder/DefaultIcon %SystemRoot%\system32\zipfldr.dll 3
+HKEY_CLASSES_ROOT/connectagent/DefaultIcon express.exe,1 3
+HKEY_CLASSES_ROOT/ConnectedSearch.Result/DefaultIcon %SystemRoot%\System32\imageres.dll,-177 3
+HKEY_CLASSES_ROOT/contact_wab_auto_file/DefaultIcon %ProgramFiles%\Windows Mail\wab.exe,1 3
+HKEY_CLASSES_ROOT/CRLFile/DefaultIcon cryptui.dll,-3417 3
+HKEY_CLASSES_ROOT/CRTXFile/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\OART.DLL,-5000 3
+HKEY_CLASSES_ROOT/CSSfile/DefaultIcon C:\Windows\System32\shell32.dll,-151 3
+HKEY_CLASSES_ROOT/curfile/DefaultIcon %1 3
+HKEY_CLASSES_ROOT/dbfile/DefaultIcon C:\Windows\system32\imageres.dll,-67 3
+HKEY_CLASSES_ROOT/desktopthemepackfile/DefaultIcon %SystemRoot%\system32\themeui.dll,-704 3
+HKEY_CLASSES_ROOT/Diagnostic.Cabinet/DefaultIcon %SystemRoot%\system32\msdt.exe,-10013 3
+HKEY_CLASSES_ROOT/Diagnostic.Config/DefaultIcon %SystemRoot%\system32\msdt.exe,-10015 3
+HKEY_CLASSES_ROOT/Diagnostic.Document/DefaultIcon %SystemRoot%\system32\msdt.exe,-10011 3
+HKEY_CLASSES_ROOT/Diagnostic.Perfmon.Config/DefaultIcon %SystemRoot%\system32\wdc.dll,-10038 3
+HKEY_CLASSES_ROOT/Diagnostic.Perfmon.Document/DefaultIcon %SystemRoot%\system32\wdc.dll,-10024 3
+HKEY_CLASSES_ROOT/Diagnostic.Resmon.Config/DefaultIcon %SystemRoot%\system32\wdc.dll,-10040 3
+HKEY_CLASSES_ROOT/Directory/DefaultIcon %SystemRoot%\System32\shell32.dll,3 3
+HKEY_CLASSES_ROOT/dllfile/DefaultIcon C:\Windows\system32\imageres.dll,-67 3
+HKEY_CLASSES_ROOT/DLNA-PLAYSINGLE/DefaultIcon %SystemRoot%\system32\dlnashext.dll,-200 3
+HKEY_CLASSES_ROOT/docxfile/DefaultIcon "%ProgramFiles%\Windows NT\Accessories\WORDPAD.EXE",2 3
+HKEY_CLASSES_ROOT/dqyfile/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\EXCEL.EXE,-271 3
+HKEY_CLASSES_ROOT/Drive/DefaultIcon %SystemRoot%\System32\shell32.dll,8 3
+HKEY_CLASSES_ROOT/DVD/DefaultIcon shell32.dll,40 3
+HKEY_CLASSES_ROOT/ELMFile/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\ProgramFilesCommonX86\Microsoft Shared\OFFICE15\MSOICONS.EXE,6 3
+HKEY_CLASSES_ROOT/emffile/DefaultIcon %SystemRoot%\system32\mspaint.exe,-3 3
+HKEY_CLASSES_ROOT/evtfile/DefaultIcon %SystemRoot%\system32\miguiresource.dll,0 3
+HKEY_CLASSES_ROOT/evtxfile/DefaultIcon %SystemRoot%\system32\miguiresource.dll,0 3
+HKEY_CLASSES_ROOT/Excel/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\EXCEL.EXE 3
+HKEY_CLASSES_ROOT/Excel.Addin/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\xlicons.exe,6 3
+HKEY_CLASSES_ROOT/Excel.AddInMacroEnabled/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\xlicons.exe,6 3
+HKEY_CLASSES_ROOT/Excel.Backup/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\xlicons.exe,5 3
+HKEY_CLASSES_ROOT/Excel.Chart.8/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\xlicons.exe,3 3
+HKEY_CLASSES_ROOT/Excel.CSV/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\xlicons.exe,9 3
+HKEY_CLASSES_ROOT/Excel.Dialog/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\xlicons.exe,12 3
+HKEY_CLASSES_ROOT/Excel.Macrosheet/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\xlicons.exe,2 3
+HKEY_CLASSES_ROOT/Excel.OpenDocumentSpreadsheet.12/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\xlicons.exe,32 3
+HKEY_CLASSES_ROOT/Excel.Sheet.12/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\xlicons.exe,1 3
+HKEY_CLASSES_ROOT/Excel.Sheet.8/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\xlicons.exe,28 3
+HKEY_CLASSES_ROOT/Excel.SheetBinaryMacroEnabled.12/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\xlicons.exe,27 3
+HKEY_CLASSES_ROOT/Excel.SheetMacroEnabled.12/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\xlicons.exe,30 3
+HKEY_CLASSES_ROOT/Excel.SLK/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\xlicons.exe,10 3
+HKEY_CLASSES_ROOT/Excel.Template/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\xlicons.exe,4 3
+HKEY_CLASSES_ROOT/Excel.Template.8/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\xlicons.exe,29 3
+HKEY_CLASSES_ROOT/Excel.TemplateMacroEnabled/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\xlicons.exe,31 3
+HKEY_CLASSES_ROOT/Excel.UriLink.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\EXCEL.EXE,0 3
+HKEY_CLASSES_ROOT/Excel.Workspace/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\xlicons.exe,7 3
+HKEY_CLASSES_ROOT/Excel.XLL/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\xlicons.exe,8 3
+HKEY_CLASSES_ROOT/Excelhtmlfile/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\xlicons.exe,26 3
+HKEY_CLASSES_ROOT/Excelhtmltemplate/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\xlicons.exe,14 3
+HKEY_CLASSES_ROOT/excelmhtmlfile/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\EXCEL.EXE,-277 3
+HKEY_CLASSES_ROOT/Excelxmlss/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\EXCEL.EXE,-282 3
+HKEY_CLASSES_ROOT/exefile/DefaultIcon %1 3
+HKEY_CLASSES_ROOT/FaxCover.Document/DefaultIcon C:\Windows\System32\fxscover.exe,1 3
+HKEY_CLASSES_ROOT/feed/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\OUTLOOK.EXE,-9403 3
+HKEY_CLASSES_ROOT/feeds/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\OUTLOOK.EXE,-9403 3
+HKEY_CLASSES_ROOT/FirefoxHTML/DefaultIcon D:\Program Files (x86)\Mozilla Firefox\firefox.exe,1 3
+HKEY_CLASSES_ROOT/FirefoxURL/DefaultIcon D:\Program Files (x86)\Mozilla Firefox\firefox.exe,1 3
+HKEY_CLASSES_ROOT/Folder/DefaultIcon %SystemRoot%\System32\shell32.dll,3 3
+HKEY_CLASSES_ROOT/fonfile/DefaultIcon %SystemRoot%\System32\fontext.dll,-419 3
+HKEY_CLASSES_ROOT/FoxitPhantomPDF.PPDF/DefaultIcon D:\PROGRAM FILES (X86)\FOXIT SOFTWARE\FOXIT READER\plugins\PlgDynLoader.fpi,0 3
+HKEY_CLASSES_ROOT/FoxitReader.Document/DefaultIcon D:\PROGRAM FILES (X86)\FOXIT SOFTWARE\FOXIT READER\FOXITREADER.EXE,1 3
+HKEY_CLASSES_ROOT/FoxitReader.FDFDoc/DefaultIcon D:\PROGRAM FILES (X86)\FOXIT SOFTWARE\FOXIT READER\FoxitReader.exe,2 3
+HKEY_CLASSES_ROOT/FoxitReader.PPDF/DefaultIcon D:\PROGRAM FILES (X86)\FOXIT SOFTWARE\FOXIT READER\plugins\PlgDynLoader.fpi,3 3
+HKEY_CLASSES_ROOT/FoxitReader.XDPDoc/DefaultIcon D:\PROGRAM FILES (X86)\FOXIT SOFTWARE\FOXIT READER\FOXITREADER.EXE,4 3
+HKEY_CLASSES_ROOT/FoxitReader.XFDFDoc/DefaultIcon D:\PROGRAM FILES (X86)\FOXIT SOFTWARE\FOXIT READER\FOXITREADER.EXE,3 3
+HKEY_CLASSES_ROOT/ftp/DefaultIcon D:\Program Files (x86)\Mozilla Firefox\firefox.exe,1 3
+HKEY_CLASSES_ROOT/GCSXFile/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\OART.DLL,-3000 3
+HKEY_CLASSES_ROOT/giffile/DefaultIcon %SystemRoot%\System32\imageres.dll,-71 3
+HKEY_CLASSES_ROOT/github-windows/DefaultIcon C:\Users\Gregory\AppData\Local\Apps\2.0\NZ24G9L2.7BO\6X6GHORR.2WQ\gith..tion_317444273a93ac29_0003.0000_3d9282105f72a5d4\GitHub.exe,-1 3
+HKEY_CLASSES_ROOT/GLOXFile/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\OART.DLL,-3000 3
+HKEY_CLASSES_ROOT/gmmpfile/DefaultIcon %SystemRoot%\System32\colorui.dll,-18 3
+HKEY_CLASSES_ROOT/GQSXFile/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\OART.DLL,-3000 3
+HKEY_CLASSES_ROOT/group_wab_auto_file/DefaultIcon %ProgramFiles%\Windows Mail\wab.exe,2 3
+HKEY_CLASSES_ROOT/hlpfile/DefaultIcon %SystemRoot%\System32\shell32.dll,23 3
+HKEY_CLASSES_ROOT/htafile/DefaultIcon C:\Windows\System32\mshta.exe,1 3
+HKEY_CLASSES_ROOT/htmlfile/DefaultIcon C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE,-17 3
+HKEY_CLASSES_ROOT/http/DefaultIcon D:\Program Files (x86)\Mozilla Firefox\firefox.exe,1 3
+HKEY_CLASSES_ROOT/https/DefaultIcon D:\Program Files (x86)\Mozilla Firefox\firefox.exe,1 3
+HKEY_CLASSES_ROOT/icmfile/DefaultIcon %SystemRoot%\System32\colorui.dll,-15 3
+HKEY_CLASSES_ROOT/icofile/DefaultIcon %1 3
+HKEY_CLASSES_ROOT/IdeaIC14/DefaultIcon  D:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 14.1.4\bin\idea.exe,0 3
+HKEY_CLASSES_ROOT/IE.AssocFile.HTM/DefaultIcon C:\Program Files\Internet Explorer\iexplore.exe,-19 3
+HKEY_CLASSES_ROOT/IE.AssocFile.MHT/DefaultIcon C:\Program Files\Internet Explorer\iexplore.exe,-32554 3
+HKEY_CLASSES_ROOT/IE.AssocFile.PARTIAL/DefaultIcon C:\Program Files\Internet Explorer\iexplore.exe,-19 3
+HKEY_CLASSES_ROOT/IE.AssocFile.SVG/DefaultIcon C:\Program Files\Internet Explorer\iexplore.exe,-19 3
+HKEY_CLASSES_ROOT/IE.AssocFile.URL/DefaultIcon C:\Windows\System32\url.dll,0 3
+HKEY_CLASSES_ROOT/IE.AssocFile.WEBSITE/DefaultIcon C:\Windows\System32\ieframe.dll,-211 3
+HKEY_CLASSES_ROOT/IE.AssocFile.XHT/DefaultIcon C:\Program Files\Internet Explorer\iexplore.exe,-19 3
+HKEY_CLASSES_ROOT/IE.FTP/DefaultIcon C:\Windows\System32\url.dll,0 3
+HKEY_CLASSES_ROOT/IE.HTTP/DefaultIcon C:\Windows\System32\url.dll,0 3
+HKEY_CLASSES_ROOT/IE.HTTPS/DefaultIcon C:\Windows\System32\url.dll,0 3
+HKEY_CLASSES_ROOT/inffile/DefaultIcon %SystemRoot%\System32\imageres.dll,-69 3
+HKEY_CLASSES_ROOT/inifile/DefaultIcon %SystemRoot%\system32\imageres.dll,-69 3
+HKEY_CLASSES_ROOT/IntelliJIdeaProjectFile/DefaultIcon D:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 14.1.4\bin\idea.exe,0 3
+HKEY_CLASSES_ROOT/InternetShortcut/DefaultIcon %SystemRoot%\system32\url.dll,5 3
+HKEY_CLASSES_ROOT/iqyfile/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\EXCEL.EXE,-270 3
+HKEY_CLASSES_ROOT/jntfile/DefaultIcon "%ProgramFiles%\Windows Journal\Journal.exe",1 3
+HKEY_CLASSES_ROOT/jpegfile/DefaultIcon %SystemRoot%\System32\imageres.dll,-72 3
+HKEY_CLASSES_ROOT/JSEFile/DefaultIcon C:\Windows\System32\WScript.exe,3 3
+HKEY_CLASSES_ROOT/JSFile/DefaultIcon C:\Windows\System32\WScript.exe,3 3
+HKEY_CLASSES_ROOT/JSXBINFile/DefaultIcon "C:\Program Files (x86)\Adobe\Adobe Utilities - CS6\ExtendScript Toolkit CS6\ExtendScript Toolkit.exe",2 3
+HKEY_CLASSES_ROOT/JSXFile/DefaultIcon "C:\Program Files (x86)\Adobe\Adobe Utilities - CS6\ExtendScript Toolkit CS6\ExtendScript Toolkit.exe",1 3
+HKEY_CLASSES_ROOT/JSXINCFile/DefaultIcon "C:\Program Files (x86)\Adobe\Adobe Utilities - CS6\ExtendScript Toolkit CS6\ExtendScript Toolkit.exe",3 3
+HKEY_CLASSES_ROOT/jtpfile/DefaultIcon "%ProgramFiles%\Windows Journal\Journal.exe",2 3
+HKEY_CLASSES_ROOT/kindle/DefaultIcon C:\Users\Gregory\AppData\Local\Amazon\Kindle\application\Kindle.exe 3
+HKEY_CLASSES_ROOT/Label/DefaultIcon %SystemRoot%\system32\shell32.dll,-253 3
+HKEY_CLASSES_ROOT/LayoutFolder/DefaultIcon %SystemRoot%\system32\shell32.dll 3
+HKEY_CLASSES_ROOT/LEXFile/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\ProgramFilesCommonX86\Microsoft Shared\OFFICE15\MSOICONS.EXE,6 3
+HKEY_CLASSES_ROOT/LibraryFolder/DefaultIcon %SystemRoot%\System32\imageres.dll,-8 3
+HKEY_CLASSES_ROOT/LpkSetup.1/DefaultIcon %systemroot%\system32\lpksetup.exe,0 3
+HKEY_CLASSES_ROOT/MacromediaFlashPaper.MacromediaFlashPaper/DefaultIcon "%ProgramFiles%\Internet Explorer\iexplore.exe",-17 3
+HKEY_CLASSES_ROOT/Magnet/DefaultIcon C:\Users\Gregory\AppData\Roaming\uTorrent\maindoc.ico 3
+HKEY_CLASSES_ROOT/mailto/DefaultIcon D:\Program Files (x86)\Mozilla Thunderbird\thunderbird.exe,0 3
+HKEY_CLASSES_ROOT/mhtmlfile/DefaultIcon C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE,-32554 3
+HKEY_CLASSES_ROOT/Microsoft SQL Server Compact Edition Database File/DefaultIcon C:\Program Files\Microsoft SQL Server Compact Edition\v4.0\sqlceme40.dll,-1 3
+HKEY_CLASSES_ROOT/Microsoft.PhotoManager.imagetype/DefaultIcon @{FileManager_6.3.9600.16384_neutral_neutral_cw5n1h2txyewy?ms-resource://FileManager/Files/Assets/PhotosIcon.png} 3
+HKEY_CLASSES_ROOT/Microsoft.PhotoManager.panotype/DefaultIcon @{FileManager_6.3.9600.16384_neutral_neutral_cw5n1h2txyewy?ms-resource://FileManager/Files/Assets/PhotosIcon.png} 3
+HKEY_CLASSES_ROOT/Microsoft.PhotoManager.videotype/DefaultIcon @{FileManager_6.3.9600.16384_neutral_neutral_cw5n1h2txyewy?ms-resource://FileManager/Files/Assets/PhotosIcon.png} 3
+HKEY_CLASSES_ROOT/Microsoft.PowerShellScript.1/DefaultIcon "C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe",1 3
+HKEY_CLASSES_ROOT/Microsoft.System.Update.1/DefaultIcon "%systemroot%\system32\wusa.exe",-101 3
+HKEY_CLASSES_ROOT/Microsoft.Website/DefaultIcon %SystemRoot%\system32\ieframe.dll,-211 3
+HKEY_CLASSES_ROOT/Microsoft.Workfolders/DefaultIcon C:\Windows\System32\WorkfoldersControl.dll, 1 3
+HKEY_CLASSES_ROOT/MiKTeX.bib.2.9/DefaultIcon D:\Program Files\LaTeX\MiKTeX\miktex\bin\x64\miktex-texworks.exe,-2 3
+HKEY_CLASSES_ROOT/MiKTeX.cls.2.9/DefaultIcon D:\Program Files\LaTeX\MiKTeX\miktex\bin\x64\miktex-texworks.exe,-2 3
+HKEY_CLASSES_ROOT/MiKTeX.dtx.2.9/DefaultIcon D:\Program Files\LaTeX\MiKTeX\miktex\bin\x64\miktex-texworks.exe,-2 3
+HKEY_CLASSES_ROOT/MiKTeX.dvi.2.9/DefaultIcon D:\Program Files\LaTeX\MiKTeX\miktex\bin\x64\yap.exe,1 3
+HKEY_CLASSES_ROOT/MiKTeX.ltx.2.9/DefaultIcon D:\Program Files\LaTeX\MiKTeX\miktex\bin\x64\miktex-texworks.exe,-2 3
+HKEY_CLASSES_ROOT/MiKTeX.sty.2.9/DefaultIcon D:\Program Files\LaTeX\MiKTeX\miktex\bin\x64\miktex-texworks.exe,-2 3
+HKEY_CLASSES_ROOT/MiKTeX.tex.2.9/DefaultIcon D:\Program Files\LaTeX\MiKTeX\miktex\bin\x64\miktex-texworks.exe,-2 3
+HKEY_CLASSES_ROOT/MMS/DefaultIcon %SystemRoot%\system32\wmploc.dll,-730 3
+HKEY_CLASSES_ROOT/ms-access/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\MSACCESS.EXE,0 3
+HKEY_CLASSES_ROOT/ms-excel/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\EXCEL.EXE 3
+HKEY_CLASSES_ROOT/ms-powerpoint/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\POWERPNT.EXE,0 3
+HKEY_CLASSES_ROOT/ms-publisher/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\MSPUB.EXE,0 3
+HKEY_CLASSES_ROOT/ms-settings/DefaultIcon @{windows.immersivecontrolpanel_6.2.0.0_neutral_neutral_cw5n1h2txyewy?ms-resource://windows.immersivecontrolpanel/Files/images/logo.png} 3
+HKEY_CLASSES_ROOT/ms-settings-airplanemode/DefaultIcon @{windows.immersivecontrolpanel_6.2.0.0_neutral_neutral_cw5n1h2txyewy?ms-resource://windows.immersivecontrolpanel/Files/images/logo.png} 3
+HKEY_CLASSES_ROOT/ms-settings-bluetooth/DefaultIcon @{windows.immersivecontrolpanel_6.2.0.0_neutral_neutral_cw5n1h2txyewy?ms-resource://windows.immersivecontrolpanel/Files/images/logo.png} 3
+HKEY_CLASSES_ROOT/ms-settings-cellular/DefaultIcon @{windows.immersivecontrolpanel_6.2.0.0_neutral_neutral_cw5n1h2txyewy?ms-resource://windows.immersivecontrolpanel/Files/images/logo.png} 3
+HKEY_CLASSES_ROOT/ms-settings-emailandaccounts/DefaultIcon @{windows.immersivecontrolpanel_6.2.0.0_neutral_neutral_cw5n1h2txyewy?ms-resource://windows.immersivecontrolpanel/Files/images/logo.png} 3
+HKEY_CLASSES_ROOT/ms-settings-language/DefaultIcon @{windows.immersivecontrolpanel_6.2.0.0_neutral_neutral_cw5n1h2txyewy?ms-resource://windows.immersivecontrolpanel/Files/images/logo.png} 3
+HKEY_CLASSES_ROOT/ms-settings-location/DefaultIcon @{windows.immersivecontrolpanel_6.2.0.0_neutral_neutral_cw5n1h2txyewy?ms-resource://windows.immersivecontrolpanel/Files/images/logo.png} 3
+HKEY_CLASSES_ROOT/ms-settings-lock/DefaultIcon @{windows.immersivecontrolpanel_6.2.0.0_neutral_neutral_cw5n1h2txyewy?ms-resource://windows.immersivecontrolpanel/Files/images/logo.png} 3
+HKEY_CLASSES_ROOT/ms-settings-notifications/DefaultIcon @{windows.immersivecontrolpanel_6.2.0.0_neutral_neutral_cw5n1h2txyewy?ms-resource://windows.immersivecontrolpanel/Files/images/logo.png} 3
+HKEY_CLASSES_ROOT/ms-settings-power/DefaultIcon @{windows.immersivecontrolpanel_6.2.0.0_neutral_neutral_cw5n1h2txyewy?ms-resource://windows.immersivecontrolpanel/Files/images/logo.png} 3
+HKEY_CLASSES_ROOT/ms-settings-privacy/DefaultIcon @{windows.immersivecontrolpanel_6.2.0.0_neutral_neutral_cw5n1h2txyewy?ms-resource://windows.immersivecontrolpanel/Files/images/logo.png} 3
+HKEY_CLASSES_ROOT/ms-settings-proximity/DefaultIcon @{windows.immersivecontrolpanel_6.2.0.0_neutral_neutral_cw5n1h2txyewy?ms-resource://windows.immersivecontrolpanel/Files/images/logo.png} 3
+HKEY_CLASSES_ROOT/ms-settings-screenrotation/DefaultIcon @{windows.immersivecontrolpanel_6.2.0.0_neutral_neutral_cw5n1h2txyewy?ms-resource://windows.immersivecontrolpanel/Files/images/logo.png} 3
+HKEY_CLASSES_ROOT/ms-settings-wifi/DefaultIcon @{windows.immersivecontrolpanel_6.2.0.0_neutral_neutral_cw5n1h2txyewy?ms-resource://windows.immersivecontrolpanel/Files/images/logo.png} 3
+HKEY_CLASSES_ROOT/ms-settings-workplace/DefaultIcon @{windows.immersivecontrolpanel_6.2.0.0_neutral_neutral_cw5n1h2txyewy?ms-resource://windows.immersivecontrolpanel/Files/images/logo.png} 3
+HKEY_CLASSES_ROOT/ms-windows-store/DefaultIcon @{winstore_1.0.0.0_neutral_neutral_cw5n1h2txyewy?ms-resource://WinStore/Files/images/logo.png} 3
+HKEY_CLASSES_ROOT/ms-word/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\WINWORD.EXE,0 3
+HKEY_CLASSES_ROOT/mscfile/DefaultIcon %1 3
+HKEY_CLASSES_ROOT/MSDASC/DefaultIcon %CommonProgramFiles%\System\Ole DB\oledb32.dll,0 3
+HKEY_CLASSES_ROOT/MSDASQL/DefaultIcon %CommonProgramFiles%\System\Ole DB\msdasql.dll,0 3
+HKEY_CLASSES_ROOT/MSHelp.hxa.2.5/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\ProgramFilesCommonX86\Microsoft Shared\Help\hxds.dll,-206 3
+HKEY_CLASSES_ROOT/MSHelp.hxc.2.5/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\ProgramFilesCommonX86\Microsoft Shared\Help\hxds.dll,-207 3
+HKEY_CLASSES_ROOT/MSHelp.hxd.2.5/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\ProgramFilesCommonX86\Microsoft Shared\Help\hxds.dll,-213 3
+HKEY_CLASSES_ROOT/MSHelp.hxe.2.5/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\ProgramFilesCommonX86\Microsoft Shared\Help\hxds.dll,-208 3
+HKEY_CLASSES_ROOT/MSHelp.hxf.2.5/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\ProgramFilesCommonX86\Microsoft Shared\Help\hxds.dll,-219 3
+HKEY_CLASSES_ROOT/MSHelp.hxh.2.5/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\ProgramFilesCommonX86\Microsoft Shared\Help\hxds.dll,-214 3
+HKEY_CLASSES_ROOT/MSHelp.hxi.2.5/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\ProgramFilesCommonX86\Microsoft Shared\Help\hxds.dll,-215 3
+HKEY_CLASSES_ROOT/MSHelp.hxk.2.5/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\ProgramFilesCommonX86\Microsoft Shared\Help\hxds.dll,-209 3
+HKEY_CLASSES_ROOT/MSHelp.hxq.2.5/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\ProgramFilesCommonX86\Microsoft Shared\Help\hxds.dll,-216 3
+HKEY_CLASSES_ROOT/MSHelp.hxr.2.5/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\ProgramFilesCommonX86\Microsoft Shared\Help\hxds.dll,-218 3
+HKEY_CLASSES_ROOT/MSHelp.hxs.2.5/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\ProgramFilesCommonX86\Microsoft Shared\Help\hxds.dll,-210 3
+HKEY_CLASSES_ROOT/MSHelp.hxt.2.5/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\ProgramFilesCommonX86\Microsoft Shared\Help\hxds.dll,-211 3
+HKEY_CLASSES_ROOT/MSHelp.hxv.2.5/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\ProgramFilesCommonX86\Microsoft Shared\Help\hxds.dll,-212 3
+HKEY_CLASSES_ROOT/MSHelp.hxw.2.5/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\ProgramFilesCommonX86\Microsoft Shared\Help\hxds.dll,-217 3
+HKEY_CLASSES_ROOT/Msi.Package/DefaultIcon C:\Windows\System32\msiexec.exe,0 3
+HKEY_CLASSES_ROOT/Msi.Patch/DefaultIcon C:\Windows\System32\msiexec.exe,0 3
+HKEY_CLASSES_ROOT/MSInfoFile/DefaultIcon %SystemRoot%\system32\msinfo32.exe,-10002 3
+HKEY_CLASSES_ROOT/msstylesfile/DefaultIcon %SystemRoot%\system32\themeui.dll,-701 3
+HKEY_CLASSES_ROOT/NetworkExplorerPlugins/urn:schemas-upnp-org:device:MediaServer:1/DefaultIcon %SystemRoot%\System32\wmploc.dll,-29303 4
+HKEY_CLASSES_ROOT/NetworkExplorerPlugins/urn:schemas-upnp-org:device:MediaRenderer:1/DefaultIcon %SystemRoot%\System32\wmploc.dll,-23304 4
+HKEY_CLASSES_ROOT/NetworkExplorerPlugins/urn:schemas-upnp-org:device:InternetGatewayDevice:1/DefaultIcon icsigd.dll,-121 4
+HKEY_CLASSES_ROOT/NetworkExplorerPlugins/Microsoft Corporation/Xbox 360/DefaultIcon %SystemRoot%\System32\Networkexplorer.dll,-130 4
+HKEY_CLASSES_ROOT/ODBC.FileDSN/DefaultIcon %SystemRoot%\system32\odbcint.dll,1 3
+HKEY_CLASSES_ROOT/odccubefile/DefaultIcon ,-246 3
+HKEY_CLASSES_ROOT/odcdatabasefile/DefaultIcon ,-247 3
+HKEY_CLASSES_ROOT/ODCfile/DefaultIcon "%1" 3
+HKEY_CLASSES_ROOT/odcnewfile/DefaultIcon ,-248 3
+HKEY_CLASSES_ROOT/odctablecollectionfile/DefaultIcon ,-250 3
+HKEY_CLASSES_ROOT/odctablefile/DefaultIcon ,-245 3
+HKEY_CLASSES_ROOT/odtfile/DefaultIcon "%ProgramFiles%\Windows NT\Accessories\WORDPAD.EXE",3 3
+HKEY_CLASSES_ROOT/office.Extension.1/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,39 3
+HKEY_CLASSES_ROOT/OfficeListShortcut/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pubs.exe,4 3
+HKEY_CLASSES_ROOT/OfficeTheme.12/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\misc.exe,19 3
+HKEY_CLASSES_ROOT/OneNote.Folder.1/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\joticon.exe,3 3
+HKEY_CLASSES_ROOT/OneNote.Notebook.1/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\joticon.exe,3 3
+HKEY_CLASSES_ROOT/OneNote.Package/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\joticon.exe,2 3
+HKEY_CLASSES_ROOT/OneNote.Section.1/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\joticon.exe,1 3
+HKEY_CLASSES_ROOT/OneNote.TableOfContents/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\joticon.exe,3 3
+HKEY_CLASSES_ROOT/OneNote.TableOfContents.12/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\joticon.exe,3 3
+HKEY_CLASSES_ROOT/OPCFile/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\ProgramFilesCommonX86\Microsoft Shared\OFFICE15\MSOICONS.EXE,6 3
+HKEY_CLASSES_ROOT/opendocument.CalcDocument.1/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,3 3
+HKEY_CLASSES_ROOT/opendocument.CalcTemplate.1/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,4 3
+HKEY_CLASSES_ROOT/opendocument.DatabaseDocument.1/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,13 3
+HKEY_CLASSES_ROOT/opendocument.DrawDocument.1/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,5 3
+HKEY_CLASSES_ROOT/opendocument.DrawTemplate.1/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,6 3
+HKEY_CLASSES_ROOT/opendocument.ImpressDocument.1/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,7 3
+HKEY_CLASSES_ROOT/opendocument.ImpressTemplate.1/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,8 3
+HKEY_CLASSES_ROOT/opendocument.MathDocument.1/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,14 3
+HKEY_CLASSES_ROOT/opendocument.WriterDocument.1/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,1 3
+HKEY_CLASSES_ROOT/opendocument.WriterGlobalDocument.1/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,10 3
+HKEY_CLASSES_ROOT/opendocument.WriterTemplate.1/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,2 3
+HKEY_CLASSES_ROOT/opendocument.WriterWebTemplate.1/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,11 3
+HKEY_CLASSES_ROOT/OpenOffice.Doc/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,27 3
+HKEY_CLASSES_ROOT/OpenOffice.Docm/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,27 3
+HKEY_CLASSES_ROOT/OpenOffice.Docx/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,27 3
+HKEY_CLASSES_ROOT/OpenOffice.Dot/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,28 3
+HKEY_CLASSES_ROOT/OpenOffice.Dotm/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,28 3
+HKEY_CLASSES_ROOT/OpenOffice.Dotx/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,28 3
+HKEY_CLASSES_ROOT/OpenOffice.Pot/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,34 3
+HKEY_CLASSES_ROOT/OpenOffice.Potm/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,34 3
+HKEY_CLASSES_ROOT/OpenOffice.Potx/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,34 3
+HKEY_CLASSES_ROOT/OpenOffice.Pps/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,33 3
+HKEY_CLASSES_ROOT/OpenOffice.Ppt/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,33 3
+HKEY_CLASSES_ROOT/OpenOffice.Pptm/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,33 3
+HKEY_CLASSES_ROOT/OpenOffice.Pptx/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,33 3
+HKEY_CLASSES_ROOT/OpenOffice.Rtf/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,27 3
+HKEY_CLASSES_ROOT/OpenOffice.Xls/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,29 3
+HKEY_CLASSES_ROOT/OpenOffice.Xlsb/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,29 3
+HKEY_CLASSES_ROOT/OpenOffice.Xlsm/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,29 3
+HKEY_CLASSES_ROOT/OpenOffice.Xlsx/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,29 3
+HKEY_CLASSES_ROOT/OpenOffice.Xlt/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,30 3
+HKEY_CLASSES_ROOT/OpenOffice.Xltm/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,30 3
+HKEY_CLASSES_ROOT/OpenOffice.Xltx/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,30 3
+HKEY_CLASSES_ROOT/opensearchblocked/DefaultIcon %SystemRoot%\system32\imageres.dll,-105 3
+HKEY_CLASSES_ROOT/opensearchdescription/DefaultIcon %SystemRoot%\system32\imageres.dll,-1025 3
+HKEY_CLASSES_ROOT/opensearchfilefolderresult/DefaultIcon %SystemRoot%\System32\shell32.dll,3 3
+HKEY_CLASSES_ROOT/oqyfile/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\EXCEL.EXE,-275 3
+HKEY_CLASSES_ROOT/otffile/DefaultIcon %SystemRoot%\System32\fontext.dll,-419 3
+HKEY_CLASSES_ROOT/Outlook.File.det.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\ProgramFilesCommonX86\Microsoft Shared\OFFICE15\MSOICONS.EXE,6 3
+HKEY_CLASSES_ROOT/Outlook.File.fdm.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\ProgramFilesCommonX86\Microsoft Shared\OFFICE15\MSOICONS.EXE,6 3
+HKEY_CLASSES_ROOT/Outlook.File.hol.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\outicon.exe,6 3
+HKEY_CLASSES_ROOT/Outlook.File.ics.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\outicon.exe,2 3
+HKEY_CLASSES_ROOT/Outlook.File.msg.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\outicon.exe,1 3
+HKEY_CLASSES_ROOT/Outlook.File.nk2.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\ProgramFilesCommonX86\Microsoft Shared\OFFICE15\MSOICONS.EXE,6 3
+HKEY_CLASSES_ROOT/Outlook.File.ofs.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\ProgramFilesCommonX86\Microsoft Shared\OFFICE15\MSOICONS.EXE,6 3
+HKEY_CLASSES_ROOT/Outlook.File.oft.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\outicon.exe,1 3
+HKEY_CLASSES_ROOT/Outlook.File.ost.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\OUTLOOK.EXE,11 3
+HKEY_CLASSES_ROOT/Outlook.File.otm.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\ProgramFilesCommonX86\Microsoft Shared\OFFICE15\MSOICONS.EXE,6 3
+HKEY_CLASSES_ROOT/Outlook.File.pab.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\ProgramFilesCommonX86\Microsoft Shared\OFFICE15\MSOICONS.EXE,6 3
+HKEY_CLASSES_ROOT/Outlook.File.pst.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\outicon.exe,5 3
+HKEY_CLASSES_ROOT/Outlook.File.vcf.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\outicon.exe,3 3
+HKEY_CLASSES_ROOT/Outlook.File.vcs.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\outicon.exe,2 3
+HKEY_CLASSES_ROOT/Outlook.URL.feed.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\OUTLOOK.EXE,-9403 3
+HKEY_CLASSES_ROOT/Outlook.URL.mailto.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\OUTLOOK.EXE,-9403 3
+HKEY_CLASSES_ROOT/Outlook.URL.stssync.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\OUTLOOK.EXE,-9403 3
+HKEY_CLASSES_ROOT/Outlook.URL.webcal.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\OUTLOOK.EXE,-9403 3
+HKEY_CLASSES_ROOT/P7RFile/DefaultIcon cryptui.dll,-3410 3
+HKEY_CLASSES_ROOT/Paint.Picture/DefaultIcon %systemroot%\system32\imageres.dll,-70 3
+HKEY_CLASSES_ROOT/pbkfile/DefaultIcon %SystemRoot%\system32\rasdlg.dll,-562 3
+HKEY_CLASSES_ROOT/PDXFileType/DefaultIcon C:\Windows\Installer\{AC76BA86-7AD7-1033-7B44-AC0F074E4100}\PDXFile_8.ico,0 3
+HKEY_CLASSES_ROOT/PerfFile/DefaultIcon %SystemRoot%\system32\wdc.dll,-10024 3
+HKEY_CLASSES_ROOT/pfmfile/DefaultIcon %SystemRoot%\system32\fontext.dll,-419 3
+HKEY_CLASSES_ROOT/PFXFile/DefaultIcon cryptui.dll,-3425 3
+HKEY_CLASSES_ROOT/PhotoViewer.FileAssoc.Tiff/DefaultIcon %SystemRoot%\System32\imageres.dll,-122 3
+HKEY_CLASSES_ROOT/pjpegfile/DefaultIcon %SystemRoot%\System32\imageres.dll,-72 3
+HKEY_CLASSES_ROOT/pnffile/DefaultIcon %SystemRoot%\system32\imageres.dll,-67 3
+HKEY_CLASSES_ROOT/pngfile/DefaultIcon %SystemRoot%\System32\imageres.dll,-83 3
+HKEY_CLASSES_ROOT/PowerPoint/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\POWERPNT.EXE,0 3
+HKEY_CLASSES_ROOT/PowerPoint.Addin.12/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,15 3
+HKEY_CLASSES_ROOT/PowerPoint.Addin.8/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,14 3
+HKEY_CLASSES_ROOT/PowerPoint.OpenDocumentPresentation.12/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,20 3
+HKEY_CLASSES_ROOT/PowerPoint.Show.12/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,10 3
+HKEY_CLASSES_ROOT/PowerPoint.Show.8/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,17 3
+HKEY_CLASSES_ROOT/PowerPoint.ShowMacroEnabled.12/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,19 3
+HKEY_CLASSES_ROOT/PowerPoint.SlideShow.12/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,12 3
+HKEY_CLASSES_ROOT/PowerPoint.SlideShow.8/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,16 3
+HKEY_CLASSES_ROOT/PowerPoint.SlideShowMacroEnabled.12/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,4 3
+HKEY_CLASSES_ROOT/PowerPoint.Template.12/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,11 3
+HKEY_CLASSES_ROOT/PowerPoint.Template.8/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,13 3
+HKEY_CLASSES_ROOT/PowerPoint.TemplateMacroEnabled.12/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,18 3
+HKEY_CLASSES_ROOT/PowerPoint.UriLink.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\POWERPNT.EXE,0 3
+HKEY_CLASSES_ROOT/PowerPoint.Wizard.8/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,3 3
+HKEY_CLASSES_ROOT/powerpointhtmlfile/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,9 3
+HKEY_CLASSES_ROOT/powerpointhtmltemplate/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,7 3
+HKEY_CLASSES_ROOT/powerpointmhtmlfile/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\POWERPNT.EXE,-1308 3
+HKEY_CLASSES_ROOT/powerpointxmlfile/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,1 3
+HKEY_CLASSES_ROOT/Previous.Versions/DefaultIcon %SystemRoot%\system32\twext.dll,-100 3
+HKEY_CLASSES_ROOT/prffile/DefaultIcon @%SystemRoot%\System32\msrating.dll,3 3
+HKEY_CLASSES_ROOT/PrologFile/DefaultIcon C:\Program Files\swipl\bin\swipl-win.exe,0 3
+HKEY_CLASSES_ROOT/Publisher/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\MSPUB.EXE,0 3
+HKEY_CLASSES_ROOT/Publisher.Document.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pubs.exe,1 3
+HKEY_CLASSES_ROOT/Publisher.UriLink.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\MSPUB.EXE,0 3
+HKEY_CLASSES_ROOT/publisherhtmlfile/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\MSPUB.EXE,-348 3
+HKEY_CLASSES_ROOT/publishermhtmlfile/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\MSPUB.EXE,-347 3
+HKEY_CLASSES_ROOT/Python.CompiledFile/DefaultIcon E:\Python34\DLLs\pyc.ico 3
+HKEY_CLASSES_ROOT/Python.File/DefaultIcon E:\Python34\DLLs\py.ico 3
+HKEY_CLASSES_ROOT/Python.NoConFile/DefaultIcon E:\Python34\DLLs\py.ico 3
+HKEY_CLASSES_ROOT/QuickTime.bmp/DefaultIcon value 3
+HKEY_CLASSES_ROOT/QuickTime.dib/DefaultIcon value 3
+HKEY_CLASSES_ROOT/QuickTime.jp2/DefaultIcon value 3
+HKEY_CLASSES_ROOT/QuickTime.jpe/DefaultIcon value 3
+HKEY_CLASSES_ROOT/QuickTime.jpeg/DefaultIcon value 3
+HKEY_CLASSES_ROOT/QuickTime.jpg/DefaultIcon value 3
+HKEY_CLASSES_ROOT/QuickTime.mac/DefaultIcon value 3
+HKEY_CLASSES_ROOT/QuickTime.pct/DefaultIcon value 3
+HKEY_CLASSES_ROOT/QuickTime.pic/DefaultIcon value 3
+HKEY_CLASSES_ROOT/QuickTime.pict/DefaultIcon value 3
+HKEY_CLASSES_ROOT/QuickTime.png/DefaultIcon value 3
+HKEY_CLASSES_ROOT/QuickTime.pnt/DefaultIcon value 3
+HKEY_CLASSES_ROOT/QuickTime.pntg/DefaultIcon value 3
+HKEY_CLASSES_ROOT/QuickTime.psd/DefaultIcon value 3
+HKEY_CLASSES_ROOT/QuickTime.qti/DefaultIcon value 3
+HKEY_CLASSES_ROOT/QuickTime.qtif/DefaultIcon value 3
+HKEY_CLASSES_ROOT/QuickTime.rgb/DefaultIcon value 3
+HKEY_CLASSES_ROOT/QuickTime.sgi/DefaultIcon value 3
+HKEY_CLASSES_ROOT/QuickTime.targa/DefaultIcon value 3
+HKEY_CLASSES_ROOT/QuickTime.tga/DefaultIcon value 3
+HKEY_CLASSES_ROOT/QuickTime.tif/DefaultIcon value 3
+HKEY_CLASSES_ROOT/QuickTime.tiff/DefaultIcon value 3
+HKEY_CLASSES_ROOT/ratfile/DefaultIcon @%SystemRoot%\System32\msrating.dll,8 3
+HKEY_CLASSES_ROOT/RDBFileProperties.1/DefaultIcon %SystemRoot%\system32\rdbui.dll,-300 3
+HKEY_CLASSES_ROOT/RDP.File/DefaultIcon %systemroot%\system32\mstsc.exe 3
+HKEY_CLASSES_ROOT/regfile/DefaultIcon %SystemRoot%\regedit.exe,1 3
+HKEY_CLASSES_ROOT/rlefile/DefaultIcon %SystemRoot%\system32\mspaint.exe,-3 3
+HKEY_CLASSES_ROOT/rlogin/DefaultIcon C:\Windows\System32\url.dll,0 3
+HKEY_CLASSES_ROOT/rqyfile/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\EXCEL.EXE,-271 3
+HKEY_CLASSES_ROOT/rtffile/DefaultIcon "%ProgramFiles%\Windows NT\Accessories\WORDPAD.EXE",1 3
+HKEY_CLASSES_ROOT/SavedDsQuery/DefaultIcon %SystemRoot%\system32\dsquery.dll,0 3
+HKEY_CLASSES_ROOT/scriptletfile/DefaultIcon C:\Windows\System32\scrobj.dll,0 3
+HKEY_CLASSES_ROOT/SearchConnectorFolder/DefaultIcon %SystemRoot%\system32\imageres.dll,-1025 3
+HKEY_CLASSES_ROOT/SearchFolder/DefaultIcon %SystemRoot%\System32\imageres.dll,-8 3
+HKEY_CLASSES_ROOT/skype/DefaultIcon "E:\Program Files (x86)\Skype\Phone\Skype.exe",0 3
+HKEY_CLASSES_ROOT/skype.callto/DefaultIcon E:\Program Files (x86)\Skype\Phone\Skype.exe,0 3
+HKEY_CLASSES_ROOT/Skype.Content/DefaultIcon E:\Program Files (x86)\Skype\Phone\Skype.exe,0 3
+HKEY_CLASSES_ROOT/soffice.StarCalcDocument.6/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,29 3
+HKEY_CLASSES_ROOT/soffice.StarCalcTemplate.6/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,30 3
+HKEY_CLASSES_ROOT/soffice.StarDrawDocument.6/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,31 3
+HKEY_CLASSES_ROOT/soffice.StarDrawTemplate.6/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,32 3
+HKEY_CLASSES_ROOT/soffice.StarImpressDocument.6/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,33 3
+HKEY_CLASSES_ROOT/soffice.StarImpressTemplate.6/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,34 3
+HKEY_CLASSES_ROOT/soffice.StarMathDocument.6/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,38 3
+HKEY_CLASSES_ROOT/soffice.StarWriterDocument.6/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,27 3
+HKEY_CLASSES_ROOT/soffice.StarWriterGlobalDocument.6/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,35 3
+HKEY_CLASSES_ROOT/soffice.StarWriterTemplate.6/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,28 3
+HKEY_CLASSES_ROOT/sourceaddonfile/DefaultIcon D:\SteamLibrary\steamapps\common\Left 4 Dead 2\bin\addoninstaller.exe,0 3
+HKEY_CLASSES_ROOT/SPCFile/DefaultIcon cryptui.dll,-3410 3
+HKEY_CLASSES_ROOT/spotify/DefaultIcon "C:\Users\Gregory\AppData\Roaming\Spotify\Spotify.exe",0 3
+HKEY_CLASSES_ROOT/SQLServerCompactEditionDatabaseFile/DefaultIcon C:\Program Files (x86)\Microsoft SQL Server Compact Edition\v3.1\sqlceme30.dll,-1 3
+HKEY_CLASSES_ROOT/ssms.dacpac.11.0/DefaultIcon C:\Program Files (x86)\Microsoft SQL Server\110\DAC\bin\1033\DacUnpack.rll,-101 3
+HKEY_CLASSES_ROOT/Stack/DefaultIcon %SystemRoot%\System32\imageres.dll,-148 3
+HKEY_CLASSES_ROOT/Stack.System.Music.AlbumID/DefaultIcon %SystemRoot%\System32\imageres.dll,-1026 3
+HKEY_CLASSES_ROOT/Stack.System.Music.AlbumTitle/DefaultIcon %SystemRoot%\System32\imageres.dll,-1026 3
+HKEY_CLASSES_ROOT/Stack.System.SearchScope/DefaultIcon %SystemRoot%\System32\imageres.dll,-4 3
+HKEY_CLASSES_ROOT/Stack.System.WordWheel/DefaultIcon %SystemRoot%\System32\imageres.dll,-177 3
+HKEY_CLASSES_ROOT/steam/DefaultIcon steam.exe 3
+HKEY_CLASSES_ROOT/stssync/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\OUTLOOK.EXE,-9403 3
+HKEY_CLASSES_ROOT/svgfile/DefaultIcon C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE,-17 3
+HKEY_CLASSES_ROOT/SystemFileAssociations/video/DefaultIcon %SystemRoot%\system32\shell32.dll,-16825 4
+HKEY_CLASSES_ROOT/SystemFileAssociations/text/DefaultIcon %SystemRoot%\system32\imageres.dll,-102 4
+HKEY_CLASSES_ROOT/SystemFileAssociations/system/DefaultIcon %SystemRoot%\system32\imageres.dll,-67 4
+HKEY_CLASSES_ROOT/SystemFileAssociations/image/DefaultIcon %SystemRoot%\system32\shell32.dll,-16823 4
+HKEY_CLASSES_ROOT/SystemFileAssociations/document/DefaultIcon %SystemRoot%\system32\shell32.dll,-16822 4
+HKEY_CLASSES_ROOT/SystemFileAssociations/audio/DefaultIcon %SystemRoot%\system32\shell32.dll,-16824 4
+HKEY_CLASSES_ROOT/SystemFileAssociations/.ico/DefaultIcon %1 4
+HKEY_CLASSES_ROOT/TeamViewerConfiguration/DefaultIcon "D:\Program Files (x86)\TeamViewer\TeamViewer.exe",0 3
+HKEY_CLASSES_ROOT/TeamViewerSession/DefaultIcon "D:\Program Files (x86)\TeamViewer\TeamViewer.exe",0 3
+HKEY_CLASSES_ROOT/tel/DefaultIcon "E:\Program Files (x86)\Skype\Phone\Skype.exe",0 3
+HKEY_CLASSES_ROOT/telnet/DefaultIcon C:\Windows\System32\url.dll,0 3
+HKEY_CLASSES_ROOT/tfs/DefaultIcon C:\Program Files\Common Files\Microsoft Shared\Team Foundation Server\12.0\TfsProtocolHandler.exe,0 3
+HKEY_CLASSES_ROOT/themefile/DefaultIcon %SystemRoot%\system32\themeui.dll,-701 3
+HKEY_CLASSES_ROOT/themepackfile/DefaultIcon %SystemRoot%\system32\themeui.dll,-704 3
+HKEY_CLASSES_ROOT/Thunderbird.Url.mailto/DefaultIcon D:\Program Files (x86)\Mozilla Thunderbird\thunderbird.exe,0 3
+HKEY_CLASSES_ROOT/Thunderbird.Url.news/DefaultIcon D:\Program Files (x86)\Mozilla Thunderbird\thunderbird.exe,0 3
+HKEY_CLASSES_ROOT/ThunderbirdEML/DefaultIcon D:\Program Files (x86)\Mozilla Thunderbird\thunderbird.exe,0 3
+HKEY_CLASSES_ROOT/TIFImage.Document/DefaultIcon %SystemRoot%\System32\imageres.dll,-122 3
+HKEY_CLASSES_ROOT/tn3270/DefaultIcon C:\Windows\System32\url.dll,0 3
+HKEY_CLASSES_ROOT/ts3addon/DefaultIcon D:\Users\Gregory\AppData\Local\TeamSpeak 3 Client\package_inst.exe,0 3
+HKEY_CLASSES_ROOT/ttcfile/DefaultIcon %SystemRoot%\System32\fontext.dll,-419 3
+HKEY_CLASSES_ROOT/ttffile/DefaultIcon %SystemRoot%\System32\fontext.dll,-419 3
+HKEY_CLASSES_ROOT/txtfile/DefaultIcon %SystemRoot%\system32\imageres.dll,-102 3
+HKEY_CLASSES_ROOT/Unknown/DefaultIcon %SystemRoot%\System32\shell32.dll,0 3
+HKEY_CLASSES_ROOT/uplay/DefaultIcon Uplay.exe 3
+HKEY_CLASSES_ROOT/uTorrent/DefaultIcon C:\Users\Gregory\AppData\Roaming\uTorrent\maindoc.ico 3
+HKEY_CLASSES_ROOT/UXDCFILE/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\ProgramFilesCommonX86\Microsoft Shared\OFFICE15\MSORES.DLL,-560 3
+HKEY_CLASSES_ROOT/VBEFile/DefaultIcon %SystemRoot%\System32\WScript.exe,2 3
+HKEY_CLASSES_ROOT/VBSFile/DefaultIcon %SystemRoot%\System32\WScript.exe,2 3
+HKEY_CLASSES_ROOT/vcard_wab_auto_file/DefaultIcon %ProgramFiles%\Windows Mail\wab.exe,1 3
+HKEY_CLASSES_ROOT/VeraCryptVolume/DefaultIcon D:\Program Files\VeraCrypt\VeraCrypt.exe,1 3
+HKEY_CLASSES_ROOT/VisioViewer.Viewer/DefaultIcon C:\Program Files\Microsoft Office 15\root\Office15\VVIEWER.DLL,-2 3
+HKEY_CLASSES_ROOT/VisualStudio.bmp.12.0/DefaultIcon %1 3
+HKEY_CLASSES_ROOT/VisualStudio.cur.12.0/DefaultIcon %1 3
+HKEY_CLASSES_ROOT/VisualStudio.ico.12.0/DefaultIcon %1 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher.suo/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-250 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher.vsix/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-221 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher._sln/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-200 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher._sln100/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-216 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher._sln110/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-223 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher._sln120/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-231 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher._sln60/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-201 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher._sln70/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-202 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher._sln71/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-203 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher._sln80/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-204 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher._sln90/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-210 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher._vbxsln100/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-217 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher._vbxsln110/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-224 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher._vbxsln80/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-205 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher._vbxsln90/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-211 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher._vcppxsln100/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-219 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher._vcppxsln110/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-226 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher._vcppxsln80/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-208 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher._vcppxsln90/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-214 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher._vcsxsln100/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-218 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher._vcsxsln110/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-225 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher._vcsxsln80/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-206 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher._vcsxsln90/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-212 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher._vjsxsln80/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-207 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher._vpdxsln100/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-222 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher._vpdxsln110/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-228 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher._vpdxsln120/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-233 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher._vw8xsln110/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-229 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher._vwdxsln100/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-220 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher._vwdxsln110/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-227 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher._vwdxsln120/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-232 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher._vwdxsln80/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-209 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher._vwdxsln90/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-215 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher._vwinxsln120/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-234 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher._wdxsln110/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-230 3
+HKEY_CLASSES_ROOT/VisualStudio.Launcher._wdxsln120/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSFileHandler.dll,-235 3
+HKEY_CLASSES_ROOT/VisualStudio.StvProj.10/DefaultIcon "C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\SvcTraceViewer.exe" 3
+HKEY_CLASSES_ROOT/VisualStudio.SvcLog.10/DefaultIcon "C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\SvcTraceViewer.exe" 3
+HKEY_CLASSES_ROOT/VisualStudio.TextTemplating.12.0/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\TextTemplating\12.0\TextTemplate.ico,0 3
+HKEY_CLASSES_ROOT/VLC.3g2/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.3ga/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.3gp/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.3gp2/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.3gpp/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.669/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.a52/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.aac/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.ac3/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.adt/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.adts/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.aif/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.aifc/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.aiff/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.amr/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.amv/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.aob/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.ape/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.asf/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.asx/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.au/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.avi/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.b4s/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.bik/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.caf/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.cda/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.CDAudio/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.cue/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.divx/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.drc/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.dts/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.dv/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.DVDMovie/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.f4v/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.flac/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.flv/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.gvi/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.gxf/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.ifo/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.it/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.m1v/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.m2t/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.m2ts/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.m2v/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.m3u/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.m3u8/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.m4a/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.m4p/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.m4v/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.mid/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.mka/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.mkv/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.mlp/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.mod/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.mov/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.mp1/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.mp2/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.mp2v/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.mp3/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.mp4/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.mp4v/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.mpa/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.mpc/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.mpe/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.mpeg/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.mpeg1/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.mpeg2/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.mpeg4/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.mpg/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.mpga/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.mpv2/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.mts/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.mtv/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.mxf/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.nsv/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.nuv/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.oga/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.ogg/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.ogm/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.ogv/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.ogx/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.oma/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.OPENFolder/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.opus/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.pls/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.qcp/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.ra/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.ram/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.rec/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.rm/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.rmi/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.rmvb/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.rpl/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.s3m/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.sdp/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.snd/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.spx/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.SVCDMovie/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.thp/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.tod/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.ts/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.tta/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.tts/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.VCDMovie/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.vlc/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.vlt/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.vob/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.voc/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.vqf/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.vro/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.w64/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.wav/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.webm/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.wma/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.wmv/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.wsz/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.wv/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.wvx/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.xa/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.xesc/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.xm/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/VLC.xspf/DefaultIcon "D:\Program Files (x86)\VideoLAN\VLC\vlc.exe",0 3
+HKEY_CLASSES_ROOT/W365.SkinFile/DefaultIcon "D:\Program Files (x86)\Wise\Wise Care 365\Skin.ico" 3
+HKEY_CLASSES_ROOT/wab_auto_file/DefaultIcon %ProgramFiles%\Windows Mail\wab.exe,10 3
+HKEY_CLASSES_ROOT/wbcatfile/DefaultIcon %SystemRoot%\system32\sdclt.exe,-5500 3
+HKEY_CLASSES_ROOT/wcxfile/DefaultIcon C:\Windows\System32\tsworkspace.dll 3
+HKEY_CLASSES_ROOT/wdpfile/DefaultIcon %SystemRoot%\System32\wmphoto.dll,-400 3
+HKEY_CLASSES_ROOT/webcal/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\OUTLOOK.EXE,-9403 3
+HKEY_CLASSES_ROOT/webcals/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\OUTLOOK.EXE,-9403 3
+HKEY_CLASSES_ROOT/WebIde80/DefaultIcon D:\Program Files (x86)\JetBrains\PhpStorm 8.0.2\bin\PhpStorm.exe,0 3
+HKEY_CLASSES_ROOT/webpnpFile/DefaultIcon %SystemRoot%\system32\oleprn.dll,-200 3
+HKEY_CLASSES_ROOT/WebStorm10/DefaultIcon  D:\Program Files (x86)\JetBrains\WebStorm 10.0.2\bin\WebStorm.exe,0 3
+HKEY_CLASSES_ROOT/Windows.CompositeFont/DefaultIcon C:\Windows\System32\PresentationHost.exe,2 3
+HKEY_CLASSES_ROOT/Windows.IsoFile/DefaultIcon %SystemRoot%\System32\imageres.dll,-5205 3
+HKEY_CLASSES_ROOT/Windows.VhdFile/DefaultIcon %SystemRoot%\System32\imageres.dll,-32 3
+HKEY_CLASSES_ROOT/Windows.XamlDocument/DefaultIcon C:\Windows\System32\PresentationHost.exe,2 3
+HKEY_CLASSES_ROOT/Windows.Xbap/DefaultIcon C:\Windows\System32\PresentationHost.exe,3 3
+HKEY_CLASSES_ROOT/Windows.XPSReachViewer/DefaultIcon %SystemRoot%\System32\xpsrchvw.exe,-109 3
+HKEY_CLASSES_ROOT/WindowsLive.MovieMaker.asset/DefaultIcon C:\Program Files (x86)\Windows Live\Photo Gallery\MovieMaker.exe,0 3
+HKEY_CLASSES_ROOT/WindowsLive.MovieMaker.MSWMM/DefaultIcon C:\Program Files (x86)\Windows Live\Photo Gallery\MovieMaker.exe,0 3
+HKEY_CLASSES_ROOT/WindowsLive.MovieMaker.WLMP/DefaultIcon C:\Program Files (x86)\Windows Live\Photo Gallery\MovieMaker.exe,0 3
+HKEY_CLASSES_ROOT/WindowsLive.PhotoGallery.bmp.16.4/DefaultIcon C:\Program Files (x86)\Windows Live\Photo Gallery\WLXPhotoViewer.dll,-1 3
+HKEY_CLASSES_ROOT/WindowsLive.PhotoGallery.gif.16.4/DefaultIcon C:\Program Files (x86)\Windows Live\Photo Gallery\WLXPhotoViewer.dll,-1 3
+HKEY_CLASSES_ROOT/WindowsLive.PhotoGallery.ico.16.4/DefaultIcon %1 3
+HKEY_CLASSES_ROOT/WindowsLive.PhotoGallery.jpg.16.4/DefaultIcon C:\Program Files (x86)\Windows Live\Photo Gallery\WLXPhotoViewer.dll,-1 3
+HKEY_CLASSES_ROOT/WindowsLive.PhotoGallery.png.16.4/DefaultIcon C:\Program Files (x86)\Windows Live\Photo Gallery\WLXPhotoViewer.dll,-1 3
+HKEY_CLASSES_ROOT/WindowsLive.PhotoGallery.raw.16.4/DefaultIcon C:\Program Files (x86)\Windows Live\Photo Gallery\WLXPhotoViewer.dll,-1 3
+HKEY_CLASSES_ROOT/WindowsLive.PhotoGallery.tif.16.4/DefaultIcon C:\Program Files (x86)\Windows Live\Photo Gallery\WLXPhotoViewer.dll,-1 3
+HKEY_CLASSES_ROOT/WindowsLive.PhotoGallery.video.16.4/DefaultIcon C:\Program Files (x86)\Windows Live\Photo Gallery\WLXPhotoViewer.dll,-1 3
+HKEY_CLASSES_ROOT/WindowsLive.PhotoGallery.wdp.16.4/DefaultIcon C:\Program Files (x86)\Windows Live\Photo Gallery\WLXPhotoViewer.dll,-1 3
+HKEY_CLASSES_ROOT/wmffile/DefaultIcon %SystemRoot%\system32\mspaint.exe,-3 3
+HKEY_CLASSES_ROOT/WMP.DVR-MSFile/DefaultIcon %SystemRoot%\system32\wmploc.dll,-730 3
+HKEY_CLASSES_ROOT/WMP.WMDBFile/DefaultIcon %SystemRoot%\system32\wmploc.dll,-730 3
+HKEY_CLASSES_ROOT/WMP.WTVFile/DefaultIcon C:\Windows\System32\sberes.dll,-301 3
+HKEY_CLASSES_ROOT/WMP11.AssocFile.3G2/DefaultIcon %SystemRoot%\system32\wmploc.dll,-730 3
+HKEY_CLASSES_ROOT/WMP11.AssocFile.3GP/DefaultIcon %SystemRoot%\system32\wmploc.dll,-730 3
+HKEY_CLASSES_ROOT/WMP11.AssocFile.ADTS/DefaultIcon %SystemRoot%\system32\wmploc.dll,-730 3
+HKEY_CLASSES_ROOT/WMP11.AssocFile.AIFF/DefaultIcon %SystemRoot%\system32\wmploc.dll,-730 3
+HKEY_CLASSES_ROOT/WMP11.AssocFile.ASF/DefaultIcon %SystemRoot%\system32\wmploc.dll,-730 3
+HKEY_CLASSES_ROOT/WMP11.AssocFile.ASX/DefaultIcon %SystemRoot%\system32\wmploc.dll,-730 3
+HKEY_CLASSES_ROOT/WMP11.AssocFile.AU/DefaultIcon %SystemRoot%\system32\wmploc.dll,-730 3
+HKEY_CLASSES_ROOT/WMP11.AssocFile.AVI/DefaultIcon %SystemRoot%\system32\wmploc.dll,-731 3
+HKEY_CLASSES_ROOT/WMP11.AssocFile.CDA/DefaultIcon %SystemRoot%\system32\wmploc.dll,-730 3
+HKEY_CLASSES_ROOT/WMP11.AssocFile.FLAC/DefaultIcon %SystemRoot%\system32\wmploc.dll,-738 3
+HKEY_CLASSES_ROOT/WMP11.AssocFile.M2TS/DefaultIcon %SystemRoot%\system32\wmploc.dll,-730 3
+HKEY_CLASSES_ROOT/WMP11.AssocFile.m3u/DefaultIcon %SystemRoot%\system32\wmploc.dll,-730 3
+HKEY_CLASSES_ROOT/WMP11.AssocFile.M4A/DefaultIcon %SystemRoot%\system32\wmploc.dll,-738 3
+HKEY_CLASSES_ROOT/WMP11.AssocFile.MIDI/DefaultIcon %SystemRoot%\system32\wmploc.dll,-730 3
+HKEY_CLASSES_ROOT/WMP11.AssocFile.MK3D/DefaultIcon %SystemRoot%\system32\wmploc.dll,-730 3
+HKEY_CLASSES_ROOT/WMP11.AssocFile.MKA/DefaultIcon %SystemRoot%\system32\wmploc.dll,-738 3
+HKEY_CLASSES_ROOT/WMP11.AssocFile.MKV/DefaultIcon %SystemRoot%\system32\wmploc.dll,-730 3
+HKEY_CLASSES_ROOT/WMP11.AssocFile.MOV/DefaultIcon %SystemRoot%\system32\wmploc.dll,-730 3
+HKEY_CLASSES_ROOT/WMP11.AssocFile.MP3/DefaultIcon %SystemRoot%\system32\wmploc.dll,-732 3
+HKEY_CLASSES_ROOT/WMP11.AssocFile.MP4/DefaultIcon %SystemRoot%\system32\wmploc.dll,-730 3
+HKEY_CLASSES_ROOT/WMP11.AssocFile.MPEG/DefaultIcon %SystemRoot%\system32\wmploc.dll,-733 3
+HKEY_CLASSES_ROOT/WMP11.AssocFile.TTS/DefaultIcon %SystemRoot%\system32\wmploc.dll,-730 3
+HKEY_CLASSES_ROOT/WMP11.AssocFile.WAV/DefaultIcon %SystemRoot%\system32\wmploc.dll,-734 3
+HKEY_CLASSES_ROOT/WMP11.AssocFile.WAX/DefaultIcon %SystemRoot%\system32\wmploc.dll,-730 3
+HKEY_CLASSES_ROOT/WMP11.AssocFile.wma/DefaultIcon %SystemRoot%\system32\wmploc.dll,-735 3
+HKEY_CLASSES_ROOT/WMP11.AssocFile.WMD/DefaultIcon %SystemRoot%\system32\wmploc.dll,-730 3
+HKEY_CLASSES_ROOT/WMP11.AssocFile.WMS/DefaultIcon %SystemRoot%\system32\wmploc.dll,-617 3
+HKEY_CLASSES_ROOT/WMP11.AssocFile.WMV/DefaultIcon %SystemRoot%\system32\wmploc.dll,-736 3
+HKEY_CLASSES_ROOT/WMP11.AssocFile.WMZ/DefaultIcon %SystemRoot%\system32\wmploc.dll,-617 3
+HKEY_CLASSES_ROOT/WMP11.AssocFile.WPL/DefaultIcon %SystemRoot%\system32\wmploc.dll,-616 3
+HKEY_CLASSES_ROOT/WMP11.AssocFile.WVX/DefaultIcon %SystemRoot%\system32\wmploc.dll,-730 3
+HKEY_CLASSES_ROOT/WMP11.AssocProtocol.DLNA-PLAYSINGLE/DefaultIcon %SystemRoot%\system32\wmploc.dll,-730 3
+HKEY_CLASSES_ROOT/WMP11.AssocProtocol.MMS/DefaultIcon %SystemRoot%\system32\wmploc.dll,-730 3
+HKEY_CLASSES_ROOT/Word/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\WINWORD.EXE,0 3
+HKEY_CLASSES_ROOT/Word.Backup.8/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\wordicon.exe,4 3
+HKEY_CLASSES_ROOT/Word.Document.12/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\wordicon.exe,13 3
+HKEY_CLASSES_ROOT/Word.Document.8/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\wordicon.exe,1 3
+HKEY_CLASSES_ROOT/Word.DocumentMacroEnabled.12/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\wordicon.exe,15 3
+HKEY_CLASSES_ROOT/Word.OpenDocumentText.12/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\wordicon.exe,17 3
+HKEY_CLASSES_ROOT/Word.RTF.8/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\wordicon.exe,1 3
+HKEY_CLASSES_ROOT/Word.Template.12/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\wordicon.exe,14 3
+HKEY_CLASSES_ROOT/Word.Template.8/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\wordicon.exe,2 3
+HKEY_CLASSES_ROOT/Word.TemplateMacroEnabled.12/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\wordicon.exe,16 3
+HKEY_CLASSES_ROOT/Word.UriLink.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\WINWORD.EXE,0 3
+HKEY_CLASSES_ROOT/Word.Wizard.8/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\wordicon.exe,3 3
+HKEY_CLASSES_ROOT/wordhtmlfile/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\wordicon.exe,11 3
+HKEY_CLASSES_ROOT/wordhtmltemplate/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\wordicon.exe,9 3
+HKEY_CLASSES_ROOT/wordmhtmlfile/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\WINWORD.EXE,-16 3
+HKEY_CLASSES_ROOT/Wordpad.Document.1/DefaultIcon "%ProgramFiles%\Windows NT\Accessories\WORDPAD.EXE",1 3
+HKEY_CLASSES_ROOT/wordxmlfile/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\wordicon.exe,12 3
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{00020803-0000-0000-C000-000000000046}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\graph.ico,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{00020810-0000-0000-C000-000000000046}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\EXCEL.EXE,1 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{00020811-0000-0000-C000-000000000046}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\EXCEL.EXE,1 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{00020820-0000-0000-C000-000000000046}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\xlicons.exe,1 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{00020821-0000-0000-C000-000000000046}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\xlicons.exe,3 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{00020830-0000-0000-C000-000000000046}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\xlicons.exe,1 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{00020832-0000-0000-C000-000000000046}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\xlicons.exe,1 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{00020833-0000-0000-C000-000000000046}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\xlicons.exe,1 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{00020900-0000-0000-C000-000000000046}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\WINWORD.EXE,1 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{00020901-0000-0000-C000-000000000046}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\WINWORD.EXE,1 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{00020906-0000-0000-C000-000000000046}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\wordicon.exe,1 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{00020907-0000-0000-C000-000000000046}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\wordicon.exe,1 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{0002CE02-0000-0000-C000-000000000046}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-006E-0409-0000-0000000FF1CE}\misc.exe,10 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{00030000-0000-0000-C000-000000000046}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\EXCEL.EXE,1 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{00030001-0000-0000-C000-000000000046}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\EXCEL.EXE,1 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{00030002-0000-0000-C000-000000000046}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\EXCEL.EXE,1 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{018D5C66-4533-4307-9B53-224DE2ED1FE6}/DefaultIcon %SystemRoot%\SysWow64\imageres.dll,-1043 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{025A5937-A6BE-4686-A844-36FE4BEC8B6D}/DefaultIcon %SystemRoot%\System32\powercpl.dll,-1 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{02AF6DD2-77E6-44DF-B3E1-57CF1476D8EA}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{031E4825-7B94-4dc3-B131-E946B44C8DD5}/DefaultIcon %SystemRoot%\system32\imageres.dll,-1023 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{04082FC6-E032-49F2-A263-FE64E9DA1FA3}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{04731B67-D933-450a-90E6-4ACD2E9408FE}/DefaultIcon %SystemRoot%\system32\Windows.Storage.Search.dll,-323 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{048EB43E-2059-422F-95E0-557DA96038AF}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,10 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{088e3905-0323-4b02-9826-5d99428e115f}/DefaultIcon %SystemRoot%\system32\imageres.dll,-184 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{09FD2EFF-5669-11D3-B65F-00C04F8EF32D}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pubs.exe,1 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{0C39A5CF-1A7A-40C8-BA74-8900E6DF5FCD}/DefaultIcon %SystemRoot%\system32\imageres.dll,-117 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{0DF44EAA-FF21-4412-828E-260A8728E7F1}/DefaultIcon %SystemRoot%\system32\imageres.dll,-80 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{1206F5F1-0569-412C-8FEC-3204630DFB70}/DefaultIcon %SystemRoot%\system32\Vault.dll,-1 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{138508bc-1e03-49ea-9c8f-ea9e1d05d65d}/DefaultIcon @C:\Program Files\Microsoft Office 15\root\Office15\MAPISHELL.DLL,-504 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{13D557B6-A469-4362-BEAF-52BFD0F180E2}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{148BD520-A2AB-11CE-B11F-00AA00530503}/DefaultIcon %systemroot%\System32\mstask.dll,-101 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{148BD52A-A2AB-11CE-B11F-00AA00530503}/DefaultIcon %systemroot%\System32\mstask.dll,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{14E8BBD8-1D1C-4D56-A4DA-D20B75EB814E}/DefaultIcon D:\Program Files (x86)\Foxit Software\Foxit Reader\FoxitReader.exe,1 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{15eae92e-f17a-4431-9f28-805e482dafd4}/DefaultIcon %SystemRoot%\system32\imageres.dll,-87 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{17cd9488-1228-4b2f-88ce-4298e93e0966}/DefaultIcon %SystemRoot%\System32\imageres.dll,-24 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{18A06B6B-2F3F-4e2b-A611-52BE631B2D22}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\wordicon.exe,15 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{19FED08E-EFD1-45da-B524-7BE4774A6AEE}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{1B261B22-AC6A-4E68-A870-AB5080E8687B}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\wordicon.exe,17 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{1CDC7D25-5AA3-4DC4-8E0C-91524280F806}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\misc.exe,19 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{1CF1260C-4DD0-4ebb-811F-33C572699FDE}/DefaultIcon %SystemRoot%\system32\imageres.dll,-108 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{1FA9085F-25A2-489B-85D4-86326EEDCD87}/DefaultIcon %SystemRoot%\System32\wlanpref.dll 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{208D2C60-3AEA-1069-A2D7-08002B30309D}/DefaultIcon %SystemRoot%\system32\imageres.dll,-25 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{20D04FE0-3AEA-1069-A2D8-08002B30309D}/DefaultIcon %SystemRoot%\System32\imageres.dll,-109 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{21EC2020-3AEA-1069-A2DD-08002B30309D}/DefaultIcon %SystemRoot%\System32\imageres.dll,-27 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{2227A280-3AEA-1069-A2DE-08002B30309D}/DefaultIcon %SystemRoot%\System32\imageres.dll,-26 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{227B1F3B-C276-4DE0-9FAA-C0AD42ADDCF0}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{22877a6d-37a1-461a-91b0-dbda5aaebc99}/DefaultIcon %SystemRoot%\system32\imageres.dll,-117 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{233A9694-667E-11d1-9DFB-006097D50408}/DefaultIcon %ProgramFiles%\Windows Mail\msoe.dll,2 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{241D7C96-F8BF-4F85-B01F-E2B043341A4B}/DefaultIcon C:\Windows\SysWOW64\tsworkspace.dll 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{24ad3ad4-a569-4530-98e1-ab02f9417aa8}/DefaultIcon %SystemRoot%\system32\imageres.dll,-113 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{25336920-03F9-11CF-8FD0-00AA00686F13}/DefaultIcon C:\Program Files (x86)\Internet Explorer\iexplore.exe,-19 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{2559a1f0-21d7-11d4-bdaf-00c04f60b9f0}/DefaultIcon %SystemRoot%\System32\imageres.dll,-177 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{2559a1f2-21d7-11d4-bdaf-00c04f60b9f0}/DefaultIcon %SystemRoot%\System32\shell32.dll,-48 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{2559a1f3-21d7-11d4-bdaf-00c04f60b9f0}/DefaultIcon %SystemRoot%\System32\imageres.dll,-100 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{2559a1f5-21d7-11d4-bdaf-00c04f60b9f0}/DefaultIcon %SystemRoot%\explorer.exe,-254 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{2559a1f7-21d7-11d4-bdaf-00c04f60b9f0}/DefaultIcon %SystemRoot%\System32\imageres.dll,-24 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{26EE0668-A00A-44D7-9371-BEB064C98683}/DefaultIcon %SystemRoot%\System32\imageres.dll,-27 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{28803F59-3A75-4058-995F-4EE5503B023C}/DefaultIcon %systemroot%\system32\DevicePairingFolder.dll,-200 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{289AF617-1CC3-42A6-926C-E6A863F0E3BA}/DefaultIcon dlnashext.dll,-200 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{2E17C0EF-2851-459b-A3C8-27A41D4BC9F7}/DefaultIcon %SystemRoot%\system32\themeui.dll,7 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{3050F3D9-98B5-11CF-BB82-00AA00BDCE0B}/DefaultIcon C:\Program Files (x86)\Internet Explorer\iexplore.exe,-19 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{3050f4d8-98B5-11CF-BB82-00AA00BDCE0B}/DefaultIcon C:\Windows\SysWOW64\mshta.exe,1 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{30590066-98b5-11cf-bb82-00aa00bdce0b}/DefaultIcon C:\Program Files (x86)\Internet Explorer\iexplore.exe,-19 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{30590067-98b5-11cf-bb82-00aa00bdce0b}/DefaultIcon C:\Program Files (x86)\Internet Explorer\iexplore.exe,-19 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{305CA226-D286-468e-B848-2B2E8E697B74}/DefaultIcon "C:\Users\Gregory\AppData\Local\Akamai\ControlPanel.exe" 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{3080F90D-D7AD-11D9-BD98-0000947B0257}/DefaultIcon %SystemRoot%\explorer.exe,-103 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{3080F90E-D7AD-11D9-BD98-0000947B0257}/DefaultIcon %SystemRoot%\explorer.exe,-258 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{30A2652A-DDF7-45e7-ACA6-3EAB26FC8A4E}/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{3134ef9c-6b18-4996-ad04-ed5912e00eb5}/DefaultIcon %SystemRoot%\system32\imageres.dll,-117 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{323CA680-C24D-4099-B94D-446DD2D7249E}/DefaultIcon %SystemRoot%\system32\imageres.dll,-1024 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{328B0346-7EAF-4BBE-A479-7CB88A095F5B}/DefaultIcon %SystemRoot%\system32\imageres.dll,-27 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{374DE290-123F-4565-9164-39C4925E467B}/DefaultIcon %SystemRoot%\system32\imageres.dll,-184 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{38A98528-6CBF-4CA9-8DC0-B1E1D10F7B1B}/DefaultIcon %SystemRoot%\system32\imageres.dll,-171 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{3936E9E4-D92C-4EEE-A85A-BC16D5EA0819}/DefaultIcon %SystemRoot%\system32\shell32.dll,-37219 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{3ADD1653-EB32-4cb0-BBD7-DFA0ABB5ACCA}/DefaultIcon %SystemRoot%\system32\imageres.dll,-113 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{3C0D7ACB-790B-4437-8DD2-815CA17C474D}/DefaultIcon E:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\devenv.exe,1200 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{3C18EAE4-BC25-4134-B7DF-1ECA1337DDDC}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,19 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{3D0FD779-0C2D-4708-A9BA-62F7458A5A53}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{3dfdf296-dbec-4fb4-81d1-6a3438bcf4de}/DefaultIcon %SystemRoot%\system32\imageres.dll,-108 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{3f6bc534-dfa1-4ab4-ae54-ef25a74e0107}/DefaultIcon %SystemRoot%\System32\rstrui.exe,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{40419485-C444-4567-851A-2DD7BFA1684D}/DefaultIcon %SystemRoot%\System32\telephon.cpl,-100 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{41662FC2-0D57-4aff-AB27-AD2E12E7C273}/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{4299124F-F2C3-41b4-9C73-9236B2AD0E8F}/DefaultIcon C:\Program Files (x86)\Java\jre1.8.0_60\bin\javacpl.exe 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{430da762-8632-4840-bc61-3eeaa078e62e}/DefaultIcon %SystemRoot%\system32\display.dll,1 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{448BB771-CFE2-47C4-BCDF-1FBF378E202C}/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{450D8FBA-AD25-11D0-98A8-0800361B1103}/DefaultIcon %SystemRoot%\system32\shell32.dll,-235 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{46E31370-3F7A-11CE-BED6-00AA00611080}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{4795051A-6429-4D63-BCA0-D706532954AC}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{48123bc4-99d9-11d1-a6b3-00c04fd91555}/DefaultIcon %SystemRoot%\System32\msxml3.dll,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{48AE9D34-2FE7-48A7-9D8A-A65534E3C20C}/DefaultIcon E:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\devenv.exe,1200 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{4C599241-6926-101B-9992-00000B65C6F9}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{4c892621-6757-4fe0-ad8c-a6301be7fba2}/DefaultIcon %SystemRoot%\system32\themeui.dll,7 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{5052A832-2C0F-46c7-B67C-1F1FEC37B280}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{5399E694-6CE5-4D6C-8FCE-1D8870FDCBA0}/DefaultIcon %SystemRoot%\system32\imageres.dll,-27 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{5512D110-5CC6-11CF-8D67-00AA00BDCE1D}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{5512D112-5CC6-11CF-8D67-00AA00BDCE1D}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{5512D114-5CC6-11CF-8D67-00AA00BDCE1D}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{5512D116-5CC6-11CF-8D67-00AA00BDCE1D}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{5512D118-5CC6-11CF-8D67-00AA00BDCE1D}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{5512D11A-5CC6-11CF-8D67-00AA00BDCE1D}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{5512D11C-5CC6-11CF-8D67-00AA00BDCE1D}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{5512D11E-5CC6-11CF-8D67-00AA00BDCE1D}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{5512D122-5CC6-11CF-8D67-00AA00BDCE1D}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{5512D124-5CC6-11CF-8D67-00AA00BDCE1D}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{59031a47-3f72-44a7-89c5-5595fe6b30ee}/DefaultIcon %SystemRoot%\system32\imageres.dll,-123 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{5CBA34AE-E344-40CF-B61D-FBA4D0D1FF54}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{5E90CC8B-E402-4350-82D7-996E92010608}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{5ED4F38C-D3FF-4D61-B506-6820320AEBFE}/DefaultIcon %SystemRoot%\System32\imageres.dll,-27 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{5ef4af3a-f726-11d0-b8a2-00c04fc309a4}/DefaultIcon %SystemRoot%\system32\shell32.dll,-33 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{60632754-c523-4b62-b45c-4172da012619}/DefaultIcon %SystemRoot%\System32\usercpl.dll,-1 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{60F6E464-4DEF-11d2-B2D9-00C04F8EEC8C}/DefaultIcon %SystemRoot%\System32\DATACLEN.DLL,-2002 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{6240EF28-7EAB-4dc7-A5E3-7CFB35EFB34D}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{62D8ED13-C9D0-4CE8-A914-47DD628FB1B0}/DefaultIcon %SystemRoot%\System32\intl.cpl,-200 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{6377013E-2C35-40F3-B8E1-1AB47D12982B}/DefaultIcon %SystemRoot%\system32\WABSyncProvider.dll,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{63da6ec0-2e98-11cf-8d82-444553540000}/DefaultIcon %SystemRoot%\system32\imageres.dll,-73 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{6419566C-E9AE-438F-8250-D37C4FB48660}/DefaultIcon D:\Program Files (x86)\Foxit Software\Foxit Reader\FoxitReader.exe,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{645FF040-5081-101B-9F08-00AA002F954E}/DefaultIcon %SystemRoot%\System32\imageres.dll,-55 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{64818D10-4F9B-11CF-86EA-00AA00B929E8}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,17 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{64818D11-4F9B-11CF-86EA-00AA00B929E8}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,17 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{679f85cb-0220-4080-b29b-5540cc05aab6}/DefaultIcon %SystemRoot%\system32\shell32.dll,-51380 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{67CA7650-96E6-4FDD-BB43-A8E774F73A57}/DefaultIcon %SystemRoot%\System32\imageres.dll,-1013 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{6C177EBD-C42D-4728-A04B-4131892EDBF6}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{6C1B3099-127A-4BE1-93BC-DD4771EEEF90}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{6C8EEC18-8D75-41B2-A177-8831D59D2D50}/DefaultIcon %SystemRoot%\System32\main.cpl,-100 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{6DFD7C5C-2451-11d3-A299-00C04F8EF6AF}/DefaultIcon %SystemRoot%\system32\imageres.dll,-166 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{6E182020-F460-11CE-9BCD-00AA00608E01}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{7007ACC7-3202-11D1-AAD2-00805FC1270E}/DefaultIcon %SystemRoot%\system32\netshell.dll 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{7007ACD1-3202-11D1-AAD2-00805FC1270E}/DefaultIcon value 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{725BE8F7-668E-4C7B-8F90-46BDB0936430}/DefaultIcon %SystemRoot%\System32\main.cpl,-200 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{73FDDC80-AEA9-101A-98A7-00AA00374959}/DefaultIcon "%ProgramFiles%\Windows NT\Accessories\WORDPAD.EXE",1 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{74246bfc-4c96-11d0-abef-0020af6b0b7a}/DefaultIcon %SystemRoot%\system32\devmgr.dll,-201 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{75D01070-1234-44E9-82F6-DB5B39A47C13}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,11 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{767A19A0-3CC7-415B-9D08-D48DD7B8557D}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,15 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{77D2C92E-7779-11D8-9070-00065B840D9C}/DefaultIcon C:\Program Files (x86)\Common Files\Microsoft Shared\MSDesigners8\msddsf.dll,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{787A2D6B-EF66-488D-A303-513C9C75C344}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{79176FB0-B7F2-11CE-97EF-00AA006D2776}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{7931F65C-2564-4C19-AE71-E7DDFA008F6A}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{7A9D77BD-5403-11d2-8785-2E0420524153}/DefaultIcon %SystemRoot%\system32\netplwiz.dll,-102 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{7B342DC4-139A-4a46-8A93-DB0827CCEE9C}/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{7b81be6a-ce2b-4676-a29e-eb907a5126c5}/DefaultIcon %SystemRoot%\system32\imageres.dll,-87 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{7BD29E00-76C1-11CF-9DD0-00A0C9034933}/DefaultIcon C:\Windows\SysWOW64\ieframe.dll,-20780 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{7FA8AE11-B3E3-4D88-AABF-255526CD1CE8}/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{830690FC-BF2F-47A6-AC2D-330BCB402664}/InprocServer32/DefaultIcon C:\PROGRA~2\COMMON~1\Skype\SKYPE4~1.DLL,207 6
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{8369AB20-56C9-11D0-94E8-00AA0059CE02}/DefaultIcon C:\Windows\SysWOW64\occache.dll,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{85BBD920-42A0-1069-A2E4-08002B30309D}/DefaultIcon %SystemRoot%\system32\syncui.dll,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{863aa9fd-42df-457b-8e4d-0de1b8015c60}/DefaultIcon %SystemRoot%\System32\imageres.dll,-26 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{86F56B7F-A81B-478d-B231-50FD37CBE761}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{871C5380-42A0-1069-A2EA-08002B30309D}/DefaultIcon C:\Windows\SysWOW64\ieframe.dll,-190 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{87D66A43-7B11-4A28-9811-C86EE395ACF7}/DefaultIcon %SystemRoot%\System32\srchadmin.dll,-201 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{888DCA60-FC0A-11CF-8F0F-00C04FD7D062}/DefaultIcon %SystemRoot%\system32\zipfldr.dll 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{88C6C381-2E85-11D0-94DE-444553540000}/DefaultIcon C:\Windows\SysWOW64\occache.dll 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{89D83576-6BD1-4c86-9454-BEB04E94C819}/DefaultIcon %systemroot%\system32\mssvp.dll,-504 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{8A624388-AA27-43e0-89F8-2A12BFF7BCCD}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\wordicon.exe,16 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{8BD21D10-EC42-11CE-9E0D-00AA006002F3}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{8BD21D20-EC42-11CE-9E0D-00AA006002F3}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{8BD21D30-EC42-11CE-9E0D-00AA006002F3}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{8BD21D40-EC42-11CE-9E0D-00AA006002F3}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{8BD21D50-EC42-11CE-9E0D-00AA006002F3}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{8BD21D60-EC42-11CE-9E0D-00AA006002F3}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{8E6E6079-0CB7-11d2-8F10-0000F87ABD16}/DefaultIcon C:\Windows\SysWOW64\webcheck.dll,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{8E908FC9-BECC-40f6-915B-F4CA0E70D03D}/DefaultIcon %SystemRoot%\System32\netcenter.dll,-1 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{912ABC52-36E2-4714-8E62-A8B73CA5E390}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\wordicon.exe,14 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{9324DA94-50EC-4A14-A770-E90CA03E7C8F}/DefaultIcon %SystemRoot%\system32\themeui.dll,7 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{93412589-74D4-4E4E-AD0E-E0CB621440FD}/DefaultIcon %SystemRoot%\System32\fontext.dll 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{9343812e-1c37-4a49-a12e-4b2d810d956b}/DefaultIcon %SystemRoot%\System32\searchfolder.dll,-323 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{9432194C-DF54-4824-8E24-B013BF2B90E3}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{96AE8D84-A250-4520-95A5-A47A7E3C548B}/DefaultIcon %SystemRoot%\System32\wpccpl.dll,-1 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{98F275B4-4FFF-11E0-89E2-7B86DFD72085}/DefaultIcon %SystemRoot%\system32\SearchFolder.dll,-323 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{992CFFA0-F557-101A-88EC-00DD010CCC48}/DefaultIcon %SystemRoot%\system32\netshell.dll 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{9B0EFD60-F7B0-11D0-BAEF-00C04FC308C9}/DefaultIcon C:\Windows\SysWOW64\inetcpl.cpl,15 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{9BDAC276-BE24-4F04-BB22-11469B28A496}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{9C60DE1E-E5FC-40f4-A487-460851A8D915}/DefaultIcon %SystemRoot%\System32\autoplay.dll,-1 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{9C73F5E5-7AE7-4E32-A8E8-8D23B85255BF}/DefaultIcon %SystemRoot%\System32\SyncCenter.dll,-1000 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{9DB7A13C-F208-4981-8353-73CC61AE2783}/DefaultIcon %SystemRoot%\system32\twext.dll,-100 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{9E56BE60-C50F-11CF-9A2C-00A0C90A90CE}/DefaultIcon %SystemRoot%\system32\sendmail.dll,-2001 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{9E56BE61-C50F-11CF-9A2C-00A0C90A90CE}/DefaultIcon %SystemRoot%\system32\imageres.dll,-110 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{a00ee528-ebd9-48b8-944a-8942113d46ac}/DefaultIcon %SystemRoot%\system32\SearchFolder.dll,-323 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{A0275511-0E86-4ECA-97C2-ECD8F1221D08}/DefaultIcon %SystemRoot%\System32\irprops.cpl,-129 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{A0953C92-50DC-43bf-BE83-3742FED03C9C}/DefaultIcon %SystemRoot%\system32\imageres.dll,-189 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{A0D4CD32-5D5D-4f72-BAAA-767A7AD6BAC5}/DefaultIcon C:\Program Files\Microsoft Office 15\root\Office15\MLCFG32.CPL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{A3DD4F92-658A-410F-84FD-6FBBBEF2FFFE}/DefaultIcon C:\Windows\SysWOW64\inetcpl.cpl,-4487 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{A43F4073-BEBD-4142-B590-27A74384620B}/DefaultIcon D:\Program Files (x86)\Foxit Software\Foxit Reader\FoxitReader.exe,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{A8A91A66-3A7D-4424-8D24-04E180695C7A}/DefaultIcon %systemroot%\system32\DeviceCenter.dll,-1 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{A8CDFF1C-4878-43be-B5FD-F8091C1C60D0}/DefaultIcon %SystemRoot%\system32\imageres.dll,-112 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{A9B48EAC-3ED8-11d2-8216-00C04FB687DA}/DefaultIcon %SystemRoot%\System32\DATACLEN.DLL,-2000 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{AA14F9C9-62B5-4637-8AC4-8F25BF29D5A7}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,18 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{ADB9F5A4-E73E-49b8-99B6-2FA317EF9DBC}/DefaultIcon %SystemRoot%\system32\themeui.dll,7 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{B12AE898-D056-4378-A844-6D393FE37956}/DefaultIcon %SystemRoot%\system32\themeui.dll,7 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{B2C761C6-29BC-4f19-9251-E6195265BAF1}/DefaultIcon C:\Windows\SysWOW64\colorcpl.exe,-5 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}/DefaultIcon %SystemRoot%\system32\imageres.dll,-183 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{B4FB3F98-C1EA-428d-A78A-D1F5659CBA93}/DefaultIcon %SystemRoot%\system32\imageres.dll,-1013 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{B7BBD408-F09C-4aa8-B65E-A00B8FE0F0B9}/DefaultIcon %SystemRoot%\system32\themeui.dll,7 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{B801CA65-A1FC-11D0-85AD-444553540000}/DefaultIcon C:\Windows\Installer\{AC76BA86-7AD7-1033-7B44-AC0F074E4100}\PDFFile_8.ico,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{BA126E01-2166-11D1-B1D0-00805FC1270E}/DefaultIcon %SystemRoot%\system32\netshell.dll 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{BA126F01-2166-11D1-B1D0-00805FC1270E}/DefaultIcon %SystemRoot%\system32\netshell.dll 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{BB06C0E4-D293-4f75-8A90-CB05B6477EEE}/DefaultIcon %SystemRoot%\System32\imageres.dll,-149 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{BB64F8A7-BEE7-4E1A-AB8D-7D8273F7FDB6}/DefaultIcon %SystemRoot%\System32\ActionCenterCPL.dll,-1 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{BC48B32F-5910-47F5-8570-5074A8A5636A}/DefaultIcon %SystemRoot%\System32\SyncCenter.dll,-1000 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{BD7A2E7B-21CB-41b2-A086-B309680C6B7E}/DefaultIcon %systemroot%\system32\mssvp.dll,-505 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{BD84B380-8CA2-1069-AB1D-08000948F534}/DefaultIcon %SystemRoot%\System32\fontext.dll 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{BF782CC9-5A52-4A17-806C-2A894FFEEAC5}/DefaultIcon %SystemRoot%\System32\UserLanguagesCpl.dll,-1 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{C282417B-2662-44B8-8A94-3BFF61C50900}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,20 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{C555438B-3C23-4769-A71F-B6D3D9B6053A}/DefaultIcon %SystemRoot%\System32\Display.dll,-1 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{c57a6066-66a3-4d91-9eb9-41532179f0a5}/DefaultIcon %SystemRoot%\system32\imageres.dll,-1020 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{C62A69F0-16DC-11CE-9E98-00AA00574A4F}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{c79d1575-b8c6-4862-a284-788836518b97}/DefaultIcon %SystemRoot%\system32\display.dll,1 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{CF4F55F4-8F87-4D47-80BB-5808164BB3F8}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,10 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{D0484DE6-AAEE-468a-991F-8D4B0737B57A}/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{d0da2915-3f89-4519-a4ca-5e02528c8ec4}/DefaultIcon %SystemRoot%\system32\playlistfolder.dll 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{D17D1D6D-CC3F-4815-8FE3-607E7D5D10B3}/DefaultIcon %SystemRoot%\System32\Speech\SpeechUX\sapi.cpl,-138 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{D2035EDF-75CB-4EF1-95A7-410D9EE17170}/DefaultIcon dlnashext.dll,-200 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{D20EA4E1-3957-11d2-A40B-0C5020524153}/DefaultIcon %SystemRoot%\System32\imageres.dll,-114 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{D2D44F93-D0A1-4531-913D-607F121C5346}/DefaultIcon E:\Program Files\Adobe\Adobe Illustrator CS6\Support Files\Contents\Windows\Illustrator.exe, 0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{D2D59CD1-0A6A-4D36-AE20-47817077D57C}/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{d3162b92-9365-467a-956b-92703aca08af}/DefaultIcon %SystemRoot%\system32\imageres.dll,-112 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{D3E34B21-9D75-101A-8C3D-00AA001A1652}/DefaultIcon %systemroot%\system32\mspaint.exe,-3 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{D4480A50-BA28-11d1-8E75-00C04FA31A86}/DefaultIcon %SystemRoot%\System32\shwebsvc.dll,-107 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{d450a8a1-9568-45c7-9c0e-b4f9fb4537bd}/DefaultIcon appwiz.cpl,-1507 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{D555645E-D4F8-4c29-A827-D93C859C4F2A}/DefaultIcon %SystemRoot%\System32\accessibilitycpl.dll,-1 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{D7053240-CE69-11CD-A777-00DD01143C57}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{daf95313-e44d-46af-be1b-cbacea2c3065}/DefaultIcon %SystemRoot%\system32\SearchFolder.dll,-323 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{DC020317-E6E2-4A62-B9FA-B3EFE16626F4}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\pptico.exe,19 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{DCA0ED3C-B95D-490f-9C60-0FF3726C789A}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{DD4CB8C5-F540-47ff-84D7-67390D2743CA}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{DFD181E0-5E2F-11CE-A449-00AA004A803D}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{E2E7934B-DCE5-43C4-9576-7FE4F75E7480}/DefaultIcon %SystemRoot%\System32\timedate.cpl,-50 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{E31EA727-12ED-4702-820C-4B6445F28E1A}/DefaultIcon C:\Program Files (x86)\Dropbox\Client\Dropbox.exe,-6001 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{e345f35f-9397-435c-8f95-4e922c26259e}/DefaultIcon %SystemRoot%\system32\SearchFolder.dll,-323 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{E413D040-6788-4C22-957E-175D1C513A34}/DefaultIcon %SystemRoot%\System32\SyncCenter.dll,-1000 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{E44E5D18-0652-4508-A4E2-8A090067BCB0}/DefaultIcon %SystemRoot%\system32\imageres.dll,-24 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{E5A0B632-DFBA-4549-9346-E414DA06E6F8}/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{E88DCCE0-B7B3-11d1-A9F0-00AA0060FA31}/DefaultIcon %SystemRoot%\system32\zipfldr.dll 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{E96F5460-09CE-4f46-88B1-F4B6B4A8E252}/DefaultIcon %SystemRoot%\system32\wmploc.dll, 101 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{E9729012-8271-4e1f-BC56-CF85F914915A}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{EA778DB4-CE69-4da5-BC1D-34E2168D5EED}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{EABCECDB-CC1C-4A6F-B4E3-7F888A5ADFC8}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\xlicons.exe,1 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{EAE50EB0-4A62-11CE-BED6-00AA00611080}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{ECF03A32-103D-11d2-854D-006008059367}/DefaultIcon %SystemRoot%\system32\imageres.dll,-1002 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{ED228FDF-9EA8-4870-83b1-96b02CFE0D52}/DefaultIcon C:\Windows\SysWOW64\imageres.dll,-14 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{ED7BA470-8E54-465E-825C-99712043E01C}/DefaultIcon %SystemRoot%\System32\imageres.dll,-27 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{EE5D1EA4-D445-4289-B2FC-55FC93693917}/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}/DefaultIcon %SystemRoot%\System32\imageres.dll,-25 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{F08619D6-F1F5-4242-BF0E-FC491E80C952}/DefaultIcon D:\Program Files (x86)\Foxit Software\Foxit Reader\FoxitReader.exe,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{F1390A9A-A3F4-4E5D-9C5F-98F3BD8D935C}/DefaultIcon %SystemRoot%\System32\SyncCenter.dll,-1000 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{F14E8B03-D080-4D3A-AEBA-355E77B20F3D}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{F20DA720-C02F-11CE-927B-0800095AE340}/DefaultIcon %SystemRoot%\system32\packager.dll,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{F2DDFC82-8F12-4CDD-B7DC-D4FE1425AA4D}/DefaultIcon %SystemRoot%\System32\mmsys.cpl,-100 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{F4754C9B-64F5-4B40-8AF4-679732AC0607}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\wordicon.exe,13 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{F5078F40-C551-11D3-89B9-0000F81FE221}/DefaultIcon %SystemRoot%\System32\msxml3.dll,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{F5175861-2688-11d0-9C5E-00AA00A45957}/DefaultIcon C:\Windows\SysWOW64\webcheck.dll 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{F616B81F-7BB8-4F22-B8A5-47428D59F8AD}/DefaultIcon D:\Program Files (x86)\OpenOffice 4\program\soffice.exe,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{f86fa3ab-70d2-4fc7-9c99-fcbf05467f3a}/DefaultIcon %SystemRoot%\system32\imageres.dll,-189 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{FB453AD8-2EF4-44D3-98A8-8C6474E63CE4}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{FDEA20DB-AC7A-42f8-90EE-82208B9B4FC0}/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\SystemX86\FM20.DLL,0 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{FF393560-C2A7-11CF-BFF4-444553540000}/DefaultIcon C:\Windows\SysWOW64\ieframe.dll,-20785 5
+HKEY_CLASSES_ROOT/Wow6432Node/CLSID/{FF3AE31D-55B0-4945-BDE9-622ABB334C1A}/DefaultIcon %SystemRoot%\system32\WABSyncProvider.dll,0 5
+HKEY_CLASSES_ROOT/wpa/DefaultIcon C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\wpa.exe,-100 3
+HKEY_CLASSES_ROOT/wpa.etl_file/DefaultIcon C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\wpa.exe,-100 3
+HKEY_CLASSES_ROOT/wpa.wpa_file/DefaultIcon C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\wpa.exe,-100 3
+HKEY_CLASSES_ROOT/WSFFile/DefaultIcon %SystemRoot%\System32\WScript.exe,2 3
+HKEY_CLASSES_ROOT/WSHFile/DefaultIcon %SystemRoot%\System32\WScript.exe,1 3
+HKEY_CLASSES_ROOT/xhtmlfile/DefaultIcon C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE,-17 3
+HKEY_CLASSES_ROOT/xmlfile/DefaultIcon %SystemRoot%\System32\msxml3.dll,0 3
+HKEY_CLASSES_ROOT/xslfile/DefaultIcon %SystemRoot%\System32\msxml3.dll,1 3
+
+Found 1398 matches.

@@ -7,7 +7,7 @@
 #include <fstream>
 
 #include "./ImageEntry.hpp"
-#include "./extensionHistory.hpp"
+#include "./ExtensionHistory.hpp"
 
 class RegistryHistory
 {

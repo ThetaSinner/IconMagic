@@ -5,7 +5,7 @@
  * // TODO file_desc
  */
 
-#include "./RegistryManager.hpp"
+#include "./Manager.hpp"
 
 void RegistryManager::cacheBuild()
 {

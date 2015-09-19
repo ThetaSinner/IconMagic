@@ -19,18 +19,23 @@
 // wmp11... search for this key, and that has a DefaultIcon sub key.
 
 #include <iostream>
-#include "./main/RegistryHistory/RegistryHistory.hpp"
+#include "./main/Registry/Manager.hpp"
 
 //#include "test/RegistryHistoryTest.hpp"
+#include "./main/Registry/Scanner/ScanTool.hpp"
 
 #include <sstream>
 #include <fstream>
 
-#include "./main/RegistryScanner/KeyPath.hpp"
-#include "./main/RegistryScanner/ScanTool.hpp"
-
 int main(int argc, char **args)
 {
+  std::cout << "Welcome to icon magic.\n";
+
+  //std::cout << "Press any key to exit.\n";
+  //std::cin.get();
+  //return 0;
+
+
   ScanTool scanner;
   try {
     std::vector<std::pair<KeyPath, std::string>> values = scanner.simpleSearch(
@@ -56,6 +61,7 @@ int main(int argc, char **args)
   std::cout << "Done. Press enter to exit. ";
   std::cin.get();
   return 0;
+
 
   /*
   RegistryHistory r;

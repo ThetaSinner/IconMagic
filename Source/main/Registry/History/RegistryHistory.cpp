@@ -12,8 +12,8 @@
 #include "./RegistryHistory.hpp"
 
 // TODO remove temp includes??
-#include "./../WindowsToolbox.hpp"
-#include "./../Util.hpp"
+#include "./../../WindowsToolbox.hpp"
+#include "./../../Util.hpp"
 
 /** \brief Default constructor.
  */

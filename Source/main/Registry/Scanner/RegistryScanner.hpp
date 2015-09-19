@@ -5,7 +5,7 @@
 #include <map>
 #include <utility>
 
-#include "./KeyPath.hpp"
+#include "./../Common/KeyPath.hpp"
 
 class RegistryScanner
 {

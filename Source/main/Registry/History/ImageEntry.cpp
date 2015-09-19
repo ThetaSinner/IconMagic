@@ -1,8 +1,8 @@
 #include "ImageEntry.hpp"
 
 #include <sstream>
-#include "./../WindowsToolbox.hpp"
-#include "./../Util.hpp"
+#include "./../../WindowsToolbox.hpp"
+#include "./../../Util.hpp"
 
 const std::string ImageEntry::seperator = ",";
 const std::string ImageEntry::blockOpen = "[";

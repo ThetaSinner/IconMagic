@@ -16,6 +16,6 @@ RegistryScanner::RegistryScanner()
 std::vector<std::pair<KeyPath, std::string>> RegistryScanner::lookupValue(std::string key_name, std::string value_name)
 {
   // Here I'm choosing to assume the input is validated already.
-  
+
   return scanResults;
 }

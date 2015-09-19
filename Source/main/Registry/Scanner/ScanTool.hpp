@@ -2,13 +2,13 @@
 #define SCAN_TOOL
 
 #include <vector>
-#include <map>
+
 #include <utility>
 #include <string>
 
 #include <Windows.h>
 
-#include "./KeyPath.hpp"
+#include "./../Common/KeyPath.hpp"
 
 #include <exception>
 
@@ -28,9 +28,6 @@ public:
 class ScanTool
 {
 public:
-  static const std::map<std::string, std::string> ALTERNATE_KEY_NAME_MAP;
-  static const std::map<std::string, HKEY> PREDEFINED_ROOT_KEYS;
-
   static const int UNLIMITED_RECURSION_DEPTH;
   static const int UNLIMITED_MATCHES;
 
@@ -65,7 +62,6 @@ private:
   void getSubKeyN(const HKEY &root_key, std::string *key_name, int n);
   void getValueFromKey(HKEY &key, std::string value_name, std::string *key_value);
 
-  HKEY resolveNameToKey(std::string &name);
   bool testRecursionRestrictionsValid(int maximum_recursion_depth, int maximum_items_to_search_for);
 };
 

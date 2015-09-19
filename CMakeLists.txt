@@ -15,21 +15,36 @@ set(MAIN_FILES
     ${SOURCE_DIRECTORY}/${MAIN}/IconMagic.hpp
     ${SOURCE_DIRECTORY}/${MAIN}/IconMagic.cpp
 
-    ${SOURCE_DIRECTORY}/main/RegistryHistory/ImageEntry.hpp
-    ${SOURCE_DIRECTORY}/main/RegistryHistory/ImageEntry.cpp
-    ${SOURCE_DIRECTORY}/main/RegistryHistory/ExtensionHistory.hpp
-    ${SOURCE_DIRECTORY}/main/RegistryHistory/ExtensionHistory.cpp
-    ${SOURCE_DIRECTORY}/main/RegistryHistory/RegistryHistory.hpp
-    ${SOURCE_DIRECTORY}/main/RegistryHistory/RegistryHistory.cpp
-    
-    ${SOURCE_DIRECTORY}/main/RegistryScanner/KeyPath.hpp
-    ${SOURCE_DIRECTORY}/main/RegistryScanner/KeyPath.cpp
-    ${SOURCE_DIRECTORY}/main/RegistryScanner/ScanTool.hpp
-    ${SOURCE_DIRECTORY}/main/RegistryScanner/ScanTool.cpp
-    ${SOURCE_DIRECTORY}/main/RegistryScanner/RegistryScanner.hpp
-    ${SOURCE_DIRECTORY}/main/RegistryScanner/RegistryScanner.cpp   
-    ${SOURCE_DIRECTORY}/main/RegistryManager/RegistryManager.hpp    
-    ${SOURCE_DIRECTORY}/main/RegistryManager/RegistryManager.cpp
+    ${SOURCE_DIRECTORY}/main/Registry/Manager.hpp
+    ${SOURCE_DIRECTORY}/main/Registry/Manager.cpp
+
+    # Common
+    ${SOURCE_DIRECTORY}/main/Registry/Common/KeyPath.hpp
+    ${SOURCE_DIRECTORY}/main/Registry/Common/KeyPath.cpp
+    ${SOURCE_DIRECTORY}/main/Registry/Common/KeyService.hpp
+    ${SOURCE_DIRECTORY}/main/Registry/Common/KeyService.cpp
+
+    # Data Access
+    ${SOURCE_DIRECTORY}/main/Registry/DataAccess/DirectRegistryAccess.hpp
+    ${SOURCE_DIRECTORY}/main/Registry/DataAccess/DirectRegistryAccess.cpp
+    ${SOURCE_DIRECTORY}/main/Registry/DataAccess/RegistryAccessException.hpp
+    ${SOURCE_DIRECTORY}/main/Registry/DataAccess/RegistryAccessException.cpp
+
+    # History
+    ${SOURCE_DIRECTORY}/main/Registry/History/RegistryHistory.hpp
+    ${SOURCE_DIRECTORY}/main/Registry/History/RegistryHistory.cpp
+
+    ${SOURCE_DIRECTORY}/main/Registry/History/ExtensionHistory.hpp
+    ${SOURCE_DIRECTORY}/main/Registry/History/ExtensionHistory.cpp
+    ${SOURCE_DIRECTORY}/main/Registry/History/ImageEntry.hpp
+    ${SOURCE_DIRECTORY}/main/Registry/History/ImageEntry.cpp
+
+    # Scanner
+    ${SOURCE_DIRECTORY}/main/Registry/Scanner/RegistryScanner.hpp
+    ${SOURCE_DIRECTORY}/main/Registry/Scanner/RegistryScanner.cpp
+    ${SOURCE_DIRECTORY}/main/Registry/Scanner/ScanTool.hpp
+    ${SOURCE_DIRECTORY}/main/Registry/Scanner/ScanTool.cpp
+
 
     ${SOURCE_DIRECTORY}/main/Util.hpp
     ${SOURCE_DIRECTORY}/main/Util.cpp

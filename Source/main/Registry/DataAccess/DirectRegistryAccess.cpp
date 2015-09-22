@@ -1,6 +1,5 @@
 #include "./DirectRegistryAccess.hpp"
 
-
 void DirectRegistryAccess::openKeyForEnumeration(HKEY root_key, std::string path, HKEY &h_key)
 {
   DWORD status = RegOpenKeyEx(
@@ -52,6 +51,37 @@ bool DirectRegistryAccess::getSubKeyNameAt(const HKEY &root_key, int n, std::str
   }
 
   return true;
+}
+
+bool DirectRegistryAccess::getValueFromKey(HKEY &h_key, std::string search_value_name, std::string *key_value)
+{
+  DWORD bufferSize = 5000; // TODO config.
+  char buffer[(int) bufferSize];
+
+  DWORD valueState = RegQueryValueEx(
+    h_key,
+    search_value_name.c_str(),
+    NULL,
+    NULL,
+    (LPBYTE) buffer,
+    &bufferSize
+  );
+
+  if (valueState == ERROR_SUCCESS)
+  {
+    *key_value = std::string(buffer);
+  }
+  else
+  {
+    return false;
+  }
+
+  return true;
+}
+
+bool DirectRegistryAccess::getValueFromKey(HKEY &h_key, std::string *key_value)
+{
+  return getValueFromKey(h_key, "", key_value);
 }
 
 void DirectRegistryAccess::closeKey(HKEY &h_key)

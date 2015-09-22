@@ -1,4 +1,4 @@
-  #include "./RegistryAccessException.hpp"
+#include "./RegistryAccessException.hpp"
 
 RegistryAccessException::RegistryAccessException(std::string message)
 {

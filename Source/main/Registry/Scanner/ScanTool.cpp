@@ -125,7 +125,7 @@ std::vector<std::pair<KeyPath, std::string>> ScanTool::depthFirstSearch(
       {
         std::string value;
         try {
-          getValueFromKey(hNextKey, search_value_name, &value);
+          DirectRegistryAccess::getValueFromKey(hNextKey, search_value_name, &value);
           partResult.push_back(std::pair<KeyPath, std::string> (nextKeyPath, value));
         } catch (const RegistryScanException& e) {
           // TODO This is a bit of a problem...
@@ -134,7 +134,7 @@ std::vector<std::pair<KeyPath, std::string>> ScanTool::depthFirstSearch(
         // TODO option to stop the search at this point?
       }
 
-      RegCloseKey(hNextKey);
+      DirectRegistryAccess::closeKey(hNextKey);
 
       if (remaining_items_to_search_for == ScanTool::UNLIMITED_MATCHES) {
         pushPartialToResult(results, partResult, partResult.size() + 1);
@@ -147,54 +147,6 @@ std::vector<std::pair<KeyPath, std::string>> ScanTool::depthFirstSearch(
   }
 
   return results;
-}
-
-/*
-void ScanTool::openKeyForEnumeration(HKEY root_key, HKEY &h_key, std::string path)
-{
-  DWORD status = RegOpenKeyEx(
-     root_key,
-     LPTSTR(path.c_str()),
-     0,
-     KEY_READ | KEY_ENUMERATE_SUB_KEYS,
-     &h_key
-   );
-
-   if (status != ERROR_SUCCESS)
-   {
-     throw RegistryScanException("Failed to open key for enumeration.");
-   }
-}
-*/
-
-void ScanTool::getSubKeyN(const HKEY &root_key, std::string *key_name, int n)
-{
-  DWORD bufferSize = 5000; // TODO you can determine this dynamically - RegQueryInfoKey
-  char buffer[(int) bufferSize];
-
-  DWORD subKeyState = RegEnumKeyEx(
-    root_key,
-    n,
-    buffer,
-    &bufferSize,
-    0,
-    NULL,
-    NULL,
-    NULL
-  );
-
-  if (subKeyState == ERROR_SUCCESS)
-  {
-    *key_name = std::string(buffer);
-  }
-  else if(subKeyState == ERROR_NO_MORE_ITEMS)
-  {
-    *key_name = "";
-  }
-  else
-  {
-    throw RegistryScanException("Failed to open nth subkey.");
-  }
 }
 
 int ScanTool::pushPartialToResult(
@@ -217,6 +169,7 @@ int ScanTool::pushPartialToResult(
   return limit;
 }
 
+/*
 void ScanTool::getValueFromKey(HKEY &key, std::string search_value_name, std::string *key_value)
 {
   DWORD bufferSize = 5000; // TODO config.
@@ -240,6 +193,7 @@ void ScanTool::getValueFromKey(HKEY &key, std::string search_value_name, std::st
     throw RegistryScanException("Failed to get value from key.");
   }
 }
+*/
 
 bool ScanTool::testRecursionRestrictionsValid(int maximum_recursion_depth, int maximum_items_to_search_for)
 {

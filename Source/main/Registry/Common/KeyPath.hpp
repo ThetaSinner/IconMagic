@@ -1,5 +1,5 @@
-#ifndef KEY_PATH
-#define KEY_PATH
+#ifndef KEY_PATH_INCLUDED
+#define KEY_PATH_INCLUDED
 
 #include <vector>
 #include <string>

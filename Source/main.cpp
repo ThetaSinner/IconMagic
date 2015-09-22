@@ -23,6 +23,7 @@
 
 //#include "test/RegistryHistoryTest.hpp"
 #include "./main/Registry/Scanner/ScanTool.hpp"
+#include "./main/Registry/DataAccess/SimpleRegistryAccess.hpp"
 
 #include <sstream>
 #include <fstream>
@@ -35,7 +36,14 @@ int main(int argc, char **args)
   //std::cin.get();
   //return 0;
 
+  KeyPath p = KeyPath("HKEY_CLASSES_ROOT")
+    .append(".tvlink")
+    .append("DefaultIcon");
 
+  std::cout << SimpleRegistryAccess::getValueAtPath(p);
+  std::cin.get();
+
+  /*
   ScanTool scanner;
   try {
     std::vector<std::pair<KeyPath, std::string>> values = scanner.simpleSearch(
@@ -61,7 +69,7 @@ int main(int argc, char **args)
   std::cout << "Done. Press enter to exit. ";
   std::cin.get();
   return 0;
-
+  */
 
   /*
   RegistryHistory r;
@@ -150,6 +158,6 @@ int main(int argc, char **args)
     std::cout << "Failed to write history 2.\n";
   }
   */
-  //return 0;
-  return runIconMagic();
+  return 0;
+  //return runIconMagic();
 }

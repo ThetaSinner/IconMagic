@@ -29,11 +29,12 @@ set(MAIN_FILES
     ${SOURCE_DIRECTORY}/main/Registry/DataAccess/DirectRegistryAccess.cpp
     ${SOURCE_DIRECTORY}/main/Registry/DataAccess/RegistryAccessException.hpp
     ${SOURCE_DIRECTORY}/main/Registry/DataAccess/RegistryAccessException.cpp
+	${SOURCE_DIRECTORY}/main/Registry/DataAccess/SimpleRegistryAccess.hpp
+	${SOURCE_DIRECTORY}/main/Registry/DataAccess/SimpleRegistryAccess.cpp
 
     # History
     ${SOURCE_DIRECTORY}/main/Registry/History/RegistryHistory.hpp
     ${SOURCE_DIRECTORY}/main/Registry/History/RegistryHistory.cpp
-
     ${SOURCE_DIRECTORY}/main/Registry/History/ExtensionHistory.hpp
     ${SOURCE_DIRECTORY}/main/Registry/History/ExtensionHistory.cpp
     ${SOURCE_DIRECTORY}/main/Registry/History/ImageEntry.hpp

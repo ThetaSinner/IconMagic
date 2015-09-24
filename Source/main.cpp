@@ -37,11 +37,28 @@ int main(int argc, char **args)
   //return 0;
 
   KeyPath p = KeyPath("HKEY_CLASSES_ROOT")
+    .append(".aaatest")
+    .append("DefaultIcon");
+
+  if (SimpleRegistryAccess::setValueAtPath(p, "C:\\fuckyou\\fuckyoumore,12"))
+  {
+    std::cout << "good\n";
+  }
+  else
+  {
+    std::cout << "bad\n";
+  }
+
+  std::cin.get();
+
+  /*
+  KeyPath p = KeyPath("HKEY_CLASSES_ROOT")
     .append(".tvlink")
     .append("DefaultIcon");
 
   std::cout << SimpleRegistryAccess::getValueAtPath(p);
   std::cin.get();
+  */
 
   /*
   ScanTool scanner;

@@ -27,6 +27,10 @@
 
 #include <sstream>
 #include <fstream>
+#include <list>
+#include <string>
+
+#include "./main/Menu/Menu.hpp"
 
 int main(int argc, char **args)
 {
@@ -36,11 +40,32 @@ int main(int argc, char **args)
   //std::cin.get();
   //return 0;
 
+  //A* a = new B();
+  //a -> test();
+
+  //(new MenuBranch("blip", new MenuLeaf()))->add("glib", new MenuLeaf() -> add("grap", new MenuLeaf()));
+  Menu* m = new MenuBranch("go", new MenuBranch("deeper", new MenuLeaf()));
+  //m -> menu.at("go") -> action("");
+  //m -> menu.at("go") -> menu.at("deeper") -> action("");
+
+  Menu* mymenu = m;
+  mymenu -> trigger("go");
+  /*
+  std::list<std::string> l = mymenu -> getMenu();
+  for (auto &i : l)
+  {
+    std::cout << i << "\n";
+  }
+  mymenu -> trigger("deeper");
+*/
+
+
+  /*
   KeyPath p = KeyPath("HKEY_CLASSES_ROOT")
     .append(".aaatest")
     .append("DefaultIcon");
 
-  if (SimpleRegistryAccess::setValueAtPath(p, "C:\\fuckyou\\fuckyoumore,12"))
+  if (SimpleRegistryAccess::setValueAtPath(p, ""))
   {
     std::cout << "good\n";
   }
@@ -48,8 +73,7 @@ int main(int argc, char **args)
   {
     std::cout << "bad\n";
   }
-
-  std::cin.get();
+  */
 
   /*
   KeyPath p = KeyPath("HKEY_CLASSES_ROOT")
@@ -175,6 +199,7 @@ int main(int argc, char **args)
     std::cout << "Failed to write history 2.\n";
   }
   */
+  std::cin.get();
   return 0;
   //return runIconMagic();
 }

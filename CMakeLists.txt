@@ -46,6 +46,8 @@ set(MAIN_FILES
     ${SOURCE_DIRECTORY}/main/Registry/Scanner/ScanTool.hpp
     ${SOURCE_DIRECTORY}/main/Registry/Scanner/ScanTool.cpp
 
+	${SOURCE_DIRECTORY}/main/Menu/Menu.hpp
+	${SOURCE_DIRECTORY}/main/Menu/Menu.cpp
 
     ${SOURCE_DIRECTORY}/main/Util.hpp
     ${SOURCE_DIRECTORY}/main/Util.cpp

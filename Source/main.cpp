@@ -31,6 +31,14 @@
 #include <string>
 
 #include "./main/Menu/Menu.hpp"
+#include "./main/Menu/MenuManager.hpp"
+
+int func()
+{
+  std::cout << "pop it\n";
+  std::cin.get();
+  std::cin.get();
+}
 
 int main(int argc, char **args)
 {
@@ -38,18 +46,28 @@ int main(int argc, char **args)
 
   //std::cout << "Press any key to exit.\n";
   //std::cin.get();
-  //return 0;
 
-  //A* a = new B();
-  //a -> test();
+  Menu* m = (new MenuBranch("go", (new MenuBranch("deeper", (new MenuLeaf()) -> addAction(func))) -> add("back", new MenuExit()))) -> add("exit", new MenuExit());
+  MenuManager manager(m);
+  m = nullptr;
+  manager.start();
 
+  /*
   //(new MenuBranch("blip", new MenuLeaf()))->add("glib", new MenuLeaf() -> add("grap", new MenuLeaf()));
   Menu* m = new MenuBranch("go", new MenuBranch("deeper", new MenuLeaf()));
   //m -> menu.at("go") -> action("");
   //m -> menu.at("go") -> menu.at("deeper") -> action("");
 
+
   Menu* mymenu = m;
-  mymenu -> trigger("go");
+  std::list<std::string> l = mymenu -> getMenu();
+  for (auto &i : l)
+  {
+    std::cout << i << "\n";
+  }
+  mymenu -> action("go") -> action("deeper") -> action("");
+  */
+
   /*
   std::list<std::string> l = mymenu -> getMenu();
   for (auto &i : l)

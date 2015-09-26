@@ -2,51 +2,53 @@
 #define MENU_INCLUDED
 
 #include <map>
+#include <vector>
 #include <list>
-
-#include <iostream>
+#include <functional>
 
 class Menu
 {
   public:
   Menu();
+  ~Menu();
+
+  // Build.
   Menu(std::string title, Menu* sub_menu);
   Menu* add(std::string title, Menu* sub_menu);
 
+  std::vector<std::string> getMenu();
+  Menu* getParent();
   virtual Menu* action(std::string input) = 0;
-
-  std::list<std::string> getMenu();
-  Menu* trigger(std::string name);
 
   protected:
   Menu* parent = nullptr;
-  std::map<std::string, Menu*> menu;
+  std::vector<std::pair<std::string, Menu*>> menu;
 };
 
 class MenuBranch : public Menu
 {
+  public:
   using Menu::Menu;
-
-  Menu* action(std::string input)
-  {
-    std::cout << "branch update\n" << input << "\n";
-
-    return menu.at(input);
-  }
+  Menu* action(std::string input);
 };
 
 class MenuLeaf : public Menu
 {
+  public:
   using Menu::Menu;
+  Menu* action(std::string input);
 
-  Menu* action(std::string input)
-  {
-    // do all registered actions.
+  Menu* addAction(std::function<int(void)> f);
 
-    std::cout << "leaf update\n" << input << "\n";
+  private:
+  std::list<std::function<int(void)>> actions;
+};
 
-    return (input == "back" ? parent : this);
-  }
+class MenuExit: public MenuLeaf
+{
+  public:
+  using Menu::Menu;
+  Menu* action(std::string _);
 };
 
 #endif

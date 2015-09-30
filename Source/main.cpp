@@ -33,12 +33,7 @@
 #include "./main/Menu/Menu.hpp"
 #include "./main/Menu/MenuManager.hpp"
 
-int func()
-{
-  std::cout << "pop it\n";
-  std::cin.get();
-  std::cin.get();
-}
+#include "./main/Menu/MenuDefinitions/MenuFactory.hpp"
 
 int main(int argc, char **args)
 {
@@ -47,10 +42,37 @@ int main(int argc, char **args)
   //std::cout << "Press any key to exit.\n";
   //std::cin.get();
 
+  /*
   Menu* m = (new MenuBranch("go", (new MenuBranch("deeper", (new MenuLeaf()) -> addAction(func))) -> add("back", new MenuExit()))) -> add("exit", new MenuExit());
   MenuManager manager(m);
   m = nullptr;
   manager.start();
+  */
+
+/*
+  Menu* modifyAnIcon =
+  (new MenuBranch("Add a new icon",    (new MenuLeaf()) -> addAction(rebuildTheWindowsIconCache)))
+           -> add("Roll back an icon", (new MenuLeaf()) -> addAction(rebuildTheWindowsIconCache))
+           -> add("Back",               new MenuExit()
+  );
+
+  Menu* changeIcons =
+  (new MenuBranch("Build IconMagic cache",                      (new MenuLeaf()) -> addAction(rebuildTheWindowsIconCache)))
+           -> add("Sync the registry with the IconMagic cache", (new MenuLeaf()) -> addAction(rebuildTheWindowsIconCache))
+           -> add("Modify an icon",                             modifyAnIcon)
+           -> add("Back",                                       new MenuExit()
+  );
+
+  Menu* bigMenu =
+  (new MenuBranch("Change icons", changeIcons))
+           -> add("Rebuild the windows icon cache", (new MenuLeaf()) -> addAction(rebuildTheWindowsIconCache))
+           -> add("Exit", new MenuExit()
+  );
+*/
+
+  MenuManager bigManager((new MenuFactory()) -> getMainMenuInstance());
+  bigManager.start();
+
 
   /*
   //(new MenuBranch("blip", new MenuLeaf()))->add("glib", new MenuLeaf() -> add("grap", new MenuLeaf()));

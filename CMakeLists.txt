@@ -50,6 +50,8 @@ set(MAIN_FILES
     ${SOURCE_DIRECTORY}/main/Menu/Menu.cpp
     ${SOURCE_DIRECTORY}/main/Menu/MenuManager.hpp
     ${SOURCE_DIRECTORY}/main/Menu/MenuManager.cpp
+    ${SOURCE_DIRECTORY}/main/Menu/MenuDefinitions/MenuFactory.hpp
+    ${SOURCE_DIRECTORY}/main/Menu/MenuDefinitions/MenuFactory.cpp
 
     ${SOURCE_DIRECTORY}/main/Util.hpp
     ${SOURCE_DIRECTORY}/main/Util.cpp

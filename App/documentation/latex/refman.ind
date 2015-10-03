@@ -1,0 +1,187 @@
+\begin{theindex}
+
+  \item {$\sim$\+Test\+Framework}
+    \subitem {Test\+Framework}, \hyperpage{22}
+
+  \indexspace
+
+  \item {A\+L\+T\+E\+R\+N\+A\+T\+E\+\_\+\+K\+E\+Y\+\_\+\+N\+A\+M\+E\+\_\+\+M\+A\+P}
+    \subitem {Key\+Service}, \hyperpage{16}
+  \item {add\+Test}
+    \subitem {Test\+Framework}, \hyperpage{23}
+
+  \indexspace
+
+  \item {D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/doxygen/example.\+hpp}, 
+		\hyperpage{25}
+  \item {D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/main.\+cpp}, 
+		\hyperpage{25}
+  \item {D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/main/\+Icon\+Magic.\+cpp}, 
+		\hyperpage{26}
+  \item {D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/main/\+Icon\+Magic.\+hpp}, 
+		\hyperpage{26}
+  \item {D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/main/\+Manager.\+cpp}, 
+		\hyperpage{27}
+  \item {D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/main/\+Manager.\+hpp}, 
+		\hyperpage{27}
+  \item {D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/main/\+Registry/\+History/\+Registry\+History.\+cpp}, 
+		\hyperpage{27}
+  \item {D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/main/\+System\+Validation.\+cpp}, 
+		\hyperpage{28}
+  \item {D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/main/\+System\+Validation.\+hpp}, 
+		\hyperpage{28}
+  \item {D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/main/\+Text\+U\+I.\+cpp}, 
+		\hyperpage{29}
+  \item {D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/main/\+Text\+U\+I.\+hpp}, 
+		\hyperpage{30}
+  \item {D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/main/\+Windows\+Toolbox.\+cpp}, 
+		\hyperpage{30}
+  \item {D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/main/\+Windows\+Toolbox.\+hpp}, 
+		\hyperpage{31}
+  \item {D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/test/\+Registry\+History/\+Registry\+History\+Test.\+cpp}, 
+		\hyperpage{32}
+  \item {D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/test/\+Testing.\+cpp}, 
+		\hyperpage{32}
+  \item {D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/test/\+Testing.\+hpp}, 
+		\hyperpage{32}
+  \item {D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/test/framework.\+cpp}, 
+		\hyperpage{31}
+  \item {detailed\+Variable}
+    \subitem {Example\+Class}, \hyperpage{13}
+  \item {Direct\+Registry\+Access}, \hyperpage{11}
+
+  \indexspace
+
+  \item {Example\+Class}, \hyperpage{11}
+    \subitem {detailed\+Variable}, \hyperpage{13}
+    \subitem {get\+Protected\+Variable}, \hyperpage{13}
+    \subitem {inline\+Docstring}, \hyperpage{13}
+    \subitem {markdown\+Variable}, \hyperpage{13}
+    \subitem {My\+Enum}, \hyperpage{12}
+    \subitem {my\+Enum\+Case}, \hyperpage{14}
+    \subitem {My\+Enum\+Class}, \hyperpage{12}
+    \subitem {set\+Protected\+Variable}, \hyperpage{13}
+    \subitem {standard\+Docstring}, \hyperpage{14}
+    \subitem {val1}, \hyperpage{12}
+    \subitem {val2}, \hyperpage{12}
+    \subitem {val3}, \hyperpage{12}
+    \subitem {val4}, \hyperpage{12}
+    \subitem {val5}, \hyperpage{12}
+  \item {execute}
+    \subitem {Test\+Framework}, \hyperpage{23}
+  \item {Extension\+History}, \hyperpage{14}
+
+  \indexspace
+
+  \item {get\+Protected\+Variable}
+    \subitem {Example\+Class}, \hyperpage{13}
+  \item {get\+Tests\+Status}
+    \subitem {Test\+Framework}, \hyperpage{23}
+  \item {get\+Total\+Tests\+Run}
+    \subitem {Test\+Framework}, \hyperpage{23}
+  \item {get\+Total\+Tests\+Run\+Successfully}
+    \subitem {Test\+Framework}, \hyperpage{23}
+
+  \indexspace
+
+  \item {I\+C\+O\+N\+\_\+\+M\+A\+G\+I\+C\+\_\+\+C\+A\+C\+H\+E\+\_\+\+N\+A\+M\+E}
+    \subitem {Manager}, \hyperpage{16}
+  \item {Image\+Entry}, \hyperpage{14}
+  \item {inline\+Docstring}
+    \subitem {Example\+Class}, \hyperpage{13}
+
+  \indexspace
+
+  \item {Key\+Path}, \hyperpage{15}
+  \item {Key\+Service}, \hyperpage{15}
+    \subitem {A\+L\+T\+E\+R\+N\+A\+T\+E\+\_\+\+K\+E\+Y\+\_\+\+N\+A\+M\+E\+\_\+\+M\+A\+P}, 
+		\hyperpage{16}
+    \subitem {P\+R\+E\+D\+E\+F\+I\+N\+E\+D\+\_\+\+R\+O\+O\+T\+\_\+\+K\+E\+Y\+S}, 
+		\hyperpage{16}
+
+  \indexspace
+
+  \item {Manager}, \hyperpage{16}
+    \subitem {I\+C\+O\+N\+\_\+\+M\+A\+G\+I\+C\+\_\+\+C\+A\+C\+H\+E\+\_\+\+N\+A\+M\+E}, 
+		\hyperpage{16}
+  \item {markdown\+Variable}
+    \subitem {Example\+Class}, \hyperpage{13}
+  \item {Menu}, \hyperpage{17}
+  \item {Menu\+Branch}, \hyperpage{17}
+  \item {Menu\+Exit}, \hyperpage{18}
+  \item {Menu\+Factory}, \hyperpage{18}
+  \item {Menu\+Leaf}, \hyperpage{18}
+  \item {Menu\+Manager}, \hyperpage{19}
+  \item {My\+Enum}
+    \subitem {Example\+Class}, \hyperpage{12}
+  \item {my\+Enum\+Case}
+    \subitem {Example\+Class}, \hyperpage{14}
+  \item {My\+Enum\+Class}
+    \subitem {Example\+Class}, \hyperpage{12}
+
+  \indexspace
+
+  \item {P\+R\+E\+D\+E\+F\+I\+N\+E\+D\+\_\+\+R\+O\+O\+T\+\_\+\+K\+E\+Y\+S}
+    \subitem {Key\+Service}, \hyperpage{16}
+
+  \indexspace
+
+  \item {read\+History}
+    \subitem {Registry\+History}, \hyperpage{20}
+  \item {Registry\+Access\+Exception}, \hyperpage{19}
+  \item {Registry\+History}, \hyperpage{19}
+    \subitem {read\+History}, \hyperpage{20}
+    \subitem {set\+History\+File\+Name}, \hyperpage{20}
+    \subitem {write\+History}, \hyperpage{20}
+  \item {Registry\+History\+Test.\+cpp}
+    \subitem {test\+Registry\+History}, \hyperpage{32}
+  \item {Registry\+Scan\+Exception}, \hyperpage{20}
+  \item {Registry\+Scanner}, \hyperpage{21}
+
+  \indexspace
+
+  \item {Scan\+Tool}, \hyperpage{21}
+  \item {set\+History\+File\+Name}
+    \subitem {Registry\+History}, \hyperpage{20}
+  \item {set\+Protected\+Variable}
+    \subitem {Example\+Class}, \hyperpage{13}
+  \item {Simple\+Registry\+Access}, \hyperpage{22}
+  \item {standard\+Docstring}
+    \subitem {Example\+Class}, \hyperpage{14}
+  \item {System\+Validation.\+cpp}
+    \subitem {windows\+Version}, \hyperpage{28}
+
+  \indexspace
+
+  \item {Test\+Framework}, \hyperpage{22}
+    \subitem {$\sim$\+Test\+Framework}, \hyperpage{22}
+    \subitem {add\+Test}, \hyperpage{23}
+    \subitem {execute}, \hyperpage{23}
+    \subitem {get\+Tests\+Status}, \hyperpage{23}
+    \subitem {get\+Total\+Tests\+Run}, \hyperpage{23}
+    \subitem {get\+Total\+Tests\+Run\+Successfully}, \hyperpage{23}
+    \subitem {Test\+Framework}, \hyperpage{22}
+  \item {test\+Registry\+History}
+    \subitem {Registry\+History\+Test.\+cpp}, \hyperpage{32}
+
+  \indexspace
+
+  \item {val1}
+    \subitem {Example\+Class}, \hyperpage{12}
+  \item {val2}
+    \subitem {Example\+Class}, \hyperpage{12}
+  \item {val3}
+    \subitem {Example\+Class}, \hyperpage{12}
+  \item {val4}
+    \subitem {Example\+Class}, \hyperpage{12}
+  \item {val5}
+    \subitem {Example\+Class}, \hyperpage{12}
+
+  \indexspace
+
+  \item {windows\+Version}
+    \subitem {System\+Validation.\+cpp}, \hyperpage{28}
+  \item {write\+History}
+    \subitem {Registry\+History}, \hyperpage{20}
+
+\end{theindex}

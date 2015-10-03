@@ -11,5 +11,8 @@ bool StringIsNotBlank(std::string str);
 
 bool stringContains(std::string str, std::string c);
 bool stringDoesNotContains(std::string str, std::string c);
+bool fileIsReadable(std::string file_path);
+
+std::string integerToString(int i);
 
 #endif

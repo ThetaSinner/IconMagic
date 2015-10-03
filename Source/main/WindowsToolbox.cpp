@@ -42,20 +42,20 @@ void systemClearScreen()
 
 bool validPathToFile(std::string file_path)
 {
-  if (GetFileAttributes(file_path.c_str()) == INVALID_FILE_ATTRIBUTES)
-  {
-    return false;
-  }
+  return GetFileAttributes(file_path.c_str()) != INVALID_FILE_ATTRIBUTES;
+}
 
-  return true;
+bool fileExists(std::string file_path)
+{
+  return validPathToFile(file_path);
 }
 
 bool canOpenFile(std::string file_path)
 {
   std::ifstream test(file_path, std::ios::app);
-  if (!test.is_open()) return false;
-
-  return true;
+  bool canOpen = test.is_open();
+  test.close();
+  return canOpen;
 }
 
 /*MessageBox(

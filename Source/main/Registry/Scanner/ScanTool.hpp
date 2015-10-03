@@ -27,7 +27,7 @@ public:
 
 class ScanTool
 {
-public:
+  public:
   static const int UNLIMITED_RECURSION_DEPTH;
   static const int UNLIMITED_MATCHES;
 
@@ -40,6 +40,9 @@ public:
   );
 
   bool testRootKeyNameValid(std::string root_key_name); // TODO Debug only.
+
+  static int unlimitedMatches();
+  static int unlimitedRecursionDepth();
 
 private:
 

@@ -17,7 +17,12 @@ ImageEntry::ImageEntry()
 void ImageEntry::createFromData(std::string image_path, std::string image_index)
 {
   // Don't allow overwrite, check path is valid and index can be converted to an integer.
-  if (isValid() || !validPathToFile(image_path) || !stringIsValidInteger(image_index, 0, 1000)) return; // TODO expose this value?
+  if (isValid() || !fileIsReadable(image_path) || (image_index != "" && !stringIsValidInteger(image_index, 0, 1000)))
+  {
+    std::cout << "Invalid " << image_path << ", " << image_index << "\n";
+
+    return; // TODO expose this value?
+  }
 
   create(image_path, image_index);
 }
@@ -50,7 +55,7 @@ std::string ImageEntry::getFormatted() const
 
 bool ImageEntry::isValid()
 {
-  return (imagePath != "" && imageIndex != "");
+  return imagePath != "";
 }
 
 // Private

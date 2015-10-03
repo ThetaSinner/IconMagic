@@ -15,8 +15,8 @@ set(MAIN_FILES
     ${SOURCE_DIRECTORY}/${MAIN}/IconMagic.hpp
     ${SOURCE_DIRECTORY}/${MAIN}/IconMagic.cpp
 
-    ${SOURCE_DIRECTORY}/main/Registry/Manager.hpp
-    ${SOURCE_DIRECTORY}/main/Registry/Manager.cpp
+    ${SOURCE_DIRECTORY}/main/Manager.hpp
+    ${SOURCE_DIRECTORY}/main/Manager.cpp
 
     # Common
     ${SOURCE_DIRECTORY}/main/Registry/Common/KeyPath.hpp

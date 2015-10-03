@@ -4,6 +4,7 @@
 #include <exception>
 #include <typeinfo>
 #include <iostream>
+#include <fstream>
 
 bool stringIsValidInteger(std::string str, int min, int max)
 {
@@ -57,4 +58,20 @@ bool stringContains(std::string str, std::string c)
 bool stringDoesNotContains(std::string str, std::string c)
 {
   return !stringContains(str, c);
+}
+
+bool fileIsReadable(std::string file_path)
+{
+  std::ifstream testFileHandle(file_path, std::ifstream::in);
+  if (!testFileHandle.is_open()) return false;
+  int read = testFileHandle.peek();
+  testFileHandle.close();
+  return read != std::char_traits<char>::eof();
+}
+
+std::string integerToString(int i)
+{
+  std::stringstream ss;
+  ss << i;
+  return ss.str();
 }

@@ -1,0 +1,18 @@
+\hypertarget{_registry_history_8cpp}{}\section{D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/main/\+Registry/\+History/\+Registry\+History.cpp File Reference}
+\label{_registry_history_8cpp}\index{D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/main/\+Registry/\+History/\+Registry\+History.\+cpp@{D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/main/\+Registry/\+History/\+Registry\+History.\+cpp}}
+
+
+Record changes to \textquotesingle{}Default\+Icon\textquotesingle{} keys in the registry using a custom file format.  
+
+
+{\ttfamily \#include \char`\"{}./\+Registry\+History.\+hpp\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}./../../\+Windows\+Toolbox.\+hpp\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}./../../\+Util.\+hpp\char`\"{}}\\*
+
+
+\subsection{Detailed Description}
+Record changes to \textquotesingle{}Default\+Icon\textquotesingle{} keys in the registry using a custom file format. 
+
+Designed to manage a custom file format for storing changes made by Icon\+Magic to the registry. Each file extension for which Icon\+Magic has made registry changes will be associated with a list of all the values which have been assigned to the \textquotesingle{}Default\+Icon\textquotesingle{} subkey for that extension. This means that (in the best case) the user can choose to roll back changes, or even revert to the system\textquotesingle{}s default icon.
+
+Created by Theta\+Sinner (Gregory Jensen). Released as open source. 

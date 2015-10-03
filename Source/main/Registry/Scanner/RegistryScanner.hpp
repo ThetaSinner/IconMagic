@@ -12,9 +12,9 @@ class RegistryScanner
 public:
   RegistryScanner();
 
-  std::vector<std::pair<KeyPath, std::string>> lookupValue(std::string key_name, std::string value_name);
+  std::vector<std::pair<KeyPath, std::string>> getValues(std::string key_name, std::string value_name);
 
-  void setRootKey(std::string);
+  void setRootKey(std::string root_key_name);
   std::string getRootKey();
 
   void setMaxDepth(int max_depth);
@@ -22,6 +22,9 @@ public:
 
   void setMaxMatches(int max_matches);
   int getMaxMatches();
+
+  static int unlimitedMatches();
+  static int unlimitedRecursionDepth();
 
 private:
   std::vector<std::pair<KeyPath, std::string>> scanResults;

@@ -61,6 +61,16 @@ bool ScanTool::testRootKeyNameValid(std::string root_key_name)
   return KeyService::getKeyByAnyName(root_key_name) != NULL;
 }
 
+int ScanTool::unlimitedMatches()
+{
+  return UNLIMITED_MATCHES;
+}
+
+int ScanTool::unlimitedRecursionDepth()
+{
+  return UNLIMITED_RECURSION_DEPTH;
+}
+
 std::vector<std::pair<KeyPath, std::string>> ScanTool::depthFirstSearch(
   HKEY root_key,
   std::string search_key_name,
@@ -69,6 +79,14 @@ std::vector<std::pair<KeyPath, std::string>> ScanTool::depthFirstSearch(
   int remaining_recursion_depth,
   int remaining_items_to_search_for)
 {
+  /*std::cout
+    << "root_key : " << root_key << "\n"
+    << "search key name '" << search_key_name << "'\n"
+    << "search value name '" << search_value_name << "'\n"
+    << "key path " << key_path.toString() << "\n"
+    << "remaining depth " << remaining_recursion_depth << "\n"
+    << "remaining items " << remaining_items_to_search_for << "\n";*/
+
   // Don't go any deeper on this branch.
   if (remaining_recursion_depth != ScanTool::UNLIMITED_RECURSION_DEPTH && remaining_recursion_depth < 1)
   {
@@ -76,20 +94,16 @@ std::vector<std::pair<KeyPath, std::string>> ScanTool::depthFirstSearch(
     return std::vector<std::pair<KeyPath, std::string>> ();
   }
 
-  // Continue recursion.
   std::vector<std::pair<KeyPath, std::string>> results;
-
   int keyIndex = -1;
   while (true)
   {
     keyIndex++; // increment at the top to allow 'continue' without increment.
-
     std::string nextKeyName;
-    try {
-      DirectRegistryAccess::getSubKeyNameAt(root_key, keyIndex, nextKeyName);
-      //getSubKeyN(root_key, &nextKeyName, keyIndex);
-    } catch (const RegistryScanException &e) {
+    if (!DirectRegistryAccess::getSubKeyNameAt(root_key, keyIndex, nextKeyName))
+    {
       // TODO option to fail here.
+      std::cout << "Failed to open next key.\n";
       continue;
     }
 
@@ -102,9 +116,8 @@ std::vector<std::pair<KeyPath, std::string>> ScanTool::depthFirstSearch(
       KeyPath nextKeyPath = KeyPath(key_path).append(nextKeyName);
 
       HKEY hNextKey = NULL;
-      try {
-        DirectRegistryAccess::openKeyForEnumeration(root_key, nextKeyName, hNextKey);
-      } catch (const RegistryScanException &e) {
+      if (!DirectRegistryAccess::openKeyForEnumeration(root_key, nextKeyName, hNextKey))
+      {
         // TODO option to fail here.
         continue;
       }
@@ -124,13 +137,15 @@ std::vector<std::pair<KeyPath, std::string>> ScanTool::depthFirstSearch(
       if (nextKeyName == search_key_name)
       {
         std::string value;
-        try {
-          DirectRegistryAccess::getValueFromKey(hNextKey, search_value_name, &value);
+        if (DirectRegistryAccess::getValueFromKey(hNextKey, search_value_name, &value))
+        {
+          std::cout << "value " << value << "\n";
           partResult.push_back(std::pair<KeyPath, std::string> (nextKeyPath, value));
-        } catch (const RegistryScanException& e) {
+        }
+        else
+        {
           // TODO This is a bit of a problem...
         }
-
         // TODO option to stop the search at this point?
       }
 

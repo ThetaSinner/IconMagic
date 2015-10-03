@@ -1,5 +1,7 @@
 #include "./DirectRegistryAccess.hpp"
 
+#include <iostream>
+
 bool DirectRegistryAccess::openKeyForEnumeration(HKEY root_key, std::string path, HKEY &h_key)
 {
   DWORD status = RegOpenKeyEx(
@@ -47,10 +49,10 @@ bool DirectRegistryAccess::getSubKeyNameAt(const HKEY &root_key, int n, std::str
     NULL
   );
 
-  // Will return emptry string on ERROR_NO_MORE_ITEMS.
-  key_name = std::string(buffer);
+  // The Windows API will return the last key it finds if you pass in an index greater than the number of keys.
+  key_name = subKeyState == ERROR_NO_MORE_ITEMS ? "" : std::string(buffer);
 
-  return subKeyState == ERROR_SUCCESS;
+  return subKeyState == ERROR_SUCCESS || subKeyState == ERROR_NO_MORE_ITEMS;
 }
 
 bool DirectRegistryAccess::getValueFromKey(HKEY &h_key, std::string search_value_name, std::string *value)

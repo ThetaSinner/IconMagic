@@ -23,6 +23,7 @@ void systemClearScreen();
 
 bool canOpenFile(std::string file_path);
 bool validPathToFile(std::string file_path);
+bool fileExists(std::string file_path);
 bool scanRegistryForDefaultIcons();
 
 #endif // WINDOWSTOOLBOX_HPP_INCLUDED

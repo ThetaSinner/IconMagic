@@ -13,9 +13,65 @@ RegistryScanner::RegistryScanner()
   maximumNumberOfMatches = 0; // Zero means return as many matches as you can.
 }
 
-std::vector<std::pair<KeyPath, std::string>> RegistryScanner::lookupValue(std::string key_name, std::string value_name)
+std::vector<std::pair<KeyPath, std::string>> RegistryScanner::getValues(std::string key_name, std::string value_name)
 {
-  // Here I'm choosing to assume the input is validated already.
+  /*std::cout << "using" << "\n"
+   << "root key " << useRootKey << "\n"
+   << "key name " << key_name << "\n"
+   << "value name " << value_name << "\n"
+   << "max depth " << maximumRecursionDepth << "\n"
+   << "max matches " << maximumNumberOfMatches << "\n";
 
-  return scanResults;
+  std::cin.get();
+  std::cin.get();
+  exit(1);*/
+
+  ScanTool scan;
+  return scan.simpleSearch(
+    useRootKey,
+    key_name,
+    value_name,
+    maximumRecursionDepth,
+    maximumNumberOfMatches
+  );
+}
+
+void RegistryScanner::setRootKey(std::string root_key_name)
+{
+  useRootKey = root_key_name;
+}
+
+std::string RegistryScanner::getRootKey()
+{
+  return useRootKey;
+}
+
+void RegistryScanner::setMaxDepth(int max_depth)
+{
+  maximumRecursionDepth = max_depth;
+}
+
+int RegistryScanner::getMaxDepth()
+{
+  return maximumRecursionDepth;
+}
+
+void RegistryScanner::setMaxMatches(int max_matches)
+{
+  maximumNumberOfMatches = max_matches;
+}
+
+int RegistryScanner::getMaxMatches()
+{
+  return maximumNumberOfMatches;
+}
+
+int RegistryScanner::unlimitedMatches()
+{
+  return ScanTool::unlimitedMatches();
+}
+
+int RegistryScanner::unlimitedRecursionDepth()
+{
+  return ScanTool::unlimitedRecursionDepth();
 }

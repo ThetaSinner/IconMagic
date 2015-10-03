@@ -19,7 +19,6 @@
 // wmp11... search for this key, and that has a DefaultIcon sub key.
 
 #include <iostream>
-#include "./main/Registry/Manager.hpp"
 
 //#include "test/RegistryHistoryTest.hpp"
 #include "./main/Registry/Scanner/ScanTool.hpp"
@@ -32,12 +31,49 @@
 
 #include "./main/Menu/Menu.hpp"
 #include "./main/Menu/MenuManager.hpp"
-
 #include "./main/Menu/MenuDefinitions/MenuFactory.hpp"
+#include "./main/Manager.hpp"
+#include "./main/Util.hpp"
 
 int main(int argc, char **args)
 {
   std::cout << "Welcome to icon magic.\n";
+
+  //MenuManager bigManager((new MenuFactory()) -> getMainMenuInstance());
+  //bigManager.start();
+
+  if (fileIsReadable("D:\\Program Files (x86)\\TeamViewer\\TeamViewer.exe"))
+  {
+    std::cout << "Team Viewer!\n";
+  }
+  else
+  {
+    std::cout << "Fucking thing.\n";
+  }
+
+  std::string file1 = "D:\\gl ob\\test.png";
+  std::string file2 = "thisfiledoesnotexists.pln";
+
+  if (fileIsReadable(file1))
+  {
+    std::cout << "Read from file " << file1 << "\n";
+  }
+  else
+  {
+    std::cout << "Can't read from file " << file1 << "\n";
+  }
+
+  if (fileIsReadable(file2))
+  {
+    std::cout << "Read from file " << file2 << "\n";
+  }
+  else
+  {
+    std::cout << "Can't read from file " << file2 << "\n";
+  }
+
+  Manager manager;
+  manager.cacheBuild();
 
   //std::cout << "Press any key to exit.\n";
   //std::cin.get();
@@ -69,10 +105,6 @@ int main(int argc, char **args)
            -> add("Exit", new MenuExit()
   );
 */
-
-  MenuManager bigManager((new MenuFactory()) -> getMainMenuInstance());
-  bigManager.start();
-
 
   /*
   //(new MenuBranch("blip", new MenuLeaf()))->add("glib", new MenuLeaf() -> add("grap", new MenuLeaf()));
@@ -123,6 +155,7 @@ int main(int argc, char **args)
   std::cout << SimpleRegistryAccess::getValueAtPath(p);
   std::cin.get();
   */
+
 
   /*
   ScanTool scanner;
@@ -239,6 +272,7 @@ int main(int argc, char **args)
     std::cout << "Failed to write history 2.\n";
   }
   */
+  std::cout << "Bye\n";
   std::cin.get();
   return 0;
   //return runIconMagic();

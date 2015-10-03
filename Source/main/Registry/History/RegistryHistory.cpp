@@ -102,6 +102,8 @@ bool RegistryHistory::writeHistory()
   std::ofstream writer(historyFileName, std::ofstream::out);
   if(!writer.is_open()) return false;
 
+  std::cout << history.size() << "\n";
+
   for (auto i : history) writer << i.getFormatted() << "\n";
   for (auto i : badReads) writer << i << "\n";
 
@@ -176,11 +178,13 @@ std::string RegistryHistory::getIndex(std::string extension_name)
   return getLast(extension_name).getImageIndex();
 }
 
+
 std::string RegistryHistory::getRegString(std::string extension_name)
 {
   ImageEntry imageEntry = getLast(extension_name);
   return imageEntry.getImagePath() + "," + imageEntry.getImageIndex();
 }
+
 
 ImageEntry RegistryHistory::getLast(std::string extension_name)
 {

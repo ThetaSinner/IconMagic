@@ -27,7 +27,8 @@ public:
   std::string getPath(std::string extension_name);
   std::string getIndex(std::string extension_name);
   std::string getRegString(std::string extension_name);
-private:
+
+  private:
   std::string historyFileName;
   std::vector<ExtensionHistory> history;
   std::vector<std::string> badReads;

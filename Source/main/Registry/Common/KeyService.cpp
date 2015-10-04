@@ -1,7 +1,7 @@
 /**
  * \file KeyService.cpp
  * \brief The KeyService class implementation.
- * \see KeyService.hpp
+ * \sa KeyService.hpp
  */
 
 #include "./KeyService.hpp"

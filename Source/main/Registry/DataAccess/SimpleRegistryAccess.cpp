@@ -1,9 +1,14 @@
+/**
+ * \file SimpleRegistryAccess.cpp
+ * \brief The SimpleRegistryAccess class implementation.
+ * \sa SimpleRegistryAccess.hpp
+ */
+
 #include "./SimpleRegistryAccess.hpp"
 
 #include <Windows.h>
 
 #include "./../Common/KeyService.hpp"
-#include "./DirectRegistryAccess.hpp"
 
 // TODO how will these be used? should getkeybyname be getkeybyanyname?
 

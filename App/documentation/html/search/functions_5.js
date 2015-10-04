@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['sethistoryfilename',['setHistoryFileName',['../class_registry_history.html#afb10619d4c6e5b1eef4f27b11aa71ec8',1,'RegistryHistory']]],
-  ['setprotectedvariable',['setProtectedVariable',['../class_example_class.html#ab8c1c5cf0ad8c4f7b8e13e7f1b1aa2cd',1,'ExampleClass']]]
+  ['openkeyforenumeration',['openKeyForEnumeration',['../class_direct_registry_access.html#ae051be8724359399dacc86a38149762c',1,'DirectRegistryAccess::openKeyForEnumeration(HKEY root_key, std::string path, HKEY &amp;h_key)'],['../class_direct_registry_access.html#affd3141655ca0d587461282fcab5cc25',1,'DirectRegistryAccess::openKeyForEnumeration(HKEY root_key, HKEY &amp;h_key)']]],
+  ['openkeyforsettingvalue',['openKeyForSettingValue',['../class_direct_registry_access.html#a3bef2793ed202b4ba02ad9e099785485',1,'DirectRegistryAccess']]]
 ];

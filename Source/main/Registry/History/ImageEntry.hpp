@@ -1,8 +1,21 @@
+/**
+ * \file ImageEntry.hpp
+ * \brief The ImageEntry class definition.
+ * \sa ImageEntry.cpp
+ */
+
 #ifndef IMAGE_ENTRY
 #define IMAGE_ENTRY
 
 #include <string>
 
+/** \class ImageEntry
+ * \brief Class for manipulating icon references as they appear in the registry.
+ *
+ *
+ *
+ * \sa ExtensionHistory RegistryHistory
+ */
 class ImageEntry
 {
 public:

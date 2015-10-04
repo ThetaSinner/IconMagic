@@ -1,6 +1,11 @@
-#include "./DirectRegistryAccess.hpp"
+/**
+ * \file DirectRegistryAccess.cpp
+ * \brief The DirectRegistryAccess class implementation.
+ * \sa DirectRegistryAccess.hpp
+ */
 
-#include <iostream>
+
+#include "./DirectRegistryAccess.hpp"
 
 bool DirectRegistryAccess::openKeyForEnumeration(HKEY root_key, std::string path, HKEY &h_key)
 {
@@ -35,7 +40,7 @@ bool DirectRegistryAccess::openKeyForSettingValue(HKEY root_key, std::string pat
 
 bool DirectRegistryAccess::getSubKeyNameAt(const HKEY &root_key, int n, std::string &key_name)
 {
-  DWORD bufferSize = 5000; // TODO you can determine this dynamically - RegQueryInfoKey
+  DWORD bufferSize = 5000;
   char buffer[(int) bufferSize];
 
   DWORD subKeyState = RegEnumKeyEx(
@@ -57,7 +62,7 @@ bool DirectRegistryAccess::getSubKeyNameAt(const HKEY &root_key, int n, std::str
 
 bool DirectRegistryAccess::getValueFromKey(HKEY &h_key, std::string search_value_name, std::string *value)
 {
-  DWORD bufferSize = 5000; // TODO config.
+  DWORD bufferSize = 5000;
   char buffer[(int) bufferSize];
 
   DWORD valueState = RegQueryValueEx(

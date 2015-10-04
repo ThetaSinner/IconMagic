@@ -1,8 +1,14 @@
 var searchData=
 [
-  ['val1',['val1',['../class_example_class.html#a03527d912021f436884478524799c002a888f6de05ec2f5eafad41e86294cd55c',1,'ExampleClass']]],
-  ['val2',['val2',['../class_example_class.html#a03527d912021f436884478524799c002a415eb1c082ecbf38b9f987e7555924e8',1,'ExampleClass']]],
-  ['val3',['val3',['../class_example_class.html#a18344ab645e45ff0a5367165c1de4e49a0beb644dc2dffe528a24f9e234b4dbbf',1,'ExampleClass']]],
-  ['val4',['val4',['../class_example_class.html#a18344ab645e45ff0a5367165c1de4e49a0b0bdd2addee78b5e0532708cc8869df',1,'ExampleClass']]],
-  ['val5',['val5',['../class_example_class.html#a859922aeb83d42f298a7ad3afde747fea294a6e0d759cdbcf55753c4a58161721',1,'ExampleClass']]]
+  ['scantool',['ScanTool',['../class_scan_tool.html',1,'']]],
+  ['sethistoryfilename',['setHistoryFileName',['../class_registry_history.html#afb10619d4c6e5b1eef4f27b11aa71ec8',1,'RegistryHistory']]],
+  ['setprotectedvariable',['setProtectedVariable',['../class_example_class.html#ab8c1c5cf0ad8c4f7b8e13e7f1b1aa2cd',1,'ExampleClass']]],
+  ['setvalueatpath',['setValueAtPath',['../class_simple_registry_access.html#a75e85e4de87a14c50a81b3cd080a2a97',1,'SimpleRegistryAccess::setValueAtPath(KeyPath key_path, std::string value_name, std::string value)'],['../class_simple_registry_access.html#aea8420eb295c6c9e11093b1928a8591c',1,'SimpleRegistryAccess::setValueAtPath(KeyPath key_path, std::string value)']]],
+  ['setvalueforkey',['setValueForKey',['../class_direct_registry_access.html#a9a80842fdb2b503215fe757632d0448b',1,'DirectRegistryAccess::setValueForKey(HKEY &amp;h_key, std::string value_name, std::string value)'],['../class_direct_registry_access.html#a7d09201af3a73bc290d6334fdd09ea6b',1,'DirectRegistryAccess::setValueForKey(HKEY &amp;h_key, std::string value)']]],
+  ['simpleregistryaccess',['SimpleRegistryAccess',['../class_simple_registry_access.html',1,'']]],
+  ['simpleregistryaccess_2ecpp',['SimpleRegistryAccess.cpp',['../_simple_registry_access_8cpp.html',1,'']]],
+  ['simpleregistryaccess_2ehpp',['SimpleRegistryAccess.hpp',['../_simple_registry_access_8hpp.html',1,'']]],
+  ['standarddocstring',['standardDocstring',['../class_example_class.html#a0b61c0174aff35afaca216512f535f6f',1,'ExampleClass']]],
+  ['systemvalidation_2ecpp',['SystemValidation.cpp',['../_system_validation_8cpp.html',1,'']]],
+  ['systemvalidation_2ehpp',['SystemValidation.hpp',['../_system_validation_8hpp.html',1,'']]]
 ];

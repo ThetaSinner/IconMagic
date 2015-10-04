@@ -1,38 +1,281 @@
 \hypertarget{class_direct_registry_access}{}\section{Direct\+Registry\+Access Class Reference}
 \label{class_direct_registry_access}\index{Direct\+Registry\+Access@{Direct\+Registry\+Access}}
+
+
+Wrapper for Windows A\+P\+I registry access.  
+
+
+
+
+{\ttfamily \#include $<$Direct\+Registry\+Access.\+hpp$>$}
+
+Inheritance diagram for Direct\+Registry\+Access\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_direct_registry_access}
+\end{center}
+\end{figure}
 \subsection*{Static Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\hypertarget{class_direct_registry_access_ae051be8724359399dacc86a38149762c}{}static bool {\bfseries open\+Key\+For\+Enumeration} (H\+K\+E\+Y root\+\_\+key, std\+::string path, H\+K\+E\+Y \&h\+\_\+key)\label{class_direct_registry_access_ae051be8724359399dacc86a38149762c}
+static bool \hyperlink{class_direct_registry_access_ae051be8724359399dacc86a38149762c}{open\+Key\+For\+Enumeration} (H\+K\+E\+Y root\+\_\+key, std\+::string path, H\+K\+E\+Y \&h\+\_\+key)
+\begin{DoxyCompactList}\small\item\em Open a key for reading. \end{DoxyCompactList}\item 
+static bool \hyperlink{class_direct_registry_access_affd3141655ca0d587461282fcab5cc25}{open\+Key\+For\+Enumeration} (H\+K\+E\+Y root\+\_\+key, H\+K\+E\+Y \&h\+\_\+key)
+\begin{DoxyCompactList}\small\item\em Shortcut. \end{DoxyCompactList}\item 
+static bool \hyperlink{class_direct_registry_access_a3bef2793ed202b4ba02ad9e099785485}{open\+Key\+For\+Setting\+Value} (H\+K\+E\+Y root\+\_\+key, std\+::string path, H\+K\+E\+Y \&h\+\_\+key)
+\begin{DoxyCompactList}\small\item\em Open a registry key for writing. \end{DoxyCompactList}\item 
+static bool \hyperlink{class_direct_registry_access_aa123bf857d78ceb45ef406535869c6b1}{get\+Sub\+Key\+Name\+At} (const H\+K\+E\+Y \&root\+\_\+key, int n, std\+::string \&key\+\_\+name)
+\begin{DoxyCompactList}\small\item\em Iterate over subkeys. \end{DoxyCompactList}\item 
+static bool \hyperlink{class_direct_registry_access_a0c4addcf0e776cdecead314ef7427f73}{get\+Value\+From\+Key} (H\+K\+E\+Y \&h\+\_\+key, std\+::string search\+\_\+value\+\_\+name, std\+::string $\ast$value)
+\begin{DoxyCompactList}\small\item\em Get the value with the specified name from a key. \end{DoxyCompactList}\item 
+static bool \hyperlink{class_direct_registry_access_a47b88eff5dfae4e37ca98b26d62dd12a}{get\+Value\+From\+Key} (H\+K\+E\+Y \&h\+\_\+key, std\+::string $\ast$value)
+\begin{DoxyCompactList}\small\item\em Shortcut. \end{DoxyCompactList}\item 
+static bool \hyperlink{class_direct_registry_access_a9a80842fdb2b503215fe757632d0448b}{set\+Value\+For\+Key} (H\+K\+E\+Y \&h\+\_\+key, std\+::string value\+\_\+name, std\+::string value)
+\begin{DoxyCompactList}\small\item\em Set the value with the specified name on the input key. \end{DoxyCompactList}\item 
+static bool \hyperlink{class_direct_registry_access_a7d09201af3a73bc290d6334fdd09ea6b}{set\+Value\+For\+Key} (H\+K\+E\+Y \&h\+\_\+key, std\+::string value)
+\begin{DoxyCompactList}\small\item\em Shortcut. \end{DoxyCompactList}\item 
+static void \hyperlink{class_direct_registry_access_a05d4a5bbed79beba121eddf512fda0a0}{close\+Key} (H\+K\+E\+Y \&h\+\_\+key)
+\begin{DoxyCompactList}\small\item\em Close the key handle. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
-\item 
-\hypertarget{class_direct_registry_access_affd3141655ca0d587461282fcab5cc25}{}static bool {\bfseries open\+Key\+For\+Enumeration} (H\+K\+E\+Y root\+\_\+key, H\+K\+E\+Y \&h\+\_\+key)\label{class_direct_registry_access_affd3141655ca0d587461282fcab5cc25}
 
-\item 
-\hypertarget{class_direct_registry_access_a3bef2793ed202b4ba02ad9e099785485}{}static bool {\bfseries open\+Key\+For\+Setting\+Value} (H\+K\+E\+Y root\+\_\+key, std\+::string path, H\+K\+E\+Y \&h\+\_\+key)\label{class_direct_registry_access_a3bef2793ed202b4ba02ad9e099785485}
+\subsection{Detailed Description}
+Wrapper for Windows A\+P\+I registry access. 
 
-\item 
-\hypertarget{class_direct_registry_access_aa123bf857d78ceb45ef406535869c6b1}{}static bool {\bfseries get\+Sub\+Key\+Name\+At} (const H\+K\+E\+Y \&root\+\_\+key, int n, std\+::string \&key\+\_\+name)\label{class_direct_registry_access_aa123bf857d78ceb45ef406535869c6b1}
+All the Windows A\+P\+I functions which are related to registry access are wrapped here. There isn\textquotesingle{}t much need to expose the Windows A\+P\+I calls, most of the parameters to real calls can take their default values.
 
-\item 
-\hypertarget{class_direct_registry_access_a0c4addcf0e776cdecead314ef7427f73}{}static bool {\bfseries get\+Value\+From\+Key} (H\+K\+E\+Y \&h\+\_\+key, std\+::string search\+\_\+value\+\_\+name, std\+::string $\ast$value)\label{class_direct_registry_access_a0c4addcf0e776cdecead314ef7427f73}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_simple_registry_access}{Simple\+Registry\+Access} 
+\end{DoxySeeAlso}
 
-\item 
-\hypertarget{class_direct_registry_access_a47b88eff5dfae4e37ca98b26d62dd12a}{}static bool {\bfseries get\+Value\+From\+Key} (H\+K\+E\+Y \&h\+\_\+key, std\+::string $\ast$value)\label{class_direct_registry_access_a47b88eff5dfae4e37ca98b26d62dd12a}
 
-\item 
-\hypertarget{class_direct_registry_access_a9a80842fdb2b503215fe757632d0448b}{}static bool {\bfseries set\+Value\+For\+Key} (H\+K\+E\+Y \&h\+\_\+key, std\+::string value\+\_\+name, std\+::string value)\label{class_direct_registry_access_a9a80842fdb2b503215fe757632d0448b}
+\subsection{Member Function Documentation}
+\hypertarget{class_direct_registry_access_a05d4a5bbed79beba121eddf512fda0a0}{}\index{Direct\+Registry\+Access@{Direct\+Registry\+Access}!close\+Key@{close\+Key}}
+\index{close\+Key@{close\+Key}!Direct\+Registry\+Access@{Direct\+Registry\+Access}}
+\subsubsection[{close\+Key(\+H\+K\+E\+Y \&h\+\_\+key)}]{\setlength{\rightskip}{0pt plus 5cm}void Direct\+Registry\+Access\+::close\+Key (
+\begin{DoxyParamCaption}
+\item[{H\+K\+E\+Y \&}]{h\+\_\+key}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{class_direct_registry_access_a05d4a5bbed79beba121eddf512fda0a0}
 
-\item 
-\hypertarget{class_direct_registry_access_a7d09201af3a73bc290d6334fdd09ea6b}{}static bool {\bfseries set\+Value\+For\+Key} (H\+K\+E\+Y \&h\+\_\+key, std\+::string value)\label{class_direct_registry_access_a7d09201af3a73bc290d6334fdd09ea6b}
 
-\item 
-\hypertarget{class_direct_registry_access_a05d4a5bbed79beba121eddf512fda0a0}{}static void {\bfseries close\+Key} (H\+K\+E\+Y \&h\+\_\+key)\label{class_direct_registry_access_a05d4a5bbed79beba121eddf512fda0a0}
+Close the key handle. 
 
-\end{DoxyCompactItemize}
+This should always the used to release open key handles, regardless of the flag used to open them.
+
+The Windows A\+P\+I doesn\textquotesingle{}t reliably report the success or otherwise of this method so this method returns void.
+
+
+\begin{DoxyParams}{Parameters}
+{\em h\+\_\+key} & Handle to the key to be closed. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_direct_registry_access_aa123bf857d78ceb45ef406535869c6b1}{}\index{Direct\+Registry\+Access@{Direct\+Registry\+Access}!get\+Sub\+Key\+Name\+At@{get\+Sub\+Key\+Name\+At}}
+\index{get\+Sub\+Key\+Name\+At@{get\+Sub\+Key\+Name\+At}!Direct\+Registry\+Access@{Direct\+Registry\+Access}}
+\subsubsection[{get\+Sub\+Key\+Name\+At(const H\+K\+E\+Y \&root\+\_\+key, int n, std\+::string \&key\+\_\+name)}]{\setlength{\rightskip}{0pt plus 5cm}bool Direct\+Registry\+Access\+::get\+Sub\+Key\+Name\+At (
+\begin{DoxyParamCaption}
+\item[{const H\+K\+E\+Y \&}]{root\+\_\+key, }
+\item[{int}]{n, }
+\item[{std\+::string \&}]{key\+\_\+name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{class_direct_registry_access_aa123bf857d78ceb45ef406535869c6b1}
+
+
+Iterate over subkeys. 
+
+Given a key handle opened with the enumerate flag, we can fetch the name of each child key name.
+
+If you use an index greater than the number of children a key has then the Windows A\+P\+I returns the the last key name it finds. My method will give back en empty string in this case. This is not a failure case, the method will continue to return true.
+
+
+\begin{DoxyParams}{Parameters}
+{\em root\+\_\+key} & A handle to a key opened with the enumerate flag. \\
+\hline
+{\em n} & The index of the child key to access. \\
+\hline
+{\em key\+\_\+name} & The name of the child key at index n will be set on this value.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Depending on the success or failure of the Windows A\+P\+I call.
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000002}{Todo}]You can determine the buffer size required at runtime, see Reg\+Query\+Info\+Key. \end{DoxyRefDesc}
+\hypertarget{class_direct_registry_access_a0c4addcf0e776cdecead314ef7427f73}{}\index{Direct\+Registry\+Access@{Direct\+Registry\+Access}!get\+Value\+From\+Key@{get\+Value\+From\+Key}}
+\index{get\+Value\+From\+Key@{get\+Value\+From\+Key}!Direct\+Registry\+Access@{Direct\+Registry\+Access}}
+\subsubsection[{get\+Value\+From\+Key(\+H\+K\+E\+Y \&h\+\_\+key, std\+::string search\+\_\+value\+\_\+name, std\+::string $\ast$value)}]{\setlength{\rightskip}{0pt plus 5cm}bool Direct\+Registry\+Access\+::get\+Value\+From\+Key (
+\begin{DoxyParamCaption}
+\item[{H\+K\+E\+Y \&}]{h\+\_\+key, }
+\item[{std\+::string}]{search\+\_\+value\+\_\+name, }
+\item[{std\+::string $\ast$}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{class_direct_registry_access_a0c4addcf0e776cdecead314ef7427f73}
+
+
+Get the value with the specified name from a key. 
+
+Fetch the value with the specified name from the the key handle which must be opened with a read flag.
+
+
+\begin{DoxyParams}{Parameters}
+{\em h\+\_\+key} & Handle to an open key. \\
+\hline
+{\em search\+\_\+value\+\_\+name} & The name of the value to retrieve. \\
+\hline
+{\em value} & The retrieved value will be set on this parameter.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Depending on the success or failure of the Windows A\+P\+I call.
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000003}{Todo}]This method only supports string output, you can determine the type by querying the registry.\end{DoxyRefDesc}
+
+
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000004}{Todo}]The output parameter should be pass by reference rather than a pointer.\end{DoxyRefDesc}
+
+
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000005}{Todo}]You can determine the buffer size required at runtime, see Reg\+Query\+Info\+Key. \end{DoxyRefDesc}
+\hypertarget{class_direct_registry_access_a47b88eff5dfae4e37ca98b26d62dd12a}{}\index{Direct\+Registry\+Access@{Direct\+Registry\+Access}!get\+Value\+From\+Key@{get\+Value\+From\+Key}}
+\index{get\+Value\+From\+Key@{get\+Value\+From\+Key}!Direct\+Registry\+Access@{Direct\+Registry\+Access}}
+\subsubsection[{get\+Value\+From\+Key(\+H\+K\+E\+Y \&h\+\_\+key, std\+::string $\ast$value)}]{\setlength{\rightskip}{0pt plus 5cm}bool Direct\+Registry\+Access\+::get\+Value\+From\+Key (
+\begin{DoxyParamCaption}
+\item[{H\+K\+E\+Y \&}]{h\+\_\+key, }
+\item[{std\+::string $\ast$}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{class_direct_registry_access_a47b88eff5dfae4e37ca98b26d62dd12a}
+
+
+Shortcut. 
+
+This shortcut calls \hyperlink{class_direct_registry_access_a0c4addcf0e776cdecead314ef7427f73}{Direct\+Registry\+Access\+::get\+Value\+From\+Key(\+H\+K\+E\+Y\&, std\+::string, std\+::string$\ast$)} with an empty string as the second parameter. This tells the Windows A\+P\+I to fetch the \textquotesingle{}default\textquotesingle{} value from the input key.
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_direct_registry_access_a0c4addcf0e776cdecead314ef7427f73}{Direct\+Registry\+Access\+::get\+Value\+From\+Key(\+H\+K\+E\+Y\&, std\+::string, std\+::string$\ast$)} 
+\end{DoxySeeAlso}
+\hypertarget{class_direct_registry_access_ae051be8724359399dacc86a38149762c}{}\index{Direct\+Registry\+Access@{Direct\+Registry\+Access}!open\+Key\+For\+Enumeration@{open\+Key\+For\+Enumeration}}
+\index{open\+Key\+For\+Enumeration@{open\+Key\+For\+Enumeration}!Direct\+Registry\+Access@{Direct\+Registry\+Access}}
+\subsubsection[{open\+Key\+For\+Enumeration(\+H\+K\+E\+Y root\+\_\+key, std\+::string path, H\+K\+E\+Y \&h\+\_\+key)}]{\setlength{\rightskip}{0pt plus 5cm}bool Direct\+Registry\+Access\+::open\+Key\+For\+Enumeration (
+\begin{DoxyParamCaption}
+\item[{H\+K\+E\+Y}]{root\+\_\+key, }
+\item[{std\+::string}]{path, }
+\item[{H\+K\+E\+Y \&}]{h\+\_\+key}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{class_direct_registry_access_ae051be8724359399dacc86a38149762c}
+
+
+Open a key for reading. 
+
+The key handle you get back allows for reading and for accessing child keys.
+
+
+\begin{DoxyParams}{Parameters}
+{\em root\+\_\+key} & An open handle to a key. \\
+\hline
+{\em path} & The name of the child key to open. \\
+\hline
+{\em h\+\_\+key} & Handle to the child key to be opened.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Depending on the success or failure of the Windows A\+P\+I call. 
+\end{DoxyReturn}
+\hypertarget{class_direct_registry_access_affd3141655ca0d587461282fcab5cc25}{}\index{Direct\+Registry\+Access@{Direct\+Registry\+Access}!open\+Key\+For\+Enumeration@{open\+Key\+For\+Enumeration}}
+\index{open\+Key\+For\+Enumeration@{open\+Key\+For\+Enumeration}!Direct\+Registry\+Access@{Direct\+Registry\+Access}}
+\subsubsection[{open\+Key\+For\+Enumeration(\+H\+K\+E\+Y root\+\_\+key, H\+K\+E\+Y \&h\+\_\+key)}]{\setlength{\rightskip}{0pt plus 5cm}bool Direct\+Registry\+Access\+::open\+Key\+For\+Enumeration (
+\begin{DoxyParamCaption}
+\item[{H\+K\+E\+Y}]{root\+\_\+key, }
+\item[{H\+K\+E\+Y \&}]{h\+\_\+key}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{class_direct_registry_access_affd3141655ca0d587461282fcab5cc25}
+
+
+Shortcut. 
+
+Calls \hyperlink{class_direct_registry_access_ae051be8724359399dacc86a38149762c}{Direct\+Registry\+Access\+::open\+Key\+For\+Enumeration(\+H\+K\+E\+Y, std\+::string, H\+K\+E\+Y\&)} with an empty string as the second parameter.
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_direct_registry_access_ae051be8724359399dacc86a38149762c}{Direct\+Registry\+Access\+::open\+Key\+For\+Enumeration(\+H\+K\+E\+Y, std\+::string, H\+K\+E\+Y\&)} 
+\end{DoxySeeAlso}
+\hypertarget{class_direct_registry_access_a3bef2793ed202b4ba02ad9e099785485}{}\index{Direct\+Registry\+Access@{Direct\+Registry\+Access}!open\+Key\+For\+Setting\+Value@{open\+Key\+For\+Setting\+Value}}
+\index{open\+Key\+For\+Setting\+Value@{open\+Key\+For\+Setting\+Value}!Direct\+Registry\+Access@{Direct\+Registry\+Access}}
+\subsubsection[{open\+Key\+For\+Setting\+Value(\+H\+K\+E\+Y root\+\_\+key, std\+::string path, H\+K\+E\+Y \&h\+\_\+key)}]{\setlength{\rightskip}{0pt plus 5cm}bool Direct\+Registry\+Access\+::open\+Key\+For\+Setting\+Value (
+\begin{DoxyParamCaption}
+\item[{H\+K\+E\+Y}]{root\+\_\+key, }
+\item[{std\+::string}]{path, }
+\item[{H\+K\+E\+Y \&}]{h\+\_\+key}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{class_direct_registry_access_a3bef2793ed202b4ba02ad9e099785485}
+
+
+Open a registry key for writing. 
+
+Open a key with the write flag. This method always returns true for valid inputs, however you only get access to the real registry if the program is running with administrator privileges.
+
+See \href{https://msdn.microsoft.com/en-us/library/windows/desktop/aa965884%28v=vs.85%29.aspx}{\tt registry virtualisation}
+
+
+\begin{DoxyParams}{Parameters}
+{\em root\+\_\+key} & An open handle to a key. \\
+\hline
+{\em path} & The name of the child key to open. \\
+\hline
+{\em h\+\_\+key} & Handle to the child key to be opened.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Depending on the success or failure of the Windows A\+P\+I call. 
+\end{DoxyReturn}
+\hypertarget{class_direct_registry_access_a9a80842fdb2b503215fe757632d0448b}{}\index{Direct\+Registry\+Access@{Direct\+Registry\+Access}!set\+Value\+For\+Key@{set\+Value\+For\+Key}}
+\index{set\+Value\+For\+Key@{set\+Value\+For\+Key}!Direct\+Registry\+Access@{Direct\+Registry\+Access}}
+\subsubsection[{set\+Value\+For\+Key(\+H\+K\+E\+Y \&h\+\_\+key, std\+::string value\+\_\+name, std\+::string value)}]{\setlength{\rightskip}{0pt plus 5cm}bool Direct\+Registry\+Access\+::set\+Value\+For\+Key (
+\begin{DoxyParamCaption}
+\item[{H\+K\+E\+Y \&}]{h\+\_\+key, }
+\item[{std\+::string}]{value\+\_\+name, }
+\item[{std\+::string}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{class_direct_registry_access_a9a80842fdb2b503215fe757632d0448b}
+
+
+Set the value with the specified name on the input key. 
+
+Given a key handle opened with some write flag, this method sets \textquotesingle{}value\textquotesingle{} at the location \textquotesingle{}value\+\_\+name\textquotesingle{}.
+
+This method requires administrator privileges to work. It will return true if it succeeds, but will be accessing the virtualised registry when it has standard permissions.
+
+
+\begin{DoxyParams}{Parameters}
+{\em h\+\_\+key} & A key handle opened with some write flag. \\
+\hline
+{\em value\+\_\+name} & The name of the value to modify. \\
+\hline
+{\em value} & The value to set.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Depending on the success or failure of the Windows A\+P\+I call. 
+\end{DoxyReturn}
+\hypertarget{class_direct_registry_access_a7d09201af3a73bc290d6334fdd09ea6b}{}\index{Direct\+Registry\+Access@{Direct\+Registry\+Access}!set\+Value\+For\+Key@{set\+Value\+For\+Key}}
+\index{set\+Value\+For\+Key@{set\+Value\+For\+Key}!Direct\+Registry\+Access@{Direct\+Registry\+Access}}
+\subsubsection[{set\+Value\+For\+Key(\+H\+K\+E\+Y \&h\+\_\+key, std\+::string value)}]{\setlength{\rightskip}{0pt plus 5cm}bool Direct\+Registry\+Access\+::set\+Value\+For\+Key (
+\begin{DoxyParamCaption}
+\item[{H\+K\+E\+Y \&}]{h\+\_\+key, }
+\item[{std\+::string}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{class_direct_registry_access_a7d09201af3a73bc290d6334fdd09ea6b}
+
+
+Shortcut. 
+
+Set the default value for on the input key.
+
+\begin{DoxySeeAlso}{See also}
+Direct\+Registry\+Access\+::et\+Value\+For\+Key(\+H\+K\+E\+Y\&, std\+::string, std\+::string) 
+\end{DoxySeeAlso}
 
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/main/\+Registry/\+Data\+Access/Direct\+Registry\+Access.\+hpp\item 
-D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/main/\+Registry/\+Data\+Access/Direct\+Registry\+Access.\+cpp\end{DoxyCompactItemize}
+D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/main/\+Registry/\+Data\+Access/\hyperlink{_direct_registry_access_8hpp}{Direct\+Registry\+Access.\+hpp}\item 
+D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/main/\+Registry/\+Data\+Access/\hyperlink{_direct_registry_access_8cpp}{Direct\+Registry\+Access.\+cpp}\end{DoxyCompactItemize}

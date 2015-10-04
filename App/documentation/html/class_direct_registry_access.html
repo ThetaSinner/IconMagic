@@ -92,40 +92,474 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">DirectRegistryAccess Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Wrapper for Windows API registry access.  
+ <a href="class_direct_registry_access.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_direct_registry_access_8hpp_source.html">DirectRegistryAccess.hpp</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for DirectRegistryAccess:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_direct_registry_access.png" usemap="#DirectRegistryAccess_map" alt=""/>
+  <map id="DirectRegistryAccess_map" name="DirectRegistryAccess_map">
+<area href="class_simple_registry_access.html" title="Extends the functionality of DirectRegistryAccess. " alt="SimpleRegistryAccess" shape="rect" coords="0,56,137,80"/>
+</map>
+ </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ae051be8724359399dacc86a38149762c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae051be8724359399dacc86a38149762c"></a>
-static bool&#160;</td><td class="memItemRight" valign="bottom"><b>openKeyForEnumeration</b> (HKEY root_key, std::string path, HKEY &amp;h_key)</td></tr>
+<tr class="memitem:ae051be8724359399dacc86a38149762c"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_direct_registry_access.html#ae051be8724359399dacc86a38149762c">openKeyForEnumeration</a> (HKEY root_key, std::string path, HKEY &amp;h_key)</td></tr>
+<tr class="memdesc:ae051be8724359399dacc86a38149762c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open a key for reading.  <a href="#ae051be8724359399dacc86a38149762c">More...</a><br /></td></tr>
 <tr class="separator:ae051be8724359399dacc86a38149762c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affd3141655ca0d587461282fcab5cc25"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="affd3141655ca0d587461282fcab5cc25"></a>
-static bool&#160;</td><td class="memItemRight" valign="bottom"><b>openKeyForEnumeration</b> (HKEY root_key, HKEY &amp;h_key)</td></tr>
+<tr class="memitem:affd3141655ca0d587461282fcab5cc25"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_direct_registry_access.html#affd3141655ca0d587461282fcab5cc25">openKeyForEnumeration</a> (HKEY root_key, HKEY &amp;h_key)</td></tr>
+<tr class="memdesc:affd3141655ca0d587461282fcab5cc25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut.  <a href="#affd3141655ca0d587461282fcab5cc25">More...</a><br /></td></tr>
 <tr class="separator:affd3141655ca0d587461282fcab5cc25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3bef2793ed202b4ba02ad9e099785485"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3bef2793ed202b4ba02ad9e099785485"></a>
-static bool&#160;</td><td class="memItemRight" valign="bottom"><b>openKeyForSettingValue</b> (HKEY root_key, std::string path, HKEY &amp;h_key)</td></tr>
+<tr class="memitem:a3bef2793ed202b4ba02ad9e099785485"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_direct_registry_access.html#a3bef2793ed202b4ba02ad9e099785485">openKeyForSettingValue</a> (HKEY root_key, std::string path, HKEY &amp;h_key)</td></tr>
+<tr class="memdesc:a3bef2793ed202b4ba02ad9e099785485"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open a registry key for writing.  <a href="#a3bef2793ed202b4ba02ad9e099785485">More...</a><br /></td></tr>
 <tr class="separator:a3bef2793ed202b4ba02ad9e099785485"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa123bf857d78ceb45ef406535869c6b1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa123bf857d78ceb45ef406535869c6b1"></a>
-static bool&#160;</td><td class="memItemRight" valign="bottom"><b>getSubKeyNameAt</b> (const HKEY &amp;root_key, int n, std::string &amp;key_name)</td></tr>
+<tr class="memitem:aa123bf857d78ceb45ef406535869c6b1"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_direct_registry_access.html#aa123bf857d78ceb45ef406535869c6b1">getSubKeyNameAt</a> (const HKEY &amp;root_key, int n, std::string &amp;key_name)</td></tr>
+<tr class="memdesc:aa123bf857d78ceb45ef406535869c6b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterate over subkeys.  <a href="#aa123bf857d78ceb45ef406535869c6b1">More...</a><br /></td></tr>
 <tr class="separator:aa123bf857d78ceb45ef406535869c6b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c4addcf0e776cdecead314ef7427f73"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0c4addcf0e776cdecead314ef7427f73"></a>
-static bool&#160;</td><td class="memItemRight" valign="bottom"><b>getValueFromKey</b> (HKEY &amp;h_key, std::string search_value_name, std::string *value)</td></tr>
+<tr class="memitem:a0c4addcf0e776cdecead314ef7427f73"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_direct_registry_access.html#a0c4addcf0e776cdecead314ef7427f73">getValueFromKey</a> (HKEY &amp;h_key, std::string search_value_name, std::string *value)</td></tr>
+<tr class="memdesc:a0c4addcf0e776cdecead314ef7427f73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the value with the specified name from a key.  <a href="#a0c4addcf0e776cdecead314ef7427f73">More...</a><br /></td></tr>
 <tr class="separator:a0c4addcf0e776cdecead314ef7427f73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47b88eff5dfae4e37ca98b26d62dd12a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a47b88eff5dfae4e37ca98b26d62dd12a"></a>
-static bool&#160;</td><td class="memItemRight" valign="bottom"><b>getValueFromKey</b> (HKEY &amp;h_key, std::string *value)</td></tr>
+<tr class="memitem:a47b88eff5dfae4e37ca98b26d62dd12a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_direct_registry_access.html#a47b88eff5dfae4e37ca98b26d62dd12a">getValueFromKey</a> (HKEY &amp;h_key, std::string *value)</td></tr>
+<tr class="memdesc:a47b88eff5dfae4e37ca98b26d62dd12a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut.  <a href="#a47b88eff5dfae4e37ca98b26d62dd12a">More...</a><br /></td></tr>
 <tr class="separator:a47b88eff5dfae4e37ca98b26d62dd12a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a80842fdb2b503215fe757632d0448b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9a80842fdb2b503215fe757632d0448b"></a>
-static bool&#160;</td><td class="memItemRight" valign="bottom"><b>setValueForKey</b> (HKEY &amp;h_key, std::string value_name, std::string value)</td></tr>
+<tr class="memitem:a9a80842fdb2b503215fe757632d0448b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_direct_registry_access.html#a9a80842fdb2b503215fe757632d0448b">setValueForKey</a> (HKEY &amp;h_key, std::string value_name, std::string value)</td></tr>
+<tr class="memdesc:a9a80842fdb2b503215fe757632d0448b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the value with the specified name on the input key.  <a href="#a9a80842fdb2b503215fe757632d0448b">More...</a><br /></td></tr>
 <tr class="separator:a9a80842fdb2b503215fe757632d0448b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d09201af3a73bc290d6334fdd09ea6b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7d09201af3a73bc290d6334fdd09ea6b"></a>
-static bool&#160;</td><td class="memItemRight" valign="bottom"><b>setValueForKey</b> (HKEY &amp;h_key, std::string value)</td></tr>
+<tr class="memitem:a7d09201af3a73bc290d6334fdd09ea6b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_direct_registry_access.html#a7d09201af3a73bc290d6334fdd09ea6b">setValueForKey</a> (HKEY &amp;h_key, std::string value)</td></tr>
+<tr class="memdesc:a7d09201af3a73bc290d6334fdd09ea6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut.  <a href="#a7d09201af3a73bc290d6334fdd09ea6b">More...</a><br /></td></tr>
 <tr class="separator:a7d09201af3a73bc290d6334fdd09ea6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05d4a5bbed79beba121eddf512fda0a0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a05d4a5bbed79beba121eddf512fda0a0"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>closeKey</b> (HKEY &amp;h_key)</td></tr>
+<tr class="memitem:a05d4a5bbed79beba121eddf512fda0a0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_direct_registry_access.html#a05d4a5bbed79beba121eddf512fda0a0">closeKey</a> (HKEY &amp;h_key)</td></tr>
+<tr class="memdesc:a05d4a5bbed79beba121eddf512fda0a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Close the key handle.  <a href="#a05d4a5bbed79beba121eddf512fda0a0">More...</a><br /></td></tr>
 <tr class="separator:a05d4a5bbed79beba121eddf512fda0a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Wrapper for Windows API registry access. </p>
+<p>All the Windows API functions which are related to registry access are wrapped here. There isn't much need to expose the Windows API calls, most of the parameters to real calls can take their default values.</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_simple_registry_access.html" title="Extends the functionality of DirectRegistryAccess. ">SimpleRegistryAccess</a> </dd></dl>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a05d4a5bbed79beba121eddf512fda0a0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DirectRegistryAccess::closeKey </td>
+          <td>(</td>
+          <td class="paramtype">HKEY &amp;&#160;</td>
+          <td class="paramname"><em>h_key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Close the key handle. </p>
+<p>This should always the used to release open key handles, regardless of the flag used to open them.</p>
+<p>The Windows API doesn't reliably report the success or otherwise of this method so this method returns void.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">h_key</td><td>Handle to the key to be closed. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aa123bf857d78ceb45ef406535869c6b1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DirectRegistryAccess::getSubKeyNameAt </td>
+          <td>(</td>
+          <td class="paramtype">const HKEY &amp;&#160;</td>
+          <td class="paramname"><em>root_key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>key_name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Iterate over subkeys. </p>
+<p>Given a key handle opened with the enumerate flag, we can fetch the name of each child key name.</p>
+<p>If you use an index greater than the number of children a key has then the Windows API returns the the last key name it finds. My method will give back en empty string in this case. This is not a failure case, the method will continue to return true.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">root_key</td><td>A handle to a key opened with the enumerate flag. </td></tr>
+    <tr><td class="paramname">n</td><td>The index of the child key to access. </td></tr>
+    <tr><td class="paramname">key_name</td><td>The name of the child key at index n will be set on this value.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Depending on the success or failure of the Windows API call.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Todo:</a></b></dt><dd>You can determine the buffer size required at runtime, see RegQueryInfoKey. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a0c4addcf0e776cdecead314ef7427f73"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DirectRegistryAccess::getValueFromKey </td>
+          <td>(</td>
+          <td class="paramtype">HKEY &amp;&#160;</td>
+          <td class="paramname"><em>h_key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>search_value_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string *&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the value with the specified name from a key. </p>
+<p>Fetch the value with the specified name from the the key handle which must be opened with a read flag.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">h_key</td><td>Handle to an open key. </td></tr>
+    <tr><td class="paramname">search_value_name</td><td>The name of the value to retrieve. </td></tr>
+    <tr><td class="paramname">value</td><td>The retrieved value will be set on this parameter.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Depending on the success or failure of the Windows API call.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd>This method only supports string output, you can determine the type by querying the registry.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd>The output parameter should be pass by reference rather than a pointer.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000005">Todo:</a></b></dt><dd>You can determine the buffer size required at runtime, see RegQueryInfoKey. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a47b88eff5dfae4e37ca98b26d62dd12a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DirectRegistryAccess::getValueFromKey </td>
+          <td>(</td>
+          <td class="paramtype">HKEY &amp;&#160;</td>
+          <td class="paramname"><em>h_key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string *&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shortcut. </p>
+<p>This shortcut calls <a class="el" href="class_direct_registry_access.html#a0c4addcf0e776cdecead314ef7427f73" title="Get the value with the specified name from a key. ">DirectRegistryAccess::getValueFromKey(HKEY&amp;, std::string, std::string*)</a> with an empty string as the second parameter. This tells the Windows API to fetch the 'default' value from the input key.</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_direct_registry_access.html#a0c4addcf0e776cdecead314ef7427f73" title="Get the value with the specified name from a key. ">DirectRegistryAccess::getValueFromKey(HKEY&amp;, std::string, std::string*)</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ae051be8724359399dacc86a38149762c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DirectRegistryAccess::openKeyForEnumeration </td>
+          <td>(</td>
+          <td class="paramtype">HKEY&#160;</td>
+          <td class="paramname"><em>root_key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">HKEY &amp;&#160;</td>
+          <td class="paramname"><em>h_key</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Open a key for reading. </p>
+<p>The key handle you get back allows for reading and for accessing child keys.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">root_key</td><td>An open handle to a key. </td></tr>
+    <tr><td class="paramname">path</td><td>The name of the child key to open. </td></tr>
+    <tr><td class="paramname">h_key</td><td>Handle to the child key to be opened.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Depending on the success or failure of the Windows API call. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="affd3141655ca0d587461282fcab5cc25"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DirectRegistryAccess::openKeyForEnumeration </td>
+          <td>(</td>
+          <td class="paramtype">HKEY&#160;</td>
+          <td class="paramname"><em>root_key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">HKEY &amp;&#160;</td>
+          <td class="paramname"><em>h_key</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shortcut. </p>
+<p>Calls <a class="el" href="class_direct_registry_access.html#ae051be8724359399dacc86a38149762c" title="Open a key for reading. ">DirectRegistryAccess::openKeyForEnumeration(HKEY, std::string, HKEY&amp;)</a> with an empty string as the second parameter.</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_direct_registry_access.html#ae051be8724359399dacc86a38149762c" title="Open a key for reading. ">DirectRegistryAccess::openKeyForEnumeration(HKEY, std::string, HKEY&amp;)</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a3bef2793ed202b4ba02ad9e099785485"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DirectRegistryAccess::openKeyForSettingValue </td>
+          <td>(</td>
+          <td class="paramtype">HKEY&#160;</td>
+          <td class="paramname"><em>root_key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">HKEY &amp;&#160;</td>
+          <td class="paramname"><em>h_key</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Open a registry key for writing. </p>
+<p>Open a key with the write flag. This method always returns true for valid inputs, however you only get access to the real registry if the program is running with administrator privileges.</p>
+<p>See <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa965884%28v=vs.85%29.aspx">registry virtualisation</a></p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">root_key</td><td>An open handle to a key. </td></tr>
+    <tr><td class="paramname">path</td><td>The name of the child key to open. </td></tr>
+    <tr><td class="paramname">h_key</td><td>Handle to the child key to be opened.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Depending on the success or failure of the Windows API call. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a9a80842fdb2b503215fe757632d0448b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DirectRegistryAccess::setValueForKey </td>
+          <td>(</td>
+          <td class="paramtype">HKEY &amp;&#160;</td>
+          <td class="paramname"><em>h_key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>value_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the value with the specified name on the input key. </p>
+<p>Given a key handle opened with some write flag, this method sets 'value' at the location 'value_name'.</p>
+<p>This method requires administrator privileges to work. It will return true if it succeeds, but will be accessing the virtualised registry when it has standard permissions.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">h_key</td><td>A key handle opened with some write flag. </td></tr>
+    <tr><td class="paramname">value_name</td><td>The name of the value to modify. </td></tr>
+    <tr><td class="paramname">value</td><td>The value to set.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Depending on the success or failure of the Windows API call. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a7d09201af3a73bc290d6334fdd09ea6b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DirectRegistryAccess::setValueForKey </td>
+          <td>(</td>
+          <td class="paramtype">HKEY &amp;&#160;</td>
+          <td class="paramname"><em>h_key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shortcut. </p>
+<p>Set the default value for on the input key.</p>
+<dl class="section see"><dt>See also</dt><dd>DirectRegistryAccess::etValueForKey(HKEY&amp;, std::string, std::string) </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>D:/Users/Gregory/OneDrive/GitHub/IconMagic/Source/main/Registry/DataAccess/<a class="el" href="_direct_registry_access_8hpp_source.html">DirectRegistryAccess.hpp</a></li>
-<li>D:/Users/Gregory/OneDrive/GitHub/IconMagic/Source/main/Registry/DataAccess/DirectRegistryAccess.cpp</li>
+<li>D:/Users/Gregory/OneDrive/GitHub/IconMagic/Source/main/Registry/DataAccess/<a class="el" href="_direct_registry_access_8cpp.html">DirectRegistryAccess.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

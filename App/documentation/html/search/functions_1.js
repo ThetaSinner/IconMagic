@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['execute',['execute',['../class_test_framework.html#ace2588c0b0043546abc584b1d1b08e96',1,'TestFramework']]]
+  ['closekey',['closeKey',['../class_direct_registry_access.html#a05d4a5bbed79beba121eddf512fda0a0',1,'DirectRegistryAccess']]]
 ];

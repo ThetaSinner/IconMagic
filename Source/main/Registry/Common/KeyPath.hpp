@@ -28,9 +28,9 @@ public:
    * the registry root keys, i.e. of the form HKEY_xxx
    * \param key_name The name of the root key to use.
    *
-   * * \sa KeyService::PREDEFINED_ROOT_KEYS, KeyService::ALTERNATE_KEY_NAME_MAP
+   * \sa KeyService::PREDEFINED_ROOT_KEYS, KeyService::ALTERNATE_KEY_NAME_MAP
    *
-   * \todo This constructory should allow you to pass in a path, not just a single key.
+   * \todo This constructor should allow you to pass in a path, not just a single key.
    * i.e. it accepts the result of the toString method provided by this class.
    */
   KeyPath(std::string key_name);

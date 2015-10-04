@@ -1,23 +1,133 @@
 \hypertarget{class_simple_registry_access}{}\section{Simple\+Registry\+Access Class Reference}
 \label{class_simple_registry_access}\index{Simple\+Registry\+Access@{Simple\+Registry\+Access}}
+
+
+Extends the functionality of \hyperlink{class_direct_registry_access}{Direct\+Registry\+Access}.  
+
+
+
+
+{\ttfamily \#include $<$Simple\+Registry\+Access.\+hpp$>$}
+
+Inheritance diagram for Simple\+Registry\+Access\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_simple_registry_access}
+\end{center}
+\end{figure}
 \subsection*{Static Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\hypertarget{class_simple_registry_access_accef2c679695c6e05a9e7c1c2a962481}{}static std\+::string {\bfseries get\+Value\+At\+Path} (\hyperlink{class_key_path}{Key\+Path} key\+\_\+path, std\+::string value\+\_\+name)\label{class_simple_registry_access_accef2c679695c6e05a9e7c1c2a962481}
+static std\+::string \hyperlink{class_simple_registry_access_accef2c679695c6e05a9e7c1c2a962481}{get\+Value\+At\+Path} (\hyperlink{class_key_path}{Key\+Path} key\+\_\+path, std\+::string value\+\_\+name)
+\begin{DoxyCompactList}\small\item\em Get the value at the end of the given path. \end{DoxyCompactList}\item 
+static std\+::string \hyperlink{class_simple_registry_access_afb4986051b99ff89e156a2ab6b89aca3}{get\+Value\+At\+Path} (\hyperlink{class_key_path}{Key\+Path} key\+\_\+path)
+\begin{DoxyCompactList}\small\item\em Get the default value at the end of the given path. \end{DoxyCompactList}\item 
+static bool \hyperlink{class_simple_registry_access_a75e85e4de87a14c50a81b3cd080a2a97}{set\+Value\+At\+Path} (\hyperlink{class_key_path}{Key\+Path} key\+\_\+path, std\+::string value\+\_\+name, std\+::string value)
+\begin{DoxyCompactList}\small\item\em Set the specified value at the end of the given path. \end{DoxyCompactList}\item 
+static bool \hyperlink{class_simple_registry_access_aea8420eb295c6c9e11093b1928a8591c}{set\+Value\+At\+Path} (\hyperlink{class_key_path}{Key\+Path} key\+\_\+path, std\+::string value)
+\begin{DoxyCompactList}\small\item\em Set the default value at the end of the given path. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
-\item 
-\hypertarget{class_simple_registry_access_afb4986051b99ff89e156a2ab6b89aca3}{}static std\+::string {\bfseries get\+Value\+At\+Path} (\hyperlink{class_key_path}{Key\+Path} key\+\_\+path)\label{class_simple_registry_access_afb4986051b99ff89e156a2ab6b89aca3}
 
-\item 
-\hypertarget{class_simple_registry_access_a75e85e4de87a14c50a81b3cd080a2a97}{}static bool {\bfseries set\+Value\+At\+Path} (\hyperlink{class_key_path}{Key\+Path} key\+\_\+path, std\+::string value\+\_\+name, std\+::string value)\label{class_simple_registry_access_a75e85e4de87a14c50a81b3cd080a2a97}
+\subsection{Detailed Description}
+Extends the functionality of \hyperlink{class_direct_registry_access}{Direct\+Registry\+Access}. 
 
-\item 
-\hypertarget{class_simple_registry_access_aea8420eb295c6c9e11093b1928a8591c}{}static bool {\bfseries set\+Value\+At\+Path} (\hyperlink{class_key_path}{Key\+Path} key\+\_\+path, std\+::string value)\label{class_simple_registry_access_aea8420eb295c6c9e11093b1928a8591c}
+The methods here aren\textquotesingle{}t single Windows A\+P\+I calls, they contain the composition of calls into \hyperlink{class_direct_registry_access}{Direct\+Registry\+Access}.
 
-\end{DoxyCompactItemize}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_direct_registry_access}{Direct\+Registry\+Access} 
+\end{DoxySeeAlso}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_simple_registry_access_accef2c679695c6e05a9e7c1c2a962481}{}\index{Simple\+Registry\+Access@{Simple\+Registry\+Access}!get\+Value\+At\+Path@{get\+Value\+At\+Path}}
+\index{get\+Value\+At\+Path@{get\+Value\+At\+Path}!Simple\+Registry\+Access@{Simple\+Registry\+Access}}
+\subsubsection[{get\+Value\+At\+Path(\+Key\+Path key\+\_\+path, std\+::string value\+\_\+name)}]{\setlength{\rightskip}{0pt plus 5cm}std\+::string Simple\+Registry\+Access\+::get\+Value\+At\+Path (
+\begin{DoxyParamCaption}
+\item[{{\bf Key\+Path}}]{key\+\_\+path, }
+\item[{std\+::string}]{value\+\_\+name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{class_simple_registry_access_accef2c679695c6e05a9e7c1c2a962481}
+
+
+Get the value at the end of the given path. 
+
+Givem a \hyperlink{class_key_path}{Key\+Path} object, this method will open its way to the last key in the path and find the value with the specified name.
+
+
+\begin{DoxyParams}{Parameters}
+{\em key\+\_\+path} & Path to the key to fetch the value from. \\
+\hline
+{\em value\+\_\+name} & The name of the value to fetch.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000006}{Todo}]This method only supports fetching string values. \end{DoxyRefDesc}
+\hypertarget{class_simple_registry_access_afb4986051b99ff89e156a2ab6b89aca3}{}\index{Simple\+Registry\+Access@{Simple\+Registry\+Access}!get\+Value\+At\+Path@{get\+Value\+At\+Path}}
+\index{get\+Value\+At\+Path@{get\+Value\+At\+Path}!Simple\+Registry\+Access@{Simple\+Registry\+Access}}
+\subsubsection[{get\+Value\+At\+Path(\+Key\+Path key\+\_\+path)}]{\setlength{\rightskip}{0pt plus 5cm}std\+::string Simple\+Registry\+Access\+::get\+Value\+At\+Path (
+\begin{DoxyParamCaption}
+\item[{{\bf Key\+Path}}]{key\+\_\+path}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{class_simple_registry_access_afb4986051b99ff89e156a2ab6b89aca3}
+
+
+Get the default value at the end of the given path. 
+
+Calls \hyperlink{class_simple_registry_access_accef2c679695c6e05a9e7c1c2a962481}{Simple\+Registry\+Access\+::get\+Value\+At\+Path(\+Key\+Path, std\+::string)} with an emtpy string as the second parameter.
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_simple_registry_access_accef2c679695c6e05a9e7c1c2a962481}{Simple\+Registry\+Access\+::get\+Value\+At\+Path(\+Key\+Path, std\+::string)} 
+\end{DoxySeeAlso}
+\hypertarget{class_simple_registry_access_a75e85e4de87a14c50a81b3cd080a2a97}{}\index{Simple\+Registry\+Access@{Simple\+Registry\+Access}!set\+Value\+At\+Path@{set\+Value\+At\+Path}}
+\index{set\+Value\+At\+Path@{set\+Value\+At\+Path}!Simple\+Registry\+Access@{Simple\+Registry\+Access}}
+\subsubsection[{set\+Value\+At\+Path(\+Key\+Path key\+\_\+path, std\+::string value\+\_\+name, std\+::string value)}]{\setlength{\rightskip}{0pt plus 5cm}bool Simple\+Registry\+Access\+::set\+Value\+At\+Path (
+\begin{DoxyParamCaption}
+\item[{{\bf Key\+Path}}]{key\+\_\+path, }
+\item[{std\+::string}]{value\+\_\+name, }
+\item[{std\+::string}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{class_simple_registry_access_a75e85e4de87a14c50a81b3cd080a2a97}
+
+
+Set the specified value at the end of the given path. 
+
+Givem a \hyperlink{class_key_path}{Key\+Path} object, this method will open its way to the last key in the path and set the specified value.
+
+
+\begin{DoxyParams}{Parameters}
+{\em key\+\_\+path} & The path to the key to open. \\
+\hline
+{\em value\+\_\+name} & The name of the value to set. \\
+\hline
+{\em value} & The value to set.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The success of the operation, probably not very helpful.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_direct_registry_access_a9a80842fdb2b503215fe757632d0448b}{Direct\+Registry\+Access\+::set\+Value\+For\+Key(\+H\+K\+E\+Y \&, std\+::string, std\+::string)}; 
+\end{DoxySeeAlso}
+\hypertarget{class_simple_registry_access_aea8420eb295c6c9e11093b1928a8591c}{}\index{Simple\+Registry\+Access@{Simple\+Registry\+Access}!set\+Value\+At\+Path@{set\+Value\+At\+Path}}
+\index{set\+Value\+At\+Path@{set\+Value\+At\+Path}!Simple\+Registry\+Access@{Simple\+Registry\+Access}}
+\subsubsection[{set\+Value\+At\+Path(\+Key\+Path key\+\_\+path, std\+::string value)}]{\setlength{\rightskip}{0pt plus 5cm}bool Simple\+Registry\+Access\+::set\+Value\+At\+Path (
+\begin{DoxyParamCaption}
+\item[{{\bf Key\+Path}}]{key\+\_\+path, }
+\item[{std\+::string}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{class_simple_registry_access_aea8420eb295c6c9e11093b1928a8591c}
+
+
+Set the default value at the end of the given path. 
+
+Calls \hyperlink{class_simple_registry_access_a75e85e4de87a14c50a81b3cd080a2a97}{Simple\+Registry\+Access\+::set\+Value\+At\+Path(\+Key\+Path, std\+::string, std\+::string)} with an emtpy string as the second parameter.
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_simple_registry_access_aea8420eb295c6c9e11093b1928a8591c}{Simple\+Registry\+Access\+::set\+Value\+At\+Path(\+Key\+Path, std\+::string)} 
+\end{DoxySeeAlso}
 
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/main/\+Registry/\+Data\+Access/Simple\+Registry\+Access.\+hpp\item 
-D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/main/\+Registry/\+Data\+Access/Simple\+Registry\+Access.\+cpp\end{DoxyCompactItemize}
+D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/main/\+Registry/\+Data\+Access/\hyperlink{_simple_registry_access_8hpp}{Simple\+Registry\+Access.\+hpp}\item 
+D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/main/\+Registry/\+Data\+Access/\hyperlink{_simple_registry_access_8cpp}{Simple\+Registry\+Access.\+cpp}\end{DoxyCompactItemize}

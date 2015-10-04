@@ -91,34 +91,53 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">DirectRegistryAccess.hpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef DIRECT_REGISTRY_ACCESS_INCLUDED</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define DIRECT_REGISTRY_ACCESS_INCLUDED</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;Windows.h&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;./RegistryAccessException.hpp&quot;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
-<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="class_direct_registry_access.html">    7</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_direct_registry_access.html">DirectRegistryAccess</a></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;  <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">bool</span> openKeyForEnumeration(HKEY root_key, std::string path, HKEY &amp;h_key);</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">bool</span> openKeyForEnumeration(HKEY root_key, HKEY &amp;h_key);</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">bool</span> openKeyForSettingValue(HKEY root_key, std::string path, HKEY &amp;h_key);</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">bool</span> getSubKeyNameAt(<span class="keyword">const</span> HKEY &amp;root_key, <span class="keywordtype">int</span> n, std::string &amp;key_name);</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">bool</span> getValueFromKey(HKEY &amp;h_key, std::string search_value_name, std::string *value);</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">bool</span> getValueFromKey(HKEY &amp;h_key, std::string *value);</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">bool</span> setValueForKey(HKEY &amp;h_key, std::string value_name, std::string value);</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">bool</span> setValueForKey(HKEY &amp;h_key, std::string value);</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> closeKey(HKEY &amp;h_key);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;};</div>
+<a href="_direct_registry_access_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#ifndef DIRECT_REGISTRY_ACCESS_INCLUDED</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#define DIRECT_REGISTRY_ACCESS_INCLUDED</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;Windows.h&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_registry_access_exception_8hpp.html">./RegistryAccessException.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="class_direct_registry_access.html">   22</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_direct_registry_access.html">DirectRegistryAccess</a></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="class_direct_registry_access_html"><div class="ttname"><a href="class_direct_registry_access.html">DirectRegistryAccess</a></div><div class="ttdef"><b>Definition:</b> DirectRegistryAccess.hpp:7</div></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="class_direct_registry_access.html#ae051be8724359399dacc86a38149762c">openKeyForEnumeration</a>(HKEY root_key, std::string path, HKEY &amp;h_key);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="class_direct_registry_access.html#ae051be8724359399dacc86a38149762c">openKeyForEnumeration</a>(HKEY root_key, HKEY &amp;h_key);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="class_direct_registry_access.html#a3bef2793ed202b4ba02ad9e099785485">openKeyForSettingValue</a>(HKEY root_key, std::string path, HKEY &amp;h_key);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="class_direct_registry_access.html#aa123bf857d78ceb45ef406535869c6b1">getSubKeyNameAt</a>(<span class="keyword">const</span> HKEY &amp;root_key, <span class="keywordtype">int</span> n, std::string &amp;key_name);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="class_direct_registry_access.html#a0c4addcf0e776cdecead314ef7427f73">getValueFromKey</a>(HKEY &amp;h_key, std::string search_value_name, std::string *value);</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="class_direct_registry_access.html#a0c4addcf0e776cdecead314ef7427f73">getValueFromKey</a>(HKEY &amp;h_key, std::string *value);</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="class_direct_registry_access.html#a9a80842fdb2b503215fe757632d0448b">setValueForKey</a>(HKEY &amp;h_key, std::string value_name, std::string value);</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="class_direct_registry_access.html#a9a80842fdb2b503215fe757632d0448b">setValueForKey</a>(HKEY &amp;h_key, std::string value);</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="class_direct_registry_access.html#a05d4a5bbed79beba121eddf512fda0a0">closeKey</a>(HKEY &amp;h_key);</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;};</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="class_direct_registry_access_html_a05d4a5bbed79beba121eddf512fda0a0"><div class="ttname"><a href="class_direct_registry_access.html#a05d4a5bbed79beba121eddf512fda0a0">DirectRegistryAccess::closeKey</a></div><div class="ttdeci">static void closeKey(HKEY &amp;h_key)</div><div class="ttdoc">Close the key handle. </div><div class="ttdef"><b>Definition:</b> DirectRegistryAccess.cpp:106</div></div>
+<div class="ttc" id="class_direct_registry_access_html"><div class="ttname"><a href="class_direct_registry_access.html">DirectRegistryAccess</a></div><div class="ttdoc">Wrapper for Windows API registry access. </div><div class="ttdef"><b>Definition:</b> DirectRegistryAccess.hpp:22</div></div>
+<div class="ttc" id="class_direct_registry_access_html_a0c4addcf0e776cdecead314ef7427f73"><div class="ttname"><a href="class_direct_registry_access.html#a0c4addcf0e776cdecead314ef7427f73">DirectRegistryAccess::getValueFromKey</a></div><div class="ttdeci">static bool getValueFromKey(HKEY &amp;h_key, std::string search_value_name, std::string *value)</div><div class="ttdoc">Get the value with the specified name from a key. </div><div class="ttdef"><b>Definition:</b> DirectRegistryAccess.cpp:63</div></div>
+<div class="ttc" id="_registry_access_exception_8hpp_html"><div class="ttname"><a href="_registry_access_exception_8hpp.html">RegistryAccessException.hpp</a></div><div class="ttdoc">The RegistryAccessException class definition. </div></div>
+<div class="ttc" id="class_direct_registry_access_html_a9a80842fdb2b503215fe757632d0448b"><div class="ttname"><a href="class_direct_registry_access.html#a9a80842fdb2b503215fe757632d0448b">DirectRegistryAccess::setValueForKey</a></div><div class="ttdeci">static bool setValueForKey(HKEY &amp;h_key, std::string value_name, std::string value)</div><div class="ttdoc">Set the value with the specified name on the input key. </div><div class="ttdef"><b>Definition:</b> DirectRegistryAccess.cpp:87</div></div>
+<div class="ttc" id="class_direct_registry_access_html_aa123bf857d78ceb45ef406535869c6b1"><div class="ttname"><a href="class_direct_registry_access.html#aa123bf857d78ceb45ef406535869c6b1">DirectRegistryAccess::getSubKeyNameAt</a></div><div class="ttdeci">static bool getSubKeyNameAt(const HKEY &amp;root_key, int n, std::string &amp;key_name)</div><div class="ttdoc">Iterate over subkeys. </div><div class="ttdef"><b>Definition:</b> DirectRegistryAccess.cpp:41</div></div>
+<div class="ttc" id="class_direct_registry_access_html_ae051be8724359399dacc86a38149762c"><div class="ttname"><a href="class_direct_registry_access.html#ae051be8724359399dacc86a38149762c">DirectRegistryAccess::openKeyForEnumeration</a></div><div class="ttdeci">static bool openKeyForEnumeration(HKEY root_key, std::string path, HKEY &amp;h_key)</div><div class="ttdoc">Open a key for reading. </div><div class="ttdef"><b>Definition:</b> DirectRegistryAccess.cpp:10</div></div>
+<div class="ttc" id="class_direct_registry_access_html_a3bef2793ed202b4ba02ad9e099785485"><div class="ttname"><a href="class_direct_registry_access.html#a3bef2793ed202b4ba02ad9e099785485">DirectRegistryAccess::openKeyForSettingValue</a></div><div class="ttdeci">static bool openKeyForSettingValue(HKEY root_key, std::string path, HKEY &amp;h_key)</div><div class="ttdoc">Open a registry key for writing. </div><div class="ttdef"><b>Definition:</b> DirectRegistryAccess.cpp:28</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

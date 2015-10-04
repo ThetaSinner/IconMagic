@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['detailedvariable',['detailedVariable',['../class_example_class.html#a621c5f7b94cb4e4c2e7e04e70cf7181e',1,'ExampleClass']]],
-  ['directregistryaccess',['DirectRegistryAccess',['../class_direct_registry_access.html',1,'']]]
+  ['closekey',['closeKey',['../class_direct_registry_access.html#a05d4a5bbed79beba121eddf512fda0a0',1,'DirectRegistryAccess']]]
 ];

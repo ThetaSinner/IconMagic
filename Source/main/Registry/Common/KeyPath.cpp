@@ -1,7 +1,7 @@
 /**
  * \file KeyPath.cpp
  * \brief The KeyPath class implementation.
- * \see KeyPath.hpp
+ * \sa KeyPath.hpp
  */
 
 #include "./KeyPath.hpp"

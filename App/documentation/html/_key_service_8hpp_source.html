@@ -91,29 +91,38 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">KeyService.hpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef KEY_SERVICE_INCLUDED</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define KEY_SERVICE_INCLUDED</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;Windows.h&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;map&gt;</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
-<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="class_key_service.html">    9</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_key_service.html">KeyService</a></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;  <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> std::map&lt;std::string, std::string&gt; ALTERNATE_KEY_NAME_MAP;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> std::map&lt;std::string, HKEY&gt; PREDEFINED_ROOT_KEYS;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;  <span class="keyword">static</span> std::string resolveName(std::string name);</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  <span class="keyword">static</span> HKEY getkeyByName(std::string name);</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  <span class="keyword">static</span> HKEY getKeyByAnyName(std::string name);</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;};</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="class_key_service_html"><div class="ttname"><a href="class_key_service.html">KeyService</a></div><div class="ttdef"><b>Definition:</b> KeyService.hpp:9</div></div>
+<a href="_key_service_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#ifndef KEY_SERVICE_INCLUDED</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#define KEY_SERVICE_INCLUDED</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;Windows.h&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;map&gt;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="class_key_service.html">   22</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_key_service.html">KeyService</a></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="class_key_service.html#a142ce8aec67304045a1151e6ac8429a1">   32</a></span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> std::map&lt;std::string, std::string&gt; <a class="code" href="class_key_service.html#a142ce8aec67304045a1151e6ac8429a1">ALTERNATE_KEY_NAME_MAP</a>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="class_key_service.html#a105020a568634a91740816aff99ad318">   40</a></span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> std::map&lt;std::string, HKEY&gt; <a class="code" href="class_key_service.html#a105020a568634a91740816aff99ad318">PREDEFINED_ROOT_KEYS</a>;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <span class="keyword">static</span> std::string <a class="code" href="class_key_service.html#a805af87356befa87fe19820b952afdf6">resolveName</a>(std::string name);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  <span class="keyword">static</span> HKEY <a class="code" href="class_key_service.html#ab8a39c0f99348ff255db17939d765700">getkeyByName</a>(std::string name);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  <span class="keyword">static</span> HKEY <a class="code" href="class_key_service.html#ad936e7e6affaefd1a032574d2c5513f9">getKeyByAnyName</a>(std::string name);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;};</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="class_key_service_html"><div class="ttname"><a href="class_key_service.html">KeyService</a></div><div class="ttdoc">Provides a key lookup service. </div><div class="ttdef"><b>Definition:</b> KeyService.hpp:22</div></div>
+<div class="ttc" id="class_key_service_html_ab8a39c0f99348ff255db17939d765700"><div class="ttname"><a href="class_key_service.html#ab8a39c0f99348ff255db17939d765700">KeyService::getkeyByName</a></div><div class="ttdeci">static HKEY getkeyByName(std::string name)</div><div class="ttdoc">Get a handle to a registry root key. </div><div class="ttdef"><b>Definition:</b> KeyService.cpp:38</div></div>
+<div class="ttc" id="class_key_service_html_ad936e7e6affaefd1a032574d2c5513f9"><div class="ttname"><a href="class_key_service.html#ad936e7e6affaefd1a032574d2c5513f9">KeyService::getKeyByAnyName</a></div><div class="ttdeci">static HKEY getKeyByAnyName(std::string name)</div><div class="ttdoc">Get a handle to a registry key using any name for that key. </div><div class="ttdef"><b>Definition:</b> KeyService.cpp:47</div></div>
+<div class="ttc" id="class_key_service_html_a805af87356befa87fe19820b952afdf6"><div class="ttname"><a href="class_key_service.html#a805af87356befa87fe19820b952afdf6">KeyService::resolveName</a></div><div class="ttdeci">static std::string resolveName(std::string name)</div><div class="ttdoc">Convert a valid name into a key for PREDEFINED_ROOT_KEYS. </div><div class="ttdef"><b>Definition:</b> KeyService.cpp:25</div></div>
+<div class="ttc" id="class_key_service_html_a105020a568634a91740816aff99ad318"><div class="ttname"><a href="class_key_service.html#a105020a568634a91740816aff99ad318">KeyService::PREDEFINED_ROOT_KEYS</a></div><div class="ttdeci">static const std::map&lt; std::string, HKEY &gt; PREDEFINED_ROOT_KEYS</div><div class="ttdef"><b>Definition:</b> KeyService.hpp:40</div></div>
+<div class="ttc" id="class_key_service_html_a142ce8aec67304045a1151e6ac8429a1"><div class="ttname"><a href="class_key_service.html#a142ce8aec67304045a1151e6ac8429a1">KeyService::ALTERNATE_KEY_NAME_MAP</a></div><div class="ttdeci">static const std::map&lt; std::string, std::string &gt; ALTERNATE_KEY_NAME_MAP</div><div class="ttdef"><b>Definition:</b> KeyService.hpp:32</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

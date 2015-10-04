@@ -1,3 +1,4 @@
+HKEY_CLASSES_ROOT/.aaatest/DefaultIcon C:\fuckyou\fuckyoumore,12 3
 HKEY_CLASSES_ROOT/.tvlink/DefaultIcon "D:\Program Files (x86)\TeamViewer\TeamViewer.exe" 3
 HKEY_CLASSES_ROOT/Access/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\MSACCESS.EXE,0 3
 HKEY_CLASSES_ROOT/Access.ACCDAExtension.15/DefaultIcon "C:\Program Files\Microsoft Office 15\Root\Office15\ACCICONS.EXE",40 3
@@ -12,6 +13,5 @@ HKEY_CLASSES_ROOT/Access.BlankDatabaseTemplate.15/DefaultIcon C:\Program Files\M
 HKEY_CLASSES_ROOT/Access.BlankProjectTemplate.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\accicons.exe,53 3
 HKEY_CLASSES_ROOT/Access.Extension.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\accicons.exe,40 3
 HKEY_CLASSES_ROOT/Access.LockFile.15/DefaultIcon C:\Program Files\Microsoft Office 15\Root\Office15\MSACCESS.EXE,42 3
-HKEY_CLASSES_ROOT/Access.MDBFile/DefaultIcon C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\accicons.exe,63 3
 
 Found 15 matches.

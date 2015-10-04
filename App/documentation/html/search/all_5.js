@@ -4,5 +4,6 @@ var searchData=
   ['iconmagic_2ecpp',['IconMagic.cpp',['../_icon_magic_8cpp.html',1,'']]],
   ['iconmagic_2ehpp',['IconMagic.hpp',['../_icon_magic_8hpp.html',1,'']]],
   ['imageentry',['ImageEntry',['../class_image_entry.html',1,'']]],
-  ['inlinedocstring',['inlineDocstring',['../class_example_class.html#adf5ff59e0a9de18fe8ec344771b843ff',1,'ExampleClass']]]
+  ['inlinedocstring',['inlineDocstring',['../class_example_class.html#adf5ff59e0a9de18fe8ec344771b843ff',1,'ExampleClass']]],
+  ['iconmagic_20license_2e',['IconMagic license.',['../license.html',1,'']]]
 ];

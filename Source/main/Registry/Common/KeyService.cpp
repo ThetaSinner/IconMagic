@@ -1,3 +1,9 @@
+/**
+ * \file KeyService.cpp
+ * \brief The KeyService class implementation.
+ * \see KeyService.hpp
+ */
+
 #include "./KeyService.hpp"
 
 const std::map<std::string, std::string> KeyService::ALTERNATE_KEY_NAME_MAP = {

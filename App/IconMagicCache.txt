@@ -1,0 +1,8 @@
+HKEY_CLASSES_ROOT/.tvlink/DefaultIcon
+[D:\Program Files (x86)\TeamViewer\TeamViewer.exe,]
+HKEY_CLASSES_ROOT/Access/DefaultIcon
+[C:\Program Files\Microsoft Office 15\Root\Office15\MSACCESS.EXE,0]
+HKEY_CLASSES_ROOT/Access.ACCDAExtension.15/DefaultIcon
+[C:\Program Files\Microsoft Office 15\Root\Office15\ACCICONS.EXE,40]
+HKEY_CLASSES_ROOT/Access.ACCDCFile.15/DefaultIcon
+[C:\Program Files\Microsoft Office 15\Root\VFS\Windows\Installer\{90150000-000F-0000-0000-0000000FF1CE}\accicons.exe,61]

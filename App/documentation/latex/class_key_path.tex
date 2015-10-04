@@ -1,29 +1,163 @@
 \hypertarget{class_key_path}{}\section{Key\+Path Class Reference}
 \label{class_key_path}\index{Key\+Path@{Key\+Path}}
+
+
+Object representation of a registry path.  
+
+
+
+
+{\ttfamily \#include $<$Key\+Path.\+hpp$>$}
+
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\hypertarget{class_key_path_ae333110e571e2126ce2e9a19f4900ab7}{}{\bfseries Key\+Path} (std\+::string key\+\_\+name)\label{class_key_path_ae333110e571e2126ce2e9a19f4900ab7}
+\hyperlink{class_key_path_ae333110e571e2126ce2e9a19f4900ab7}{Key\+Path} (std\+::string key\+\_\+name)
+\begin{DoxyCompactList}\small\item\em Default constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_key_path_af70143f36c7946a29f89e4cc4e5b11e9}{Key\+Path} (const \hyperlink{class_key_path}{Key\+Path} \&kp)
+\begin{DoxyCompactList}\small\item\em Copy constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_key_path}{Key\+Path} \& \hyperlink{class_key_path_a05e16fcea85250d3d350700246e677b4}{append} (std\+::string key\+\_\+name)
+\begin{DoxyCompactList}\small\item\em Append a key name to the path. \end{DoxyCompactList}\item 
+int \hyperlink{class_key_path_a3c43f10b8630dfb6fbd3709fb26447f8}{get\+Path\+Length} ()
+\begin{DoxyCompactList}\small\item\em Get the length of the path. \end{DoxyCompactList}\item 
+std\+::string \hyperlink{class_key_path_a3a69deab570f0025d50c55a8abea0e2d}{get\+Key\+Name} (int index)
+\begin{DoxyCompactList}\small\item\em Get the name of a key in the path. \end{DoxyCompactList}\item 
+std\+::string \hyperlink{class_key_path_a1290b998befc7e45d650f3e3fc5cbd35}{to\+String} ()
+\begin{DoxyCompactList}\small\item\em Get a string representation of the path. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
-\item 
-\hypertarget{class_key_path_af70143f36c7946a29f89e4cc4e5b11e9}{}{\bfseries Key\+Path} (const \hyperlink{class_key_path}{Key\+Path} \&kp)\label{class_key_path_af70143f36c7946a29f89e4cc4e5b11e9}
 
-\item 
-\hypertarget{class_key_path_a05e16fcea85250d3d350700246e677b4}{}\hyperlink{class_key_path}{Key\+Path} \& {\bfseries append} (std\+::string key\+\_\+name)\label{class_key_path_a05e16fcea85250d3d350700246e677b4}
+\subsection{Detailed Description}
+Object representation of a registry path. 
 
-\item 
-\hypertarget{class_key_path_a3c43f10b8630dfb6fbd3709fb26447f8}{}int {\bfseries get\+Path\+Length} ()\label{class_key_path_a3c43f10b8630dfb6fbd3709fb26447f8}
+The registry doesn\textquotesingle{}t really support paths via the windows A\+P\+I, so the paths represented by this class are really just a sequence of keys where the sequence relationship is parent-\/child.
 
-\item 
-\hypertarget{class_key_path_a3a69deab570f0025d50c55a8abea0e2d}{}std\+::string {\bfseries get\+Key\+Name} (int index)\label{class_key_path_a3a69deab570f0025d50c55a8abea0e2d}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_key_service}{Key\+Service} 
+\end{DoxySeeAlso}
 
-\item 
-\hypertarget{class_key_path_a1290b998befc7e45d650f3e3fc5cbd35}{}std\+::string {\bfseries to\+String} ()\label{class_key_path_a1290b998befc7e45d650f3e3fc5cbd35}
 
-\end{DoxyCompactItemize}
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_key_path_ae333110e571e2126ce2e9a19f4900ab7}{}\index{Key\+Path@{Key\+Path}!Key\+Path@{Key\+Path}}
+\index{Key\+Path@{Key\+Path}!Key\+Path@{Key\+Path}}
+\subsubsection[{Key\+Path(std\+::string key\+\_\+name)}]{\setlength{\rightskip}{0pt plus 5cm}Key\+Path\+::\+Key\+Path (
+\begin{DoxyParamCaption}
+\item[{std\+::string}]{key\+\_\+name}
+\end{DoxyParamCaption}
+)}\label{class_key_path_ae333110e571e2126ce2e9a19f4900ab7}
+
+
+Default constructor. 
+
+The existence of this constructor forces every \hyperlink{class_key_path}{Key\+Path} to have a root key. Since relative paths don\textquotesingle{}t have a defined meaning this key should be one of the registry root keys, i.\+e. of the form H\+K\+E\+Y\+\_\+xxx 
+\begin{DoxyParams}{Parameters}
+{\em key\+\_\+name} & The name of the root key to use.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyItemize}
+\item \begin{DoxySeeAlso}{See also}
+\hyperlink{class_key_service_a105020a568634a91740816aff99ad318}{Key\+Service\+::\+P\+R\+E\+D\+E\+F\+I\+N\+E\+D\+\_\+\+R\+O\+O\+T\+\_\+\+K\+E\+Y\+S}, \hyperlink{class_key_service_a142ce8aec67304045a1151e6ac8429a1}{Key\+Service\+::\+A\+L\+T\+E\+R\+N\+A\+T\+E\+\_\+\+K\+E\+Y\+\_\+\+N\+A\+M\+E\+\_\+\+M\+A\+P}
+\end{DoxySeeAlso}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000001}{Todo}]This constructory should allow you to pass in a path, not just a single key. i.\+e. it accepts the result of the to\+String method provided by this class. \end{DoxyRefDesc}
+
+\end{DoxyItemize}\hypertarget{class_key_path_af70143f36c7946a29f89e4cc4e5b11e9}{}\index{Key\+Path@{Key\+Path}!Key\+Path@{Key\+Path}}
+\index{Key\+Path@{Key\+Path}!Key\+Path@{Key\+Path}}
+\subsubsection[{Key\+Path(const Key\+Path \&kp)}]{\setlength{\rightskip}{0pt plus 5cm}Key\+Path\+::\+Key\+Path (
+\begin{DoxyParamCaption}
+\item[{const {\bf Key\+Path} \&}]{kp}
+\end{DoxyParamCaption}
+)}\label{class_key_path_af70143f36c7946a29f89e4cc4e5b11e9}
+
+
+Copy constructor. 
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_scan_tool}{Scan\+Tool} 
+\end{DoxySeeAlso}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_key_path_a05e16fcea85250d3d350700246e677b4}{}\index{Key\+Path@{Key\+Path}!append@{append}}
+\index{append@{append}!Key\+Path@{Key\+Path}}
+\subsubsection[{append(std\+::string key\+\_\+name)}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Key\+Path} \& Key\+Path\+::append (
+\begin{DoxyParamCaption}
+\item[{std\+::string}]{key\+\_\+name}
+\end{DoxyParamCaption}
+)}\label{class_key_path_a05e16fcea85250d3d350700246e677b4}
+
+
+Append a key name to the path. 
+
+This method can be chained to construct a complete path in a single statement.
+
+
+\begin{DoxyParams}{Parameters}
+{\em key\+\_\+name} & The name of the key to be added to the path.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A reference to the current object. 
+\end{DoxyReturn}
+\hypertarget{class_key_path_a3a69deab570f0025d50c55a8abea0e2d}{}\index{Key\+Path@{Key\+Path}!get\+Key\+Name@{get\+Key\+Name}}
+\index{get\+Key\+Name@{get\+Key\+Name}!Key\+Path@{Key\+Path}}
+\subsubsection[{get\+Key\+Name(int index)}]{\setlength{\rightskip}{0pt plus 5cm}std\+::string Key\+Path\+::get\+Key\+Name (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)}\label{class_key_path_a3a69deab570f0025d50c55a8abea0e2d}
+
+
+Get the name of a key in the path. 
+
+Returns the key name at the specified index along the path. The first item in the path is at index 0.
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & Index of the key to return.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The key name if the index is valid, empty string otherwise. 
+\end{DoxyReturn}
+\hypertarget{class_key_path_a3c43f10b8630dfb6fbd3709fb26447f8}{}\index{Key\+Path@{Key\+Path}!get\+Path\+Length@{get\+Path\+Length}}
+\index{get\+Path\+Length@{get\+Path\+Length}!Key\+Path@{Key\+Path}}
+\subsubsection[{get\+Path\+Length()}]{\setlength{\rightskip}{0pt plus 5cm}int Key\+Path\+::get\+Path\+Length (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_key_path_a3c43f10b8630dfb6fbd3709fb26447f8}
+
+
+Get the length of the path. 
+
+Returns the number of keys present in the path. This value should always be at least 1.
+
+\begin{DoxyReturn}{Returns}
+The length of the path.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_key_path_ae333110e571e2126ce2e9a19f4900ab7}{Key\+Path\+::\+Key\+Path(std\+::string)} 
+\end{DoxySeeAlso}
+\hypertarget{class_key_path_a1290b998befc7e45d650f3e3fc5cbd35}{}\index{Key\+Path@{Key\+Path}!to\+String@{to\+String}}
+\index{to\+String@{to\+String}!Key\+Path@{Key\+Path}}
+\subsubsection[{to\+String()}]{\setlength{\rightskip}{0pt plus 5cm}std\+::string Key\+Path\+::to\+String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_key_path_a1290b998befc7e45d650f3e3fc5cbd35}
+
+
+Get a string representation of the path. 
+
+The key names are combined into a single string separated by the forward slash character.
+
+\begin{DoxyReturn}{Returns}
+String representation of the path. 
+\end{DoxyReturn}
 
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/main/\+Registry/\+Common/Key\+Path.\+hpp\item 
-D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/main/\+Registry/\+Common/Key\+Path.\+cpp\end{DoxyCompactItemize}
+D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/main/\+Registry/\+Common/\hyperlink{_key_path_8hpp}{Key\+Path.\+hpp}\item 
+D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/main/\+Registry/\+Common/\hyperlink{_key_path_8cpp}{Key\+Path.\+cpp}\end{DoxyCompactItemize}

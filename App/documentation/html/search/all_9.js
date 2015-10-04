@@ -1,10 +1,11 @@
 var searchData=
 [
-  ['scantool',['ScanTool',['../class_scan_tool.html',1,'']]],
-  ['sethistoryfilename',['setHistoryFileName',['../class_registry_history.html#afb10619d4c6e5b1eef4f27b11aa71ec8',1,'RegistryHistory']]],
-  ['setprotectedvariable',['setProtectedVariable',['../class_example_class.html#ab8c1c5cf0ad8c4f7b8e13e7f1b1aa2cd',1,'ExampleClass']]],
-  ['simpleregistryaccess',['SimpleRegistryAccess',['../class_simple_registry_access.html',1,'']]],
-  ['standarddocstring',['standardDocstring',['../class_example_class.html#a0b61c0174aff35afaca216512f535f6f',1,'ExampleClass']]],
-  ['systemvalidation_2ecpp',['SystemValidation.cpp',['../_system_validation_8cpp.html',1,'']]],
-  ['systemvalidation_2ehpp',['SystemValidation.hpp',['../_system_validation_8hpp.html',1,'']]]
+  ['readhistory',['readHistory',['../class_registry_history.html#a2a81ef9ef2d13fba16c4596a5e24409b',1,'RegistryHistory']]],
+  ['registryaccessexception',['RegistryAccessException',['../class_registry_access_exception.html',1,'']]],
+  ['registryhistory',['RegistryHistory',['../class_registry_history.html',1,'RegistryHistory'],['../class_registry_history.html#ab8ca406519bf9c2383af62b655e091ec',1,'RegistryHistory::RegistryHistory()']]],
+  ['registryhistory_2ecpp',['RegistryHistory.cpp',['../_registry_history_8cpp.html',1,'']]],
+  ['registryhistorytest_2ecpp',['RegistryHistoryTest.cpp',['../_registry_history_test_8cpp.html',1,'']]],
+  ['registryscanexception',['RegistryScanException',['../class_registry_scan_exception.html',1,'']]],
+  ['registryscanner',['RegistryScanner',['../class_registry_scanner.html',1,'']]],
+  ['resolvename',['resolveName',['../class_key_service.html#a805af87356befa87fe19820b952afdf6',1,'KeyService']]]
 ];

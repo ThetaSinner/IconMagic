@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['readhistory',['readHistory',['../class_registry_history.html#a2a81ef9ef2d13fba16c4596a5e24409b',1,'RegistryHistory']]],
-  ['registryhistory',['RegistryHistory',['../class_registry_history.html#ab8ca406519bf9c2383af62b655e091ec',1,'RegistryHistory']]]
+  ['keypath',['KeyPath',['../class_key_path.html#ae333110e571e2126ce2e9a19f4900ab7',1,'KeyPath::KeyPath(std::string key_name)'],['../class_key_path.html#af70143f36c7946a29f89e4cc4e5b11e9',1,'KeyPath::KeyPath(const KeyPath &amp;kp)']]]
 ];

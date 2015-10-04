@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['registryhistory_2ecpp',['RegistryHistory.cpp',['../_registry_history_8cpp.html',1,'']]],
-  ['registryhistorytest_2ecpp',['RegistryHistoryTest.cpp',['../_registry_history_test_8cpp.html',1,'']]]
+  ['main_2ecpp',['main.cpp',['../main_8cpp.html',1,'']]],
+  ['manager_2ecpp',['Manager.cpp',['../_manager_8cpp.html',1,'']]],
+  ['manager_2ehpp',['Manager.hpp',['../_manager_8hpp.html',1,'']]]
 ];

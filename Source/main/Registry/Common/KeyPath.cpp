@@ -1,3 +1,9 @@
+/**
+ * \file KeyPath.cpp
+ * \brief The KeyPath class implementation.
+ * \see KeyPath.hpp
+ */
+
 #include "./KeyPath.hpp"
 
 KeyPath::KeyPath(std::string key_name)

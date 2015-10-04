@@ -1,24 +1,99 @@
 \hypertarget{class_key_service}{}\section{Key\+Service Class Reference}
 \label{class_key_service}\index{Key\+Service@{Key\+Service}}
+
+
+Provides a key lookup service.  
+
+
+
+
+{\ttfamily \#include $<$Key\+Service.\+hpp$>$}
+
 \subsection*{Static Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\hypertarget{class_key_service_a805af87356befa87fe19820b952afdf6}{}static std\+::string {\bfseries resolve\+Name} (std\+::string name)\label{class_key_service_a805af87356befa87fe19820b952afdf6}
-
-\item 
-\hypertarget{class_key_service_ab8a39c0f99348ff255db17939d765700}{}static H\+K\+E\+Y {\bfseries getkey\+By\+Name} (std\+::string name)\label{class_key_service_ab8a39c0f99348ff255db17939d765700}
-
-\item 
-\hypertarget{class_key_service_ad936e7e6affaefd1a032574d2c5513f9}{}static H\+K\+E\+Y {\bfseries get\+Key\+By\+Any\+Name} (std\+::string name)\label{class_key_service_ad936e7e6affaefd1a032574d2c5513f9}
-
-\end{DoxyCompactItemize}
+static std\+::string \hyperlink{class_key_service_a805af87356befa87fe19820b952afdf6}{resolve\+Name} (std\+::string name)
+\begin{DoxyCompactList}\small\item\em Convert a valid name into a key for P\+R\+E\+D\+E\+F\+I\+N\+E\+D\+\_\+\+R\+O\+O\+T\+\_\+\+K\+E\+Y\+S. \end{DoxyCompactList}\item 
+static H\+K\+E\+Y \hyperlink{class_key_service_ab8a39c0f99348ff255db17939d765700}{getkey\+By\+Name} (std\+::string name)
+\begin{DoxyCompactList}\small\item\em Get a handle to a registry root key. \end{DoxyCompactList}\item 
+static H\+K\+E\+Y \hyperlink{class_key_service_ad936e7e6affaefd1a032574d2c5513f9}{get\+Key\+By\+Any\+Name} (std\+::string name)
+\begin{DoxyCompactList}\small\item\em Get a handle to a registry key using any name for that key. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Static Public Attributes}
 \begin{DoxyCompactItemize}
 \item 
-static const std\+::map$<$ std\+::string, std\+::string $>$ {\bfseries A\+L\+T\+E\+R\+N\+A\+T\+E\+\_\+\+K\+E\+Y\+\_\+\+N\+A\+M\+E\+\_\+\+M\+A\+P}
+static const std\+::map$<$ std\+::string, std\+::string $>$ \hyperlink{class_key_service_a142ce8aec67304045a1151e6ac8429a1}{A\+L\+T\+E\+R\+N\+A\+T\+E\+\_\+\+K\+E\+Y\+\_\+\+N\+A\+M\+E\+\_\+\+M\+A\+P}
 \item 
-static const std\+::map$<$ std\+::string, H\+K\+E\+Y $>$ {\bfseries P\+R\+E\+D\+E\+F\+I\+N\+E\+D\+\_\+\+R\+O\+O\+T\+\_\+\+K\+E\+Y\+S}
+static const std\+::map$<$ std\+::string, H\+K\+E\+Y $>$ \hyperlink{class_key_service_a105020a568634a91740816aff99ad318}{P\+R\+E\+D\+E\+F\+I\+N\+E\+D\+\_\+\+R\+O\+O\+T\+\_\+\+K\+E\+Y\+S}
 \end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Provides a key lookup service. 
+
+A simple way to get handles to registry root keys. You can lookup any by its friendly name or full name.
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_key_path}{Key\+Path} 
+\end{DoxySeeAlso}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_key_service_ad936e7e6affaefd1a032574d2c5513f9}{}\index{Key\+Service@{Key\+Service}!get\+Key\+By\+Any\+Name@{get\+Key\+By\+Any\+Name}}
+\index{get\+Key\+By\+Any\+Name@{get\+Key\+By\+Any\+Name}!Key\+Service@{Key\+Service}}
+\subsubsection[{get\+Key\+By\+Any\+Name(std\+::string name)}]{\setlength{\rightskip}{0pt plus 5cm}H\+K\+E\+Y Key\+Service\+::get\+Key\+By\+Any\+Name (
+\begin{DoxyParamCaption}
+\item[{std\+::string}]{name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{class_key_service_ad936e7e6affaefd1a032574d2c5513f9}
+
+
+Get a handle to a registry key using any name for that key. 
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_key_service_a805af87356befa87fe19820b952afdf6}{Key\+Service\+::resolve\+Name(std\+::string)} \hyperlink{class_key_service_ab8a39c0f99348ff255db17939d765700}{Key\+Service\+::getkey\+By\+Name(std\+::string)} 
+\end{DoxySeeAlso}
+\hypertarget{class_key_service_ab8a39c0f99348ff255db17939d765700}{}\index{Key\+Service@{Key\+Service}!getkey\+By\+Name@{getkey\+By\+Name}}
+\index{getkey\+By\+Name@{getkey\+By\+Name}!Key\+Service@{Key\+Service}}
+\subsubsection[{getkey\+By\+Name(std\+::string name)}]{\setlength{\rightskip}{0pt plus 5cm}H\+K\+E\+Y Key\+Service\+::getkey\+By\+Name (
+\begin{DoxyParamCaption}
+\item[{std\+::string}]{name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{class_key_service_ab8a39c0f99348ff255db17939d765700}
+
+
+Get a handle to a registry root key. 
+
+If the input is a valid key for P\+R\+E\+D\+E\+F\+I\+N\+E\+D\+\_\+\+R\+O\+O\+T\+\_\+\+K\+E\+Y\+S then a handle to a registry root key will be returned. Otherwise the method will return N\+U\+L\+L.
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & A valid key for P\+R\+E\+D\+E\+F\+I\+N\+E\+D\+\_\+\+R\+O\+O\+T\+\_\+\+K\+E\+Y\+S\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A handle to a registry key or N\+U\+L\+L 
+\end{DoxyReturn}
+\hypertarget{class_key_service_a805af87356befa87fe19820b952afdf6}{}\index{Key\+Service@{Key\+Service}!resolve\+Name@{resolve\+Name}}
+\index{resolve\+Name@{resolve\+Name}!Key\+Service@{Key\+Service}}
+\subsubsection[{resolve\+Name(std\+::string name)}]{\setlength{\rightskip}{0pt plus 5cm}std\+::string Key\+Service\+::resolve\+Name (
+\begin{DoxyParamCaption}
+\item[{std\+::string}]{name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{class_key_service_a805af87356befa87fe19820b952afdf6}
+
+
+Convert a valid name into a key for P\+R\+E\+D\+E\+F\+I\+N\+E\+D\+\_\+\+R\+O\+O\+T\+\_\+\+K\+E\+Y\+S. 
+
+If the input is a key for A\+L\+T\+E\+R\+N\+A\+T\+E\+\_\+\+K\+E\+Y\+\_\+\+N\+A\+M\+E\+\_\+\+M\+A\+P or a key for P\+R\+E\+D\+E\+F\+I\+N\+E\+D\+\_\+\+R\+O\+O\+T\+\_\+\+K\+E\+Y\+S then the corresponding key for P\+R\+E\+D\+E\+F\+I\+N\+E\+D\+\_\+\+R\+O\+O\+T\+\_\+\+K\+E\+Y\+S will be returned. If the input is not a valid key into either map then the method returns an empty string.
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & A valid name for a key.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Corresponding key name or an empty string. 
+\end{DoxyReturn}
 
 
 \subsection{Member Data Documentation}
@@ -35,7 +110,15 @@ static const std\+::map$<$ std\+::string, H\+K\+E\+Y $>$ {\bfseries P\+R\+E\+D\+
   \{\textcolor{stringliteral}{"users"}, \textcolor{stringliteral}{"HKEY\_USERS"}\}
 \}
 \end{DoxyCode}
-\hypertarget{class_key_service_a105020a568634a91740816aff99ad318}{}\index{Key\+Service@{Key\+Service}!P\+R\+E\+D\+E\+F\+I\+N\+E\+D\+\_\+\+R\+O\+O\+T\+\_\+\+K\+E\+Y\+S@{P\+R\+E\+D\+E\+F\+I\+N\+E\+D\+\_\+\+R\+O\+O\+T\+\_\+\+K\+E\+Y\+S}}
+Maps between simple names and registry key names. For example
+
+
+\begin{DoxyCode}
+\hyperlink{class_key_service_a142ce8aec67304045a1151e6ac8429a1}{ALTERNATE\_KEY\_NAME\_MAP}.at(\textcolor{stringliteral}{"classes\_root"}) == \textcolor{stringliteral}{"HKEY\_CLASSES\_ROOT"} 
+\end{DoxyCode}
+
+
+This is just a shortcut for use within the program. \hypertarget{class_key_service_a105020a568634a91740816aff99ad318}{}\index{Key\+Service@{Key\+Service}!P\+R\+E\+D\+E\+F\+I\+N\+E\+D\+\_\+\+R\+O\+O\+T\+\_\+\+K\+E\+Y\+S@{P\+R\+E\+D\+E\+F\+I\+N\+E\+D\+\_\+\+R\+O\+O\+T\+\_\+\+K\+E\+Y\+S}}
 \index{P\+R\+E\+D\+E\+F\+I\+N\+E\+D\+\_\+\+R\+O\+O\+T\+\_\+\+K\+E\+Y\+S@{P\+R\+E\+D\+E\+F\+I\+N\+E\+D\+\_\+\+R\+O\+O\+T\+\_\+\+K\+E\+Y\+S}!Key\+Service@{Key\+Service}}
 \subsubsection[{P\+R\+E\+D\+E\+F\+I\+N\+E\+D\+\_\+\+R\+O\+O\+T\+\_\+\+K\+E\+Y\+S}]{\setlength{\rightskip}{0pt plus 5cm}const std\+::map$<$ std\+::string, H\+K\+E\+Y $>$ Key\+Service\+::\+P\+R\+E\+D\+E\+F\+I\+N\+E\+D\+\_\+\+R\+O\+O\+T\+\_\+\+K\+E\+Y\+S\hspace{0.3cm}{\ttfamily [static]}}\label{class_key_service_a105020a568634a91740816aff99ad318}
 {\bfseries Initial value\+:}
@@ -48,9 +131,9 @@ static const std\+::map$<$ std\+::string, H\+K\+E\+Y $>$ {\bfseries P\+R\+E\+D\+
   \{\textcolor{stringliteral}{"HKEY\_USERS"}, HKEY\_USERS\}
 \}
 \end{DoxyCode}
-
+Maps between registry key names and the handles that are defined in the Windows A\+P\+I. This map is important, you can\textquotesingle{}t access a registry key without its parent key. This map contains all the keys which can be used as parent keys. 
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/main/\+Registry/\+Common/Key\+Service.\+hpp\item 
-D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/main/\+Registry/\+Common/Key\+Service.\+cpp\end{DoxyCompactItemize}
+D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/main/\+Registry/\+Common/\hyperlink{_key_service_8hpp}{Key\+Service.\+hpp}\item 
+D\+:/\+Users/\+Gregory/\+One\+Drive/\+Git\+Hub/\+Icon\+Magic/\+Source/main/\+Registry/\+Common/\hyperlink{_key_service_8cpp}{Key\+Service.\+cpp}\end{DoxyCompactItemize}

@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['testframework',['TestFramework',['../class_test_framework.html',1,'TestFramework'],['../class_test_framework.html#a80e30a085718a9e3db4e6f4e79cc9d48',1,'TestFramework::TestFramework()']]],
-  ['testing_2ecpp',['Testing.cpp',['../_testing_8cpp.html',1,'']]],
-  ['testing_2ehpp',['Testing.hpp',['../_testing_8hpp.html',1,'']]],
-  ['testregistryhistory',['testRegistryHistory',['../_registry_history_test_8cpp.html#adb9e9d5bfb31a98f2519cb5b6d8fa8a3',1,'RegistryHistoryTest.cpp']]],
-  ['textui_2ecpp',['TextUI.cpp',['../_text_u_i_8cpp.html',1,'']]],
-  ['textui_2ehpp',['TextUI.hpp',['../_text_u_i_8hpp.html',1,'']]],
-  ['todo_20list',['Todo List',['../todo.html',1,'']]]
+  ['scantool',['ScanTool',['../class_scan_tool.html',1,'']]],
+  ['sethistoryfilename',['setHistoryFileName',['../class_registry_history.html#afb10619d4c6e5b1eef4f27b11aa71ec8',1,'RegistryHistory']]],
+  ['setprotectedvariable',['setProtectedVariable',['../class_example_class.html#ab8c1c5cf0ad8c4f7b8e13e7f1b1aa2cd',1,'ExampleClass']]],
+  ['simpleregistryaccess',['SimpleRegistryAccess',['../class_simple_registry_access.html',1,'']]],
+  ['standarddocstring',['standardDocstring',['../class_example_class.html#a0b61c0174aff35afaca216512f535f6f',1,'ExampleClass']]],
+  ['systemvalidation_2ecpp',['SystemValidation.cpp',['../_system_validation_8cpp.html',1,'']]],
+  ['systemvalidation_2ehpp',['SystemValidation.hpp',['../_system_validation_8hpp.html',1,'']]]
 ];

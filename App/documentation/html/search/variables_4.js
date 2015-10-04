@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['predefined_5froot_5fkeys',['PREDEFINED_ROOT_KEYS',['../class_key_service.html#a105020a568634a91740816aff99ad318',1,'KeyService']]]
+  ['markdownvariable',['markdownVariable',['../class_example_class.html#afbf6f2e5884b62fd8e3624b2ea357281',1,'ExampleClass']]],
+  ['myenumcase',['myEnumCase',['../class_example_class.html#afcd68bb9793b264f120c39058cab7c0f',1,'ExampleClass']]]
 ];

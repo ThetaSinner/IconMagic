@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['openkeyforenumeration',['openKeyForEnumeration',['../class_direct_registry_access.html#ae051be8724359399dacc86a38149762c',1,'DirectRegistryAccess::openKeyForEnumeration(HKEY root_key, std::string path, HKEY &amp;h_key)'],['../class_direct_registry_access.html#affd3141655ca0d587461282fcab5cc25',1,'DirectRegistryAccess::openKeyForEnumeration(HKEY root_key, HKEY &amp;h_key)']]],
-  ['openkeyforsettingvalue',['openKeyForSettingValue',['../class_direct_registry_access.html#a3bef2793ed202b4ba02ad9e099785485',1,'DirectRegistryAccess']]]
+  ['keypath',['KeyPath',['../class_key_path.html#ae333110e571e2126ce2e9a19f4900ab7',1,'KeyPath::KeyPath(std::string key_name)'],['../class_key_path.html#af70143f36c7946a29f89e4cc4e5b11e9',1,'KeyPath::KeyPath(const KeyPath &amp;kp)']]]
 ];

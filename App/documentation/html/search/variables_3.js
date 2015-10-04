@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['markdownvariable',['markdownVariable',['../class_example_class.html#afbf6f2e5884b62fd8e3624b2ea357281',1,'ExampleClass']]],
-  ['myenumcase',['myEnumCase',['../class_example_class.html#afcd68bb9793b264f120c39058cab7c0f',1,'ExampleClass']]]
+  ['icon_5fmagic_5fcache_5fname',['ICON_MAGIC_CACHE_NAME',['../class_manager.html#a41184c50adeb476a9ccf55e4f3e739e9',1,'Manager']]],
+  ['inlinedocstring',['inlineDocstring',['../class_example_class.html#adf5ff59e0a9de18fe8ec344771b843ff',1,'ExampleClass']]]
 ];

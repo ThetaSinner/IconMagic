@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['closekey',['closeKey',['../class_direct_registry_access.html#a05d4a5bbed79beba121eddf512fda0a0',1,'DirectRegistryAccess']]]
+  ['blockopen',['blockOpen',['../class_image_entry.html#aad3911ab2c1a76a434c649344ed00394',1,'ImageEntry']]],
+  ['blockshut',['blockShut',['../class_image_entry.html#a3b9e7171180470a60857f679fe34dc58',1,'ImageEntry']]]
 ];

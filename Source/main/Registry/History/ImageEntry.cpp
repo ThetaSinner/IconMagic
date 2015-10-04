@@ -1,3 +1,9 @@
+/**
+ * \file ImageEntry.cpp
+ * \brief The ImageEntry class implementation.
+ * \sa ImageEntry.hpp
+ */
+
 #include "ImageEntry.hpp"
 
 #include <sstream>

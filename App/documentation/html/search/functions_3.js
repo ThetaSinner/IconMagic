@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['getimageindex',['getImageIndex',['../class_image_entry.html#a4a621dcaffe09aee7ada966d46705cbc',1,'ImageEntry']]],
+  ['getimagepath',['getImagePath',['../class_image_entry.html#acc882273f2d2c87d742f01efc5807bf5',1,'ImageEntry']]],
   ['getkeybyanyname',['getKeyByAnyName',['../class_key_service.html#ad936e7e6affaefd1a032574d2c5513f9',1,'KeyService']]],
   ['getkeybyname',['getkeyByName',['../class_key_service.html#ab8a39c0f99348ff255db17939d765700',1,'KeyService']]],
   ['getkeyname',['getKeyName',['../class_key_path.html#a3a69deab570f0025d50c55a8abea0e2d',1,'KeyPath']]],

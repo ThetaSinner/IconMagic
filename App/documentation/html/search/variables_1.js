@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['detailedvariable',['detailedVariable',['../class_example_class.html#a621c5f7b94cb4e4c2e7e04e70cf7181e',1,'ExampleClass']]]
+  ['blockopen',['blockOpen',['../class_image_entry.html#aad3911ab2c1a76a434c649344ed00394',1,'ImageEntry']]],
+  ['blockshut',['blockShut',['../class_image_entry.html#a3b9e7171180470a60857f679fe34dc58',1,'ImageEntry']]]
 ];
